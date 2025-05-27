@@ -24,7 +24,7 @@
 
 /*navbar*/
 .navbar{
-    padding: 1rem;
+    padding: 1rem !important;
 }
 
 .navbar .container-fluid {
@@ -40,7 +40,7 @@
 }
 
 .navbar .container-navbar-brand .navbar-brand img {
-    width: 80%;
+    width: 75%;
 }
 
 .navbar .navbar-toggler {
@@ -50,7 +50,7 @@
 
 /*hero image*/
 #heroimage {
-    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/Hero_image.png?raw=true');
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/Hero_mobile.png?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,14 +65,18 @@
 }
 
 #heroimage .content-heroimage .heroimage-title h1 {
-    font-size: 2.25;
+    font-size: 2.25rem;
     font-weight: bold;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 #heroimage .content-heroimage .heroimage-title p {
     font-size: 1.125rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#heroimage .content-heroimage .heroimage-title p:nth-of-type(2){
+    margin-bottom: 0;
 }
 
 #heroimage .content-heroimage .heroimage-title .btn-primary {
@@ -83,6 +87,7 @@
     border: none;
     color: var(--color-text-button);
     padding: 16px 24px;
+    margin-top: 2.25rem;
 }
 
 #heroimage .content-heroimage .heroimage-data {
