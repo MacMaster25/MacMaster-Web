@@ -1,0 +1,149 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+:root {
+    /* Text Colors */
+    --color-text-main: #FFFFFF;
+    --color-text-button: #000000;
+
+    /* Border */
+    --color-border: #7E8597;
+
+    /* Backgrounds */
+    --color-bg-primary: #121212;
+    --color-bg-secondary: #222222;
+
+    /* Primary Brand Color */
+    --color-primary: #F9A825;
+
+    /* Fonts */
+    --font-family-primary: 'Bebas Neue', serif;
+    --font-family-secondary: 'Noto Sans', serif;
+}
+
+/*navbar*/
+.navbar{
+    padding: 1rem;
+}
+
+.navbar .container-fluid {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-primary);
+}
+
+.navbar .container-navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container-navbar-brand .navbar-brand img {
+    width: 80%;
+}
+
+.navbar .navbar-toggler {
+    background-color: var(--white) !important;
+    border-color: var(--color-bg-primary);
+}
+
+/*hero image*/
+#heroimage {
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/Hero_image.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#heroimage .content-heroimage {
+    padding-top: 7.5rem;
+}
+
+#heroimage .content-heroimage .heroimage-title {
+    margin-bottom: 1.5rem;
+    color: var(--color-text-main)
+}
+
+#heroimage .content-heroimage .heroimage-title h1 {
+    font-size: 2.25;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+#heroimage .content-heroimage .heroimage-title p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+#heroimage .content-heroimage .heroimage-title .btn-primary {
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: var(--color-primary);
+    border: none;
+    color: var(--color-text-button);
+    padding: 16px 24px;
+}
+
+#heroimage .content-heroimage .heroimage-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    backdrop-filter: blur(4px);
+    margin: 2.25rem 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a{
+    margin: 0 0 1rem 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a p {
+    color: var(--color-text-main);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0.75rem;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a img {
+    width: 75%;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b {
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-primary);
+    background: var(--color-bg-secondary);
+    backdrop-filter: blur(3px);
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b img {
+    width: 25%;
+    margin-bottom: 0.5rem;
+}
+
+/*FAB*/
+.fixed-bottom {
+    left: auto !important;
+}
+
+.fixed-bottom button {
+    max-width: 96px;
+}
+
+.fixed-bottom button img {
+    width: 100%;
+}
