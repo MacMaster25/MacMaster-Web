@@ -445,7 +445,119 @@ body {
     margin-bottom: 0;
 }
 
+/*gallery*/
+#gallery .container-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.25rem 0.5rem;
+    gap: 0.5rem;
+    align-self: stretch;
+}
 
+#gallery .container-gallery .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+#gallery .container-gallery .grid img {
+    width: 100%;
+}
+
+#gallery .container-gallery .banner-cta {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2.25rem 1rem;
+    align-self: stretch;
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/image_bg.png?raw=true');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+#gallery .container-gallery .banner-cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#gallery .container-gallery .banner-cta .title-description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    color: var(--color-text-main);
+    z-index: 2;
+}
+
+#gallery .container-gallery .banner-cta .title-description h2 {
+    color: var(--color-text-main);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .title-description p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .title-description .btn {
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: var(--color-primary);
+    border: none;
+    color: var(--color-text-button);
+    padding: 1rem 1.5rem;
+    margin-top: 1.25rem;
+}
+
+#gallery .container-gallery .banner-cta .data {
+    position: relative;
+    padding: 1rem;
+    margin: 3.75rem 0 0 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-primary);
+    background: var(--color-bg-secondary);
+    backdrop-filter: blur(3px);
+    z-index: 2;
+}
+
+#gallery .container-gallery .banner-cta .data p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .data img {
+    width: 25%;
+    margin-bottom: 0.5rem;
+}
 
 
 /*FAB*/
