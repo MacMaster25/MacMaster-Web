@@ -22,6 +22,12 @@
     --font-family-secondary: 'Noto Sans', serif;
 }
 
+body {
+    background-color: #121212;
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/background_noise.png?raw=true');
+    background-repeat: repeat;
+}
+
 /*navbar*/
 .navbar {
     padding: 1rem !important;
