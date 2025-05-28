@@ -103,7 +103,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     backdrop-filter: blur(4px);
-    margin: 2.25rem 0;
+    padding: 2.25rem 0;
 }
 
 #heroimage .content-heroimage .heroimage-data .data-a {
@@ -752,4 +752,97 @@ body {
     #footer .container-footer .footer-options img {
         width: 35%;
     }
+}
+
+/*desktop, 992px*/
+@media (min-width: 992px) {
+    .navbar .navbar-brand {
+        width: auto;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: end;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-weight: 500;
+    }
+
+    #heroimage .content-heroimage .heroimage-data {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-a {
+        margin: 0;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-a img {
+        width: 50%;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b {
+        margin: 0;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b {
+        width: auto;
+    }
+
+    #brand .container-brand .brand-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #brand .container-brand .brand-grid .brand-img:nth-of-type(1) {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    #brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
+        border-right: 1px solid var(--color-border);
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    #brand .container-brand .brand-grid .brand-img:nth-of-type(3) {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    #brand .container-brand .brand-grid .brand-img:nth-of-type(4) {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    #brand .container-brand .brand-grid .brand-img:nth-of-type(6) {
+        border-right: 1px solid var(--color-border);
+    }
+
+    #brand .container-brand .brand-grid .brand-img {
+        border-bottom: 0;
+        border-right: 1px solid var(--color-border);
+    }
+
+    #gallery .container-gallery .banner-cta {
+        align-items: flex-start;
+    }
+
+    #gallery .container-gallery .banner-cta .data {
+        gap: 1rem;
+    }
+
+    #gallery .container-gallery .banner-cta .data img {
+        width: 100%;
+    }
+
+    #footer .container-footer {
+        flex-direction: row;
+    }
+
+    #footer .container-footer .footer-options {
+        justify-content: center;
+    }
+
+    #footer .container-footer .footer-options img {
+        width: 50%;
+    }
+    
+
 }
