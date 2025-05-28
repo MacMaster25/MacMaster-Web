@@ -62,7 +62,7 @@ body {
 }
 
 #heroimage .content-heroimage {
-    padding-top: 7.5rem;
+    padding: 7.5rem 1rem 0 1rem;
 }
 
 #heroimage .content-heroimage .heroimage-title {
@@ -159,6 +159,8 @@ body {
     border: 1px solid var(--color-primary);
     border-radius: 0.5rem;
     margin-bottom: 3rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
 }
 
 #brand .container-brand .brand-grid {
@@ -166,6 +168,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
+    margin-bottom: 3rem;
 }
 
 #brand .container-brand .brand-grid .brand-img {
@@ -217,6 +220,113 @@ body {
 #brand .container-brand .brand-grid .brand-img:nth-of-type(8) img {
     width: 50%;
 }
+
+#brand .container-brand p {
+    color: var(--color-text-main);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/*products*/
+#products .container-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.25rem 1rem;
+    gap: 2.25rem;
+}
+
+#products .container-products .badge {
+    padding: 0.5rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+#products .container-products .title-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-text-main);
+    gap: 1.5rem;
+}
+
+#products .container-products .title-description h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+#products .container-products .title-description p {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#products .container-products .grid-products {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+#products .container-products .grid-products .card {
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    background: linear-gradient(180deg, rgba(18, 18, 18, 0.00) 0%, #000 100%);
+}
+
+#products .container-products .grid-products .card .card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+#products .container-products .grid-products .card .card-title h3 {
+    color: var(--color-text-main);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#products .container-products .grid-products .card .card-title p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+#products .container-products a {
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: var(--color-primary);
+    border: none;
+    color: var(--color-text-button);
+    padding: 1rem 1.5rem;
+}
+
 
 /*FAB*/
 .fixed-bottom {
