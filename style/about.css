@@ -1,0 +1,528 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+:root {
+    /* Text Colors */
+    --color-text-main: #FFFFFF;
+    --color-text-button: #000000;
+
+    /* Border */
+    --color-border: #7E8597;
+
+    /* Backgrounds */
+    --color-bg-primary: #121212;
+    --color-bg-secondary: #222222;
+
+    /* Primary Brand Color */
+    --color-primary: #F9A825;
+
+    /* Fonts */
+    --font-family-primary: 'Bebas Neue', serif;
+    --font-family-secondary: 'Noto Sans', serif;
+}
+
+body {
+    background-color: #121212;
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/background_noise.png?raw=true');
+    background-repeat: repeat;
+}
+
+/*navbar*/
+.navbar {
+    padding: 1rem !important;
+}
+
+.navbar .container-fluid {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-primary);
+}
+
+.navbar .container-navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .container-navbar-brand .navbar-brand img {
+    width: 75%;
+}
+
+.navbar .navbar-toggler {
+    background-color: var(--white) !important;
+    border-color: var(--color-bg-primary);
+}
+
+/*about us*/
+#about .container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.25rem 1rem;
+    gap: 2.25rem;
+}
+
+#about .container-about span {
+    padding: 0.5rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+#about .container-about .title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+#about .container-about .title-description .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    color: var(--color-text-main);
+}
+
+#about .container-about .title-description .heading h2 {
+    margin-bottom: 0;
+}
+
+#about .container-about .title-description .heading p {
+    margin-bottom: 0;
+}
+
+#about .container-about .title-description a {
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: var(--color-primary);
+    border: none;
+    color: var(--color-text-button);
+    padding: 1rem 1.5rem;
+}
+
+#about .container-about .grid-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+#about .container-about .grid-stats .card {
+    background-color: transparent;
+    display: flex;
+    padding: 2.25rem 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+    border-radius: 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-main);
+}
+
+#about .container-about .grid-stats .card:nth-of-type(2) {
+    border-top: 0;
+}
+
+#about .container-about .grid-stats .card:nth-of-type(3) {
+    border: 0;
+}
+
+#about .container-about .grid-stats .card h3 {
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+#about .container-about .grid-stats .card .card-title h4 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title p {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+/*gallery*/
+#gallery .container-gallery .banner-cta {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2.25rem 1rem;
+    align-self: stretch;
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/image_bg.png?raw=true');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+#gallery .container-gallery .banner-cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#gallery .container-gallery .banner-cta .title-description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    color: var(--color-text-main);
+    z-index: 2;
+}
+
+#gallery .container-gallery .banner-cta .title-description h2 {
+    color: var(--color-text-main);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .title-description p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .title-description .btn {
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: var(--color-primary);
+    border: none;
+    color: var(--color-text-button);
+    padding: 1rem 1.5rem;
+    margin-top: 1.25rem;
+}
+
+#gallery .container-gallery .banner-cta .data {
+    position: relative;
+    padding: 1rem;
+    margin: 3.75rem 0 0 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-primary);
+    background: var(--color-bg-secondary);
+    backdrop-filter: blur(3px);
+    z-index: 2;
+}
+
+#gallery .container-gallery .banner-cta .data p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .data img {
+    width: 25%;
+    margin-bottom: 0.5rem;
+}
+
+/*footer*/
+#footer .container-footer {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+#footer .container-footer .footer-options {
+    display: flex;
+    padding: 2.25rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.25rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: var(--color-text-main);
+}
+
+#footer .container-footer .footer-options img {
+    width: 75%;
+}
+
+#footer .container-footer .footer-options .options .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+    text-align: center;
+}
+
+#footer .container-footer .footer-options .options .navbar-nav .nav-item a {
+    padding: 0;
+}
+
+#footer .container-footer .footer-options p {
+    color: var(--color-text-button);
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+#footer .container-footer .footer-data {
+    display: flex;
+    padding: 2.25rem 1rem;
+    flex-direction: column;
+    align-items: start;
+    gap: 2.25rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-main);
+}
+
+#footer .container-footer .footer-data .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+#footer .container-footer .footer-data .info p {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+#footer .container-footer .footer-data .info a {
+    color: var(--color-text-main);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+#footer .container-footer .footer-data .social-data .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+/*FAB*/
+.fixed-bottom {
+    left: auto !important;
+}
+
+.fixed-bottom button {
+    max-width: 96px;
+}
+
+.fixed-bottom button img {
+    width: 100%;
+}
+
+/*landscape phones, 608px*/
+@media (min-width: 608px) {
+    .navbar .container-navbar-brand {
+        width: 100%;
+    }
+
+    #footer .container-footer .footer-options img {
+        width: 50%;
+    }
+}
+
+/*tablets, 768px*/
+@media (min-width: 768px) {
+    .navbar .container-navbar-brand .navbar-brand img {
+        width: 50%;
+    }
+
+    #about .container-about .grid-stats .card {
+        flex-direction: row;
+    }
+
+    #about .container-about .title-description a {
+        width: auto;
+    }
+
+    #gallery .container-gallery .grid {
+        flex-direction: row;
+    }
+
+    #gallery .container-gallery .grid img {
+        width: 32.9%;
+    }
+
+    #gallery .container-gallery .banner-cta .title-description .btn {
+        width: auto;
+    }
+
+    #gallery .container-gallery .banner-cta .data {
+        display: flex;
+        align-items: center;
+    }
+
+    #gallery .container-gallery .banner-cta .data img {
+        width: 75%;
+        margin-bottom: 0;
+    }
+
+    #footer .container-footer .footer-options img {
+        width: 35%;
+    }
+}
+
+/*desktop, 992px*/
+@media (min-width: 992px) {
+    .navbar {
+        padding: 1rem 0 !important;
+    }
+
+    .navbar .navbar-brand {
+        width: auto;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: end;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-weight: 500;
+    }
+
+    #about .container-about .title-description {
+        gap: 2.25rem;
+    }
+
+    #about .container-about .title-description .heading {
+        gap: 2.25rem;
+    }
+
+    #gallery .container-gallery .banner-cta {
+        align-items: flex-start;
+    }
+
+    #gallery .container-gallery .banner-cta .data {
+        padding: 0.5rem 1rem;
+        gap: 1rem;
+        border-radius: 100px;
+    }
+
+    #gallery .container-gallery .banner-cta .data img {
+        width: 100%;
+    }
+
+    #footer .container-footer {
+        flex-direction: row;
+    }
+
+    #footer .container-footer .footer-options {
+        justify-content: center;
+    }
+
+    #footer .container-footer .footer-options img {
+        width: 40%;
+    }
+}
+
+/*large desktops, 1200px*/
+@media (min-width: 1200px) {
+    #about .container-about {
+        align-items: flex-start;
+        padding: 4.5rem 0;
+    }
+
+    #gallery .container-gallery .banner-cta {
+        padding: 3.75rem 10.063rem;
+    }
+
+    #footer .container-footer {
+        justify-content: space-between;
+    }
+
+    #footer .container-footer .footer-options {
+        width: 100%;
+        padding: 3.75rem;
+    }
+
+    #footer .container-footer .footer-data {
+        width: 100%;
+        padding: 3.75rem;
+    }
+}
+
+/*larger desktops, 1400px*/
+@media (min-width: 1400px) {
+    #about .container-about .grid-stats .card h3 {
+        font-size: 5rem;
+    }
+
+    #gallery .container-gallery .banner-cta .title-description h2 {
+        font-size: 3.75rem;
+    }
+
+    #gallery .container-gallery .banner-cta .title-description .btn {
+        margin-top: 2.25rem;
+    }
+
+    #gallery .container-gallery .banner-cta .data {
+        width: auto;
+        margin-top: 3.75rem;
+    }
+
+    #footer .container-footer .footer-options {
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    #footer .container-footer .footer-options .options .navbar-nav {
+        flex-direction: row;
+    }
+
+    #footer .container-footer .footer-options p {
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+}
