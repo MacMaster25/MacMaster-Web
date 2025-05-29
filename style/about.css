@@ -28,6 +28,29 @@ body {
     background-repeat: repeat;
 }
 
+/*heroimage*/
+#heroimage .content-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    padding: 9rem 1rem;
+}
+
+#heroimage .content-hero h1 {
+    color: var(--color-text-main);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#heroimage .content-hero img {
+    width: 100%;
+    object-fit: contain;
+}
+
 /*navbar*/
 .navbar {
     padding: 1rem !important;
