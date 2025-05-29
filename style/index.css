@@ -293,7 +293,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
-    align-self: stretch;
     border-radius: 8px;
     border: 1px solid var(--color-border);
     background: linear-gradient(180deg, rgba(18, 18, 18, 0.00) 0%, #000 100%);
@@ -305,6 +304,7 @@ body {
     align-items: flex-start;
     gap: 1rem;
     align-self: stretch;
+    margin-bottom: 0
 }
 
 #products .container-products .grid-products .card img {
@@ -468,7 +468,6 @@ body {
 #gallery .container-gallery .grid {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     gap: 0.5rem;
     align-self: stretch;
@@ -707,12 +706,48 @@ body {
         width: 50%;
     }
 
+    #heroimage {
+        background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/Hero_image.png?raw=true')
+    }
+
     #heroimage .content-heroimage .heroimage-title .btn-primary {
         width: auto;
     }
 
+    #heroimage .content-heroimage .heroimage-data {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-a {
+        margin: 0;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-a img {
+        width: 50%;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b {
+        width: auto;
+        margin: 0;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b p {
+        font-size: 0.875rem;
+    }
+
     #products .container-products .grid-products .grid-md {
         flex-direction: row;
+    }
+
+    #products .container-products .grid-products .card {
+        width: 50%;
+    }
+
+    #products .container-products .grid-products .card img {
+        height: 12vw;
+        object-fit: cover;
     }
 
     #products .container-products a {
@@ -732,7 +767,7 @@ body {
     }
 
     #gallery .container-gallery .grid img {
-        width: 32.5%;
+        width: 32.9%;
     }
 
     #gallery .container-gallery .banner-cta .title-description .btn {
@@ -756,6 +791,10 @@ body {
 
 /*desktop, 992px*/
 @media (min-width: 992px) {
+    .navbar {
+        padding: 1rem 0 !important;
+    }
+
     .navbar .navbar-brand {
         width: auto;
     }
@@ -768,26 +807,8 @@ body {
         font-weight: 500;
     }
 
-    #heroimage .content-heroimage .heroimage-data {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    #heroimage .content-heroimage .heroimage-data .data-a {
-        margin: 0;
-    }
-
-    #heroimage .content-heroimage .heroimage-data .data-a img {
-        width: 50%;
-    }
-
-    #heroimage .content-heroimage .heroimage-data .data-b {
-        margin: 0;
-    }
-
-    #heroimage .content-heroimage .heroimage-data .data-b {
-        width: auto;
+    #heroimage .content-heroimage {
+        padding: 9rem 0 0 0;
     }
 
     #brand .container-brand .brand-grid {
@@ -815,6 +836,14 @@ body {
         border-right: 1px solid var(--color-border);
     }
 
+    #about .container-about .title-description {
+        gap: 2.25rem;
+    }
+
+    #about .container-about .title-description .heading {
+        gap: 2.25rem;
+    }
+
     #brand .container-brand .brand-grid .brand-img {
         border-bottom: 0;
         border-right: 1px solid var(--color-border);
@@ -825,7 +854,9 @@ body {
     }
 
     #gallery .container-gallery .banner-cta .data {
+        padding: 0.5rem 1rem;
         gap: 1rem;
+        border-radius: 100px;
     }
 
     #gallery .container-gallery .banner-cta .data img {
@@ -841,8 +872,101 @@ body {
     }
 
     #footer .container-footer .footer-options img {
-        width: 50%;
+        width: 40%;
     }
-    
+}
 
+/*large desktops, 1200px*/
+@media (min-width: 1200px) {
+    #heroimage .content-heroimage .heroimage-title h1 {
+        font-size: 3.75rem;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b {
+        width: auto;
+        padding: 0.5rem 1rem;
+        border-radius: 100px;
+    }
+
+    #products .container-products {
+        padding: 4.5rem 0;
+        gap: 3.75rem;
+    }
+
+    #products .container-products .title-description {
+        gap: 2.25rem;
+    }
+
+    #products .container-products .title-description h2 {
+        font-size: 2.25rem;
+    }
+
+    #about .container-about {
+        align-items: flex-start;
+        padding: 4.5rem 0;
+    }
+
+    #gallery .container-gallery .banner-cta {
+        padding: 3.75rem 10.063rem;
+    }
+
+    #footer .container-footer {
+        justify-content: space-between;
+    }
+
+    #footer .container-footer .footer-options {
+        width: 100%;
+        padding: 3.75rem;
+    }
+
+    #footer .container-footer .footer-data {
+        width: 100%;
+        padding: 3.75rem;
+    }
+}
+
+/*larger desktops, 1400px*/
+@media (min-width: 1400px) {
+    #brand .container-brand {
+        padding: 4.5rem 0;
+    }
+
+    #products .container-products .grid-products {
+        flex-direction: row;
+    }
+
+    #products .container-products .grid-products .card {
+        align-self: stretch;
+    }
+
+    #about .container-about .grid-stats .card h3 {
+        font-size: 5rem;
+    }
+
+    #gallery .container-gallery .banner-cta .title-description h2 {
+        font-size: 3.75rem;
+    }
+
+    #gallery .container-gallery .banner-cta .title-description .btn {
+        margin-top: 2.25rem;
+    }
+
+    #gallery .container-gallery .banner-cta .data {
+        width: auto;
+        margin-top: 3.75rem;
+    }
+
+    #footer .container-footer .footer-options {
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    #footer .container-footer .footer-options .options .navbar-nav {
+        flex-direction: row;
+    }
+
+    #footer .container-footer .footer-options p {
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
 }
