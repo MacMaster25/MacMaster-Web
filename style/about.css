@@ -28,29 +28,6 @@ body {
     background-repeat: repeat;
 }
 
-/*heroimage*/
-#heroimage .content-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2.5rem;
-    padding: 9rem 1rem;
-}
-
-#heroimage .content-hero h1 {
-    color: var(--color-text-main);
-    font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
-#heroimage .content-hero img {
-    width: 100%;
-    object-fit: contain;
-}
-
 /*navbar*/
 .navbar {
     padding: 1rem !important;
@@ -76,6 +53,106 @@ body {
     background-color: var(--white) !important;
     border-color: var(--color-bg-primary);
 }
+
+/*heroimage*/
+#heroimage .content-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    padding: 9rem 1rem 2.25rem 1rem;
+}
+
+#heroimage .content-hero h1 {
+    color: var(--color-text-main);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#heroimage .content-hero img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/*mision & vision*/
+#mision .container-mision {
+    display: flex;
+    padding: 2.25rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#mision .container-mision .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.25rem;
+    align-self: stretch;
+}
+
+#mision .container-mision .title span {
+    padding: 0.5rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+#mision .container-mision .title h2 {
+    color: var(--color-text-main);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+#mision .container-mision .grid-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+#mision .container-mision .grid-detail .card {
+    display: flex;
+    padding: 2.25rem 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.25rem;
+    align-self: stretch;
+    border-radius: 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background-color: transparent;
+}
+
+#mision .container-mision .grid-detail .card:nth-of-type(2) {
+    border-top: 0;
+}
+
+#mision .container-mision .grid-detail .card h3 {
+    color: var(--color-text-main);
+    font-size: 3.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#mision .container-mision .grid-detail .card p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
 
 /*about us*/
 #about .container-about {
