@@ -662,11 +662,11 @@ body {
     left: auto !important;
 }
 
-.fixed-bottom button {
+.fixed-bottom a {
     max-width: 96px;
 }
 
-.fixed-bottom button img {
+.fixed-bottom a img {
     width: 100%;
 }
 
