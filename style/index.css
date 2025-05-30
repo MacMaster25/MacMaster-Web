@@ -756,6 +756,7 @@ body {
 
     #about .container-about .grid-stats .card {
         flex-direction: row;
+        padding: 3.75rem 0;
     }
 
     #about .container-about .title-description a {

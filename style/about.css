@@ -675,8 +675,20 @@ body {
         justify-content: end;
     }
 
+    .navbar-expand-lg .navbar-nav {
+        gap: 0.5rem;
+    }
+
     .navbar-expand-lg .navbar-nav .nav-link {
+        color: var(--color-text-button);
         font-weight: 500;
+    }
+
+    .navbar-expand-lg .navbar-nav .active {
+        font-weight: 500;
+        background-color: #D18100;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem!important;
     }
 
     #heroimage .content-hero {
