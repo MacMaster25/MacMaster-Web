@@ -604,8 +604,20 @@ body {
         width: 50%;
     }
 
+    #mision .container-mision {
+        padding: 2.25rem 0;
+    }
+
     #mision .container-mision .grid-detail .card {
         flex-direction: row;
+        padding: 3.75rem 0;
+    }
+
+    #values .container-values .values {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin-top: 2.25rem;
+        padding: 0;
     }
 
     #about .container-about {
@@ -615,6 +627,7 @@ body {
     #about .container-about .grid-stats .card {
         flex-direction: row;
         justify-content: space-between;
+        padding: 3.75rem 0;
     }
 
     #about .container-about .title-description a {
@@ -684,13 +697,6 @@ body {
 
     #values {
         padding: 2.25rem 0;
-    }
-
-    #values .container-values .values {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, auto);
-        margin-top: 2.25rem;
-        padding: 0;
     }
 
     #about .container-about .title-description {
@@ -785,8 +791,8 @@ body {
 
     #mision .container-mision .title h2 {
         font-size: 2.25rem;
-    } 
-    
+    }
+
     #values .container-values img {
         height: 60vh;
     }
