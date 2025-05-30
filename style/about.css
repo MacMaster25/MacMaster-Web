@@ -75,6 +75,7 @@ body {
 #heroimage .content-hero img {
     width: 100%;
     object-fit: contain;
+    border-radius: 0.5rem;
 }
 
 /*mision & vision*/
@@ -133,6 +134,7 @@ body {
 
 #mision .container-mision .grid-detail .card:nth-of-type(2) {
     border-top: 0;
+    border-bottom: 0;
 }
 
 #mision .container-mision .grid-detail .card h3 {
@@ -211,9 +213,8 @@ body {
 }
 
 #values .container-values .values {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 0.5rem;
     align-self: stretch;
     padding: 0 1rem;
@@ -262,7 +263,6 @@ body {
 #team .container-team .grid-images {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     gap: 0.5rem;
     align-self: stretch;
@@ -583,6 +583,16 @@ body {
         width: 100%;
     }
 
+    #values .container-values img {
+        height: 50vw;
+    }
+
+    #team .container-team img {
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 0.5rem;
+    }
+
     #footer .container-footer .footer-options img {
         width: 50%;
     }
@@ -594,8 +604,17 @@ body {
         width: 50%;
     }
 
+    #mision .container-mision .grid-detail .card {
+        flex-direction: row;
+    }
+
+    #about .container-about {
+        padding: 2.25rem 0;
+    }
+
     #about .container-about .grid-stats .card {
         flex-direction: row;
+        justify-content: space-between;
     }
 
     #about .container-about .title-description a {
@@ -647,12 +666,54 @@ body {
         font-weight: 500;
     }
 
+    #heroimage .content-hero {
+        padding: 9rem 0 2.25rem 0;
+    }
+
+    #mision .container-mision {
+        padding: 2.25rem 0;
+    }
+
+    #mision .container-mision .grid-detail .card {
+        justify-content: space-between;
+    }
+
+    #mision .container-mision .grid-detail .card h3 {
+        font-size: 2.25rem;
+    }
+
+    #values {
+        padding: 2.25rem 0;
+    }
+
+    #values .container-values .values {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin-top: 2.25rem;
+        padding: 0;
+    }
+
     #about .container-about .title-description {
         gap: 2.25rem;
     }
 
     #about .container-about .title-description .heading {
         gap: 2.25rem;
+    }
+
+    #team .container-team {
+        flex-direction: row;
+        padding: 0.5rem 0;
+    }
+
+    #team .container-team img {
+        width: 50%;
+        height: 100%;
+    }
+
+    #team .container-team .grid-images img {
+        width: 100%;
+        height: 50%;
     }
 
     #gallery .container-gallery .banner-cta {
@@ -689,6 +750,14 @@ body {
         padding: 4.5rem 0;
     }
 
+    #values .container-values .title-description {
+        padding: 3.75rem 1rem 0px 1rem;
+    }
+
+    #values .container-values img {
+        height: 64vh;
+    }
+
     #gallery .container-gallery .banner-cta {
         padding: 3.75rem 10.063rem;
     }
@@ -710,6 +779,26 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
+    #heroimage .content-hero h1 {
+        font-size: 3.75rem;
+    }
+
+    #mision .container-mision .title h2 {
+        font-size: 2.25rem;
+    } 
+    
+    #values .container-values img {
+        height: 60vh;
+    }
+
+    #values .container-values .title-description h2 {
+        font-size: 2.25rem;
+    }
+
+    #about .container-about .title-description .heading h2 {
+        font-size: 2.25rem;
+    }
+
     #about .container-about .grid-stats .card h3 {
         font-size: 5rem;
     }
