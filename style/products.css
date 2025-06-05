@@ -55,7 +55,129 @@ body {
 }
 
 /*heroimage*/
+#heroimage {
+    height: 100vh;
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
+#heroimage .content-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    padding: 7.5rem 1rem 0 1rem;
+}
+
+#heroimage .content-hero h1 {
+    color: var(--color-text-main);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#heroimage .content-hero p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+/*products*/
+#products .content-produts {
+    display: flex;
+    padding: 2.25rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.25rem;
+}
+
+#products .content-produts .title-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+#products .content-produts .title-description h2 {
+    color: var(--color-text-main);
+    text-align: center;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#products .content-produts .title-description p {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#products .content-produts .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+#products .content-produts .product-card h3 {
+    color: var(--color-text-main);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 1.5rem;
+}
+
+#products .content-produts .product-card .content-card {
+    border: 1px solid var(--color-border);
+}
+
+#products .content-produts .product-card .content-card .card {
+    display: flex;
+    padding: 1.5rem 1rem;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5rem;
+    text-decoration: none;
+    border-radius: 0;
+    background: none;
+    border-bottom: 1px solid var(--color-border);
+}
+
+#products .content-produts .product-card .content-card .last-product {
+    border-bottom: 0;
+}
+
+#products .content-produts .product-card .content-card .card img {
+    width: 25%;
+}
+
+#products .content-produts .product-card .content-card .card h4 {
+    color: var(--color-text-main);
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 120%;
+    margin-bottom: 0;
+}
 
 /*gallery*/
 #gallery .container-gallery .banner-cta {
@@ -257,14 +379,13 @@ body {
         width: 100%;
     }
 
-    #values .container-values img {
-        height: 50vw;
+    #products .content-produts .product-card .content-card {
+        display: flex;
     }
 
-    #team .container-team img {
-        height: 50vh;
-        object-fit: cover;
-        border-radius: 0.5rem;
+    #products .content-produts .product-card .firts-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #footer .container-footer .footer-options img {
