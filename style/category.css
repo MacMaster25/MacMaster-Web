@@ -54,43 +54,6 @@ body {
     border-color: var(--color-bg-primary);
 }
 
-/*heroimage*/
-#heroimage {
-    height: 100vh;
-    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-#heroimage .content-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
-    padding: 7.5rem 1rem 0 1rem;
-}
-
-#heroimage .content-hero h1 {
-    color: var(--color-text-main);
-    font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
-#heroimage .content-hero p {
-    color: var(--color-text-main);
-    font-family: "Instrument Sans";
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
 /*products*/
 #products .content-produts {
     display: flex;
@@ -109,7 +72,7 @@ body {
     align-self: stretch;
 }
 
-#products .content-produts .title-description h2 {
+#products .content-produts .title-description h1 {
     color: var(--color-text-main);
     text-align: center;
     font-size: 1.75rem;
@@ -119,7 +82,7 @@ body {
     margin-bottom: 0;
 }
 
-#products .content-produts .title-description p {
+#products .content-produts p {
     color: var(--color-text-main);
     font-family: "Instrument Sans";
     font-size: 1.125rem;
@@ -129,20 +92,11 @@ body {
     margin-bottom: 0;
 }
 
-#products .content-produts .product-card {
+#products .content-produts .grid-products .product-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
-}
-
-#products .content-produts .product-card h3 {
-    color: var(--color-text-main);
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 1.5rem;
 }
 
 #products .content-produts .product-card .content-card {
@@ -420,11 +374,6 @@ body {
         border-bottom: 0;
     }
 
-    #products .content-produts .product-card .grid-2 .card:first-child {
-        border-right: 1px solid var(--color-border);
-        border-bottom: 0;
-    }
-
     #footer .container-footer .footer-options img {
         width: 50%;
     }
@@ -434,16 +383,6 @@ body {
 @media (min-width: 768px) {
     .navbar .container-navbar-brand .navbar-brand img {
         width: 50%;
-    }
-
-    #heroimage {
-        height: 100%;
-        background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true');
-    }
-
-    #heroimage .content-hero {
-        justify-content: center;
-        height: 50vw;
     }
 
     #gallery .container-gallery .grid {
@@ -501,11 +440,6 @@ body {
         background-color: #D18100;
         border-radius: 0.5rem;
         padding: 0.5rem 1rem !important;
-    }
-
-    #heroimage .content-hero {
-        height: 35vw;
-        padding: 3rem 0 0 0;
     }
 
     #products .content-produts {
@@ -575,11 +509,7 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
-    #heroimage .content-hero h1 {
-        font-size: 3.75rem;
-    }
-    
-    #products .content-produts .title-description h2 {
+    #products .content-produts .title-description h1 {
         font-size: 2.25rem;
     }
 
