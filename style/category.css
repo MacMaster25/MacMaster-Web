@@ -57,7 +57,7 @@ body {
 /*products*/
 #products .content-produts {
     display: flex;
-    padding: 2.25rem 1rem;
+    padding: 7.25rem 1rem 2.25rem 1rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 2.25rem;
@@ -75,11 +75,28 @@ body {
 #products .content-produts .title-description h1 {
     color: var(--color-text-main);
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
     margin-bottom: 0;
+}
+
+#products .content-produts .title-description .breadcrumb {
+    margin-bottom: 0;
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--color-border);
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+#products .content-produts .title-description .breadcrumb .active {
+    color: var(--color-text-main);
 }
 
 #products .content-produts p {
@@ -344,8 +361,16 @@ body {
         width: 100%;
     }
 
+    #products .content-produts {
+        padding: 9.25rem 1rem 2.25rem 1rem;
+    }
+
     #products .content-produts .product-card .content-card {
         display: flex;
+    }
+
+    #products .content-produts .product-card:nth-child(2) .content-card {
+        border-top: 0;
     }
 
     #products .content-produts .product-card .grid-4 {
@@ -443,7 +468,7 @@ body {
     }
 
     #products .content-produts {
-        padding: 2.25rem 0;
+        padding: 8.25rem 0 2.25rem 0;
     }
 
     #products .content-produts .product-card .grid-4 {
@@ -509,12 +534,12 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
-    #products .content-produts .title-description h1 {
-        font-size: 2.25rem;
-    }
-
     #gallery .container-gallery .banner-cta .title-description h2 {
         font-size: 3.75rem;
+    }
+
+    #products .content-produts p {
+        font-size: 1.5rem;
     }
 
     #gallery .container-gallery .banner-cta .title-description .btn {
