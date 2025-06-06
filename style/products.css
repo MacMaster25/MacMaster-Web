@@ -436,6 +436,11 @@ body {
         width: 50%;
     }
 
+    #heroimage {
+    height: 100vh;
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true');
+}
+
     #gallery .container-gallery .grid {
         flex-direction: row;
     }
