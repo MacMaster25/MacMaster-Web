@@ -150,6 +150,12 @@ body {
 }
 
 #products .content-produts .product-card .content-card .card {
+    border-radius: 0;
+    background: none;
+    border-bottom: 1px solid var(--color-border);
+}
+
+#products .content-produts .product-card .content-card .card a {
     display: flex;
     padding: 1.5rem 1rem;
     flex-direction: row;
@@ -157,12 +163,17 @@ body {
     align-items: center;
     gap: 1.5rem;
     text-decoration: none;
-    border-radius: 0;
-    background: none;
-    border-bottom: 1px solid var(--color-border);
 }
 
-#products .content-produts .product-card .content-card .last-product {
+#products .content-produts .product-card .grid-4 .card:last-child {
+    border-bottom: 0;
+}
+
+#products .content-produts .product-card .grid-3 .card:last-child {
+    border-bottom: 0;
+}
+
+#products .content-produts .product-card .grid-2 .card:last-child {
     border-bottom: 0;
 }
 
@@ -383,9 +394,35 @@ body {
         display: flex;
     }
 
-    #products .content-produts .product-card .firts-content {
+    #products .content-produts .product-card .grid-4 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    #products .content-produts .product-card .grid-4 .card:nth-child(3),
+    .tornilleria .card:nth-child(4) {
+        border-bottom: 0;
+    }
+
+    #products .content-produts .product-card .grid-4 .card:nth-child(1),
+    .tornilleria .card:nth-child(3) {
+        border-right: 1px solid var(--color-border);
+    }
+
+    #products .content-produts .product-card .content-card .card a {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #products .content-produts .product-card .grid-3 .card:nth-child(1),
+    #products .content-produts .product-card .grid-3 .card:nth-child(2) {
+        border-right: 1px solid var(--color-border);
+        border-bottom: 0;
+    }
+
+     #products .content-produts .product-card .grid-2 .card:first-child {
+        border-right: 1px solid var(--color-border);
+        border-bottom: 0;
     }
 
     #footer .container-footer .footer-options img {
