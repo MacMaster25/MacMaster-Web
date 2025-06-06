@@ -138,7 +138,7 @@ body {
 
 #products .content-produts .product-card h3 {
     color: var(--color-text-main);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -420,7 +420,7 @@ body {
         border-bottom: 0;
     }
 
-     #products .content-produts .product-card .grid-2 .card:first-child {
+    #products .content-produts .product-card .grid-2 .card:first-child {
         border-right: 1px solid var(--color-border);
         border-bottom: 0;
     }
@@ -437,9 +437,14 @@ body {
     }
 
     #heroimage {
-    height: 100vh;
-    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true');
-}
+        height: 100%;
+        background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true');
+    }
+
+    #heroimage .content-hero {
+        justify-content: center;
+        height: 50vw;
+    }
 
     #gallery .container-gallery .grid {
         flex-direction: row;
@@ -498,6 +503,28 @@ body {
         padding: 0.5rem 1rem !important;
     }
 
+    #heroimage .content-hero {
+        height: 35vw;
+        padding: 3rem 0 0 0;
+    }
+
+    #products .content-produts {
+        padding: 2.25rem 0;
+    }
+
+    #products .content-produts .product-card .grid-4 {
+        display: flex;
+    }
+
+    #products .content-produts .product-card .grid-4 .card:first-child {
+        border-bottom: 0;
+    }
+
+    #products .content-produts .product-card .grid-4 .card:nth-child(2) {
+        border-right: 1px solid var(--color-border);
+        border-bottom: 0;
+    }
+
     #gallery .container-gallery .banner-cta {
         align-items: flex-start;
     }
@@ -548,6 +575,14 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
+    #heroimage .content-hero h1 {
+        font-size: 3.75rem;
+    }
+    
+    #products .content-produts .title-description h2 {
+        font-size: 2.25rem;
+    }
+
     #gallery .container-gallery .banner-cta .title-description h2 {
         font-size: 3.75rem;
     }
