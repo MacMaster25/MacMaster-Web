@@ -245,14 +245,20 @@ body {
 }
 
 #gallery .container-gallery .banner-cta .title-description .btn {
+    padding: 0;
+}
+
+#gallery .container-gallery .banner-cta .title-description .btn a {
     width: 100%;
     font-size: 1.125rem;
     font-weight: 500;
     background-color: var(--color-primary);
     border: none;
+    border-radius: 0.5rem;
     color: var(--color-text-button);
     padding: 1rem 1.5rem;
     margin-top: 1.25rem;
+    text-decoration: none;
 }
 
 #gallery .container-gallery .banner-cta .data {

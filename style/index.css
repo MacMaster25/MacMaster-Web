@@ -511,6 +511,10 @@ body {
     margin-bottom: 0;
 }
 
+#gallery .container-gallery .banner-cta .title-description .btn {
+    padding: 0;
+}
+
 #gallery .container-gallery .banner-cta .title-description .btn a {
     width: 100%;
     font-size: 1.125rem;
