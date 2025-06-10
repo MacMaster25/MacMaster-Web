@@ -203,10 +203,6 @@ body {
     object-fit: scale-down;
 }
 
-#brand .container-brand .brand-grid .brand-img:nth-of-type(3) img {
-    width: 35%;
-}
-
 #brand .container-brand p {
     color: var(--color-text-main);
     text-align: center;
