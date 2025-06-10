@@ -261,6 +261,7 @@ body {
 }
 
 #products .container-products .grid-products .grid-md {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -269,6 +270,7 @@ body {
 }
 
 #products .container-products .grid-products .card {
+    width: 100%;
     display: flex;
     padding: 1.5rem;
     flex-direction: column;
@@ -724,12 +726,12 @@ body {
         font-size: 0.875rem;
     }
 
-    #products .container-products .grid-products .grid-md {
-        flex-direction: row;
-    }
-
     #products .container-products .grid-products .card {
         width: 50%;
+    }
+
+    #products .container-products .grid-products .grid-md {
+        flex-direction: row;
     }
 
     #products .container-products .grid-products .card img {
@@ -903,10 +905,15 @@ body {
 
     #products .container-products .grid-products {
         flex-direction: row;
+        gap: 1rem;
     }
 
     #products .container-products .grid-products .card {
         align-self: stretch;
+    }
+
+    #products .container-products .grid-products .grid-md {
+        gap: 1rem;
     }
 
     #about .container-about .grid-stats .card h3 {
