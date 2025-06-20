@@ -647,6 +647,10 @@ body {
         width: 50%;
     }
 
+    #products .content-produts .product-card .content-card .card h4 {
+        font-size: 0.813rem;
+    }
+
     #products .specs, #products .documentary {
         padding: 0;
     }
