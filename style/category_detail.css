@@ -643,6 +643,10 @@ body {
         border-bottom: 0;
     }
 
+    #products .content-produts .product-card .content-card .card img {
+        width: 50%;
+    }
+
     #products .specs, #products .documentary {
         padding: 0;
     }
