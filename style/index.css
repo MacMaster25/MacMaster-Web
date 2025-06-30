@@ -156,6 +156,7 @@ body {
 }
 
 #brand .container-brand .badge {
+    width: auto;
     padding: 0.5rem;
     border: 1px solid var(--color-primary);
     border-radius: 0.5rem;
@@ -223,6 +224,7 @@ body {
 }
 
 #products .container-products .badge {
+    width: auto;
     padding: 0.5rem;
     border: 1px solid var(--color-primary);
     border-radius: 0.5rem;
