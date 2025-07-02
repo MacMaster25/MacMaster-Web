@@ -35,7 +35,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse col-lg-6" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-lg-end col-lg-6" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">Quienes Somos</a>
@@ -54,7 +54,7 @@
     <section id="heroimage">
         <div class="container-fluid">
             <div class="row content-heroimage col-lg-10 offset-lg-1">
-                <div class="heroimage-title">
+                <div class="heroimage-title p-sm-0">
                     <div class="title col-md-10 col-lg-6 col-xl-8 col-xxl-6">
                         <h1>Fabricación especializada
                             de tornillería y suministro
@@ -65,7 +65,8 @@
                         <a class="btn btn-primary" href="#">Explora nuestros Productos</a>
                     </div>
                 </div>
-                <div class="heroimage-data">
+                <div
+                    class="heroimage-data d-flex flex-column flex-md-row justify-content-md-between align-items-lg-center">
                     <div class="data-a">
                         <p>Distribuidores oficiales</p>
                         <div class="data-image">
@@ -73,7 +74,7 @@
                                 alt="Logo Greinger">
                         </div>
                     </div>
-                    <div class="data-b">
+                    <div class="data-b d-sm-flex align-items-sm-center">
                         <div class="data-image col-sm-2">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/imgs.png?raw=true"
                                 alt="imagen en circulo de personas">
@@ -87,19 +88,19 @@
     <!-- brands -->
     <section id="brand">
         <div class="container-fluid">
-            <div class="row container-brand">
+            <div class="container-brand d-flex flex-column align-items-center">
                 <span class="badge">Marcas aliadas</span>
-                <div class="brand-grid col-lg-8 col-xl-6">
-                    <div class="brand-img"><img
+                <div class="brand-grid row row-cols-2 row-cols-lg-4 mb-5 col-md-10 col-lg-10 col-xl-8">
+                    <div class="brand-img d-flex flex-column align-items-center justify-content-center"><img
                             src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/03.marcas/logo_1.png?raw=true"
                             alt="logo Greinger"></div>
-                    <div class="brand-img"><img
+                    <div class="brand-img d-flex flex-column align-items-center justify-content-center"><img
                             src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/03.marcas/Logo_2.png?raw=true"
                             alt="logo invesa"></div>
-                    <div class="brand-img"><img
+                    <div class="brand-img d-flex flex-column align-items-center justify-content-center"><img
                             src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/03.marcas/logo_3.png?raw=true"
                             alt="logo jushi"></div>
-                    <div class="brand-img"><img
+                    <div class="brand-img d-flex flex-column align-items-center justify-content-center"><img
                             src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/03.marcas/log_4.png?raw=true"
                             alt="logo norton"></div>
                 </div>
@@ -111,10 +112,10 @@
     <!-- products -->
     <section id="products">
         <div class="container-fluid">
-            <div class="row container-products">
+            <div class="row container-products d-flex flex-column align-items-center">
                 <span class="badge">Nuestros productos</span>
-                <div class="title-description">
-                    <h2 class="col-md-8 offset-md-2 col-xl-8 offset-xl-2">Productos Industriales de Alta Calidad
+                <div class="title-description d-flex flex-column text-center gap-4">
+                    <h2 class="col-md-10 offset-md-1 col-xl-8 offset-xl-2">Productos Industriales de Alta Calidad
                         <br>para Mantenimiento y Producción
                     </h2>
                     <p class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">Explora nuestras líneas de productos
@@ -122,44 +123,40 @@
                         continuidad operativa y la
                         eficiencia en todo tipo de entornos productivos.</p>
                 </div>
-                <div class="grid-products col-lg-10 offset-lg-1">
-                    <div class="grid-md">
-                        <div class="card">
-                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/tornillos-tuercas-fijaciones-industriales.png?raw=true"
-                                alt="Tornillos y tuercas metálicos sobre fondo rústico, amplia gama para fijaciones industriales">
-                            <div class="card-title">
-                                <h3>Tornillería</h3>
-                                <p>Amplia gama de tornillos, tuercas
-                                    y fijaciones para múltiples usos.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/discos-abrasivos-norton-corte-desbaste.png?raw=true"
-                                alt="Discos abrasivos Norton para corte y desbaste, ideales para acabados precisos">
-                            <div class="card-title">
-                                <h3>Abrasivos</h3>
-                                <p>Discos, lijas y herramientas abrasivas
-                                    para un acabado perfecto.</p>
-                            </div>
+                <div class="grid-products d-grid gap-3 p-0 col-xl-10">
+                    <div class="card d-flex flex-column align-items-start gap-4">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/tornillos-tuercas-fijaciones-industriales.png?raw=true"
+                            alt="Tornillos y tuercas metálicos sobre fondo rústico, amplia gama para fijaciones industriales">
+                        <div class="card-title d-flex flex-column align-items-start gap-3">
+                            <h3>Tornillería</h3>
+                            <p>Amplia gama de tornillos, tuercas
+                                y fijaciones para múltiples usos.</p>
                         </div>
                     </div>
-                    <div class="grid-md">
-                        <div class="card">
-                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/sellador-silicona-industrial-aplicacion-vidrio.png?raw=true"
-                                alt="Aplicación de silicona industrial en vidrio, con cartuchos de sellador visibles">
-                            <div class="card-title">
-                                <h3>Adhesivos y Sellantes</h3>
-                                <p>Soluciones de pegado y sellado
-                                    industrial para todo tipo de superficies.</p>
-                            </div>
+                    <div class="card d-flex flex-column align-items-start gap-4">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/discos-abrasivos-norton-corte-desbaste.png?raw=true"
+                            alt="Discos abrasivos Norton para corte y desbaste, ideales para acabados precisos">
+                        <div class="card-title d-flex flex-column align-items-start gap-3">
+                            <h3>Abrasivos</h3>
+                            <p>Discos, lijas y herramientas abrasivas
+                                para un acabado perfecto.</p>
                         </div>
-                        <div class="card">
-                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/fibra-de-vidrio-resina-reparaciones-estructurales.png?raw=true"
-                                alt="Hilos de fibra de vidrio blanca para reparaciones estructurales y refuerzos duraderos">
-                            <div class="card-title">
-                                <h3>Resina y Fibra de Vidrio</h3>
-                                <p>Materiales resistentes y duraderos para reparaciones estructurales.</p>
-                            </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-start gap-4">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/sellador-silicona-industrial-aplicacion-vidrio.png?raw=true"
+                            alt="Aplicación de silicona industrial en vidrio, con cartuchos de sellador visibles">
+                        <div class="card-title d-flex flex-column align-items-start gap-3">
+                            <h3>Adhesivos y Sellantes</h3>
+                            <p>Soluciones de pegado y sellado
+                                industrial para todo tipo de superficies.</p>
+                        </div>
+                    </div>
+                    <div class="card d-flex flex-column align-items-start gap-4">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/04.products/fibra-de-vidrio-resina-reparaciones-estructurales.png?raw=true"
+                            alt="Hilos de fibra de vidrio blanca para reparaciones estructurales y refuerzos duraderos">
+                        <div class="card-title d-flex flex-column align-items-start gap-3">
+                            <h3>Resina y Fibra de Vidrio</h3>
+                            <p>Materiales resistentes y duraderos para reparaciones estructurales.</p>
                         </div>
                     </div>
                 </div>
@@ -170,9 +167,9 @@
     <!-- about -->
     <section id="about">
         <div class="container-fluid">
-            <div class="row container-about col-xl-10 offset-xl-1">
-                <div class="title-description col-lg-10 offset-lg-1">
-                    <div class="heading col-xl-8">
+            <div class="row d-flex flex-column align-items-center container-about col-xl-10 offset-xl-1">
+                <div class="title-description d-flex flex-column align-items-start gap-3 col-lg-10 offset-lg-1">
+                    <div class="heading d-flex flex-column align-items-start gap-3 col-xl-8">
                         <span class="badge">Quienes somos</span>
                         <h2>Puntos clave que definen nuestro éxito</h2>
                         <p>Somos una compañía reconocida por ofrecer un portafolio amplio y versátil para la
@@ -181,26 +178,29 @@
                     </div>
                     <a class="btn btn-primary" href="about.html">Acerca de nosotros</a>
                 </div>
-                <div class="grid-stats col-lg-10 offset-lg-1">
-                    <div class="card">
+                <div class="grid-stats d-flex flex-column align-items-start col-lg-10 offset-lg-1">
+                    <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
                         <h3 class="col-md-6">+10 años</h3>
-                        <div class="card-title col-md-5 col-lg-6">
+                        <div
+                            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
                             <h4>Trayectoria</h4>
                             <p>Más de una década impulsando
                                 soluciones industriales en todo el país.</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
                         <h3 class="col-md-6">500+</h3>
-                        <div class="card-title col-md-5 col-lg-6">
+                        <div
+                            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
                             <h4>Productos disponibles</h4>
                             <p>Un catálogo robusto y actualizado para cubrir múltiples necesidades
                                 del sector.</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
                         <h3 class="col-md-6">98%+</h3>
-                        <div class="card-title col-md-5">
+                        <div
+                            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
                             <h4>Satisfacción de clientes</h4>
                             <p>Nuestros clientes nos recomiendan por nuestra atención, servicio y
                                 cumplimiento.</p>
@@ -214,39 +214,37 @@
     <section id="gallery">
         <div class="container-fluid">
             <div class="row container-gallery">
-                <div class="grid">
+                <div class="grid row row-cols-1 row-cols-md-3 p-0 gap-1">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/spray-pintura-industrial-tekbond.png?raw=true"
+                        class="p-0"
                         alt="Aplicación de pintura en aerosol industrial Tekbond en proceso de mantenimiento">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/amoladora-angular-chispas-abrasivo.png?raw=true"
-                        alt="Uso de amoladora angular con disco abrasivo generando chispas">
+                        class="p-0" alt="Uso de amoladora angular con disco abrasivo generando chispas">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-industriales-negros.png?raw=true"
-                        alt="Pernos industriales negros de alta resistencia organizados en grupo">
-                </div>
-                <div class="grid">
+                        class="p-0" alt="Pernos industriales negros de alta resistencia organizados en grupo">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-u-acero-inoxidable.png?raw=true"
-                        alt="Conjunto de pernos en forma de U de acero inoxidable organizados en caja">
+                        class="p-0" alt="Conjunto de pernos en forma de U de acero inoxidable organizados en caja">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/fibra-de-vidrio-industrial.png?raw=true"
-                        alt="Rollo de fibra de vidrio tejida para uso industrial">
+                        class="p-0" alt="Rollo de fibra de vidrio tejida para uso industrial">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/adhesivo-industrial-motor.png?raw=true"
+                        class="p-0"
                         alt="Aplicación de adhesivo industrial en componentes de motor durante mantenimiento mecánico">
                 </div>
-                <div class="banner-cta">
-                    <div class="title-description col-md-8 col-xl-6">
+                <div class="banner-cta d-flex flex-column align-items-center align-items-lg-start gap-1">
+                    <div class="title-description d-flex flex-column align-items-start gap-4 col-md-8 col-xl-6">
                         <h2>¿Listo para cotizar sin compromiso?</h2>
                         <p class="col-xl-10">En Mac Master Importadores estamos para ayudarte a encontrar justo lo
                             que
                             tu negocio necesita. Escribinos y recibí asesoría personalizada en minutos.</p>
-                        <button type="button" class="btn">
-                            <a href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
-                                target="_blank">Habla con un asesor</a>
-                        </button>
+                        <a class="text-center" href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+                            target="_blank">Habla con un asesor</a>
                     </div>
-                    <div class="data col-sm-12 col-lg-6">
-                        <div class="data-image col-md-2">
-                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/imgs.png?raw=true"
+                    <div class="data d-sm-flex align-items-sm-center col-sm-12 col-lg-6">
+                        <div class="data-image d-sm-flex flex-sm-wrap col-md-2">
+                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/imgs.png?raw=true" class="mb-2 mb-sm-0"
                                 alt="imagen en circulo de personas">
                         </div>
-                        <p class="col-md-10">Con la confianza de más de 3 millones de clientes</p>
+                        <p class="mb-0 ms-sm-3 ms-lg-0 d-sm-flex flex-sm-shrink-1 col-md-10">Con la confianza de más de 3 millones de clientes</p>
                     </div>
                 </div>
             </div>
@@ -255,13 +253,12 @@
     <!-- footer -->
     <footer id="footer">
         <div class="container-fluid">
-            <div class="row">
-                <div class="container-footer">
-                    <div class="footer-options">
+                <div class="row container-footer row-cols-1 row-cols-lg-2 align-items-start gap-1 gap-lg-0">
+                    <div class="footer-options d-flex flex-column align-items-center justify-content-lg-center align-items-xl-start justify-content-lg-evenly">
                         <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/01.Logos/logo.png?raw=true"
                             alt="Logo de Mac Master Importadores, expertos en tornillería y soluciones industriales">
                         <div class="options">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav d-flex flex-column align-items-center gap-4 flex-xl-row text-center">
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Inicio</a>
                                 </li>
@@ -278,23 +275,23 @@
                         </div>
                         <p>Copyright © 2025 Mac Master Importadores - Todos los derechos reservados.</p>
                     </div>
-                    <div class="footer-data">
-                        <div class="info">
+                    <div class="footer-data d-flex flex-column align-items-start">
+                        <div class="info d-flex flex-column align-items-start gap-4">
                             <small>Correo</small>
                             <a href="mailto:proyectos@macmaster.co">proyectos@macmaster.co</a>
                         </div>
-                        <div class="info">
+                        <div class="info d-flex flex-column align-items-start gap-4">
                             <small>Teléfono</small>
                             <p>(57) 317 789 9482</p>
                         </div>
-                        <div class="info">
+                        <div class="info d-flex flex-column align-items-start gap-4">
                             <small>Dirección</small>
                             <a href="https://maps.app.goo.gl/WE55NxdbZBX4dsTb8" target="_blank"
                                 rel="noopener noreferrer">Av. 5c Nte. #46, Cali,
                                 Valle del Cauca, Colombia</a>
                         </div>
                         <div class="social-data">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav d-flex flex-row">
                                 <li class="nav-item">
                                     <a class="nav-link" target="_blank"
                                         href="https://www.instagram.com/macmasterimport/">Instagram</a>
@@ -307,7 +304,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </footer>
 
