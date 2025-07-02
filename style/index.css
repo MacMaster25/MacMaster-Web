@@ -555,9 +555,12 @@ body {
         gap: 1rem;
     }
 
+    #heroimage .content-heroimage .heroimage-data .data-b .data-image {
+        flex: 0 0 5rem;
+    }
+
     #heroimage .content-heroimage .heroimage-data .data-b .data-image img {
         width: 100%;
-        margin-bottom: 0;
     }
 
     #heroimage .content-heroimage .heroimage-data .data-b p {
