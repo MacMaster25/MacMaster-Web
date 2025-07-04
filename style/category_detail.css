@@ -162,19 +162,12 @@ body {
     border: 1px solid var(--color-border);
 }
 
-/*#products .specs .container-specs table tr {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid var(--color-border);
-}*/
-
 #products .specs .container-specs table th {
     color: var(--color-text-main);
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    /*display: flex;*/
     padding: 1rem;
     align-self: stretch;
     background-color: #121212;
@@ -187,14 +180,9 @@ body {
     font-family: "Instrument Sans";
     font-style: normal;
     line-height: 120%;
-    /*display: flex;*/
     padding: 1rem;
     align-items: center;
     align-self: stretch;
-}
-
-#products .specs .container-specs table tr:last-child td {
-    border-bottom: 0;
 }
 
 #products .documentary .title-description {
@@ -486,16 +474,8 @@ body {
         border-left: 0;
     }
 
-    #products .specs .container-specs table tr {
-        flex-direction: row;
-    }
-
     #products .specs .container-specs table tr th {
         border-right: 1px solid var(--color-border);
-    }
-
-    #products .specs .container-specs table tr:last-child th {
-        border-bottom: 0;
     }
 
     #gallery .container-gallery .grid img {
