@@ -56,10 +56,6 @@ body {
 
 /*heading*/
 #heading .title-description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
     padding: 9rem 1rem 2.25rem 1rem;
 }
 
@@ -86,21 +82,11 @@ body {
 
 /*contact info*/
 #contact-info .content-contact {
-    display: flex;
-    flex-direction: column;
     padding: 0.5rem;
-    align-items: center;
-    gap: 0.25rem;
-    align-self: stretch;
 }
 
 #contact-info .content-contact .card {
-    display: flex;
     padding: 1.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-    align-self: stretch;
     border-radius: 8px;
 }
 
@@ -109,13 +95,6 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-}
-
-#contact-info .content-contact .card .card-description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
 }
 
 #contact-info .content-contact .card .card-description p {
@@ -271,18 +250,11 @@ body {
 
 /*footer*/
 #footer .container-footer {
-    display: flex;
     padding: 0.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
 }
 
 #footer .container-footer .footer-options {
-    display: flex;
     padding: 2.25rem 1rem;
-    flex-direction: column;
-    align-items: center;
     gap: 2.25rem;
     align-self: stretch;
     border-radius: 0.5rem;
@@ -291,15 +263,6 @@ body {
 
 #footer .container-footer .footer-options img {
     width: 75%;
-}
-
-#footer .container-footer .footer-options .options .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    align-self: stretch;
-    text-align: center;
 }
 
 #footer .container-footer .footer-options .options .navbar-nav .nav-item a {
@@ -317,10 +280,7 @@ body {
 }
 
 #footer .container-footer .footer-data {
-    display: flex;
     padding: 2.25rem 1rem;
-    flex-direction: column;
-    align-items: start;
     gap: 2.25rem;
     align-self: stretch;
     border-radius: 0.5rem;
@@ -329,10 +289,6 @@ body {
 }
 
 #footer .container-footer .footer-data .info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
     align-self: stretch;
 }
 
@@ -353,8 +309,6 @@ body {
 }
 
 #footer .container-footer .footer-data .social-data .navbar-nav {
-    display: flex;
-    flex-direction: row;
     gap: 2rem;
     align-self: stretch;
 }
@@ -379,7 +333,7 @@ body {
     }
 
     #footer .container-footer .footer-options img {
-        width: 35%;
+        width: 50%;
     }
 }
 
@@ -389,16 +343,8 @@ body {
         width: 50%;
     }
 
-    #form .content-form .maps {
-        height: 35vw;
-    }
-
-    #form .content-form form {
-        padding: 1.5rem;
-    }
-
-    #form .content-form form .inputs {
-        padding: 1.5rem;
+    #footer .container-footer .footer-options img {
+        width: 35%;
     }
 }
 
@@ -448,16 +394,12 @@ body {
         padding: 3.75rem 3rem;
     }
 
-    #footer .container-footer {
-        flex-direction: row;
-    }
-
-    #footer .container-footer .footer-options {
-        justify-content: center;
-    }
-
     #footer .container-footer .footer-options img {
-        width: 40%;
+        width: 50%;
+    }
+
+    #footer .container-footer .footer-data {
+        width: 49.5%;
     }
 }
 
@@ -476,30 +418,24 @@ body {
         height: 100%;
     }
 
-    #footer .container-footer {
-        justify-content: space-between;
-    }
-
-    #footer .container-footer .footer-options {
-        width: 100%;
-        padding: 3.75rem;
-    }
-
+    #footer .container-footer .footer-options,
     #footer .container-footer .footer-data {
-        width: 100%;
         padding: 3.75rem;
+    }
+
+    #footer .container-footer .footer-options img {
+        width: 50%;
+    }
+
+    #footer .container-footer .footer-options p {
+        text-align: start;
     }
 }
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
-    #footer .container-footer .footer-options {
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    #footer .container-footer .footer-options .options .navbar-nav {
-        flex-direction: row;
+    #footer .container-footer .footer-options img {
+        width: 35%;
     }
 
     #footer .container-footer .footer-options p {
