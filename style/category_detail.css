@@ -185,15 +185,6 @@ body {
     align-self: stretch;
 }
 
-#products .documentary .title-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-    align-self: stretch;
-}
-
 #products .documentary .title-description h2 {
     color: var(--color-text-main);
     font-size: 1.5rem;
