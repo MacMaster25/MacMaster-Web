@@ -67,24 +67,24 @@
     <!-- contact info -->
     <section id="contact-info">
         <div class="container-fluid">
-            <div class="content-contact row d-flex flex-column align-items-center gap-1">
-                <div class="card d-flex flex-column align-items-start gap-4 col-lg-4 col-xxl-6">
+            <div class="content-contact row d-grid gap-2">
+                <div class="card d-flex flex-column align-items-start gap-4">
                     <h2>Visitanos</h2>
                     <div class="card-description d-flex flex-column align-items-start gap-1">
                         <p>Av. 5c Nte. #46, Cali, Valle del Cauca, Colombia</p>
                         <p>Visítenos para consultas y asesoramiento personalizado.</p>
                     </div>
                 </div>
-                <div class="card col-lg-4 col-xxl-3">
+                <div class="card d-flex flex-column align-items-start gap-4">
                     <h2>Llámanos</h2>
-                    <div class="card-description">
+                    <div class="card-description d-flex flex-column align-items-start gap-1">
                         <p>(57) 317 789 9482</p>
                         <p>Contáctenos directamente para asistencia inmediata.</p>
                     </div>
                 </div>
-                <div class="card col-lg-4 col-xxl-3">
+                <div class="card d-flex flex-column align-items-start gap-4">
                     <h2>Contáctanos</h2>
-                    <div class="card-description">
+                    <div class="card-description d-flex flex-column align-items-start gap-1">
                         <p><a href="mailto:proyectos@macmaster.co">proyectos@macmaster.co</a></p>
                         <p>Comparta sus preguntas o ideas y le responderemos rápidamente.</p>
                     </div>
@@ -95,40 +95,38 @@
     <!-- form -->
     <section id="form">
         <div class="container-fluid">
-            <div class="row">
-                <div class="content-form">
-                    <div class="maps col-12 col-xl-6">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.4407944329414!2d-76.52750052432418!3d3.4848443509959193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a9c1750dd6d3%3A0xaa4d4aa4b29e7fb3!2sMAC%20MASTER%20IMPORTADORES%20SAS!5e0!3m2!1sen!2sco!4v1748968896142!5m2!1sen!2sco"
-                            style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <form class="col-xl-6">
-                        <div class="title-description">
-                            <h2>Envíanos un mensaje</h2>
-                            <p class="col-xl-8">¿Tienes alguna consulta específica? Completa el formulario
-                                y uno de nuestros asesores se pondrá en contacto contigo
-                                lo antes posible. Estamos aquí para brindarte soluciones claras y rápidas.</p>
-                        </div>
-                        <div class="inputs">
-                            <div class="col-12">
-                                <label for="exampleFormControlInput1" class="form-label">Nombres Completo</label>
-                                <input type="text" class="form-control" placeholder="Nombre Completo"
-                                    aria-label="First name">
-                            </div>
-                            <div class="col-12">
-                                <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="correo@example.com">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                    placeholder="Escribir mensaje"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Envíar mensaje</button>
-                        </div>
-                    </form>
+            <div class="content-form row d-flex flex-column flex-xl-row align-items-start gap-2">
+                <div class="maps col-12 col-xl-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.4407944329414!2d-76.52750052432418!3d3.4848443509959193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a9c1750dd6d3%3A0xaa4d4aa4b29e7fb3!2sMAC%20MASTER%20IMPORTADORES%20SAS!5e0!3m2!1sen!2sco!4v1748968896142!5m2!1sen!2sco"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                <form class="d-flex flex-column align-items-start gap-4 col-xl-6">
+                    <div class="title-description d-flex flex-column justify-content-center align-items-center gap-3">
+                        <h2>Envíanos un mensaje</h2>
+                        <p class="col-xl-8">¿Tienes alguna consulta específica? Completa el formulario
+                            y uno de nuestros asesores se pondrá en contacto contigo
+                            lo antes posible. Estamos aquí para brindarte soluciones claras y rápidas.</p>
+                    </div>
+                    <div class="inputs d-flex flex-column align-items-start gap-3 col-12">
+                        <div class="col-12">
+                            <label for="exampleFormControlInput1" class="form-label">Nombres Completo</label>
+                            <input type="text" class="form-control" placeholder="Nombre Completo"
+                                aria-label="First name">
+                        </div>
+                        <div class="col-12">
+                            <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="correo@example.com">
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Escribir mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envíar mensaje</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -136,7 +134,7 @@
     <footer id="footer">
         <div class="container-fluid">
             <div
-                class="row container-footer row-cols-1 row-cols-lg-2 align-items-start justify-content-xl-between gap-1">
+                class="row container-footer row-cols-1 row-cols-lg-2 align-items-start justify-content-xl-between gap-1 gap-xxl-2">
                 <div
                     class="footer-options d-flex flex-column align-items-center justify-content-lg-center align-items-xl-start justify-content-lg-between">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/01.Logos/logo.png?raw=true"

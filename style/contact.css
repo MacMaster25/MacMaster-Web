@@ -147,15 +147,12 @@ body {
 }
 
 #form .content-form {
-    display: flex;
-    flex-direction: column;
     padding: 0 0.5rem;
-    align-items: flex-start;
-    gap: 0.25rem;
 }
 
 #form .content-form .maps {
-    height: 100vh;
+    height: 50vh;
+    padding: 0;
     position: relative;
     overflow: hidden;
 }
@@ -170,11 +167,7 @@ body {
 }
 
 #form .content-form form {
-    display: flex;
     padding: 1.5rem 1rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
     flex: 1 0 0;
     border-radius: 8px;
     background: var(--color-text-main);
@@ -182,12 +175,6 @@ body {
 
 #form .content-form form .title-description {
     color: var(--color-text-button);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    align-self: stretch;
 }
 
 #form .content-form form .title-description h2 {
@@ -210,12 +197,7 @@ body {
 }
 
 #form .content-form form .inputs {
-    display: flex;
     padding: 1rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    align-self: stretch;
     border-radius: 0px 0px 0.5rem 0.5rem;
     border-right: 1px solid rgba(233, 238, 234, 0.00);
     border-bottom: 1px solid rgba(233, 238, 234, 0.00);
@@ -387,7 +369,7 @@ body {
     }
 
     #contact-info .content-contact {
-        flex-direction: row;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     #form .content-form form {
@@ -405,17 +387,9 @@ body {
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
-    #form .content-form {
-        flex-direction: row;
-    }
-
     #form .content-form .maps {
         height: auto;
         align-self: stretch;
-    }
-
-    #form .content-form {
-        height: 100%;
     }
 
     #footer .container-footer .footer-options,
@@ -434,6 +408,29 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
+    #contact-info .content-contact {
+        grid-template-columns: 6fr 3fr 3fr;
+    }
+
+    #form .content-form .maps {
+        display: flex;
+        flex: 1;
+    }
+
+    #form .content-form form {
+        flex-wrap: wrap;
+        flex: 0 0 59rem;
+    }
+
+    #footer .container-footer .footer-options {
+        flex: 1;
+    }
+
+    #footer .container-footer .footer-data {
+        flex-wrap: wrap;
+        flex: 0 0 59rem;
+    }
+
     #footer .container-footer .footer-options img {
         width: 35%;
     }
