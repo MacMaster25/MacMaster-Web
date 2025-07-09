@@ -56,10 +56,6 @@ body {
 
 /*heading*/
 #heading .title-description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
     padding: 9rem 1rem 2.25rem 1rem;
 }
 
@@ -86,21 +82,11 @@ body {
 
 /*contact info*/
 #contact-info .content-contact {
-    display: flex;
-    flex-direction: column;
     padding: 0.5rem;
-    align-items: center;
-    gap: 0.25rem;
-    align-self: stretch;
 }
 
 #contact-info .content-contact .card {
-    display: flex;
     padding: 1.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-    align-self: stretch;
     border-radius: 8px;
 }
 
@@ -109,13 +95,6 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-}
-
-#contact-info .content-contact .card .card-description {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
 }
 
 #contact-info .content-contact .card .card-description p {
@@ -168,15 +147,12 @@ body {
 }
 
 #form .content-form {
-    display: flex;
-    flex-direction: column;
     padding: 0 0.5rem;
-    align-items: flex-start;
-    gap: 0.25rem;
 }
 
 #form .content-form .maps {
-    height: 100vh;
+    height: 50vh;
+    padding: 0;
     position: relative;
     overflow: hidden;
 }
@@ -191,11 +167,7 @@ body {
 }
 
 #form .content-form form {
-    display: flex;
     padding: 1.5rem 1rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
     flex: 1 0 0;
     border-radius: 8px;
     background: var(--color-text-main);
@@ -203,12 +175,6 @@ body {
 
 #form .content-form form .title-description {
     color: var(--color-text-button);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    align-self: stretch;
 }
 
 #form .content-form form .title-description h2 {
@@ -231,12 +197,7 @@ body {
 }
 
 #form .content-form form .inputs {
-    display: flex;
     padding: 1rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    align-self: stretch;
     border-radius: 0px 0px 0.5rem 0.5rem;
     border-right: 1px solid rgba(233, 238, 234, 0.00);
     border-bottom: 1px solid rgba(233, 238, 234, 0.00);
@@ -271,18 +232,11 @@ body {
 
 /*footer*/
 #footer .container-footer {
-    display: flex;
     padding: 0.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
 }
 
 #footer .container-footer .footer-options {
-    display: flex;
     padding: 2.25rem 1rem;
-    flex-direction: column;
-    align-items: center;
     gap: 2.25rem;
     align-self: stretch;
     border-radius: 0.5rem;
@@ -291,15 +245,6 @@ body {
 
 #footer .container-footer .footer-options img {
     width: 75%;
-}
-
-#footer .container-footer .footer-options .options .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    align-self: stretch;
-    text-align: center;
 }
 
 #footer .container-footer .footer-options .options .navbar-nav .nav-item a {
@@ -317,10 +262,7 @@ body {
 }
 
 #footer .container-footer .footer-data {
-    display: flex;
     padding: 2.25rem 1rem;
-    flex-direction: column;
-    align-items: start;
     gap: 2.25rem;
     align-self: stretch;
     border-radius: 0.5rem;
@@ -329,10 +271,6 @@ body {
 }
 
 #footer .container-footer .footer-data .info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
     align-self: stretch;
 }
 
@@ -353,8 +291,6 @@ body {
 }
 
 #footer .container-footer .footer-data .social-data .navbar-nav {
-    display: flex;
-    flex-direction: row;
     gap: 2rem;
     align-self: stretch;
 }
@@ -379,7 +315,7 @@ body {
     }
 
     #footer .container-footer .footer-options img {
-        width: 35%;
+        width: 50%;
     }
 }
 
@@ -389,16 +325,8 @@ body {
         width: 50%;
     }
 
-    #form .content-form .maps {
-        height: 35vw;
-    }
-
-    #form .content-form form {
-        padding: 1.5rem;
-    }
-
-    #form .content-form form .inputs {
-        padding: 1.5rem;
+    #footer .container-footer .footer-options img {
+        width: 35%;
     }
 }
 
@@ -441,65 +369,70 @@ body {
     }
 
     #contact-info .content-contact {
-        flex-direction: row;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     #form .content-form form {
         padding: 3.75rem 3rem;
     }
 
-    #footer .container-footer {
-        flex-direction: row;
-    }
-
-    #footer .container-footer .footer-options {
-        justify-content: center;
-    }
-
     #footer .container-footer .footer-options img {
-        width: 40%;
+        width: 50%;
+    }
+
+    #footer .container-footer .footer-data {
+        width: 49.5%;
     }
 }
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
-    #form .content-form {
-        flex-direction: row;
-    }
-
     #form .content-form .maps {
         height: auto;
         align-self: stretch;
     }
 
-    #form .content-form {
-        height: 100%;
-    }
-
-    #footer .container-footer {
-        justify-content: space-between;
-    }
-
-    #footer .container-footer .footer-options {
-        width: 100%;
-        padding: 3.75rem;
-    }
-
+    #footer .container-footer .footer-options,
     #footer .container-footer .footer-data {
-        width: 100%;
         padding: 3.75rem;
+    }
+
+    #footer .container-footer .footer-options img {
+        width: 50%;
+    }
+
+    #footer .container-footer .footer-options p {
+        text-align: start;
     }
 }
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
-    #footer .container-footer .footer-options {
-        align-items: flex-start;
-        justify-content: space-evenly;
+    #contact-info .content-contact {
+        grid-template-columns: 6fr 3fr 3fr;
     }
 
-    #footer .container-footer .footer-options .options .navbar-nav {
-        flex-direction: row;
+    #form .content-form .maps {
+        display: flex;
+        flex: 1;
+    }
+
+    #form .content-form form {
+        flex-wrap: wrap;
+        flex: 0 0 59rem;
+    }
+
+    #footer .container-footer .footer-options {
+        flex: 1;
+    }
+
+    #footer .container-footer .footer-data {
+        flex-wrap: wrap;
+        flex: 0 0 59rem;
+    }
+
+    #footer .container-footer .footer-options img {
+        width: 35%;
     }
 
     #footer .container-footer .footer-options p {
