@@ -1,0 +1,36 @@
+title: Mac Master Importadores
+description: Expertos en tornillería y soluciones industriales
+baseurl: ""
+url: "https://macmaster.co"
+lang: es
+
+# Configuración de Jekyll
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Configuración de plugins (opcional)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configuración de colecciones
+collections:
+  products:
+    output: true
+    permalink: /:collection/:name/
+
+# Configuración de datos
+data_dir: _data
+
+# Configuración de assets
+assets:
+  compress:
+    css: true
+    js: true
+
+# Configuración para ngrok (evitar página de advertencia)
+headers:
+  - scope: /
+    values:
+      ngrok-skip-browser-warning: "true" 

@@ -1,0 +1,113 @@
+category:
+  name: "Varillas y espárragos totalmente roscados"
+  slug: "varillas-y-esparragos-totalmente-roscados"
+  subtitle: "Versatilidad y resistencia para sistemas de fijación extendida."
+  description: "Las varillas y espárragos totalmente roscados son elementos esenciales en múltiples sectores industriales y de construcción. Su diseño roscado en toda la longitud permite cortes personalizados y adaptabilidad en uniones mecánicas, eléctricas y estructurales."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Varillas y espárragos roscados"
+      link: "/varillas-y-esparragos-roscados.html"
+    - name: "Varillas y espárragos totalmente roscados"
+      link: "/varillas-y-esparragos-totalmente-roscados.html"
+
+products:
+  - name: "Varillas y espárragos de acero totalmente roscados"
+    slug: "varillas-esparragos-acero-totalmente-roscados"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos de acero totalmente roscados"
+    link: "/varillas-esparragos-acero-totalmente-roscados.html"
+
+  - name: "Varillas y espárragos totalmente roscados de acero inoxidable"
+    slug: "varillas-esparragos-acero-inoxidable-totalmente-roscados"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos totalmente roscados de acero inoxidable"
+    link: "/varillas-esparragos-acero-inoxidable-totalmente-roscados.html"
+
+  - name: "Varillas y espárragos de latón totalmente roscados"
+    slug: "varillas-esparragos-laton-totalmente-roscados"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos de latón totalmente roscados"
+    link: "/varillas-esparragos-laton-totalmente-roscados.html"
+
+  - name: "Varillas y espárragos de aluminio totalmente roscados"
+    slug: "varillas-esparragos-aluminio-totalmente-roscados"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos de aluminio totalmente roscados"
+    link: "/varillas-esparragos-aluminio-totalmente-roscados.html"
+
+  - name: "Varillas y espárragos de plástico totalmente roscados"
+    slug: "varillas-esparragos-plastico-totalmente-roscados"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos de plástico totalmente roscados"
+    link: "/varillas-esparragos-plastico-totalmente-roscados.html"
+
+  - name: "Varillas y espárragos de titanio totalmente roscados"
+    slug: "varillas-esparragos-titanio-totalmente-roscados"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos de titanio totalmente roscados"
+    link: "/varillas-esparragos-titanio-totalmente-roscados.html"
+
+  - name: "Varillas y espárragos totalmente roscados con tuercas"
+    slug: "varillas-esparragos-totalmente-roscados-con-tuercas"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos totalmente roscados con tuercas"
+    link: "/varillas-esparragos-totalmente-roscados-con-tuercas.html"
+
+  - name: "Varillas y espárragos totalmente roscados para zurdos"
+    slug: "varillas-esparragos-totalmente-roscados-para-zurdos"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos totalmente roscados para zurdos"
+    link: "/varillas-esparragos-totalmente-roscados-para-zurdos.html"
+
+  - name: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada"
+    slug: "varillas-esparragos-totalmente-roscados-recubiertos-ptfe"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada"
+    link: "/varillas-esparragos-totalmente-roscados-recubiertos-ptfe.html"
+
+  - name: "Varillas y espárragos totalmente roscados Acme"
+    slug: "varillas-esparragos-totalmente-roscados-acme"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos totalmente roscados Acme"
+    link: "/varillas-esparragos-totalmente-roscados-acme.html"
+
+applications:
+  - industry: "Construcción"
+    description: "Anclaje en concreto, sistemas de suspensión, estructuras temporales."
+  - industry: "Eléctrico y HVAC"
+    description: "Montaje de bandejas portacables y ductos."
+  - industry: "Industrial"
+    description: "Fijaciones en maquinaria y soportes estructurales."
+  - industry: "Carpintería metálica"
+    description: "Conexiones y refuerzos internos."
+
+characteristics:
+  - name: "Normas"
+    description: "ASTM A307, A193, B7, entre otras (según material y grado)."
+  - name: "Materiales disponibles"
+    description: "Acero al carbono, acero inoxidable (304, 316), latón, aleaciones especiales."
+  - name: "Acabados"
+    description: "Zincado, galvanizado en caliente, negro óxido, sin recubrimiento."
+  - name: "Longitudes comunes"
+    description: "1 m, 2 m, 3 m; también disponibles en cortes personalizados."
+  - name: "Roscas"
+    description: "Métrica o UNC/UNF, paso estándar o fino."
+
+specifications:
+  - name: "Diámetros disponibles"
+    description: "Desde 1/4\" hasta 1-1/2\" (o M6 a M36)"
+  - name: "Longitud"
+    description: "De 1 pie a 12 pies (o 300 mm a 3,000 mm)"
+  - name: "Tipo de rosca"
+    description: "Completa, métrica o estándar (UNC/UNF)"
+  - name: "Grados de resistencia"
+    description: "ASTM A307, A193 B7, A320, etc."
+  - name: "Material"
+    description: "Acero al carbono, acero inoxidable, latón"
+
+documentation:
+  - title: "ASTM A193 B7 Specification"
+    link: "https://www.grainger.com/" 

@@ -1,0 +1,83 @@
+category:
+  name: "Tornillos para taladrar y roscar"
+  slug: "tornillos-para-taladrar-y-roscar"
+  subtitle: "Fijación rápida y eficiente sin necesidad de perforado previo."
+  description: "Los tornillos autoperforantes y autorroscantes están diseñados para perforar y roscar el material al mismo tiempo, eliminando la necesidad de taladrado y roscado por separado. Ideales para aplicaciones de montaje rápido y ahorro de tiempo en diversos entornos industriales."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/pernos-y-tornillos.html"
+    - name: "Tornillos para taladrar y roscar"
+      link: "/tornillos-para-taladrar-y-roscar.html"
+
+products:
+  - name: "Tornillos autoperforantes para unión de metal con metal"
+    slug: "tornillos-autoperforantes-metal-metal"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/03.tornillo para taladrar y roscar/Tornillos_autoperforantes_para_unión_de_metal_con_metal.png"
+    alt: "Tornillos autoperforantes para unión de metal con metal"
+    link: "/tornillos-autoperforantes-metal-metal.html"
+
+  - name: "Tornillos autoperforantes de sellado para unión de metal con metal"
+    slug: "tornillos-autoperforantes-sellado-metal-metal"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/03.tornillo para taladrar y roscar/Tornillos_autoperforantes_de_sellado_para_unión_de_metal_con_metal.png"
+    alt: "Tornillos autoperforantes de sellado para unión de metal con metal"
+    link: "/tornillos-autoperforantes-sellado-metal-metal.html"
+
+  - name: "Tornillos autoperforantes para unión de madera y metal"
+    slug: "tornillos-autoperforantes-madera-metal"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/03.tornillo para taladrar y roscar/Tornillos_autoperforantes_para_unión_de_madera_metal.png"
+    alt: "Tornillos autoperforantes para unión de madera y metal"
+    link: "/tornillos-autoperforantes-madera-metal.html"
+
+  - name: "Tornillos autoperforantes de sellado para unión de madera y metal"
+    slug: "tornillos-autoperforantes-sellado-madera-metal"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/03.tornillo para taladrar y roscar/Tornillos_autoperforantes_de_sellado_para_unión_de_madera_metal.png"
+    alt: "Tornillos autoperforantes de sellado para unión de madera y metal"
+    link: "/tornillos-autoperforantes-sellado-madera-metal.html"
+
+  - name: "Surtidos de tornillos autoperforantes"
+    slug: "surtidos-tornillos-autoperforantes"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/03.tornillo para taladrar y roscar/Surtidos_de_tornillos_utoperforantes.png"
+    alt: "Surtidos de tornillos autoperforantes"
+    link: "/surtidos-tornillos-autoperforantes.html"
+
+applications:
+  - industry: "Construcción metálica ligera"
+    description: "Fijación de paneles, techos y estructuras."
+  - industry: "HVAC"
+    description: "Montaje de ductos y sistemas de ventilación."
+  - industry: "Carpintería y estructuras de madera"
+    description: "Instalación de bisagras, soportes y refuerzos."
+  - industry: "Industria automotriz y electrodomésticos"
+    description: "Fijación de paneles y componentes internos."
+
+characteristics:
+  - name: "Normas"
+    description: "Cumplen con estándares como ASTM C1513 (autoperforantes para drywall), ASME B18.6.4."
+  - name: "Materiales disponibles"
+    description: "Acero al carbono, acero inoxidable, acero endurecido."
+  - name: "Acabados"
+    description: "Zincado, fosfatado, galvanizado, revestimiento cerámico."
+  - name: "Resistencia a la tracción"
+    description: "Varía según el tipo de material; pueden soportar aplicaciones exigentes."
+  - name: "Roscas"
+    description: "Autoformantes o autorroscantes, disponibles en métrico y pulgadas."
+
+specifications:
+  - name: "Diámetros disponibles"
+    description: "Desde #4 hasta 1/4\" (o M3 a M6)"
+  - name: "Longitudes"
+    description: "De 3/8\" hasta 3\" (o 10 mm a 75 mm)"
+  - name: "Tipo de cabeza"
+    description: "Plana, avellanada, hexagonal, redonda"
+  - name: "Estilo de rosca"
+    description: "Autoformante o autorroscante"
+  - name: "Punta"
+    description: "Punta de broca (autoperforante) o tipo AB (autorroscante)"
+
+documentation:
+  - title: "ASME B18.6.4 – Drilling & Tapping Screws"
+    link: "https://www.grainger.com/category/fasteners/bolts-screws/drilling-tapping-screws" 

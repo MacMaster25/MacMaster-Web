@@ -1,0 +1,95 @@
+category:
+  name: "Tuercas de seguridad"
+  slug: "tuercas-de-seguridad"
+  subtitle: "Fijación segura que resiste vibraciones y aflojamientos involuntarios."
+  description: "Las tuercas de seguridad están diseñadas para mantener la unión firme incluso bajo condiciones de vibración, movimiento o cargas dinámicas. A diferencia de las tuercas estándar, integran elementos que aumentan la fricción o el bloqueo, previniendo que se aflojen con el uso."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Tuercas"
+      link: "/tuercas.html"
+    - name: "Tuercas de seguridad"
+      link: "/tuercas-de-seguridad.html"
+
+products:
+  - name: "Tuercas de seguridad dentadas"
+    slug: "tuercas-seguridad-dentadas"
+    image: "Assets/04-categories/01.tonillería/02.tuercas/02.tuercas de seguridad/Tuercas_de_seguridad_dentadas.png"
+    alt: "Tuercas de seguridad dentadas"
+    link: "/tuercas-seguridad-dentadas.html"
+
+  - name: "Tuercas de seguridad con arandelas"
+    slug: "tuercas-seguridad-arandelas"
+    image: "Assets/04-categories/01.tonillería/02.tuercas/02.tuercas de seguridad/Tuercas_de_seguridad_con_arandelas.png"
+    alt: "Tuercas de seguridad con arandelas"
+    link: "/tuercas-seguridad-arandelas.html"
+
+  - name: "Tuercas de seguridad autorroscantes"
+    slug: "tuercas-seguridad-autorroscantes"
+    image: "Assets/04-categories/01.tonillería/02.tuercas/02.tuercas de seguridad/Tuercas_de_seguridad_autorroscantes.png"
+    alt: "Tuercas de seguridad autorroscantes"
+    link: "/tuercas-seguridad-autorroscantes.html"
+
+  - name: "Tuercas de seguridad con inserción de nailon"
+    slug: "tuercas-seguridad-insercion-nailon"
+    image: "Assets/04-categories/01.tonillería/02.tuercas/02.tuercas de seguridad/Tuercas_de_seguridad_con_inserción_de_nailon.png"
+    alt: "Tuercas de seguridad con inserción de nailon"
+    link: "/tuercas-seguridad-insercion-nailon.html"
+
+  - name: "Tuercas de seguridad con rosca deformada"
+    slug: "tuercas-seguridad-rosca-deformada"
+    image: "Assets/04-categories/01.tonillería/02.tuercas/02.tuercas de seguridad/Tuercas_de_seguridad_con_rosca_deformada.png"
+    alt: "Tuercas de seguridad con rosca deformada"
+    link: "/tuercas-seguridad-rosca-deformada.html"
+
+  - name: "Tuercas de seguridad superiores flexibles"
+    slug: "tuercas-seguridad-superiores-flexibles"
+    image: "Assets/04-categories/01.tonillería/02.tuercas/02.tuercas de seguridad/Tuercas_de_seguridad_superiores_flexibles.png"
+    alt: "Tuercas de seguridad superiores flexibles"
+    link: "/tuercas-seguridad-superiores-flexibles.html"
+
+  - name: "Tuercas ranuradas y almenadas"
+    slug: "tuercas-ranuradas-almenadas"
+    image: "Assets/04-categories/01.tonillería/02.tuercas/02.tuercas de seguridad/Tuercas_ranuradas_y_almenadas.png"
+    alt: "Tuercas ranuradas y almenadas"
+    link: "/tuercas-ranuradas-almenadas.html"
+
+applications:
+  - industry: "Maquinaria pesada"
+    description: "Donde hay exposición constante a vibraciones."
+  - industry: "Industria automotriz"
+    description: "Sujeción de componentes críticos como suspensión y chasis."
+  - industry: "Aeronáutica"
+    description: "Fijaciones sujetas a cargas dinámicas y movimiento constante."
+  - industry: "Equipos eléctricos e industriales"
+    description: "Uniones que requieren alta seguridad."
+
+characteristics:
+  - name: "Normas"
+    description: "SAE J995, ASTM A194, ASME B18.16.6."
+  - name: "Materiales disponibles"
+    description: "Acero al carbono, acero inoxidable (304, 316), aleaciones especiales."
+  - name: "Acabados"
+    description: "Zincado, galvanizado, pavonado, recubrimientos con fosfato."
+  - name: "Tipos disponibles"
+    description: "Con inserto de nylon (nyloc), de par deformado, con reborde (flange), ciegas, entre otras."
+  - name: "Mecanismo de bloqueo"
+    description: "Fricción mecánica, inserto no metálico, diseño autoajustable."
+
+specifications:
+  - name: "Diámetros disponibles"
+    description: "Desde #6 hasta 1 1/2\" (o M4 a M36)"
+  - name: "Altura (espesor)"
+    description: "Variable según tipo (baja, estándar, alta)"
+  - name: "Formas"
+    description: "Hexagonal, con brida, redonda (en algunos modelos)"
+  - name: "Tipos"
+    description: "Nylon, deformadas, de par, con reborde, ciegas"
+  - name: "Grados de resistencia"
+    description: "Grado 5, 8; clases métricas 8, 10, 12"
+
+documentation:
+  - title: "ASME B18.16.6 Prevailing Torque Nuts"
+    link: "https://www.grainger.com/category/fasteners/nuts/lock-nuts" 

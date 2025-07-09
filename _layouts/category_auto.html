@@ -1,0 +1,133 @@
+---
+layout: default
+---
+
+{% assign data = site.data[page.category_file] %}
+<section id="products">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-produts col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
+        <div class="title-description">
+          <h1>{{ data.category.name }}</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              {% for item in data.category.breadcrumb %}
+              <li
+                class="breadcrumb-item {% if forloop.last %}active{% endif %}"
+                {%
+                if
+                forloop.last
+                %}aria-current="page"
+                {%
+                endif
+                %}
+              >
+                {% if forloop.last %} {{ item.name }} {% else %}
+                <a href="{{ item.link }}">{{ item.name }}</a>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ol>
+          </nav>
+        </div>
+        <h2>{{ data.category.subtitle }}</h2>
+        <p>{{ data.category.description }}</p>
+        <div class="grid-products col-md-12">
+          <h3>Clase del material</h3>
+          <div class="content-card">
+            <div class="first-row-card col-12">
+              {% if data.products %} {% for product in data.products limit:6 %}
+              <div class="card col-lg-2">
+                <img src="{{ product.image }}" alt="{{ product.alt }}" />
+                <h4>{{ product.name }}</h4>
+              </div>
+              {% endfor %} {% elsif data.subcategories %} {% for subcat in
+              data.subcategories %}
+              <div class="card col-lg-2">
+                <img src="{{ subcat.image }}" alt="{{ subcat.alt }}" />
+                <h4>{{ subcat.name }}</h4>
+              </div>
+              {% endfor %} {% endif %}
+            </div>
+            <div class="second-row-card col-12">
+              {% for product in data.products offset:6 limit:6 %}
+              <div class="card col-lg-2">
+                <img src="{{ product.image }}" alt="{{ product.alt }}" />
+                <h4>{{ product.name }}</h4>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="specs col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
+        <h2>Aplicaciones Comunes</h2>
+        <div class="container-specs col-sm-12">
+          <table class="col-sm-12">
+            <tbody>
+              {% for application in data.applications %}
+              <tr>
+                <th class="col-md-6 col-xl-5" scope="row">
+                  {{ application.industry }}:
+                </th>
+                <td class="col-md-6 col-xl-7">{{ application.description }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="specs col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
+        <h2>Características Técnicas</h2>
+        <div class="container-specs col-sm-12">
+          <table class="col-sm-12">
+            <tbody>
+              {% for characteristic in data.characteristics %}
+              <tr>
+                <th class="col-md-6 col-xl-5" scope="row">
+                  {{ characteristic.name }}:
+                </th>
+                <td class="col-md-6 col-xl-7">
+                  {{ characteristic.description }}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="specs col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
+        <h2>Especificaciones Generales</h2>
+        <div class="container-specs col-sm-12">
+          <table class="col-sm-12">
+            <tbody>
+              {% for spec in data.specifications %}
+              <tr>
+                <th class="col-md-6 col-xl-5" scope="row">{{ spec.name }}:</th>
+                <td class="col-md-6 col-xl-7">{{ spec.description }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="documentary col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
+        <div class="title-description">
+          <h2>Documentación Técnica</h2>
+          <p>
+            Para más detalles sobre especificaciones y aplicaciones, puedes
+            consultar las siguientes fuentes:
+          </p>
+        </div>
+        <ul>
+          {% for doc in data.documentation %}
+          <li>
+            <a href="{{ doc.link }}" target="_blank">{{ doc.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% include gallery.html %}

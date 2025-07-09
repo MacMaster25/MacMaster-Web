@@ -1,0 +1,41 @@
+category:
+  name: "Tuercas"
+  slug: "tuercas"
+  subtitle: "Amplia variedad de tuercas para diferentes aplicaciones industriales. Desde tuercas hexagonales estándar hasta tuercas de seguridad especializadas, ofrecemos soluciones de fijación confiables y duraderas."
+  description: "Elementos esenciales de fijación que aseguran uniones firmes al complementar tornillos y pernos. Disponibles en distintos formatos, materiales y recubrimientos para aplicaciones industriales, mecánicas y estructurales."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Tuercas"
+      link: "/tuercas.html"
+
+subcategories:
+  - name: "Tuercas hexagonales"
+    slug: "tuercas-hexagonales"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/02.tuercas/Tuercas-hexagonales.png"
+    alt: "Tuercas hexagonales"
+    link: "/tuercas-hexagonales.html"
+    description: "Tuercas hexagonales estándar para aplicaciones generales"
+
+  - name: "Tuercas de seguridad"
+    slug: "tuercas-de-seguridad"
+    image: "/Assets/03.products/01.tornillos/Tuercas.png"
+    alt: "Tuercas de seguridad"
+    link: "/tuercas-de-seguridad.html"
+    description: "Tuercas con mecanismos de bloqueo para prevenir el aflojamiento"
+
+  - name: "Tuercas de acoplamiento"
+    slug: "tuercas-de-acoplamiento"
+    image: "/Assets/03.products/01.tornillos/Tuercas.png"
+    alt: "Tuercas de acoplamiento"
+    link: "/tuercas-de-acoplamiento.html"
+    description: "Tuercas especializadas para conexiones de tuberías y conductos"
+
+  - name: "Tuercas de ojo"
+    slug: "tuercas-de-ojo"
+    image: "/Assets/03.products/01.tornillos/Tuercas.png"
+    alt: "Tuercas de ojo"
+    link: "/tuercas-de-ojo.html"
+    description: "Tuercas con ojo para aplicaciones de izaje y suspensión" 

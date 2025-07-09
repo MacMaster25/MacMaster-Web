@@ -1,0 +1,75 @@
+- name: Tornillería Industrial
+  slug: tornilleria-industrial
+  description: Amplia gama de tornillos, tuercas y fijaciones para múltiples usos.
+  image: /Assets/03.products/01.tornillos/Pernos-Tornillos.png
+  link: /tornilleria-industrial.html
+  subcategories:
+    - name: Pernos y Tornillos
+      slug: pernos-y-tornillos
+      image: /Assets/03.products/01.tornillos/Pernos-Tornillos.png
+      link: /pernos-y-tornillos.html
+    - name: Tuercas
+      slug: tuercas
+      image: /Assets/03.products/01.tornillos/Tuercas.png
+      link: /tuercas.html
+    - name: Arandelas
+      slug: arandelas
+      image: /Assets/03.products/01.tornillos/Arandelas.png
+      link: /arandelas.html
+    - name: Varillas y espárragos roscados
+      slug: varillas-y-esparragos-roscados
+      image: /Assets/03.products/01.tornillos/Varillas-espárragos-roscados.png
+      link: /varillas-y-esparragos-roscados.html
+
+- name: Abrasivos
+  slug: abrasivos
+  description: Discos, lijas y herramientas abrasivas para un acabado perfecto.
+  image: /Assets/03.products/02.abrasivos/Abrasivos-para-lijado.png
+  link: /abrasivos.html
+  subcategories:
+    - name: Abrasivos para lijado
+      slug: abrasivos-para-lijado
+      image: /Assets/03.products/02.abrasivos/Abrasivos-para-lijado.png
+      link: /abrasivos-para-lijado.html
+    - name: Abrasivos de corte y desbaste
+      slug: abrasivos-de-corte-y-desbaste
+      image: /Assets/03.products/02.abrasivos/Abrasivos-de-corte-desbaste.png
+      link: /abrasivos-de-corte-y-desbaste.html
+    - name: Cepillos abrasivos
+      slug: cepillos-abrasivos
+      image: /Assets/03.products/02.abrasivos/Cepillos-abrasivos.png
+      link: /cepillos-abrasivos.html
+
+- name: Adhesivos y sellantes
+  slug: adhesivos-y-sellantes
+  description: Soluciones de pegado y sellado industrial para todo tipo de superficies.
+  image: /Assets/03.products/03.adhesivos/Masillas-selladores.png
+  link: /adhesivos-y-sellantes.html
+  subcategories:
+    - name: Masillas, selladores y fabricantes de juntas
+      slug: masillas-selladores-y-fabricantes-de-juntas
+      image: /Assets/03.products/03.adhesivos/Masillas-selladores.png
+      link: /masillas-selladores-y-fabricantes-de-juntas.html
+    - name: Fijadores de roscas y compuestos de retención
+      slug: fijadores-de-roscas-y-compuestos-de-retencion
+      image: /Assets/03.products/03.adhesivos/Fijadores-de-roscas.png
+      link: /fijadores-de-roscas-y-compuestos-de-retencion.html
+    - name: Cinta
+      slug: cinta
+      image: /Assets/03.products/03.adhesivos/Cinta.png
+      link: /cinta.html
+
+- name: Resina y fibra de vidrio
+  slug: resina-y-fibra-de-vidrio
+  description: Materiales resistentes y duraderos para reparaciones estructurales.
+  image: /Assets/03.products/04.resina/Resina.png
+  link: /resina-y-fibra-de-vidrio.html
+  subcategories:
+    - name: Resina
+      slug: resina
+      image: /Assets/03.products/04.resina/Resina.png
+      link: /resina.html
+    - name: Compuestos de fibra de vidrio
+      slug: compuestos-de-fibra-de-vidrio
+      image: /Assets/03.products/04.resina/Compuestos-fibra-de-vidrio.png
+      link: /compuestos-de-fibra-de-vidrio.html 

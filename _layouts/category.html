@@ -1,0 +1,113 @@
+---
+layout: default
+---
+
+{% assign data = site.data[page.category_file] %}
+
+<!-- products -->
+<section id="products">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-produts col-lg-10 offset-lg-1">
+        <div class="title-description">
+          <h1>{{ data.category.name }}</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              {% for item in data.category.breadcrumb %}
+              <li
+                class="breadcrumb-item {% if forloop.last %}active{% endif %}"
+                {%
+                if
+                forloop.last
+                %}aria-current="page"
+                {%
+                endif
+                %}
+              >
+                {% if forloop.last %} {{ item.name }} {% else %}
+                <a href="{{ item.link }}">{{ item.name }}</a>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ol>
+          </nav>
+        </div>
+        <p>{{ data.category.description }}</p>
+
+        <div class="grid-products col-xxl-12">
+          <div class="product-card tornilleria">
+            <div class="content-card grid-4 col-12">
+              {% for subcategory in data.subcategories limit:4 %}
+              <div class="card col-xxl-3">
+                <a href="{{ subcategory.link }}">
+                  <img
+                    src="{{ subcategory.image }}"
+                    alt="{{ subcategory.alt }}"
+                  />
+                  <h4 id="{{ subcategory.slug }}">{{ subcategory.name }}</h4>
+                </a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          {% if data.subcategories.size > 4 %}
+          <div class="product-card">
+            <div class="content-card grid-3 col-12 col-md-9">
+              {% for subcategory in data.subcategories offset:4 limit:3 %}
+              <div class="card col-sm-4">
+                <a href="{{ subcategory.link }}">
+                  <img
+                    src="{{ subcategory.image }}"
+                    alt="{{ subcategory.alt }}"
+                  />
+                  <h4 id="{{ subcategory.slug }}">{{ subcategory.name }}</h4>
+                </a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gallery -->
+<section id="gallery">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container-gallery">
+        <div class="banner-cta">
+          <div class="title-description col-md-8 col-xl-6">
+            <h2>¿Listo para cotizar sin compromiso?</h2>
+            <p class="col-xl-10">
+              En Mac Master Importadores estamos para ayudarte a encontrar justo
+              lo que tu negocio necesita. Escribinos y recibí asesoría
+              personalizada en minutos.
+            </p>
+            <button type="button" class="btn">
+              <a
+                href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+                target="_blank"
+                >Habla con un asesor</a
+              >
+            </button>
+          </div>
+          <div class="data col-sm-12 col-lg-6">
+            <div class="data-image col-md-2">
+              <img
+                src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/imgs.png?raw=true"
+                alt="imagen en circulo de personas"
+              />
+            </div>
+            <p class="col-md-10">
+              Con la confianza de más de 3 millones de clientes
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,113 @@
+category:
+  name: "Pernos de cabeza redonda"
+  slug: "pernos-de-cabeza-redonda"
+  subtitle: "Fijación segura con acabado suave para estructuras y maquinaria."
+  description: "Los pernos de cabeza redonda están diseñados para aplicaciones donde se necesita una fijación sólida sin bordes expuestos. Su cabeza lisa y redondeada proporciona seguridad adicional al evitar enganches o daños a otros componentes, siendo ideales en entornos industriales y estructurales."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/pernos-y-tornillos.html"
+    - name: "Pernos de cabeza redonda"
+      link: "/pernos-de-cabeza-redonda.html"
+
+products:
+  - name: "Pernos de carruaje de cuello cuadrado de acero de grado 2"
+    slug: "pernos-carruaje-cuello-cuadrado-grado-2"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje de cuello cuadrado de acero de grado 2.png"
+    alt: "Pernos de carruaje de cuello cuadrado de acero de grado 2"
+    link: "/pernos-carruaje-cuello-cuadrado-grado-2.html"
+
+  - name: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A"
+    slug: "pernos-paso-cabeza-ancha-cuello-cuadrado-grado-a"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A.png"
+    alt: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A"
+    link: "/pernos-paso-cabeza-ancha-cuello-cuadrado-grado-a.html"
+
+  - name: "Pernos de carruaje de cuello cuadrado de acero clase 4.6"
+    slug: "pernos-carruaje-cuello-cuadrado-clase-4-6"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje de cuello cuadrado de acero clase 4.6.png"
+    alt: "Pernos de carruaje de cuello cuadrado de acero clase 4.6"
+    link: "/pernos-carruaje-cuello-cuadrado-clase-4-6.html"
+
+  - name: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2"
+    slug: "pernos-carruaje-cuello-cuadrado-inoxidable-a2"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje de cuello cuadrado de acero inoxidable A2.png"
+    alt: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2"
+    link: "/pernos-carruaje-cuello-cuadrado-inoxidable-a2.html"
+
+  - name: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8"
+    slug: "pernos-carruaje-cuello-cuadrado-inoxidable-18-8"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8.png"
+    alt: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8"
+    link: "/pernos-carruaje-cuello-cuadrado-inoxidable-18-8.html"
+
+  - name: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316"
+    slug: "pernos-carruaje-cuello-cuadrado-inoxidable-316"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje de cuello cuadrado de acero inoxidable 316.png"
+    alt: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316"
+    link: "/pernos-carruaje-cuello-cuadrado-inoxidable-316.html"
+
+  - name: "Pernos de carruaje de cuello cuadrado de acero de grado 5"
+    slug: "pernos-carruaje-cuello-cuadrado-grado-5"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje de cuello cuadrado de acero de grado 5.png"
+    alt: "Pernos de carruaje de cuello cuadrado de acero de grado 5"
+    link: "/pernos-carruaje-cuello-cuadrado-grado-5.html"
+
+  - name: "Pernos de carruaje con cuello acanalado de acero de grado 5"
+    slug: "pernos-carruaje-cuello-acanalado-grado-5"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje con cuello acanalado de acero de grado 5.png"
+    alt: "Pernos de carruaje con cuello acanalado de acero de grado 5"
+    link: "/pernos-carruaje-cuello-acanalado-grado-5.html"
+
+  - name: "Pernos de carruaje de cuello cuadrado de acero de grado 8"
+    slug: "pernos-carruaje-cuello-cuadrado-grado-8"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Pernos de carruaje de cuello cuadrado de acero de grado 8.png"
+    alt: "Pernos de carruaje de cuello cuadrado de acero de grado 8"
+    link: "/pernos-carruaje-cuello-cuadrado-grado-8.html"
+
+  - name: "Surtidos de pernos de carruaje"
+    slug: "surtidos-pernos-carruaje"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/07.pernos de cabeza redonda/Surtidos de tornillos para máquinas.png"
+    alt: "Surtidos de pernos de carruaje"
+    link: "/surtidos-pernos-carruaje.html"
+
+applications:
+  - industry: "Construcción"
+    description: "Fijación de estructuras metálicas y de madera."
+  - industry: "Equipos industriales"
+    description: "Montaje de componentes mecánicos."
+  - industry: "Mobiliario urbano"
+    description: "Ensamblaje de bancos, barandas y señalización."
+  - industry: "Transporte"
+    description: "Sujeción de elementos en vagones, trailers o maquinaria pesada."
+
+characteristics:
+  - name: "Normas"
+    description: "ASTM A307, ASME B18.5."
+  - name: "Materiales disponibles"
+    description: "Acero al carbono, acero inoxidable (304, 316)."
+  - name: "Acabados"
+    description: "Galvanizado en caliente, zincado, recubrimiento fosfatado."
+  - name: "Tipos de cuello"
+    description: "Cuello cuadrado (tipo carro), cuello liso."
+  - name: "Roscas"
+    description: "Parciales o completas; disponibles en UNC o métricas."
+
+specifications:
+  - name: "Diámetros disponibles"
+    description: "Desde 1/4\" hasta 1\" (o M6 a M24)"
+  - name: "Longitudes"
+    description: "De 1/2\" hasta 6\" (o 12 mm a 150 mm)"
+  - name: "Tipo de cabeza"
+    description: "Redonda, estilo domo"
+  - name: "Cuello"
+    description: "Cuadrado o liso, según aplicación"
+  - name: "Grados de resistencia"
+    description: "Grado 2, 5, 8, o equivalentes métricos"
+
+documentation:
+  - title: "Round Head Bolts"
+    link: "https://www.grainger.com/category/fasteners/bolts-screws/round-head-bolts" 

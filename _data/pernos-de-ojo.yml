@@ -1,0 +1,89 @@
+category:
+  name: "Pernos de ojo"
+  slug: "pernos-de-ojo"
+  subtitle: "Punto de anclaje seguro para levantar, sujetar o suspender cargas."
+  description: "Los pernos de ojo están diseñados con una cabeza en forma de anillo que permite conectar ganchos, cables, cuerdas o cadenas. Son ideales para aplicaciones donde se requiere una fijación con capacidad de carga, manteniendo la seguridad y estabilidad del sistema."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/pernos-y-tornillos.html"
+    - name: "Pernos de ojo"
+      link: "/pernos-de-ojo.html"
+
+products:
+  - name: "Pernos de ojo para maquinaria con hombro"
+    slug: "pernos-ojo-maquinaria-hombro"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/05.pernos de ojo/Pernos_de_ojo_para_maquinaria_con_hombro.png"
+    alt: "Pernos de ojo para maquinaria con hombro"
+    link: "/pernos-ojo-maquinaria-hombro.html"
+
+  - name: "Pernos de ojo para maquinaria con hombro en blanco"
+    slug: "pernos-ojo-maquinaria-hombro-blanco"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/05.pernos de ojo/Pernos_de_ojo_para_maquinaria_con_hombro_en_blanco.png"
+    alt: "Pernos de ojo para maquinaria con hombro en blanco"
+    link: "/pernos-ojo-maquinaria-hombro-blanco.html"
+
+  - name: "Pernos de ojo para maquinaria sin hombro"
+    slug: "pernos-ojo-maquinaria-sin-hombro"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/05.pernos de ojo/Pernos_de_ojo_para_maquinaria_sin_hombro.png"
+    alt: "Pernos de ojo para maquinaria sin hombro"
+    link: "/pernos-ojo-maquinaria-sin-hombro.html"
+
+  - name: "Pernos de ojo para maquinaria en blanco sin hombro"
+    slug: "pernos-ojo-maquinaria-blanco-sin-hombro"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/05.pernos de ojo/Pernos_de_ojo_para_maquinaria_en_blanco_sin_hombro.png"
+    alt: "Pernos de ojo para maquinaria en blanco sin hombro"
+    link: "/pernos-ojo-maquinaria-blanco-sin-hombro.html"
+
+  - name: "Enrutamiento de pernos de ojo"
+    slug: "enrutamiento-pernos-ojo"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/05.pernos de ojo/Enrutamiento_de_pernos_de_ojo.png"
+    alt: "Enrutamiento de pernos de ojo"
+    link: "/enrutamiento-pernos-ojo.html"
+
+  - name: "Tornillo de madera con ojo"
+    slug: "tornillo-madera-ojo"
+    image: "Assets/04-categories/01.tonillería/01.pernos y tornillos/05.pernos de ojo/Tornillo_de_madera_con_ojo.png"
+    alt: "Tornillo de madera con ojo"
+    link: "/tornillo-madera-ojo.html"
+
+applications:
+  - industry: "Levantamiento de cargas"
+    description: "Sistemas de izaje en plantas industriales."
+  - industry: "Construcción"
+    description: "Anclaje en estructuras temporales o permanentes."
+  - industry: "Transporte"
+    description: "Sujeción de equipos o materiales pesados."
+  - industry: "Marina"
+    description: "Fijación de cabos y aparejos en embarcaciones."
+
+characteristics:
+  - name: "Normas"
+    description: "Cumplen con estándares como ASME B18.15, ASTM A489 (según tipo)."
+  - name: "Materiales disponibles"
+    description: "Acero forjado, acero inoxidable, acero galvanizado."
+  - name: "Acabados"
+    description: "Galvanizado en caliente, zincado, sin recubrimiento."
+  - name: "Capacidad de carga"
+    description: "Varía según el tamaño y el tipo; puede superar los 5,000 lb en modelos forjados."
+  - name: "Tipos de rosca"
+    description: "UNC (gruesa), rosca métrica."
+
+specifications:
+  - name: "Diámetros disponibles"
+    description: "Desde 1/4\" hasta 1\" (o M6 a M24)"
+  - name: "Longitudes"
+    description: "De 1\" hasta 12\" (o 25 mm a 300 mm)"
+  - name: "Tipo de ojo"
+    description: "Abierto o cerrado (soldado o forjado)"
+  - name: "Estilo de rosca"
+    description: "Parcial o completa"
+  - name: "Tipos"
+    description: "De hombro, sin hombro, giratorios"
+
+documentation:
+  - title: "Eye Bolts, Drop-Forged Steel"
+    link: "https://www.grainger.com/category/fasteners/bolts-screws/eye-bolts" 

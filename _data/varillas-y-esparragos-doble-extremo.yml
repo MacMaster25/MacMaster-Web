@@ -1,0 +1,89 @@
+category:
+  name: "Varillas y espárragos roscados de doble extremo"
+  slug: "varillas-y-esparragos-doble-extremo"
+  subtitle: "Soluciones versátiles para ensamblajes precisos y desmontables."
+  description: "Los espárragos roscados de doble extremo están diseñados para ofrecer una sujeción firme en aplicaciones donde se requiere una conexión desmontable por ambos extremos. Son ideales para unir componentes mediante tuercas en ambas puntas, permitiendo un montaje y desmontaje eficiente."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Varillas y espárragos roscados"
+      link: "/varillas-y-esparragos-roscados.html"
+    - name: "Varillas y espárragos roscados de doble extremo"
+      link: "/varillas-y-esparragos-doble-extremo.html"
+
+products:
+  - name: "Varillas y espárragos roscados de acero de doble extremo"
+    slug: "varillas-esparragos-roscados-acero-doble-extremo"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_roscados_de_doble_extremo.png"
+    alt: "Varillas y espárragos roscados de acero de doble extremo"
+    link: "/varillas-esparragos-roscados-acero-doble-extremo.html"
+
+  - name: "Varillas y espárragos roscados de doble extremo de acero inoxidable"
+    slug: "varillas-esparragos-roscados-doble-extremo-acero-inoxidable"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_roscados_de_doble_extremo.png"
+    alt: "Varillas y espárragos roscados de doble extremo de acero inoxidable"
+    link: "/varillas-esparragos-roscados-doble-extremo-acero-inoxidable.html"
+
+  - name: "Varillas y espárragos roscados de aluminio de doble extremo"
+    slug: "varillas-esparragos-roscados-aluminio-doble-extremo"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_roscados_de_doble_extremo.png"
+    alt: "Varillas y espárragos roscados de aluminio de doble extremo"
+    link: "/varillas-esparragos-roscados-aluminio-doble-extremo.html"
+
+  - name: "Varillas y espárragos roscados de doble extremo con planos para llave"
+    slug: "varillas-esparragos-roscados-doble-extremo-planos-llave"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_roscados_de_doble_extremo.png"
+    alt: "Varillas y espárragos roscados de doble extremo con planos para llave"
+    link: "/varillas-esparragos-roscados-doble-extremo-planos-llave.html"
+
+  - name: "Varillas y espárragos de doble extremo con rosca interna"
+    slug: "varillas-esparragos-doble-extremo-rosca-interna"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_roscados_de_doble_extremo.png"
+    alt: "Varillas y espárragos de doble extremo con rosca interna"
+    link: "/varillas-esparragos-doble-extremo-rosca-interna.html"
+
+  - name: "Varillas y espárragos de doble extremo con rosca opuesta"
+    slug: "varillas-esparragos-doble-extremo-rosca-opuesta"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_roscados_de_doble_extremo.png"
+    alt: "Varillas y espárragos de doble extremo con rosca opuesta"
+    link: "/varillas-esparragos-doble-extremo-rosca-opuesta.html"
+
+applications:
+  - industry: "Maquinaria pesada"
+    description: "Montaje de motores y piezas estructurales."
+  - industry: "Sistemas de tuberías"
+    description: "Conexión de bridas y válvulas."
+  - industry: "Automoción y transporte"
+    description: "Fijación de componentes mecánicos."
+  - industry: "Construcción industrial"
+    description: "Estructuras metálicas y ensamblajes temporales."
+
+characteristics:
+  - name: "Función principal"
+    description: "Proporcionar conexiones desmontables por ambos extremos."
+  - name: "Tipos disponibles"
+    description: "Doble extremo, con planos para llave, rosca interna, rosca opuesta."
+  - name: "Materiales"
+    description: "Acero al carbono, acero inoxidable, aluminio, aleaciones especiales."
+  - name: "Acabados"
+    description: "Zincado, galvanizado en caliente, pavonado."
+  - name: "Normas"
+    description: "Normas aplicables según material y aplicación."
+
+specifications:
+  - name: "Diámetros disponibles"
+    description: "Desde 1/4\" hasta 1\" (o M6 a M24)"
+  - name: "Longitudes"
+    description: "Variadas según la aplicación"
+  - name: "Tipo de extremos"
+    description: "Roscados en ambas puntas"
+  - name: "Estilo de rosca"
+    description: "Completa en cada extremo"
+  - name: "Usos recomendados"
+    description: "Uniones desmontables con tuercas"
+
+documentation:
+  - title: "Threaded Rods and Studs Technical Specs"
+    link: "https://www.grainger.com/" 

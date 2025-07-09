@@ -1,0 +1,29 @@
+category:
+  name: "Varillas y espárragos roscados"
+  slug: "varillas-y-esparragos-roscados"
+  subtitle: "Piezas planas que distribuyen la carga del tornillo o perno, previniendo daños en las superficies y aumentando la estabilidad del ensamble."
+  description: "Ideales para usos industriales, eléctricos y automotrices. Las varillas y espárragos roscados son elementos esenciales en múltiples sectores industriales y de construcción, permitiendo cortes personalizados y adaptabilidad en uniones mecánicas."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Varillas y espárragos roscados"
+      link: "/varillas-y-esparragos-roscados.html"
+
+subcategories:
+  - name: "Varillas y espárragos totalmente roscados"
+    slug: "varillas-y-esparragos-totalmente-roscados"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
+    alt: "Varillas y espárragos totalmente roscados"
+    link: "/varillas-y-esparragos-totalmente-roscados.html"
+    description: "Versatilidad y resistencia para sistemas de fijación extendida."
+
+  - name: "Varillas y espárragos roscados de doble extremo"
+    slug: "varillas-y-esparragos-doble-extremo"
+    image: "Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_roscados_de_doble_extremo.png"
+    alt: "Varillas y espárragos roscados de doble extremo"
+    link: "/varillas-y-esparragos-doble-extremo.html"
+    description: "Soluciones versátiles para ensamblajes precisos y desmontables."
+
+ 
