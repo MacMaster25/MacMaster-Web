@@ -1,7 +1,7 @@
 - name: Tornillería Industrial
   slug: tornilleria-industrial
   description: Amplia gama de tornillos, tuercas y fijaciones para múltiples usos.
-  image: /Assets/03.products/01.tornillos/Pernos-Tornillos.png
+  image: Assets/03.products/01.tornillos/Pernos-Tornillos.png
   link: /tornilleria-industrial.html
   subcategories:
     - name: Pernos y Tornillos
