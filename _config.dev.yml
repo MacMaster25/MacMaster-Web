@@ -1,0 +1,14 @@
+# Configuración de desarrollo para ngrok
+include: _config.yml
+
+# Headers personalizados para evitar advertencia de ngrok
+headers:
+  - scope: /
+    values:
+      ngrok-skip-browser-warning: "true"
+      X-Frame-Options: "SAMEORIGIN"
+      X-Content-Type-Options: "nosniff"
+
+# Configuración específica para desarrollo
+url: "https://9bb1-186-27-200-164.ngrok-free.app"
+baseurl: "" 
