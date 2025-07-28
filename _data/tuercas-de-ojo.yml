@@ -9,20 +9,20 @@ category:
     - name: "Productos"
       link: "/products.html"
     - name: "Tuercas"
-      link: "/tuercas.html"
+      link: "/productos/tornilleria-industrial/tuercas/"
     - name: "Tuercas de ojo"
-      link: "/tuercas-de-ojo.html"
+      link: "/productos/tornilleria-industrial/tuercas/tuercas-de-ojo.html"
 
 products:
   - name: "Tuercas de ojo de acero"
     slug: "tuercas-ojo-acero"
-    image: "Assets/04-categories/01.tonillería/02.tuercas/04.tuercas de ojo/Tuercas de ojo de acero.png"
+    image: "/Assets/04-categories/01.tonillería/02.tuercas/04.tuercas de ojo/Tuercas de ojo de acero.png"
     alt: "Tuercas de ojo de acero"
     link: "/tuercas-ojo-acero.html"
 
   - name: "Tuercas de ojo de acero inoxidable"
     slug: "tuercas-ojo-acero-inoxidable"
-    image: "Assets/04-categories/01.tonillería/02.tuercas/04.tuercas de ojo/Tuercas de ojo de acero inoxidable.png"
+    image: "/Assets/04-categories/01.tonillería/02.tuercas/04.tuercas de ojo/Tuercas de ojo de acero inoxidable.png"
     alt: "Tuercas de ojo de acero inoxidable"
     link: "/tuercas-ojo-acero-inoxidable.html"
 

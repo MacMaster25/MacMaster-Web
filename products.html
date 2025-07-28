@@ -15,8 +15,12 @@ permalink: /products.html
   <div class="container-fluid">
     <div class="row">
       <div class="content-hero col-md-10 col-lg-8 offset-lg-1 col-xxl-6">
-        <h1>En Mac Master Importadores nuestra prioridad es atenderte</h1>
-        <p>Productos confiables, duraderos y técnicamente respaldados.</p>
+        <h1 class="p-0">
+          En Mac Master Importadores nuestra prioridad es atenderte
+        </h1>
+        <p class="p-0">
+          Productos confiables, duraderos y técnicamente respaldados.
+        </p>
       </div>
     </div>
   </div>
@@ -25,8 +29,12 @@ permalink: /products.html
 <section id="products">
   <div class="container-fluid">
     <div class="row">
-      <div class="content-produts col-lg-10 offset-lg-1">
-        <div class="title-description">
+      <div
+        class="content-produts d-flex flex-column align-items-start col-lg-10 offset-lg-1"
+      >
+        <div
+          class="title-description d-flex flex-column justify-content-center align-items-start gap-3 p-0"
+        >
           <h2>Categorías de productos</h2>
           <p>
             En Mac Master Importadores ofrecemos un portafolio especializado en
@@ -40,10 +48,12 @@ permalink: /products.html
           </p>
         </div>
         {% for category in site.data.products %}
-        <div class="product-card">
-          <h3>{{ category.name }}</h3>
+        <div
+          class="product-card d-flex flex-column align-items-start gap-3 p-0"
+        >
+          <h3 class="mb-0">{{ category.name }}</h3>
           <div
-            class="content-card grid-{{ category.subcategories | size }} col-12"
+            class="content-card grid-{{ category.subcategories | size }} col-xl-12"
           >
             {% for sub in category.subcategories %}
             <div class="card col-sm-4 col-xxl-3">

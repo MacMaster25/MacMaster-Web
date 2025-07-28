@@ -9,20 +9,20 @@ category:
     - name: "Productos"
       link: "/products.html"
     - name: "Arandelas"
-      link: "/arandelas.html"
+      link: "/productos/tornilleria-industrial/arandelas/"
     - name: "Arandelas estructurales"
-      link: "/arandelas-estructurales.html"
+      link: "/productos/tornilleria-industrial/arandelas/arandelas-estructurales.html"
 
 products:
   - name: "Arandelas estructurales planas"
     slug: "arandelas-estructurales-planas"
-    image: "Assets/04-categories/01.tonillería/03.arandelas/02.arandelas estructurales/Arandelas estructurales planas.png"
+    image: "/Assets/04-categories/01.tonillería/03.arandelas/02.arandelas estructurales/Arandelas estructurales planas.png"
     alt: "Arandelas estructurales planas"
     link: "/arandelas-estructurales-planas.html"
 
   - name: "Arandelas estructuras biseladas cuadradas"
     slug: "arandelas-estructurales-biseladas-cuadradas"
-    image: "Assets/04-categories/01.tonillería/03.arandelas/02.arandelas estructurales/Arandelas estructuras biseladas cuadradas.png"
+    image: "/Assets/04-categories/01.tonillería/03.arandelas/02.arandelas estructurales/Arandelas estructuras biseladas cuadradas.png"
     alt: "Arandelas estructuras biseladas cuadradas"
     link: "/arandelas-estructurales-biseladas-cuadradas.html"
 
