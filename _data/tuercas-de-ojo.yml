@@ -1,0 +1,65 @@
+category:
+  name: "Tuercas de ojo"
+  slug: "tuercas-de-ojo"
+  subtitle: "Solución segura para levantar y sujetar cargas en aplicaciones industriales."
+  description: "Las tuercas de ojo están diseñadas para proporcionar un punto de sujeción fuerte y confiable en aplicaciones de izaje o suspensión. Su forma permite el paso de ganchos, cables o cadenas, facilitando el movimiento o anclaje de equipos y estructuras."
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Tuercas"
+      link: "/productos/tornilleria-industrial/tuercas/"
+    - name: "Tuercas de ojo"
+      link: "/productos/tornilleria-industrial/tuercas/tuercas-de-ojo.html"
+
+products:
+  - name: "Tuercas de ojo de acero"
+    slug: "tuercas-ojo-acero"
+    image: "/Assets/04-categories/01.tonillería/02.tuercas/04.tuercas de ojo/Tuercas de ojo de acero.png"
+    alt: "Tuercas de ojo de acero"
+    link: "/tuercas-ojo-acero.html"
+
+  - name: "Tuercas de ojo de acero inoxidable"
+    slug: "tuercas-ojo-acero-inoxidable"
+    image: "/Assets/04-categories/01.tonillería/02.tuercas/04.tuercas de ojo/Tuercas de ojo de acero inoxidable.png"
+    alt: "Tuercas de ojo de acero inoxidable"
+    link: "/tuercas-ojo-acero-inoxidable.html"
+
+applications:
+  - industry: "Equipos de izaje y grúas"
+    description: "Fijación de cables o cadenas para levantar maquinaria o materiales."
+  - industry: "Construcción"
+    description: "Puntos de anclaje temporales o permanentes."
+  - industry: "Transporte marítimo e industrial"
+    description: "Sujeción de cargas pesadas."
+  - industry: "Industria manufacturera"
+    description: "Aplicaciones de montaje y manipulación de equipos."
+
+characteristics:
+  - name: "Normas"
+    description: "Cumplen con estándares como ASME B18.15 (en algunos modelos)."
+  - name: "Materiales disponibles"
+    description: "Acero al carbono forjado, acero inoxidable."
+  - name: "Acabados"
+    description: "Galvanizado, galvanizado en caliente, sin recubrimiento."
+  - name: "Capacidad de carga"
+    description: "Depende del tamaño y material; algunos modelos están clasificados para uso en izaje."
+  - name: "Tipo de rosca"
+    description: "UNC, métrica."
+
+specifications:
+  - name: "Diámetros de rosca"
+    description: "Desde 1/4\" hasta 1\" (o M6 a M24)"
+  - name: "Estilo del ojo"
+    description: "Ojo cerrado redondo (tipo estándar)"
+  - name: "Aplicación de izaje"
+    description: "Algunos modelos certificados"
+  - name: "Material"
+    description: "Acero forjado / inoxidable"
+  - name: "Rosca"
+    description: "Interna UNC o Métrica"
+
+documentation:
+  - title: "Eye Nuts – ASME B18.15 Standard Overview"
+    link: "https://www.grainger.com/category/fasteners/nuts/eye-nuts" 

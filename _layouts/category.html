@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+{% assign data = site.data[page.category_file] %}
+
+<!-- products -->
+<section id="products">
+  <div class="container-fluid">
+    
+      <div class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1">
+        <div class="title-description d-flex flex-column align-items-start justify-content-center gap-3 p-0">
+          <h1>{{ data.category.name }}</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              {% for item in data.category.breadcrumb %}
+              <li
+                class="breadcrumb-item {% if forloop.last %}active{% endif %}"
+                {%
+                if
+                forloop.last
+                %}aria-current="page"
+                {%
+                endif
+                %}
+              >
+                {% if forloop.last %} {{ item.name }} {% else %}
+                <a href="{{ item.link }}">{{ item.name }}</a>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ol>
+          </nav>
+        </div>
+        <p class="p-0">{{ data.category.description }}</p>
+
+        <div class="grid-products d-grid p-0">
+          
+          {% for subcategory in data.subcategories limit:4 %}
+            <div class="card">
+              
+                <a href="{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
+                  <img
+                    src="{{ subcategory.image }}"
+                    alt="{{ subcategory.alt }}"
+                  />
+                  <h4 id="{{ subcategory.slug }}">{{ subcategory.name }}</h4>
+                </a>              
+              </div>
+              {% endfor %}
+
+          {% if data.subcategories.size > 4 %}
+          {% for subcategory in data.subcategories offset:4 limit:3 %}
+          <div class="card">
+                <a href="{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
+                  <img
+                    src="{{ subcategory.image }}"
+                    alt="{{ subcategory.alt }}"
+                  />
+                  <h4 id="{{ subcategory.slug }}">{{ subcategory.name }}</h4>
+                </a>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+  </div>
+</section>
+
+{% include gallery.html %}
