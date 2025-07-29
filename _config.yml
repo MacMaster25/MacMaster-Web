@@ -29,6 +29,12 @@ assets:
     css: true
     js: true
 
+# Configuración para incluir archivos estáticos
+include:
+  - Assets
+  - style
+  - javascript
+
 # Configuración para ngrok (evitar página de advertencia)
 headers:
   - scope: /
