@@ -25,7 +25,7 @@ layout: default
                 %}
               >
                 {% if forloop.last %} {{ item.name }} {% else %}
-                <a href="{{ item.link }}">{{ item.name }}</a>
+                <a href="{{ site.baseurl }}/{{ item.link }}">{{ item.name }}</a>
                 {% endif %}
               </li>
               {% endfor %}
@@ -39,7 +39,7 @@ layout: default
           {% for subcategory in data.subcategories limit:4 %}
             <div class="card">
               
-                <a href="{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
+                <a href="{{ site.baseurl }}/{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
                   <img
                     src="{{ site.baseurl }}{{ subcategory.image }}"
                     alt="{{ subcategory.alt }}"
@@ -52,7 +52,7 @@ layout: default
           {% if data.subcategories.size > 4 %}
           {% for subcategory in data.subcategories offset:4 limit:3 %}
           <div class="card">
-                <a href="{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
+                <a href="{{ site.baseurl }}/{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
                   <img
                     src="{{ site.baseurl }}{{ subcategory.image }}"
                     alt="{{ subcategory.alt }}"
