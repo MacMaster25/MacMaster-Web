@@ -1,6 +1,8 @@
 #!/bin/bash
 
 echo "🚀 Iniciando servidor de desarrollo MacMaster-Web..."
+echo "📝 Usando configuración dual: _config.yml + _config.dev.yml"
+echo ""
 
 # Detener procesos existentes
 echo "🛑 Deteniendo procesos existentes..."

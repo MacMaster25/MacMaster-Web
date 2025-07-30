@@ -13,7 +13,7 @@ category:
 subcategories:
   - name: "Pernos de cabeza hexagonal"
     slug: "pernos-de-cabeza-hexagonal"
-    image: "https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/04-categories/01.toniller%C3%ADa/02.subcategorias/01.%20Tornilleria/Pernos_de_cabeza_hexagonal.png?raw=true"
+    image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Pernos_de_cabeza_hexagonal.png"
     alt: "Pernos de cabeza hexagonal"
     link: "/productos/tornilleria-industrial/pernos-y-tornillos/pernos-de-cabeza-hexagonal.html"
     description: "Pernos de alta resistencia con cabeza hexagonal para aplicaciones industriales"

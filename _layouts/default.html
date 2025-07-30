@@ -39,10 +39,10 @@
     <main>{{ content }}</main>
 
     <!-- Footer -->
-    {% include footer.html %}
+    {% unless page.hide_footer %} {% include footer.html %} {% endunless %}
 
     <!-- FAB -->
-    {% include fab.html %}
+    {% unless page.hide_fab %} {% include fab.html %} {% endunless %}
 
     <!-- Bootstrap JS -->
     <script
