@@ -421,11 +421,9 @@ body {
     width: 100%;
     font-size: 1.125rem;
     font-weight: 500;
-    background-color: var(--color-primary);
-    border: none;
     border-radius: 0.5rem;
     color: var(--color-text-button);
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
 }
 
@@ -779,10 +777,6 @@ body {
 
     #gallery .container-gallery .banner-cta .title-description h2 {
         font-size: 3.75rem;
-    }
-
-    #gallery .container-gallery .banner-cta .title-description .btn {
-        margin-top: 2.25rem;
     }
 
     #gallery .container-gallery .banner-cta .data-b {
