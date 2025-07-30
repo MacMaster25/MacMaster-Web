@@ -83,18 +83,15 @@ body {
 }
 
 #heroimage .content-heroimage .heroimage-title p:nth-of-type(2) {
+    font-size: 0.875rem;
     margin-bottom: 0;
 }
 
-#heroimage .content-heroimage .heroimage-title .btn-primary {
-    width: 100%;
+#heroimage .content-heroimage .heroimage-title .button-group .btn-warning, 
+#heroimage .content-heroimage .heroimage-title .button-group .btn-outline-warning {
     font-size: 1.125rem;
     font-weight: 500;
-    background-color: var(--color-primary);
-    border: none;
-    color: var(--color-text-button);
-    padding: 16px 24px;
-    margin-top: 2.25rem;
+    padding: 0.5rem 1rem;
 }
 
 #heroimage .content-heroimage .heroimage-data {
@@ -109,10 +106,8 @@ body {
 #heroimage .content-heroimage .heroimage-data .data-a p {
     color: var(--color-text-main);
     font-feature-settings: 'liga' off, 'clig' off;
-    font-size: 1.125rem;
-    font-weight: 700;
+    font-size: 1rem;
     line-height: 120%;
-    margin-bottom: 0.75rem;
 }
 
 #heroimage .content-heroimage .heroimage-data .data-a img {
