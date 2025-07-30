@@ -41,7 +41,7 @@ layout: default
               
                 <a href="{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
                   <img
-                    src="{{ subcategory.image }}"
+                    src="{{ site.baseurl }}{{ subcategory.image }}"
                     alt="{{ subcategory.alt }}"
                   />
                   <h4 id="{{ subcategory.slug }}">{{ subcategory.name }}</h4>
@@ -54,7 +54,7 @@ layout: default
           <div class="card">
                 <a href="{{ subcategory.link }}" class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
                   <img
-                    src="{{ subcategory.image }}"
+                    src="{{ site.baseurl }}{{ subcategory.image }}"
                     alt="{{ subcategory.alt }}"
                   />
                   <h4 id="{{ subcategory.slug }}">{{ subcategory.name }}</h4>

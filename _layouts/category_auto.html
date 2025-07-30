@@ -44,7 +44,10 @@ layout: default
           <div
             class="card d-flex flex-row flex-md-column justify-content-start justify-content-lg-center align-items-center text-lg-center gap-4"
           >
-            <img src="{{ product.image }}" alt="{{ product.alt }}" />
+            <img
+              src="{{ site.baseurl }}{{ product.image }}"
+              alt="{{ product.alt }}"
+            />
             <h4>{{ product.name }}</h4>
           </div>
           {% endfor %} {% elsif data.subcategories %} {% for subcat in
@@ -52,7 +55,10 @@ layout: default
           <div
             class="card d-flex flex-row flex-md-column justify-content-start justify-content-lg-center align-items-center text-lg-center gap-4"
           >
-            <img src="{{ subcat.image }}" alt="{{ subcat.alt }}" />
+            <img
+              src="{{ site.baseurl }}{{ subcat.image }}"
+              alt="{{ subcat.alt }}"
+            />
             <h4>{{ subcat.name }}</h4>
           </div>
           {% endfor %} {% endif %}
