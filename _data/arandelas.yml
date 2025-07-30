@@ -5,25 +5,25 @@ category:
   description: "Ideales para usos industriales, eléctricos y automotrices. Las arandelas son componentes esenciales en sistemas de fijación, ya que ayudan a distribuir la carga de manera uniforme, protegen las superficies de daño por compresión y evitan el aflojamiento prematuro del tornillo o tuerca."
   breadcrumb:
     - name: "Inicio"
-      link: "/index.html"
+      link: "index.html"
     - name: "Productos"
-      link: "/products.html"
+      link: "products.html"
     - name: "Arandelas"
-      link: "/productos/tornilleria-industrial/arandelas/"
+      link: "productos/tornilleria-industrial/arandelas/"
 
 subcategories:
   - name: "Arandelas Planas"
     slug: "arandelas-planas"
     image: "/Assets/04-categories/01.tonillería/03.arandelas/01.arandelas planas/Arandelas planas estándar.png"
     alt: "Arandelas Planas"
-    link: "/productos/tornilleria-industrial/arandelas/arandelas-planas.html"
+    link: "productos/tornilleria-industrial/arandelas/arandelas-planas.html"
     description: "Distribución uniforme de carga y protección para superficies."
 
   - name: "Arandelas Estructurales"
     slug: "arandelas-estructurales"
     image: "/Assets/04-categories/01.tonillería/03.arandelas/02.arandelas estructurales/Arandelas estructurales planas.png"
     alt: "Arandelas Estructurales"
-    link: "/productos/tornilleria-industrial/arandelas/arandelas-estructurales.html"
+    link: "productos/tornilleria-industrial/arandelas/arandelas-estructurales.html"
     description: "Soporte reforzado para uniones de alta resistencia."
 
  
