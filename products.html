@@ -55,10 +55,13 @@ permalink: products.html
           {% for sub in category.subcategories %}
           <div class="card text-lg-center p-0">
             <a
-              href="{{ sub.link }}"
+              href="{{ site.baseurl }}/{{ sub.link }}"
               class="d-flex justify-content-start align-items-center gap-3 flex-lg-column"
             >
-              <img src="{{ sub.image }}" alt="{{ sub.name }}" />
+              <img
+                src="{{ site.baseurl }}/{{ sub.image }}"
+                alt="{{ sub.name }}"
+              />
               <h4>{{ sub.name }}</h4>
             </a>
           </div>
