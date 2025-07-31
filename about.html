@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/tokens.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,6 +17,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- estilos de componentes -->
+    <link rel="stylesheet" href="./style/components.css">
+    <!-- estilos de about -->
+    <link rel="stylesheet" href="./style/about.css">
     <title>Mac Master</title>
 </head>
 
@@ -53,16 +57,13 @@
     <!-- hero image -->
     <section id="heroimage">
         <div class="container-fluid">
-            <div class="row content-hero d-flex flex-column align-items-start col-lg-10 offset-lg-1">
-                <h1 class="col-lg-8 col-xxl-10 p-0">En Mac Master Importadores
-                    nuestra prioridad es atenderte</h1>
-                <picture class="p-0">
-                    <source media="(min-width:767px)"
-                        srcset="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/02.about/banner.png?raw=true"
-                        alt="Imagen del equipo de trabajo de mac master en su oficina">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/02.about/banner_mobile.png?raw=true"
-                        alt="Imagen del equipo de trabajo de mac master en su oficina">
-                </picture>
+            <div class="row content-hero d-flex flex-column align-items-start col-lg-10 offset-lg-1 gap-5">
+                <!-- CAMBIOS: Nuevo texto en H1 Linea:62 -->
+                <h1 class="col-lg-8 col-xxl-10 p-0">Liderando la innovación en tornillería y productos
+                    industriales.</h1>
+                <!-- NUEVO: SE ELIMINO LA ETIQUETA PICTURE y se agrego un P Linea:65 -->
+                <p class="col-lg-8 col-xxl-10 p-0 text-white">En MacMaster no solo vendemos productos, impulsamos productividad, seguridad y durabilidad en tu
+                    operación con más de 10,000 soluciones industriales de calidad comprobada.</p>
             </div>
         </div>
     </section>
@@ -221,8 +222,10 @@
     <!-- footer -->
     <footer id="footer">
         <div class="container-fluid">
-            <div class="row container-footer row-cols-1 row-cols-lg-2 align-items-start justify-content-xl-between gap-1">
-                <div class="footer-options d-flex flex-column align-items-center justify-content-lg-center align-items-xl-start justify-content-lg-between">
+            <div
+                class="row container-footer row-cols-1 row-cols-lg-2 align-items-start justify-content-xl-between gap-1">
+                <div
+                    class="footer-options d-flex flex-column align-items-center justify-content-lg-center align-items-xl-start justify-content-lg-between">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/01.Logos/logo.png?raw=true"
                         alt="Logo de Mac Master Importadores, expertos en tornillería y soluciones industriales">
                     <div class="options">
