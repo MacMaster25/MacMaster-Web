@@ -361,7 +361,6 @@ body {
 
 #gallery .container-gallery .banner-cta .title-description {
     position: relative;
-    gap: 1rem;
     align-self: stretch;
     color: var(--color-text-main);
     z-index: 2;
@@ -634,11 +633,8 @@ body {
         border-right: 1px solid var(--color-border);
     }
 
-    #gallery .container-gallery .banner-cta {
-        align-items: flex-start;
-    }
-
     #gallery .container-gallery .banner-cta .data-b {
+        width: auto;
         padding: 0.5rem 1rem;
         gap: 1rem;
         border-radius: 100px;
@@ -699,6 +695,7 @@ body {
 
     #gallery .container-gallery .banner-cta {
         padding: 3.75rem 10.063rem;
+        min-height: 600px;
     }
 
     #footer .container-footer .footer-options,

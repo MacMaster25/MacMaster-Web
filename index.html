@@ -58,9 +58,10 @@
     <section id="heroimage">
         <div class="container-fluid">
             <div class="row content-heroimage col-lg-10 offset-lg-1">
-                <div class="heroimage-title p-sm-0">
+                <!-- NUEVO: se agrego la clase px-0 Linea:62 -->
+                <div class="heroimage-title px-0">
                     <div class="title col-md-10 col-lg-6 col-xl-8 col-xxl-8">
-                        <!-- CAMBIOS: Nuevos textos en H1 y P Lineas:64-68 -->
+                        <!-- CAMBIOS: Nuevos textos en H1 y P Lineas:65-69 -->
                         <h1>Soluciones industriales en tornillería,
                             abrasivos, adhesivos y resinas</h1>
                         <p>Abastecemos la industria colombiana con soluciones confiables en fijación, abrasión
@@ -68,7 +69,7 @@
                         <p>Con más de 25 años de experiencia, en MacMaster impulsamos el desarrollo de la industria
                             colombiana con tornillería, resinas, abrasivos
                             y adhesivos de alto desempeño.</p>
-                        <!-- NUEVO: Se agregó div y botón CTA "Contacta un asesor Lineas:72-76" -->
+                        <!-- NUEVO: Se agregó div y botón CTA "Contacta un asesor Lineas:73-77" -->
                         <div class="button-group d-flex flex-column flex-md-row gap-3 mt-4 col col-md-8">
                             <a class="btn btn-main col-12 col-md-auto"
                                 href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
@@ -77,11 +78,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- NUEVO: Se agrego una nueva clase gap-md-4 en la linea:82 -->
+                <!-- NUEVO: Se agrego una nueva clase gap-md-4 en la linea:83 -->
                 <div
                     class="heroimage-data d-flex flex-column flex-md-row justify-content-md-between align-items-md-center gap-md-4">
                     <div class="data-a col-md-6">
-                        <!-- CAMBIOS: Se modifico el orden del P antes linea:78 ahora lines:85 -->
+                        <!-- CAMBIOS: Se modifico el orden del P antes linea:78 ahora lines:86 -->
                         <div class="data-image">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/01.Logos/Grainger.png?raw=true"
                                 alt="Logo Greinger">
@@ -89,15 +90,15 @@
                         <p class="mt-3">Acceso a más de 500.000 referencias industriales gracias a nuestra alianza con
                             Grainger.</p>
                     </div>
-                    <!-- CAMBIOS: Ajuste de clases en el <div class="data-b"> Linea: 93 -->
+                    <!-- CAMBIOS: Ajuste de clases en el <div class="data-b"> Linea: 94 -->
                     <div class="data-b d-flex flex-lg-nowrap align-items-sm-center m-0">
-                        <!-- CAMBIOS: Nueva imagen en la etiqueta img y nuevo alt Linea: 95 -->
-                        <div class="data-image d-sm-flex flex-sm-wrap">
+                        <!-- CAMBIOS: Nueva imagen en la etiqueta img y nuevo alt Linea: 96 -->
+                        <div class="data-image d-sm-flex">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/02.Hero/guarantee_icon.png?raw=true"
                                 class="mb-2 mb-sm-0" alt="imagen icono de garantia de devoluciones">
                         </div>
-                        <!-- CAMBIOS: Nuevo texto en P Lineas: 100 -->
-                        <p class="d-sm-flex flex-sm-shrink-1">Garantía de satisfacción: devoluciones sin costo en 30
+                        <!-- CAMBIOS: Nuevo texto en P Lineas: 101 -->
+                        <p class="d-sm-flex">Garantía de satisfacción: devoluciones sin costo en 30
                             días.</p>
                     </div>
                 </div>
@@ -105,11 +106,11 @@
         </div>
     </section>
     <!-- brands -->
-    <section id="brand">
+    <section id="brand" class="py-5 px-1">
         <div class="container-fluid">
             <!-- NUEVO: Se agrego align-items-lg-center y gap-5 en la linea:112 -->
             <div
-                class="container-brand py-5 d-flex flex-column align-items-start align-items-lg-center gap-5 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
+                class="container-brand d-flex flex-column align-items-start align-items-lg-center gap-5 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <div class="col-12 align-items-start">
                     <span class="badge">Marcas aliadas</span>
                 </div>
@@ -212,9 +213,9 @@
         </div>
     </section>
     <!-- products -->
-    <section id="products">
+    <section id="products" class="py-5 px-1 col-xl-8 offset-xl-2">
         <div class="container-fluid">
-            <div class="row container-products py-5 px-3 d-flex flex-column align-items-center gap-5">
+            <div class="row container-products d-flex flex-column align-items-center gap-5">
                 <!-- CAMBIOS: Ajuste del contenedor title-description Linea: 219-229 -->
                 <div class="title-description d-flex flex-column text-center gap-4">
                     <div>
@@ -228,10 +229,10 @@
                         sector.</p>
                     <div><a class="btn btn-main col-12 col-md-auto" href="#">Ver nuestros Productos</a></div>
                 </div>
-                <div class="grid-products">
+                <div class="grid-products px-xl-0">
                     <!-- Producto 1: Tornillería (Texto izquierda, imagen derecha) -->
-                    <div class="row align-items-center justify-content-md-between gap-1 gap-md-0">
-                        <div class="col-md-6 p-3 bg-light rounded-4">
+                    <div class="d-flex flex-column flex-md-row h-100 gap-1 mb-1">
+                        <div class="w-100 w-md-50 p-3 bg-light rounded-4">
                             <h3 class="fw-bold">Tornillería industrial</h3>
                             <p>Fijaciones de alta resistencia para estructuras metálicas, concreto y madera. Pernos,
                                 tuercas, anclajes y más.</p>
@@ -252,14 +253,15 @@
                             </ul>
                             <a href="#" class="btn btn-dark">Explorar Tornillería</a>
                         </div>
-                        <div class="col-md-5">
-                            <img src="/assets/img/tornilleria.jpg" alt="Imagen tornillería industrial"
-                                class="img-fluid rounded-4 shadow">
+                        <div class="w-100 w-md-50 h-auto p-0">
+                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/tornilleria-industrial-fijaciones-macmaster.png?raw=true"
+                                alt="Imagen tornillería industrial"
+                                class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
                         </div>
                     </div>
                     <!-- Producto 2: Abrasivos (Imagen izquierda, texto derecha) -->
-                    <div class="row align-items-center align-items-md-start flex-md-row-reverse gap-1">
-                        <div class="col-md-6 p-3 bg-light rounded-4">
+                    <div class="flex-md-row-reverse d-flex flex-column flex-md-row h-100 gap-1 mb-1">
+                        <div class="w-100 w-md-50 p-3 bg-light rounded-4">
                             <h3 class="fw-bold">Abrasivos</h3>
                             <p>Discos, lijas y soluciones abrasivas para corte, desbaste y acabado
                                 de superficies.</p>
@@ -280,14 +282,15 @@
                             </ul>
                             <a href="#" class="btn btn-dark">Explorar Abrasivos</a>
                         </div>
-                        <div class="col-md-5">
-                            <img src="/assets/img/abrasivos.jpg" alt="Imagen abrasivos industriales"
-                                class="img-fluid rounded-4 shadow">
+                        <div class="w-100 w-md-50 h-auto p-0">
+                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/abrasivos-macmaster-corte-chispas.png?raw=true"
+                                alt="Imagen abrasivos industriales"
+                                class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
                         </div>
                     </div>
                     <!-- Producto 3: Resina y Fibra de Vidrio (Texto izquierda, imagen derecha) -->
-                    <div class="row align-items-center align-items-md-start gap-1">
-                        <div class="col-md-6 p-3 bg-light rounded-4">
+                    <div class="d-flex flex-column flex-md-row h-100 gap-1 mb-1">
+                        <div class="w-100 w-md-50 p-3 bg-light rounded-4">
                             <h3 class="fw-bold">Resina y Fibra de Vidrio</h3>
                             <p>Fijación segura y de alto desempeño para cargas pesadas
                                 en concreto y mampostería.</p>
@@ -308,80 +311,34 @@
                             </ul>
                             <a href="#" class="btn btn-dark">Explorar Resina y Fibra</a>
                         </div>
-                        <div class="col-md-5">
-                            <img src="/assets/img/tornilleria.jpg" alt="Imagen tornillería industrial"
-                                class="img-fluid rounded-4 shadow">
+                        <div class="w-100 w-md-50 h-auto p-0">
+                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/resina-y-fibra-aplicaciones-tecnicas.png?raw=true"
+                                alt="Imagen tornillería industrial"
+                                class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover">
                         </div>
                     </div>
                 </div>
                 <!-- NUEVO: iconos de beneficios -->
-                <div class="brand-benefits row text-center col-lg-12">
-                    <div class="col-md-4 mb-3">
-                        <div class="p-4 bg-dark rounded-3 h-100">
+                <div class="brand-benefits row g-2 p-xl-0 text-center">
+                    <div class="col-md-4 m-0">
+                        <div class="p-5 bg-dark rounded-3 h-100">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/award_star.png?raw=true"
                                 alt="Ícono calidad industrial" width="36" height="36" class="mb-3">
                             <h5 class="mb-0">Productos certificados</h5>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="p-4 bg-dark rounded-3 h-100">
+                    <div class="col-md-4 m-0">
+                        <div class="p-5 bg-dark rounded-3 h-100">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/delivery_truck_bolt.png?raw=true"
                                 alt="Ícono entrega rápida" width="36" height="36" class="mb-3">
                             <h5 class="mb-0">Entrega en todo el país</h5>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <div class="p-4 bg-dark rounded-3 h-100">
+                    <div class="col-md-4 m-0">
+                        <div class="p-5 bg-dark rounded-3 h-100">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/identity_platform.png?raw=true"
                                 alt="Ícono atención personalizada" width="36" height="36" class="mb-3">
                             <h5 class="mb-0">Asesoría técnica sin costo</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about -->
-    <section id="about">
-        <div class="container-fluid">
-            <div class="row d-flex flex-column align-items-center container-about col-xl-10 offset-xl-1">
-                <div class="title-description d-flex flex-column align-items-start gap-3 col-lg-10 offset-lg-1">
-                    <div class="heading d-flex flex-column align-items-start gap-3 col-xl-8">
-                        <span class="badge">Quienes somos</span>
-                        <h2>Puntos clave que definen nuestro éxito</h2>
-                        <p>Somos una compañía reconocida por ofrecer un portafolio amplio y versátil para la
-                            industria. Nos destacamos por nuestros tiempos de entrega óptimos, atención
-                            personalizada y un equipo comprometido con brindar un servicio de calidad.</p>
-                    </div>
-                    <!-- CAMBIOS: Nueva clase btn-main en etiqueta a Linea:199 -->
-                    <a class="btn btn-main" href="about.html">Acerca de nosotros</a>
-                </div>
-                <div class="grid-stats d-flex flex-column align-items-start col-lg-10 offset-lg-1">
-                    <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
-                        <h3 class="col-md-6">+10 años</h3>
-                        <div
-                            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
-                            <h4>Trayectoria</h4>
-                            <p>Más de una década impulsando
-                                soluciones industriales en todo el país.</p>
-                        </div>
-                    </div>
-                    <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
-                        <h3 class="col-md-6">500+</h3>
-                        <div
-                            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
-                            <h4>Productos disponibles</h4>
-                            <p>Un catálogo robusto y actualizado para cubrir múltiples necesidades
-                                del sector.</p>
-                        </div>
-                    </div>
-                    <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
-                        <h3 class="col-md-6">98%+</h3>
-                        <div
-                            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
-                            <h4>Satisfacción de clientes</h4>
-                            <p>Nuestros clientes nos recomiendan por nuestra atención, servicio y
-                                cumplimiento.</p>
                         </div>
                     </div>
                 </div>
@@ -409,7 +366,7 @@
                         class="p-0"
                         alt="Aplicación de adhesivo industrial en componentes de motor durante mantenimiento mecánico">
                 </div>
-                <div class="banner-cta d-flex flex-column  align-items-lg-start gap-1">
+                <div class="banner-cta d-flex flex-column justify-content-xl-center align-items-lg-start gap-1">
                     <!-- CAMBIOS: Se quito clase col-xl-6 Linea:250 -->
                     <div class="title-description d-flex flex-column align-items-start gap-4 col-md-8">
                         <!-- CAMBIOS: Nuevo texto en H2 Linea:251 -->
@@ -422,13 +379,13 @@
                             href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
                             target="_blank">Habla con un asesor</a>
                     </div>
-                    <!-- CAMBIOS: ajuste de componente similar al del hero image  Linea: 256 -->
-                    <div class="data-b d-flex flex-lg-nowrap align-items-sm-center m-0 mt-4">
-                        <div class="data-image d-sm-flex flex-sm-wrap">
+                    <!-- CAMBIOS: ajuste de componente similar al del hero image  Linea: 427 -->
+                    <div class="data-b d-flex align-items-sm-center m-0 mt-4">
+                        <div class="data-image d-sm-flex">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/02.Hero/guarantee_icon.png?raw=true"
                                 class="mb-2 mb-sm-0" alt="imagen icono de garantia de devoluciones">
                         </div>
-                        <p class="d-sm-flex flex-sm-shrink-1 mb-0">Garantía de satisfacción: devoluciones sin costo en
+                        <p class="d-sm-flex mb-0">Garantía de satisfacción: devoluciones sin costo en
                             30 días.</p>
                     </div>
                 </div>
@@ -493,7 +450,6 @@
             </div>
         </div>
     </footer>
-
     <!-- FAB -->
     <div class="fixed-bottom">
         <a href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
