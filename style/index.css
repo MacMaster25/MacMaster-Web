@@ -141,10 +141,9 @@ body {
 
 #brand .container-brand .brand-benefits h5 {
     color: var(--color-text-main);
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 120%;
-
 }
 
 #brand .container-brand .stats-title .title-start {
@@ -236,6 +235,13 @@ body {
 
 #products .container-products .grid-products p {
     font-size: 0.875rem;
+}
+
+#products .container-products .brand-benefits h5 {
+    color: var(--color-text-main);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 120%;
 }
 
 /*about us*/
