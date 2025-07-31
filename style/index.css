@@ -144,7 +144,7 @@ body {
     font-size: 1.125rem;
     font-weight: 300;
     line-height: 120%;
-    
+
 }
 
 #brand .container-brand .stats-title .title-start {
@@ -575,6 +575,14 @@ body {
         font-size: 0.875rem;
     }
 
+    #brand .container-brand .brand-stats {
+        min-height: 500px;
+    }
+
+    #brand .container-brand .brand-stats .brand-heading {
+        min-height: 500px;
+    }
+
     #brand .container-brand .brand-grid .brand-img img {
         width: 50%;
     }
@@ -684,6 +692,18 @@ body {
     #heroimage .content-heroimage .heroimage-data .data-b {
         padding: 0.5rem 1rem;
         border-radius: 100px;
+    }
+
+    #brand .container-brand .brand-stats {
+        min-height: 650px;
+    }
+
+    #brand .container-brand .brand-stats .brand-heading {
+        min-height: 650px;
+    }
+
+    #brand .container-brand .grid-stats {
+        min-height: 90px;
     }
 
     #products .container-products {
