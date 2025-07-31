@@ -119,8 +119,8 @@ body {
 }
 
 /*brands*/
-#brand .container-brand {
-    padding: 2.25rem 1rem;
+#brand {
+    background-color: #020202;
 }
 
 #brand .container-brand .badge {
@@ -191,11 +191,6 @@ body {
 }
 
 /*products*/
-#products .container-products {
-    padding: 2.25rem 1rem;
-    gap: 2.25rem;
-}
-
 #products .container-products .badge {
     width: auto;
     padding: 0.5rem;
@@ -223,39 +218,24 @@ body {
     line-height: 150%;
 }
 
-#products .container-products .grid-products .card {
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 1px solid var(--color-border);
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0.00) 0%, #000 100%);
-}
-
-#products .container-products .grid-products .card .card-title {
-    align-self: stretch;
-    margin-bottom: 0
-}
-
-#products .container-products .grid-products .card img {
-    width: 100%;
-}
-
-#products .container-products .grid-products .card .card-title h3 {
-    color: var(--color-text-main);
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
-#products .container-products .grid-products .card .card-title p {
-    color: var(--color-text-main);
+#products .container-products .grid-products h6,
+#products .container-products .grid-products p,
+#products .container-products .grid-products li {
+    font-feature-settings: 'liga' off, 'clig' off;
     font-family: "Instrument Sans";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    margin-bottom: 0;
+    font-weight: 300;
+}
+
+#products .container-products .grid-products h3 {
+    font-size: 1.125rem;
+}
+
+#products .container-products .grid-products h6 {
+    font-size: 0.75rem;
+}
+
+#products .container-products .grid-products p {
+    font-size: 0.875rem;
 }
 
 /*about us*/
@@ -587,14 +567,6 @@ body {
         width: 50%;
     }
 
-    #products .container-products .grid-products {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #products .container-products a {
-        width: auto;
-    }
-
     #about .container-about .grid-stats .card {
         padding: 3.75rem 0;
     }
@@ -706,25 +678,12 @@ body {
         min-height: 90px;
     }
 
-    #products .container-products {
-        padding: 4.5rem 0;
-        gap: 3.75rem;
-    }
-
-    #products .container-products .title-description {
-        gap: 2.25rem;
-    }
-
     #products .container-products .title-description h2 {
         font-size: 2.25rem;
     }
 
     #brand .container-brand .brand-grid .brand-img img {
         width: 75%;
-    }
-
-    #products .container-products .grid-products {
-        grid-template-columns: 1fr 1fr 1fr 1fr
     }
 
     #about .container-about {
@@ -758,10 +717,6 @@ body {
 
     #heroimage .content-heroimage .heroimage-title p:nth-of-type(2) {
         font-size: 1.125rem;
-    }
-
-    #brand .container-brand {
-        padding: 4.5rem 0;
     }
 
     #about .container-about .grid-stats .card h3 {
