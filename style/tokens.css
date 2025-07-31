@@ -1,0 +1,22 @@
+:root {
+     /* Primary Brand Color */
+    --color-primary: #ffc107;
+    --color-secundary: #121212;
+
+    /* Text Colors */
+    --color-text-main: #FFFFFF;
+    --color-text-button: #000000;
+
+    /* Backgrounds */
+    --color-bg-primary: #121212;
+    --color-bg-secondary: #222222;
+    --color-bg-tertiary: #fff;
+
+    /* Border */
+    --color-border: #7E8597;
+    --color-border-secondary: #ffc107;    
+
+    /* Fonts */
+    --font-family-primary: 'Bebas Neue', serif;
+    --font-family-secondary: 'Noto Sans', serif;
+}

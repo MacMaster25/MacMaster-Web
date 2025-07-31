@@ -1,0 +1,26 @@
+a.btn-main {
+  background-color: #ffc107;
+  color: var(--color-text-button);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-main-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  font-weight: 500;
+  border: 1px solid var(--color-primary);
+  padding: 0.5rem 1rem;
+}
+
+a.btn-main:hover {
+  background-color: #fff;
+  color: var(--color-text-button);
+}
+
+a.btn-main-outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-button);
+}
+
