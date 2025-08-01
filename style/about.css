@@ -34,44 +34,58 @@ body {
     border-color: var(--color-bg-primary);
 }
 
-/*heroimage*/
-#heroimage .content-hero {
-    padding: 9rem 1rem 2.25rem 1rem;
+/*hero image*/
+#heroimage {
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/02.about/banner.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-#heroimage .content-hero h1 {
-    color: var(--color-text-main);
+#heroimage .content-heroimage {
+    padding: 7.5rem 1rem 0 1rem;
+}
+
+#heroimage .content-heroimage .heroimage-title {
+    margin-bottom: 1.5rem;
+    color: var(--color-text-main)
+}
+
+#heroimage .content-heroimage .heroimage-title h1 {
     font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#heroimage .content-heroimage .heroimage-title p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+/*essence*/
+#essence h2 {
+    font-size: 1.75rem;
     line-height: 120%;
-    margin-bottom: 0;
 }
 
-#heroimage .content-hero .brand-stats {
-    min-height: 500px;
-}
-
-#heroimage .content-hero .brand-stats .brand-heading {
-    min-height: 500px;
-}
-
-#heroimage .content-hero .grid-stats small {
+#essence p {
     font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
 }
 
-/*mision & vision*/
-#mision .container-mision {
+#essence .container-essence {
     padding: 2.25rem 1rem;
     gap: 2.25rem;
 }
 
-#mision .container-mision .title {
+/*about us*/
+#about .container-about {
+    padding: 2.25rem 1rem;
     gap: 2.25rem;
-    align-self: stretch;
 }
 
-#mision .container-mision .title span {
+#about .container-about span {
     padding: 0.5rem;
     border: 1px solid var(--color-primary);
     border-radius: 0.5rem;
@@ -79,36 +93,47 @@ body {
     text-transform: uppercase;
 }
 
-#mision .container-mision .title h2 {
-    color: var(--color-text-main);
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-}
-
-#mision .container-mision .grid-detail {
+#about .container-about .title-description {
     align-self: stretch;
 }
 
-#mision .container-mision .grid-detail .card {
+#about .container-about .title-description .heading {
+    align-self: stretch;
+    color: var(--color-text-main);
+}
+
+#about .container-about .title-description .heading h2 {
+    margin-bottom: 0;
+}
+
+#about .container-about .title-description .heading p {
+    margin-bottom: 0;
+}
+
+#about .container-about .grid-stats {
+    align-self: stretch;
+}
+
+#about .container-about .grid-stats .card {
+    background-color: transparent;
     padding: 2.25rem 0;
-    gap: 2.25rem;
     align-self: stretch;
     border-radius: 0;
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
-    background-color: transparent;
-}
-
-#mision .container-mision .grid-detail .card:nth-of-type(2) {
-    border-top: 0;
-    border-bottom: 0;
-    padding-bottom: 0;
-}
-
-#mision .container-mision .grid-detail .card h3 {
     color: var(--color-text-main);
+}
+
+#about .container-about .grid-stats .card:nth-of-type(2),
+#about .container-about .grid-stats .card:nth-of-type(3) {
+    border-top: 0;
+}
+
+#about .container-about .grid-stats .card:nth-of-type(4) {
+    border: 0;
+}
+
+#about .container-about .grid-stats .card h3 {
     font-size: 3.375rem;
     font-style: normal;
     font-weight: 700;
@@ -116,14 +141,36 @@ body {
     margin-bottom: 0;
 }
 
-#mision .container-mision .grid-detail .card p {
-    color: var(--color-text-main);
-    font-family: "Instrument Sans";
+#about .container-about .grid-stats .card .card-title {
+    align-self: stretch;
+}
+
+#about .container-about .grid-stats .card .card-title h4 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title p {
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     margin-bottom: 0;
+}
+
+/*location*/
+#location h2 {
+    font-size: 1.75rem;
+    line-height: 120%;
+}
+
+#location p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
 }
 
 /*values*/
@@ -142,8 +189,6 @@ body {
 
 #values .container-values .title-description {
     padding: 2.25rem 1rem 0px 1rem;
-    gap: 2.25rem;
-    align-self: stretch;
 }
 
 #values .container-values .title-description span {
@@ -211,13 +256,8 @@ body {
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
 }
 
-/*about us*/
-#about .container-about {
-    padding: 2.25rem 1rem;
-    gap: 2.25rem;
-}
-
-#about .container-about span {
+/*mision & vision*/
+#mision .container span {
     padding: 0.5rem;
     border: 1px solid var(--color-primary);
     border-radius: 0.5rem;
@@ -225,71 +265,11 @@ body {
     text-transform: uppercase;
 }
 
-#about .container-about .title-description {
-    align-self: stretch;
-}
-
-#about .container-about .title-description .heading {
-    align-self: stretch;
+#mision .container h2 {
     color: var(--color-text-main);
-}
-
-#about .container-about .title-description .heading h2 {
-    margin-bottom: 0;
-}
-
-#about .container-about .title-description .heading p {
-    margin-bottom: 0;
-}
-
-#about .container-about .grid-stats {
-    align-self: stretch;
-}
-
-#about .container-about .grid-stats .card {
-    background-color: transparent;
-    padding: 2.25rem 0;
-    align-self: stretch;
-    border-radius: 0;
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-    color: var(--color-text-main);
-}
-
-#about .container-about .grid-stats .card:nth-of-type(2) {
-    border-top: 0;
-}
-
-#about .container-about .grid-stats .card:nth-of-type(3) {
-    border: 0;
-}
-
-#about .container-about .grid-stats .card h3 {
-    font-size: 3.375rem;
+    font-size: 1.75rem;
     font-style: normal;
-    font-weight: 700;
     line-height: 120%;
-    margin-bottom: 0;
-}
-
-#about .container-about .grid-stats .card .card-title {
-    align-self: stretch;
-}
-
-#about .container-about .grid-stats .card .card-title h4 {
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
-#about .container-about .grid-stats .card .card-title p {
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    margin-bottom: 0;
 }
 
 /*team*/
@@ -303,6 +283,18 @@ body {
 
 #team .container-team .grid-images {
     align-self: stretch;
+}
+
+/*benefits*/
+#benefits h2 {
+    font-size: 1.75rem;
+    line-height: 120%;
+}
+
+#benefits p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
 }
 
 /*gallery*/
@@ -472,6 +464,10 @@ body {
         width: 100%;
     }
 
+    #heroimage .content-heroimage {
+        padding: 9rem 1rem 0 1rem;
+    }
+
     #values .container-values img {
         height: 50vw;
     }
@@ -493,19 +489,8 @@ body {
         width: 50%;
     }
 
-    #mision .container-mision .grid-detail .card {
-        padding: 3.75rem 0;
-    }
-
-    #mision .container-mision .grid-detail .card:nth-of-type(2) {
-        padding-bottom: 3.75rem;
-    }
-
-    #values .container-values .values {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, auto);
-        margin-top: 2.25rem;
-        padding: 0;
+    #heroimage .content-heroimage {
+        min-height: 450px;
     }
 
     #about .container-about .grid-stats .card {
@@ -514,6 +499,13 @@ body {
 
     #about .container-about .title-description a {
         width: auto;
+    }
+
+    #values .container-values .values {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin-top: 2.25rem;
+        padding: 0;
     }
 
     #footer .container-footer .footer-options img {
@@ -551,20 +543,9 @@ body {
         padding: 0.5rem 1rem !important;
     }
 
-    #heroimage .content-hero {
-        padding: 9rem 0 2.25rem 0;
-    }
-
-    #mision .container-mision {
-        padding: 2.25rem 0;
-    }
-
-    #mision .container-mision .grid-detail .card h3 {
-        font-size: 2.25rem;
-    }
-
-    #values {
-        padding: 2.25rem 0;
+    #heroimage .content-heroimage {
+        padding: 9rem 0 0 0;
+        min-height: 600px;
     }
 
     #about .container-about .title-description {
@@ -573,6 +554,10 @@ body {
 
     #about .container-about .title-description .heading {
         gap: 2.25rem;
+    }
+
+    #values {
+        padding: 2.25rem 0;
     }
 
     #team .container-team {
@@ -616,12 +601,8 @@ body {
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
-    #heroimage .content-hero .brand-stats {
-        min-height: 650px;
-    }
-
-    #heroimage .content-hero .brand-stats .brand-heading {
-        min-height: 650px;
+    #heroimage .content-heroimage .heroimage-title h1 {
+        font-size: 3rem;
     }
 
     #about .container-about {
@@ -635,11 +616,6 @@ body {
 
     #values .container-values img {
         height: 64vh;
-    }
-
-    #about .container-about {
-        align-items: flex-start;
-        padding: 4.5rem 0;
     }
 
     #gallery .container-gallery .banner-cta {
@@ -663,12 +639,24 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
-    #heroimage .content-hero h1 {
-        font-size: 3.75rem;
+    #heroimage .content-heroimage .heroimage-title p {
+        font-size: 1.5rem;
     }
 
-    #mision .container-mision .title h2 {
+    #essence h2 {
         font-size: 2.25rem;
+    }
+
+    #essence p {
+        font-size: 1.5rem;
+    }
+
+    #location h2 {
+        font-size: 2.25rem;
+    }
+
+    #location p {
+        font-size: 1.5rem;
     }
 
     #values .container-values img {
@@ -679,8 +667,12 @@ body {
         font-size: 2.25rem;
     }
 
-    #about .container-about .grid-stats .card h3 {
-        font-size: 5rem;
+    #mision .container h2 {
+        font-size: 2.25rem;
+    }
+
+    #benefits h2 {
+        font-size: 2.25rem;
     }
 
     #gallery .container-gallery .banner-cta .title-description h2 {
