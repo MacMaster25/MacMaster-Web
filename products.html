@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/products.css">
+    <link rel="stylesheet" href="./style/tokens.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,6 +17,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- estilos de componentes -->
+    <link rel="stylesheet" href="./style/components.css">
+    <!-- estilos de index -->
+    <link rel="stylesheet" href="./style/products.css">
     <title>Mac Master</title>
 </head>
 
@@ -50,13 +54,72 @@
             </div>
         </div>
     </nav>
-    <!-- hero image -->
+    <!-- NUEVO: hero image Linea: 58-92 -->
     <section id="heroimage">
         <div class="container-fluid">
-            <div class="content-hero row d-flex flex-column align-items-start justify-content-center gap-3 col-lg-8 offset-lg-1 col-xxl-6">
-                <h1 class="p-0">En Mac Master Importadores
-                    nuestra prioridad es atenderte</h1>
-                <p class="p-0">Productos confiables, duraderos y técnicamente respaldados.</p>
+            <div class="row content-heroimage col-lg-10 offset-lg-1">
+                <div class="heroimage-title px-0">
+                    <div class="title col-md-10 col-lg-8">
+                        <h1>Productos industriales confiables
+                            para mantenimiento, producción
+                            y ensamblaje en Colombia.</h1>
+                        <p class="mb-md-4 mb-xl-5">Explora nuestra amplia gama de productos para la industria:
+                            tornillería, abrasivos, resinas, adhesivos y más.
+                            Productos de alto desempeño para la industria colombiana.</p>
+                        <a class="btn btn-main col-12 col-md-auto"
+                            href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+                            target="_blank" rel="noopener noreferrer">Contacta un asesor</a>
+                    </div>
+                </div>
+                <div
+                    class="heroimage-data d-flex flex-column flex-md-row justify-content-md-between align-items-md-center gap-md-4">
+                    <div class="data-a col-md-6">
+                        <div class="data-image">
+                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/01.Logos/Grainger.png?raw=true"
+                                alt="Logo Greinger">
+                        </div>
+                        <p class="mt-3">Acceso a más de 500.000 referencias industriales gracias a nuestra alianza con
+                            Grainger.</p>
+                    </div>
+                    <div class="data-b d-flex flex-lg-nowrap align-items-sm-center m-0">
+                        <div class="data-image d-sm-flex">
+                            <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/02.Hero/guarantee_icon.png?raw=true"
+                                class="mb-2 mb-sm-0" alt="imagen icono de garantia de devoluciones">
+                        </div>
+                        <p class="d-sm-flex">Garantía de satisfacción: devoluciones sin costo en 30
+                            días.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NUEVO: beneficios -->
+    <section id="benefits" class="bg-black mb-2 py-4 py-xl-5 px-1 px-lg-0 text-light">
+        <div class="container-fluid py-lg-3 col-lg-10 offset-lg-1">
+            <div>
+                <h2 class="fw-bold mb-3">Beneficios de trabajar con MacMaster</h2>
+                <p class="mb-5">
+                    En MacMaster te ofrecemos soluciones industriales confiables, respaldo técnico y productos de
+                    alta calidad que impulsan tu productividad y eficiencia.
+                </p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+                <div class="col">
+                    <h6 class="fw-bold text-uppercase mb-3">Asesoría técnica experta</h6>
+                    <p class="mb-0 col-10">Te ayudamos a elegir el producto ideal según tu industria y aplicación.</p>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold text-uppercase mb-3">Entrega rápida a nivel nacional</h6>
+                    <p class="mb-0 col-10">Contamos con amplio stock disponible para despachos rápidos.</p>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold text-uppercase mb-3">Precios competitivos</h6>
+                    <p class="mb-0 col-10">Ofrecemos calidad industrial al mejor costo del mercado.</p>
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold text-uppercase mb-3">Garantía de calidad</h6>
+                    <p class="mb-0 col-10">Productos resistentes, duraderos y certificados para uso industrial.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -64,20 +127,24 @@
     <section id="products">
         <div class="container-fluid">
             <div class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1">
-                <div class="title-description d-flex flex-column justify-content-center align-items-start gap-3 p-0">
-                    <h2>Categorías de productos</h2>
-                    <p>En Mac Master Importadores ofrecemos un portafolio especializado en productos industriales
-                        MRO (Mantenimiento, Reparación y Operación). Desde soluciones en tornillería hasta adhesivos
-                        estructurales, contamos con insumos confiables, de alta durabilidad y con respaldo técnico 
-                        para satisfacer las necesidades de la industria colombiana. Explora nuestras líneas de 
-                        productos diseñadas para mantener la continuidad operativa y la eficiencia en todo tipo
-                        de entornos productivos.</p>
-                </div>
-                <div class="product-card d-flex flex-column align-items-start gap-3 p-0">
-                    <h3 class="mb-0">Tornillería Industrial</h3>
+                <!-- NUEVO: se quito div class title-description y se agrego un gap-4 en product-card Linea:131 -->
+                <div class="product-card d-flex flex-column align-items-start gap-4 p-0">
+                    <!-- NUEVO: se agrego div class title-description Linea:133-139 -->
+                    <div class="title-category d-flex flex-column flex-md-row justify-content-center gap-3">
+                        <h3 class="mb-0">Tornillería Industrial</h3>
+                        <div class="d-flex justify-content-between align-items-center gap-3">
+                            <a href="#" class="btn-main-link">Ver tornillería</a>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <!-- NUEVO: se agrego un P Linea:141 -->
+                    <p class="mb-0 text-white">Amplia variedad de soluciones para fijación y ensamblaje en proyectos
+                        industriales, estructurales y mecánicos. Diseñados para soportar grandes cargas con máxima
+                        resistencia.</p>
                     <div class="content-card row row-cols-1 row-cols-sm-2 row-cols-lg-4 col col-xl-12">
                         <div class="card p-0">
-                            <a class="d-flex justify-content-start align-items-center gap-3 flex-lg-column" href="category.html">
+                            <a class="d-flex justify-content-start align-items-center gap-3 flex-lg-column"
+                                href="category.html">
                                 <img src="Assets/03.products/01.tornillos/Pernos-Tornillos.png"
                                     alt="Pernos y Tornillos">
                                 <h4>Pernos y Tornillos</h4>
@@ -104,8 +171,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-card abrasivos d-flex flex-column align-items-start gap-3 p-0">
-                    <h3 class="mb-0">Abrasivos</h3>
+                <!-- MODIFICACIÓN: se cambio clase gap-3 por gap-4 Linea:174 -->
+                <div class="product-card abrasivos d-flex flex-column align-items-start gap-4 p-0">
+                    <!-- NUEVO: se agrego div class title-description Linea:176-182 -->
+                    <div class="title-category d-flex flex-column flex-md-row justify-content-center gap-3">
+                        <h3 class="mb-0">Abrasivos</h3>
+                        <div class="d-flex justify-content-between align-items-center gap-3">
+                            <a href="#" class="btn-main-link">Ver abrasivos</a>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <!-- NUEVO: se agrego un P Linea:184 -->
+                    <p class="mb-0 text-white">Amplia variedad de soluciones para fijación y ensamblaje en proyectos
+                        industriales, estructurales y mecánicos. Diseñados para soportar grandes cargas con máxima
+                        resistencia.</p>
                     <div class="content-card row row-cols-1 row-cols-sm-2 row-cols-lg-4 col col-lg col-xl-12">
                         <div class="card text-lg-center p-0">
                             <a class="d-flex justify-content-start align-items-center gap-3 flex-lg-column" href="#">
@@ -130,8 +209,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-card ahdesivos d-flex flex-column align-items-start gap-3 p-0">
-                    <h3 class="mb-0">Adhesivos y sellantes</h3>
+                <!-- MODIFICACIÓN: se cambio clase gap-3 por gap-4 Linea:213 -->
+                <div class="product-card adhesivos d-flex flex-column align-items-start gap-4 p-0">
+                    <!-- NUEVO: se agrego div class title-description Linea:215-221 -->
+                    <div class="title-category d-flex flex-column flex-md-row justify-content-center gap-3">
+                        <h3 class="mb-0">Adhesivos y sellantes</h3>
+                        <div class="d-flex justify-content-between align-items-center gap-3">
+                            <a href="#" class="btn-main-link">Ver adhesivos</a>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <!-- NUEVO: se agrego un P Linea:223 -->
+                    <p class="mb-0 text-white">Soluciones especializadas para unión, sellado y fijación en distintos
+                        procesos industriales. Alta resistencia química, térmica y mecánica.</p>
                     <div class="content-card row row-cols-1 row-cols-sm-2 row-cols-lg-4 col col-lg col-xl-12">
                         <div class="card text-lg-center p-0">
                             <a class="d-flex justify-content-start align-items-center gap-3 flex-lg-column" href="#">
@@ -155,8 +245,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-card resina d-flex flex-column align-items-start gap-3 p-0">
-                    <h3 class="mb-0">Resina y fibra de vidrio</h3>
+                <!-- MODIFICACIÓN: se cambio clase gap-3 por gap-4 Linea:249 -->
+                <div class="product-card resina d-flex flex-column align-items-start gap-4 p-0">
+                    <!-- NUEVO: se agrego div class title-description Linea:250-257 -->
+                    <div class="title-category d-flex flex-column flex-md-row justify-content-center gap-3">
+                        <h3 class="mb-0">Resina y fibra de vidrio</h3>
+                        <div class="d-flex justify-content-between align-items-center gap-3">
+                            <a href="#" class="btn-main-link">Ver resinas</a>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <!-- NUEVO: se agrego un P Linea:223 -->
+                    <p class="mb-0 text-white">Resinas industriales y refuerzos de fibra de vidrio para procesos de
+                        laminado, reparación estructural y fabricación de piezas técnicas.</p>
                     <div class="content-card row row-cols-1 row-cols-sm-2 row-cols-lg-4 col col-lg col-xl-12">
                         <div class="card text-lg-center p-0">
                             <a class="d-flex justify-content-start align-items-center gap-3 flex-lg-column" href="#">

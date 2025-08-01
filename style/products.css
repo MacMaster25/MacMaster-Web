@@ -2,26 +2,6 @@
     font-family: "Space Grotesk", sans-serif;
 }
 
-:root {
-    /* Text Colors */
-    --color-text-main: #FFFFFF;
-    --color-text-button: #000000;
-
-    /* Border */
-    --color-border: #7E8597;
-
-    /* Backgrounds */
-    --color-bg-primary: #121212;
-    --color-bg-secondary: #222222;
-
-    /* Primary Brand Color */
-    --color-primary: #F9A825;
-
-    /* Fonts */
-    --font-family-primary: 'Bebas Neue', serif;
-    --font-family-secondary: 'Noto Sans', serif;
-}
-
 body {
     background-color: #121212;
     background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/background_noise.png?raw=true');
@@ -54,38 +34,92 @@ body {
     border-color: var(--color-bg-primary);
 }
 
-/*heroimage*/
+/*hero image*/
 #heroimage {
-    height: 70vh;
-    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true');
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/03.products/Hero_mobile.png?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-#heroimage .content-hero {
-    height: 150vw;
-    align-self: stretch;
-    padding: 0 1rem;
+#heroimage .content-heroimage {
+    padding: 7.5rem 1rem 0 1rem;
 }
 
-#heroimage .content-hero h1 {
-    color: var(--color-text-main);
+#heroimage .content-heroimage .heroimage-title {
+    margin-bottom: 1.5rem;
+    color: var(--color-text-main)
+}
+
+#heroimage .content-heroimage .heroimage-title h1 {
     font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 0;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
-#heroimage .content-hero p {
+#heroimage .content-heroimage .heroimage-title p {
+    font-size: 1.125rem;
+}
+
+#heroimage .content-heroimage .heroimage-title p:nth-of-type(2) {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+#heroimage .content-heroimage .heroimage-data {
+    backdrop-filter: blur(4px);
+    padding: 2.25rem 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a {
+    margin: 0 0 1rem 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a p {
+    color: var(--color-text-main);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a img {
+    width: 75%;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-primary);
+    background: var(--color-bg-secondary);
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b p {
     color: var(--color-text-main);
     font-family: "Instrument Sans";
-    font-size: 1.125rem;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
     margin-bottom: 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b img {
+    width: 75%;
+}
+
+/*benefits*/
+#benefits h2 {
+    font-size: 1.75rem;
+    line-height: 120%;
+}
+
+#benefits p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
 }
 
 /*products*/
@@ -94,39 +128,17 @@ body {
     gap: 2.25rem;
 }
 
-#products .content-produts .title-description {
-    align-self: stretch;
-}
-
-#products .content-produts .title-description h2 {
-    color: var(--color-text-main);
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
-#products .content-produts .title-description p {
-    color: var(--color-text-main);
-    font-family: "Instrument Sans";
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
-#products .content-produts .product-card {
-    align-self: stretch;
-}
-
 #products .content-produts .product-card h3 {
     color: var(--color-text-main);
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+}
+
+#products .content-produts .product-card p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
 }
 
 #products .content-produts .product-card .content-card {
@@ -349,8 +361,28 @@ body {
         width: 100%;
     }
 
-    #heroimage .content-hero {
-        height: 100vw;
+    #heroimage .content-heroimage {
+        padding: 9rem 1rem 0 1rem;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-a img {
+        width: 50%;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b {
+        gap: 1rem;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b .data-image {
+        flex: 0 0 2rem;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b .data-image img {
+        width: 100%;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b p {
+        font-size: 1rem;
     }
 
     #products .content-produts .product-card .card:nth-of-type(2) {
@@ -382,12 +414,23 @@ body {
     }
 
     #heroimage {
-        height: 100%;
-        background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true');
+        background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/03.products/Hero_desktop.png?raw=true')
     }
 
-    #heroimage .content-hero {
-        height: 60vw;
+    #heroimage .content-heroimage .heroimage-data .data-a {
+        margin: 0;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-a img {
+        width: 50%;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b {
+        width: auto;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b p {
+        font-size: 0.875rem;
     }
 
     #gallery .container-gallery .grid img {
@@ -437,9 +480,8 @@ body {
         padding: 0.5rem 1rem !important;
     }
 
-    #heroimage .content-hero {
-        height: 35vw;
-        padding: 3rem 0 0 0;
+    #heroimage .content-heroimage {
+        padding: 9rem 0 0 0;
     }
 
     #products .content-produts {
@@ -477,6 +519,15 @@ body {
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
+    #heroimage .content-heroimage .heroimage-title h1 {
+        font-size: 3rem;
+    }
+
+    #heroimage .content-heroimage .heroimage-data .data-b {
+        padding: 0.5rem 1rem;
+        border-radius: 100px;
+    }
+
     #gallery .container-gallery .banner-cta {
         padding: 3.75rem 10.063rem;
     }
@@ -497,8 +548,16 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
-    #heroimage .content-hero h1 {
-        font-size: 3.75rem;
+    #heroimage .content-heroimage .heroimage-title p {
+        font-size: 1.5rem;
+    }
+
+    #heroimage .content-heroimage .heroimage-title p:nth-of-type(2) {
+        font-size: 1.125rem;
+    }
+
+    #benefits h2 {
+        font-size: 2.25rem;
     }
 
     #products .content-produts .title-description h2 {
