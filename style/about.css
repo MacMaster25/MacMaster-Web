@@ -48,10 +48,16 @@ body {
     margin-bottom: 0;
 }
 
-#heroimage .content-hero img {
-    width: 100%;
-    object-fit: contain;
-    border-radius: 0.5rem;
+#heroimage .content-hero .brand-stats {
+    min-height: 500px;
+}
+
+#heroimage .content-hero .brand-stats .brand-heading {
+    min-height: 500px;
+}
+
+#heroimage .content-hero .grid-stats small {
+    font-family: "Instrument Sans";
 }
 
 /*mision & vision*/
@@ -201,6 +207,8 @@ body {
     height: 100vw;
     object-fit: cover;
     border-radius: 0 0 1rem 1rem;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
 }
 
 /*about us*/
@@ -333,7 +341,6 @@ body {
 
 #gallery .container-gallery .banner-cta .title-description {
     position: relative;
-    gap: 1rem;
     align-self: stretch;
     color: var(--color-text-main);
     z-index: 2;
@@ -358,30 +365,17 @@ body {
     margin-bottom: 0;
 }
 
-#gallery .container-gallery .banner-cta .title-description a {
-    width: 100%;
-    font-size: 1.125rem;
-    font-weight: 500;
-    background-color: var(--color-primary);
-    border: none;
-    border-radius: 0.5rem;
-    color: var(--color-text-button);
-    padding: 1rem 1.5rem;
-    text-decoration: none;
-}
-
-#gallery .container-gallery .banner-cta .data {
+#gallery .container-gallery .banner-cta .data-b {
     position: relative;
+    width: 100%;
     padding: 1rem;
-    margin: 3.75rem 0 0 0;
     border-radius: 0.5rem;
     border: 1px solid var(--color-primary);
     background: var(--color-bg-secondary);
-    backdrop-filter: blur(3px);
     z-index: 2;
 }
 
-#gallery .container-gallery .banner-cta .data p {
+#gallery .container-gallery .banner-cta .data-b p {
     color: var(--color-text-main);
     font-family: "Instrument Sans";
     font-size: 0.875rem;
@@ -390,8 +384,8 @@ body {
     line-height: 120%;
 }
 
-#gallery .container-gallery .banner-cta .data img {
-    width: 25%;
+#gallery .container-gallery .banner-cta .data-b img {
+    width: 75%;
 }
 
 /*footer*/
@@ -488,14 +482,6 @@ body {
         border-radius: 0.5rem;
     }
 
-    #gallery .container-gallery .banner-cta .data .data-image {
-        flex: 0 0 5rem;
-    }
-
-    #gallery .container-gallery .banner-cta .data img {
-        width: 100%;
-    }
-
     #footer .container-footer .footer-options img {
         width: 50%;
     }
@@ -528,18 +514,6 @@ body {
 
     #about .container-about .title-description a {
         width: auto;
-    }
-
-    #gallery .container-gallery .grid img {
-        width: 32.9%;
-    }
-
-    #gallery .container-gallery .banner-cta .title-description a {
-        width: auto;
-    }
-
-    #gallery .container-gallery .banner-cta .data img {
-        width: 100%;
     }
 
     #footer .container-footer .footer-options img {
@@ -616,17 +590,18 @@ body {
         height: 50%;
     }
 
-    #gallery .container-gallery .banner-cta {
-        align-items: flex-start;
-    }
-
-    #gallery .container-gallery .banner-cta .data {
+    #gallery .container-gallery .banner-cta .data-b {
+        width: auto;
         padding: 0.5rem 1rem;
         gap: 1rem;
         border-radius: 100px;
     }
 
-    #gallery .container-gallery .banner-cta .data img {
+    #gallery .container-gallery .banner-cta .data-b .data-image {
+        flex: 0 0 2rem
+    }
+
+    #gallery .container-gallery .banner-cta .data-b .data-image img {
         width: 100%;
     }
 
@@ -641,6 +616,14 @@ body {
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
+    #heroimage .content-hero .brand-stats {
+        min-height: 650px;
+    }
+
+    #heroimage .content-hero .brand-stats .brand-heading {
+        min-height: 650px;
+    }
+
     #about .container-about {
         align-items: flex-start;
         padding: 4.5rem 0;
@@ -661,6 +644,7 @@ body {
 
     #gallery .container-gallery .banner-cta {
         padding: 3.75rem 10.063rem;
+        min-height: 600px;
     }
 
     #footer .container-footer .footer-options,
@@ -701,15 +685,6 @@ body {
 
     #gallery .container-gallery .banner-cta .title-description h2 {
         font-size: 3.75rem;
-    }
-
-    #gallery .container-gallery .banner-cta .title-description .btn {
-        margin-top: 2.25rem;
-    }
-
-    #gallery .container-gallery .banner-cta .data {
-        width: auto;
-        margin-top: 3.75rem;
     }
 
     #footer .container-footer .footer-options img {

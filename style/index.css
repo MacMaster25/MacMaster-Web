@@ -146,10 +146,6 @@ body {
     line-height: 120%;
 }
 
-#brand .container-brand .stats-title .title-start {
-    border-bottom: 1px solid var(--color-border);
-}
-
 #brand .container-brand .grid-stats small {
     font-family: "Instrument Sans";
 }
@@ -517,14 +513,6 @@ body {
         font-size: 1rem;
     }
 
-    #gallery .container-gallery .banner-cta .data .data-image {
-        flex: 0 0 5rem;
-    }
-
-    #gallery .container-gallery .banner-cta .data img {
-        width: 100%;
-    }
-
     #footer .container-footer .footer-options img {
         width: 50%;
     }
@@ -582,10 +570,6 @@ body {
 
     #gallery .container-gallery .grid img {
         width: 32.9%;
-    }
-
-    #gallery .container-gallery .banner-cta .title-description a {
-        width: auto;
     }
 
     #footer .container-footer .footer-options img {
@@ -676,10 +660,6 @@ body {
         min-height: 650px;
     }
 
-    #brand .container-brand .grid-stats {
-        min-height: 90px;
-    }
-
     #products .container-products .title-description h2 {
         font-size: 2.25rem;
     }
@@ -728,11 +708,6 @@ body {
 
     #gallery .container-gallery .banner-cta .title-description h2 {
         font-size: 3.75rem;
-    }
-
-    #gallery .container-gallery .banner-cta .data-b {
-        width: auto;
-        margin-top: 3.75rem;
     }
 
     #footer .container-footer .footer-options img {
