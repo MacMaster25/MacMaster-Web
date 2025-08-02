@@ -163,7 +163,8 @@
                         <div class="stats-title mb-5">
                             <div class="title-start mb-4">
                                 <h4>Trayectoria</h4>
-                                <p class="text-start border-bottom pb-3">Más de una década impulsando soluciones industriales en todo el
+                                <p class="text-start border-bottom pb-3">Más de una década impulsando soluciones
+                                    industriales en todo el
                                     país.</p>
                             </div>
                             <div class="title-end d-md-flex flex-column align-items-md-end mt-4">
@@ -215,7 +216,7 @@
     <section id="products" class="py-5 px-1 col-xl-8 offset-xl-2">
         <div class="container-fluid">
             <div class="row container-products d-flex flex-column align-items-center gap-5">
-                <!-- CAMBIOS: Ajuste del contenedor title-description Linea: 219-229 -->
+                <!-- CAMBIOS: Ajuste del contenedor title-description Linea: 220-230 -->
                 <div class="title-description d-flex flex-column text-center gap-4">
                     <div>
                         <span class="badge">Nuestros productos</span>
@@ -344,48 +345,68 @@
             </div>
         </div>
     </section>
-    <!-- gallery -->
-    <section id="gallery">
-        <div class="container-fluid">
-            <div class="row container-gallery">
-                <!-- CAMBIOS: Se añadio clase col-xl-8 Linea:239 -->
-                <div class="grid row row-cols-1 row-cols-md-3 p-0 gap-1 col-xl-8">
+    <!-- NUEVO: se quito el banner del id gallery -->
+    <section id="gallery" class="pb-2">
+        <div class="container-fluid px-2">
+            <div class="row row-cols-1 row-cols-md-3 g-2">
+                <div class="col">
                     <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/spray-pintura-industrial-tekbond.png?raw=true"
-                        class="p-0"
-                        alt="Aplicación de pintura en aerosol industrial Tekbond en proceso de mantenimiento">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/amoladora-angular-chispas-abrasivo.png?raw=true"
-                        class="p-0" alt="Uso de amoladora angular con disco abrasivo generando chispas">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-industriales-negros.png?raw=true"
-                        class="p-0" alt="Pernos industriales negros de alta resistencia organizados en grupo">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-u-acero-inoxidable.png?raw=true"
-                        class="p-0" alt="Conjunto de pernos en forma de U de acero inoxidable organizados en caja">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/fibra-de-vidrio-industrial.png?raw=true"
-                        class="p-0" alt="Rollo de fibra de vidrio tejida para uso industrial">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/adhesivo-industrial-motor.png?raw=true"
-                        class="p-0"
-                        alt="Aplicación de adhesivo industrial en componentes de motor durante mantenimiento mecánico">
+                        alt="Aplicación de pintura en aerosol industrial Tekbond en proceso de mantenimiento"
+                        class="img-fluid w-100 rounded-3">
                 </div>
-                <div class="banner-cta d-flex flex-column justify-content-xl-center align-items-lg-start gap-1">
-                    <!-- CAMBIOS: Se quito clase col-xl-6 Linea:370 -->
-                    <div class="title-description d-flex flex-column align-items-start gap-4 col-md-8">
-                        <!-- CAMBIOS: Nuevo texto en H2 Linea:372 -->
-                        <h2>¿Necesitas ayuda para encontrar el producto ideal?</h2>
-                        <!-- CAMBIOS: Nuevo texto en P Linea:374 -->
-                        <p class="col-xl-10">Nuestro equipo está listo para asesorarte. Contáctanos y recibe atención
-                            personalizada para tu próximo proyecto.</p>
-                        <!-- CAMBIOS: Nuevas clases btn btn-main en etiqueta a Linea:376 -->
+                <div class="col">
+                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/amoladora-angular-chispas-abrasivo.png?raw=true"
+                        alt="Uso de amoladora angular con disco abrasivo generando chispas"
+                        class="img-fluid w-100 rounded-3">
+                </div>
+                <div class="col">
+                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-industriales-negros.png?raw=true"
+                        alt="Pernos industriales negros de alta resistencia organizados en grupo"
+                        class="img-fluid w-100 rounded-3">
+                </div>
+                <div class="col">
+                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-u-acero-inoxidable.png?raw=true"
+                        alt="Conjunto de pernos en forma de U de acero inoxidable organizados en caja"
+                        class="img-fluid w-100 rounded-3">
+                </div>
+                <div class="col">
+                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/fibra-de-vidrio-industrial.png?raw=true"
+                        alt="Rollo de fibra de vidrio tejida para uso industrial" class="img-fluid w-100 rounded-3">
+                </div>
+                <div class="col">
+                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/adhesivo-industrial-motor.png?raw=true"
+                        alt="Aplicación de adhesivo industrial en componentes de motor durante mantenimiento mecánico"
+                        class="img-fluid w-100 rounded-3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us" class="container-fluid px-2">
+        <div class="w-100 mb-2 me-md-1 mb-xl-0">
+            <div class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl">
+                <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/05.gallery/image_bg.png?raw=true"
+                    class="w-100 h-100 object-fit-cover position-absolute top-0 start-0 z-0"
+                    alt="Asesora industrial">
+                <div
+                    class="position-relative p-4 p-lg-5 z-1 bg-gradient-dark h-100 d-flex flex-column justify-content-between min-height-xl">
+                    <div>
+                        <span class="badge py-2 px-2 mb-3">CONTÁCTENOS</span>
+                        <h2 class="fw-bold mb-3">¿Listo para tu próxima<br>compra industrial?</h2>
+                        <p class="mb-4 col-xl-6 col-xxl-4">En Mac Master Importadores estamos para ayudarte a encontrar justo lo que tu
+                            negocio necesita. Escríbenos y recibí asesoría personalizada en minutos.</p>
                         <a class="text-center btn btn-main"
                             href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
                             target="_blank">Habla con un asesor</a>
                     </div>
-                    <!-- CAMBIOS: ajuste de componente similar al del hero image  Linea:382 -->
-                    <div class="data-b d-flex align-items-sm-center m-0 mt-4">
-                        <div class="data-image d-sm-flex">
+                    <div class="d-inline-flex">
+                        <div
+                            class="guarantee d-flex flex-column flex-md-row align-items-md-center mt-4 small rounded-4 px-3 py-3 gap-2 bg-dark bg-opacity-75">
                             <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/02.Hero/guarantee_icon.png?raw=true"
-                                class="mb-2 mb-sm-0" alt="imagen icono de garantia de devoluciones">
+                                alt="Icono garantía" width="24" height="24">
+                            <p class="mb-0">
+                                Garantía de satisfacción: devoluciones sin costo en 30 días.
+                            </p>
                         </div>
-                        <p class="d-sm-flex mb-0">Garantía de satisfacción: devoluciones sin costo en
-                            30 días.</p>
                     </div>
                 </div>
             </div>
