@@ -80,11 +80,11 @@
                 </div>
             </div>
     </section>
-    <section id="heroimage" class="position-relative text-white"
-        style="background: linear-gradient(to bottom, rgba(18,18,18,0.75), rgba(18,18,18,0.95)), url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png?raw=true') no-repeat center/cover; min-height: 600px;">
-        <div class="container h-100 d-flex align-items-center py-5">
+    <!-- hero image -->
+    <section id="heroimage" class="position-relative text-white">
+        <div class="heading container d-flex align-items-center py-5">
             <div class="col-lg-6">
-                <span class="badge bg-warning text-dark mb-3 fw-semibold small px-3 py-2">PRODUCTOS DESTACADO</span>
+                <span class="badge mb-3 px-2 py-2">PRODUCTOS DESTACADO</span>
                 <h1 class="fw-bold display-5 mb-4">
                     Resinas industriales de alto<br>
                     desempeño para moldeo,<br>
@@ -100,6 +100,7 @@
             </div>
         </div>
     </section>
+    <!-- beneficios producto -->
     <section class="container-fluid text-white py-4">
         <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-2 px-3">
             <div class="col">
@@ -128,96 +129,187 @@
             </div>
         </div>
     </section>
-    <section class="container py-5">
+    <!-- tipos de resina -->
+    <section id="types" class="container-fluid col-lg-10 offset-lg-1 py-5">
         <div class="row align-items-start">
             <!-- Accordion -->
-            <div class="col-md-6">
-                <h4 class="fw-bold mb-4">Tipos de resina</h4>
-                <div class="accordion" id="resinaAccordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading1">
+            <div class="col-lg-6">
+                <h2 class="fw-bold text-white mb-4">Tipos de resina</h2>
+                <div class="border rounded-2 text-white" id="accordionExample">
+                    <div class="accordion-item mb-0">
+                        <h2 class="accordion-header p-3 mb-3 border-bottom">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapse1">
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Resina poliéster ortoftálica
                             </button>
                         </h2>
-                        <div id="collapse1" class="accordion-collapse collapse show">
+                        <div id="collapseOne" class="accordion-collapse collapse show border-bottom"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <ul>
                                     <li>Fabricación general, aplicaciones estándar</li>
                                     <li>Económica y de fácil aplicación</li>
                                 </ul>
+                                <p class="px-3">Ideal para proyectos de laminado y reparación de piezas.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="heading2">
+                        <h2 class="accordion-header p-3 mb-3 border-bottom">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapse2">
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Resina isoftálica
                             </button>
                         </h2>
-                        <div id="collapse2" class="accordion-collapse collapse">
-                            <div class="accordion-body">Contenido aquí...</div>
+                        <div id="collapseTwo" class="accordion-collapse collapse border-bottom"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Ambientes agresivos, estructuras náuticas o industriales</li>
+                                    <li>Mayor resistencia química y térmica</li>
+                                </ul>
+                                <p class="px-3">Excelente para aplicaciones que requieren durabilidad y resistencia a la
+                                    corrosión.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header p-3 mb-3 border-bottom">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Resina viniléster
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse border-bottom"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Tanques, tuberías, equipos anticorrosivos</li>
+                                    <li>Alta durabilidad y excelente resistencia a químicos</li>
+                                </ul>
+                                <p class="px-3">Ideal para aplicaciones industriales exigentes y ambientes corrosivos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header p-3 mb-3 border-bottom">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Resina de alta resistencia
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse border-bottom"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Componentes estructurales, refuerzos técnicos</li>
+                                    <li>Máxima resistencia mecánica y estabilidad dimensional</li>
+                                </ul>
+                                <p class="px-3">Recomendada para aplicaciones que requieren alta carga y resistencia a
+                                    impactos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header p-3 border-bottom">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Gelcoats
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body mt-3">
+                                <ul>
+                                    <li>Acabados superficiales, protección UV</li>
+                                    <li>Excelente acabado, brillo y resistencia a la intemperie</li>
+                                </ul>
+                                <p class="px-3">Utilizados para recubrir superficies de resina, proporcionando un
+                                    acabado estético y
+                                    duradero.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Imagen -->
-            <div class="col-md-6 mt-4 mt-md-0">
-                <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/tipos-de-resina-poliester-epoxica-termica-transparente.png?raw=true"
-                    alt="Tipos de resina" class="img-fluid rounded-4 shadow">
+            <div class="col-lg-6 mt-3 mt-lg-0">
+                <div class="overflow-hidden rounded-4 size-img">
+                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/tipos-de-resina-poliester-epoxica-termica-transparente.png?raw=true"
+                        class="img-fluid w-100 h-100 object-fit-cover" alt="Construcción y arquitectura">
+                </div>
             </div>
         </div>
     </section>
-    <section class="container-fluid py-5">
-        <h4 class="fw-bold text-white">Aplicaciones más comunes</h4>
-        <p class="text-secondary">Aplicaciones versátiles en múltiples sectores</p>
+    <!-- aplicaciones comunes -->
+    <section id="aplications" class="container-fluid col-lg-10 offset-lg-1 py-5">
+        <h2 class="fw-bold text-white">Aplicaciones más comunes</h2>
+        <p class="text-white">Aplicaciones versátiles en múltiples sectores</p>
         <div class="row g-2 g-md-3 mt-3">
             <!-- Fila 1 -->
             <div class="col-12 col-md-6 col-xl-4">
                 <div class="position-relative overflow-hidden rounded-4">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/laminado-fibra-reparacion-barcos-automotriz-industrial.png?raw=true"
-                        class="img-fluid w-100 h-100 object-fit-cover" alt="Industria naval">
-                    <div class="position-absolute bottom-0 start-0 text-white p-3 bg-gradient">
-                        <strong>Industria naval y automotriz</strong>
-                        <p class="mb-0 small">Laminado con fibra, reparación de piezas y moldes.</p>
+                    <div class="overflow-hidden" style="height: 430px;">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/recubrimiento-pisos-resina-autonivelante-construccion.png?raw=true"
+                            class="img-fluid w-100 h-100 object-fit-cover" alt="Construcción y arquitectura">
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 w-100">
+                        <div class="card-body p-3 text-white">
+                            <h5>Industria naval y automotriz:</h5>
+                            <p class="mb-0">Laminado con fibra, reparación de piezas
+                                y moldes.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-8">
                 <div class="position-relative overflow-hidden rounded-4">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/recubrimiento-pisos-resina-autonivelante-construccion.png?raw=true"
-                        class="img-fluid w-100 h-100 object-fit-cover" alt="Construcción y arquitectura">
-                    <div class="position-absolute bottom-0 start-0 text-white p-3 bg-gradient">
-                        <strong>Construcción y arquitectura</strong>
-                        <p class="mb-0 small">Recubrimientos de pisos, resinas autonivelantes, encimeras.</p>
+                    <div class="overflow-hidden" style="height: 430px;">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/recubrimiento-pisos-resina-autonivelante-construccion.png?raw=true"
+                            class="img-fluid w-100 h-100 object-fit-cover" alt="Construcción y arquitectura">
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 w-100">
+                        <div class="card-body p-3 text-white">
+                            <h5>Construcción y arquitectura</h5>
+                            <p class="mb-0">Recubrimientos de pisos, resinas autonivelantes,
+                                encimeras.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Fila 2 -->
             <div class="col-12 col-md-6 col-xl-8">
                 <div class="position-relative overflow-hidden rounded-4">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/encapsulado-resina-mesa-arte-decoracion-brillante.png?raw=true"
-                        class="img-fluid w-100 h-100 object-fit-cover" alt="Arte y decoración">
-                    <div class="position-absolute bottom-0 start-0 text-white p-3 bg-gradient">
-                        <strong>Arte y decoración</strong>
-                        <p class="mb-0 small">Acabados brillantes, encapsulados, mesas tipo río.</p>
+                    <div class="overflow-hidden" style="height: 438px;">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/encapsulado-resina-mesa-arte-decoracion-brillante.png?raw=true"
+                            class="img-fluid w-100 h-100 object-fit-cover" alt="Arte y decoración">
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 w-100">
+                        <div class="card-body p-3 text-white">
+                            <h5>Arte y decoración</h5>
+                            <p class="mb-0">Acabados brillantes, encapsulados,
+                                mesas tipo río.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-4">
                 <div class="position-relative overflow-hidden rounded-4">
-                    <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-protectora-maquinaria-juntas-tanque-industrial.png?raw=true"
-                        class="img-fluid w-100 h-100 object-fit-cover" alt="Mantenimiento industrial">
-                    <div class="position-absolute bottom-0 start-0 text-white p-3 bg-gradient">
-                        <strong>Mantenimiento industrial</strong>
-                        <p class="mb-0 small">Revestimiento protector para maquinaria, juntas y tanques.</p>
+                    <div class="overflow-hidden" style="height: 438px;">
+                        <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-protectora-maquinaria-juntas-tanque-industrial.png?raw=true"
+                            class="img-fluid w-100 h-100 object-fit-cover" alt="Mantenimiento industrial">
+                    </div>
+                    <div class="position-absolute bottom-0 start-0 w-100">
+                        <div class="card-body p-3 text-white">
+                            <h5>Mantenimiento industrial</h5>
+                            <p class="mb-0">Revestimiento protector para maquinaria, juntas y tanques.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
+    <!-- beneficios -->
     <section id="benefits" class="bg-black mb-2 py-4 py-xl-5 px-1 px-lg-0 text-light">
         <div class="container-fluid py-lg-3 col-lg-10 offset-lg-1">
             <div>
@@ -247,6 +339,7 @@
             </div>
         </div>
     </section>
+    <!-- otras categorias -->
     <section id="industrial-category" class="container-fluid py-5 px-lg-0 col-lg-10 offset-lg-1">
         <h2 class="text-white fw-bold mb-4">Conoce más soluciones industriales</h2>
         <div class="d-flex flex-column flex-md-row flex-wrap flex-lg-nowrap gap-2 gap-md-3 justify-content-center">
@@ -274,6 +367,7 @@
             </div>
         </div>
     </section>
+    <!-- banner cta -->
     <section id="contact-us" class="container-fluid px-2">
         <div class="w-100 mb-2 me-md-1 mb-xl-0">
             <div class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl">

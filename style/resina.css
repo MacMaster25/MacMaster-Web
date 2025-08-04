@@ -123,12 +123,59 @@ body {
     margin-bottom: 0;
 }
 
+/*hero*/
+#heroimage {
+    background: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.35), rgba(18, 18, 18, 1)), url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+}
+
+#heroimage .heading {
+    min-height: 600px;
+}
+
+#heroimage span {
+    border: 1px solid var(--color-border-secondary);
+}
+
+/*types of resine*/
+#types h2 {
+    font-size: 1.75rem;
+}
+
+#types .size-img {
+    height: 300px;
+}
+
 /*applications*/
-#applications h6 {
+#aplications h2 {
+    font-size: 1.75rem;
+}
+
+#aplications p {
+    font-size: 1rem;
+}
+
+#aplications .container-image {
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/encapsulado-resina-mesa-arte-decoracion-brillante.png?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
+
+#aplications .card-body {
+    background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%);
+    backdrop-filter: blur(2px);
+}
+
+#aplications .card-body h5 {
     font-size: 1.125rem;
 }
 
-#applications p {
+#aplications .card-body p {
+    font-family: "Instrument Sans";
     font-size: 1rem;
 }
 
@@ -335,6 +382,10 @@ body {
         border-left: 0;
     }
 
+    #types .size-img {
+        height: 530px;
+    }
+
     #footer .container-footer .footer-options img {
         width: 50%;
     }
@@ -370,11 +421,23 @@ body {
 
 /*larger desktops, 1400px*/
 @media (min-width: 1400px) {
-    #gallery .container-gallery .banner-cta .title-description h2 {
-        font-size: 3.75rem;
+    #products .content-produts p {
+        font-size: 1.5rem;
     }
 
-    #products .content-produts p {
+    #types h2 {
+        font-size: 2.25rem;
+    }
+
+    #aplications h2 {
+        font-size: 2.25rem;
+    }
+
+    #aplications p {
+        font-size: 1.5rem;
+    }
+
+    #aplications .card-body h5 {
         font-size: 1.5rem;
     }
 
