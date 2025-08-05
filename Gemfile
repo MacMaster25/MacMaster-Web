@@ -29,4 +29,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Use `debug` to print debug information.
-# If you're using bundler, you can add `gem "debug"` to your Gemfile. 
+# If you're using bundler, you can add `gem "debug"` to your Gemfile.
