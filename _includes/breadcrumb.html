@@ -1,0 +1,79 @@
+{% comment %}
+  Smart Breadcrumb Navigation Component
+  
+  Usage:
+  {% include breadcrumb.html %} - Auto-generates breadcrumb based on page context
+  {% include breadcrumb.html items=page.breadcrumb %} - Uses predefined breadcrumb
+  {% include breadcrumb.html items=subcategory.breadcrumb %} - Uses subcategory breadcrumb
+{% endcomment %}
+
+{% assign breadcrumb_items = include.items %}
+
+{% comment %}
+  Auto-generate breadcrumb if no items provided
+{% endcomment %}
+{% unless breadcrumb_items %}
+  {% assign breadcrumb_items = "" | split: "" %}
+  
+  {% comment %} Always start with Home {% endcomment %}
+  {% assign breadcrumb_items = breadcrumb_items | push: "Inicio" | push: "/" %}
+  
+  {% comment %} Add Products page for product-related pages {% endcomment %}
+  {% if page.layout == "product" or page.layout == "subcategory" or page.url contains "/productos/" %}
+    {% assign breadcrumb_items = breadcrumb_items | push: "Productos" | push: "/products/" %}
+  {% endif %}
+  
+  {% comment %} Add category for subcategory pages {% endcomment %}
+  {% if page.layout == "subcategory" and page.category_id %}
+    {% assign category = site.data.categories | find: "id", page.category_id %}
+    {% if category %}
+      {% assign breadcrumb_items = breadcrumb_items | push: category.name | push: "/productos/" | append: category.slug | append: "/" %}
+    {% endif %}
+  {% endif %}
+  
+  {% comment %} Add current page {% endcomment %}
+  {% if page.title %}
+    {% assign breadcrumb_items = breadcrumb_items | push: page.title | push: page.url %}
+  {% endif %}
+{% endunless %}
+
+{% if breadcrumb_items %}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    {% comment %} Handle predefined breadcrumb items {% endcomment %}
+    {% if breadcrumb_items.first.name %}
+      {% for item in breadcrumb_items %}
+        <li class="breadcrumb-item {% if forloop.last %}active{% endif %}"
+            {% if forloop.last %}aria-current="page"{% endif %}>
+          {% if forloop.last %}
+            {{ item.name }}
+          {% else %}
+            <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    {% else %}
+      {% comment %} Handle auto-generated breadcrumb items {% endcomment %}
+      {% for i in (0..breadcrumb_items.size) %}
+        {% assign index = i | times: 2 %}
+        {% assign name_index = index %}
+        {% assign link_index = index | plus: 1 %}
+        
+        {% if name_index < breadcrumb_items.size and link_index < breadcrumb_items.size %}
+          {% assign item_name = breadcrumb_items[name_index] %}
+          {% assign item_link = breadcrumb_items[link_index] %}
+          
+          <li class="breadcrumb-item {% if forloop.last %}active{% endif %}"
+              {% if forloop.last %}aria-current="page"{% endif %}>
+            {% if forloop.last %}
+              {{ item_name }}
+            {% else %}
+              <a href="{{ site.baseurl }}{{ item_link }}">{{ item_name }}</a>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </ol>
+</nav>
+{% endif %} 

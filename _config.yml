@@ -1,72 +1,92 @@
-# Configuración del sitio
-title: "Mac Master Importadores"
-description: "Expertos en tornillería y soluciones industriales"
-url: "https://macmaster25.github.io"
-baseurl: "/MacMaster-Web"
+# Site settings
+title: "Your Company Name"
+email: "contact@yourcompany.com"
+description: "Your company description - specializing in quality products"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourcompany.com" # the base hostname & protocol for your site
+twitter_username: "yourcompany"
+github_username: "yourcompany"
 
-# Configuración para incluir archivos estáticos
-include:
-  - Assets
-  - style
-  - javascript
+# Company Information for SEO
+company_name: "Your Company Name"
+company_phone: "+1-555-123-4567"
+company_email: "contact@yourcompany.com"
+company_street: "123 Main Street"
+company_city: "New York"
+company_state: "NY"
+company_zip: "10001"
+company_country: "US"
+company_hours: "Monday-Friday 9AM-6PM"
+company_payment_methods: ["Cash", "Credit Card", "PayPal"]
+company_facebook: "https://www.facebook.com/yourcompany"
+company_twitter: "https://twitter.com/yourcompany"
+company_linkedin: "https://www.linkedin.com/company/yourcompany"
+company_instagram: "https://www.instagram.com/yourcompany"
 
-# Configuración de Jekyll
+# Build settings
 markdown: kramdown
-highlighter: rouge
+permalink: /:categories/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Configuración de colecciones
+# Collections
 collections:
-  posts:
+  product:
     output: true
-    permalink: /:collection/:title/
+    permalink: /product/:title/
+  categories:
+    output: true
+    permalink: /categorias/:title/
+  subcategory:
+    output: true
+    permalink: /subcategory/:title/
 
-# Configuración de permalinks
-permalink: /:title/
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "subcategories"
+    values:
+      layout: "subcategory"
 
-# Configuración de paginación
-paginate: 10
-paginate_path: "/page/:num/"
+# SEO Settings
+author:
+  name: "Your Company Name"
+  email: "contact@yourcompany.com"
 
-# Configuración de sitemap
-sitemap:
-  exclude:
-    - /feed.xml
-    - /sitemap.xml
-
-# Configuración de robots.txt
-robots:
-  user_agent: "*"
-  disallow:
-    - /admin/
-    - /private/
-
-# Configuración de Google Analytics (opcional)
-google_analytics: ""
-
-# Configuración de comentarios (opcional)
-comments: false
-
-# Configuración de redes sociales
+# Social media
 social:
-  twitter: "@macmaster"
-  facebook: "macmaster"
-  instagram: "macmaster"
+  name: "Your Company Name"
+  links:
+    - "https://twitter.com/yourcompany"
+    - "https://facebook.com/yourcompany"
 
-# Configuración de contacto
-contact:
-  email: "info@macmaster.com"
-  phone: "+1 234 567 890"
-  address: "Dirección de la empresa"
+# Google Analytics (replace with your tracking ID)
+google_analytics: "GA_TRACKING_ID"
 
-# Configuración de horarios
-hours:
-  monday: "9:00 AM - 6:00 PM"
-  tuesday: "9:00 AM - 6:00 PM"
-  wednesday: "9:00 AM - 6:00 PM"
-  thursday: "9:00 AM - 6:00 PM"
-  friday: "9:00 AM - 6:00 PM"
-  saturday: "9:00 AM - 2:00 PM"
-  sunday: "Cerrado"
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 

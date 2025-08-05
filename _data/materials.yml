@@ -1,0 +1,184 @@
+- id: acero-baja-resistencia
+  name: "Acero baja resistencia"
+  description: "Latest iPhone with advanced camera system and A17 Pro chip"
+  subtitle: "Fijación robusta y confiable para aplicaciones industriales exigentes."
+  image: "/assets/images/materials/acero-baja-resistencia.png"
+  slug: "acero-baja-resistencia"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-grado-5
+  name: "Acero grado 5"
+  description: "Acero de alta resistencia para aplicaciones industriales"
+  subtitle: "Material de grado 5 para máxima durabilidad y resistencia."
+  image: "/assets/images/materials/acero-grado-5.png"
+  slug: "acero-grado-5"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-grado-8
+  name: "Acero grado 8"
+  description: "Acero de muy alta resistencia para aplicaciones críticas"
+  subtitle: "Material de grado 8 para las aplicaciones más exigentes."
+  image: "/assets/images/materials/acero-grado-8.png"
+  slug: "acero-grado-8"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-grado-9
+  name: "Acero grado 9"
+  description: "Acero de máxima resistencia para aplicaciones especializadas"
+  subtitle: "Material de grado 9 para condiciones extremas."
+  image: "/assets/images/materials/acero-grado-9.png"
+  slug: "acero-grado-9"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-clase-8-8
+  name: "Acero de clase 8.8"
+  description: "Acero de clase 8.8 para aplicaciones estructurales"
+  subtitle: "Material clase 8.8 para construcciones y estructuras."
+  image: "/assets/images/materials/acero-clase-8-8.png"
+  slug: "acero-de-clase-8-8"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-clase-10-9
+  name: "Acero de clase 10.9"
+  description: "Acero de clase 10.9 para aplicaciones de alta tensión"
+  subtitle: "Material clase 10.9 para aplicaciones de alta resistencia."
+  image: "/assets/images/materials/acero-clase-10-9.png"
+  slug: "acero-de-clase-10-9"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-inoxidable-18-8
+  name: "Acero inoxidable 18-8"
+  description: "Acero inoxidable 18-8 para resistencia a la corrosión"
+  subtitle: "Material inoxidable 18-8 para ambientes corrosivos."
+  image: "/assets/images/materials/acero-inoxidable-18-8.png"
+  slug: "acero-inoxidable-18-8"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-inoxidable-316
+  name: "Acero inoxidable 316"
+  description: "Acero inoxidable 316 para aplicaciones marinas y químicas"
+  subtitle: "Material inoxidable 316 para ambientes extremos."
+  image: "/assets/images/materials/acero-inoxidable-316.png"
+  slug: "acero-inoxidable-316"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-inoxidable-a2
+  name: "Acero inoxidable A2"
+  description: "Acero inoxidable A2 para aplicaciones generales"
+  subtitle: "Material inoxidable A2 para uso general."
+  image: "/assets/images/materials/acero-inoxidable-a2.png"
+  slug: "acero-inoxidable-a2"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-inoxidable-a4
+  name: "Acero inoxidable A4"
+  description: "Acero inoxidable A4 para aplicaciones químicas"
+  subtitle: "Material inoxidable A4 para ambientes químicos."
+  image: "/assets/images/materials/acero-inoxidable-a4.png"
+  slug: "acero-inoxidable-a4"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-grado-8-mano-izquierda
+  name: "Acero grado 8 mano izquierda"
+  description: "Acero grado 8 con rosca izquierda para aplicaciones especiales"
+  subtitle: "Material grado 8 con rosca izquierda para casos especiales."
+  image: "/assets/images/materials/acero-grado-8-mano-izquierda.png"
+  slug: "acero-grado-8-mano-izquierda"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+- id: acero-inoxidable-18-8-mano-izquierda
+  name: "Acero inoxidable 18-8 mano izquierda"
+  description: "Acero inoxidable 18-8 con rosca izquierda para ambientes corrosivos"
+  subtitle: "Material inoxidable 18-8 con rosca izquierda para casos especiales."
+  image: "/assets/images/materials/acero-inoxidable-18-8-mano-izquierda.png"
+  slug: "acero-inoxidable-18-8-mano-izquierda"
+  product_id: "pernos-de-cabeza-hexagonal"
+
+
+- id: tornillos-cabeza-hueca-sistema-pulgadas
+  name: "Tornillos de cabeza hueca estándar del sistema en pulgadas"
+  description: "Tornillos de cabeza hueca estándar del sistema en pulgadas para aplicaciones industriales"
+  subtitle: "Tornillos de cabeza hueca estándar del sistema en pulgadas."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-sistema-pulgadas.png"
+  slug: "tornillos-cabeza-hueca-sistema-pulgadas"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-sistema-metrico
+  name: "Tornillos de cabeza hueca estándar del sistema métrico"
+  description: "Tornillos de cabeza hueca estándar del sistema métrico para aplicaciones industriales"
+  subtitle: "Tornillos de cabeza hueca estándar del sistema métrico."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-sistema-metrico.png"
+  slug: "tornillos-cabeza-hueca-sistema-metrico"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-especificacion-militar
+  name: "Tornillos de cabeza hueca de especificación militar"
+  description: "Tornillos de cabeza hueca de especificación militar para aplicaciones críticas"
+  subtitle: "Tornillos de cabeza hueca de especificación militar."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-especificacion-militar.png"
+  slug: "tornillos-cabeza-hueca-especificacion-militar"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-perfil-bajo
+  name: "Tornillos de cabeza hueca estándar de perfil bajo"
+  description: "Tornillos de cabeza hueca estándar de perfil bajo para espacios reducidos"
+  subtitle: "Tornillos de cabeza hueca estándar de perfil bajo."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-perfil-bajo.png"
+  slug: "tornillos-cabeza-hueca-perfil-bajo"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-estandar-brida
+  name: "Tornillos de cabeza hueca estándar con brida"
+  description: "Tornillos de cabeza hueca estándar con brida para mayor superficie de contacto"
+  subtitle: "Tornillos de cabeza hueca estándar con brida."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-estandar-brida.png"
+  slug: "tornillos-cabeza-hueca-estandar-brida"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-plana
+  name: "Tornillos de cabeza hueca plana"
+  description: "Tornillos de cabeza hueca plana para aplicaciones de superficie lisa"
+  subtitle: "Tornillos de cabeza hueca plana."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-plana.png"
+  slug: "tornillos-cabeza-hueca-plana"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-boton
+  name: "Tornillos de cabeza hueca de botón"
+  description: "Tornillos de cabeza hueca de botón para aplicaciones estéticas"
+  subtitle: "Tornillos de cabeza hueca de botón."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-boton.png"
+  slug: "tornillos-cabeza-hueca-boton"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-con-brida
+  name: "Tornillos de cabeza hueca con brida"
+  description: "Tornillos de cabeza hueca con brida para mayor estabilidad"
+  subtitle: "Tornillos de cabeza hueca con brida."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-con-brida.png"
+  slug: "tornillos-cabeza-hueca-con-brida"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-ventilados
+  name: "Tornillos de cabeza hueca ventilados"
+  description: "Tornillos de cabeza hueca ventilados para aplicaciones especiales"
+  subtitle: "Tornillos de cabeza hueca ventilados."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-ventilados.png"
+  slug: "tornillos-cabeza-hueca-ventilados"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: tornillos-cabeza-hueca-con-bloqueo
+  name: "Tornillos de cabeza hueca con bloqueo"
+  description: "Tornillos de cabeza hueca con bloqueo para prevenir aflojamiento"
+  subtitle: "Tornillos de cabeza hueca con bloqueo."
+  image: "/assets/images/materials/tornillos-cabeza-hueca-con-bloqueo.png"
+  slug: "tornillos-cabeza-hueca-con-bloqueo"
+  product_id: "tornillos-de-cabeza-hueca"
+
+- id: surtidos-tornillos-cabeza-hueca
+  name: "Surtidos de tornillos de cabeza hueca"
+  description: "Surtidos de tornillos de cabeza hueca para diferentes aplicaciones"
+  subtitle: "Surtidos de tornillos de cabeza hueca."
+  image: "/assets/images/materials/surtidos-tornillos-cabeza-hueca.png"
+  slug: "surtidos-tornillos-cabeza-hueca"
+  product_id: "tornillos-de-cabeza-hueca"

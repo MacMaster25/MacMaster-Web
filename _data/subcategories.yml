@@ -1,47 +1,191 @@
-- name: "Pernos de cabeza hexagonal"
-  slug: "pernos-de-cabeza-hexagonal"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Pernos_de_cabeza_hexagonal.png"
-  alt: "Pernos de cabeza hexagonal"
-  link: "category_detail.html"
+- id: pernos-y-tornillos
+  slug: pernos-y-tornillos
+  category_id: "tornilleria-industrial"
+  name: Pernos y tornillos
+  description: "Nuestra línea de tornillería ofrece soluciones confiables para fijación mecánica en aplicaciones industriales exigentes. Contamos con tornillos, tuercas, arandelas y espárragos roscados en diferentes materiales, diámetros y acabados, ideales para procesos de manufactura, mantenimiento y ensamble"
+  image: assets/images/subcategories/subcategory-pernos-tornillos.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Tornillería Industrial"
+      link: "/productos/tornilleria-industrial/"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
 
-- name: "Tornillos de cabeza hueca"
-  slug: "tornillos-de-cabeza-hueca"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Tornillos_de_cabeza_hueca.png"
-  alt: "Tornillos de cabeza hueca"
-  link: "#"
+- id: tuercas
+  slug: tuercas
+  category_id: "tornilleria-industrial"
+  name: Tuercas
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-tuercas.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Tornillería Industrial"
+      link: "/productos/tornilleria-industrial/"
+    - name: "Tuercas"
+      link: "/productos/tornilleria-industrial/tuercas/"
 
-- name: "Tornillos para taladrar y roscar"
-  slug: "tornillos-para-taladrar-y-roscar"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Tornillos_para_taladrar_roscar.png"
-  alt: "Tornillos para taladrar y roscar"
-  link: "#"
+- id: arandelas
+  slug: arandelas
+  category_id: "tornilleria-industrial"
+  name: Arandelas
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-arandelas.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Tornillería Industrial"
+      link: "/productos/tornilleria-industrial/"
+    - name: "Arandelas"
+      link: "/productos/tornilleria-industrial/arandelas/"
 
-- name: "Tornillos para máquina"
-  slug: "tornillos-para-maquina"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Tornillos_para_máquina.png"
-  alt: "Tornillos para máquina"
-  link: "#"
+- id: varillas-y-esparragos-roscados
+  slug: varillas-y-esparragos-roscados
+  category_id: "tornilleria-industrial"
+  name: Varillas y espárragos roscados
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-varillas-esparragos.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Tornillería Industrial"
+      link: "/productos/tornilleria-industrial/"
+    - name: "Varillas y espárragos roscados"
+      link: "/productos/tornilleria-industrial/varillas-y-esparragos-roscados/"
 
-- name: "Pernos de ojo"
-  slug: "pernos-de-ojo"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Pernos_de_ojo.png"
-  alt: "Pernos de ojo"
-  link: "#"
+- id: abrasivos-para-lijado
+  slug: abrasivos-para-lijado
+  category_id: "abrasivos"
+  name: Abrasivos para lijado
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-abrasivos-lijado.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Abrasivos"
+      link: "/productos/abrasivos/"
+    - name: "Abrasivos para lijado"
+      link: "/productos/abrasivos/abrasivos-para-lijado/"
 
-- name: "Pernos en U"
-  slug: "pernos-en-u"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Pernos_en_U.png"
-  alt: "Pernos en U"
-  link: "#"
+- id: abrasivos-de-corte-y-desbaste
+  slug: abrasivos-de-corte-y-desbaste
+  category_id: "abrasivos"
+  name: Abrasivos de corte y desbaste
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-abrasivos-corte.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Abrasivos"
+      link: "/productos/abrasivos/"
+    - name: "Abrasivos de corte y desbaste"
+      link: "/productos/abrasivos/abrasivos-de-corte-y-desbaste/"
 
-- name: "Pernos de cabeza redonda"
-  slug: "pernos-de-cabeza-redonda"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/01. Tornilleria/Pernos_de_cabeza_redonda.png"
-  alt: "Pernos de cabeza redonda"
-  link: "#" 
+- id: cepillos-abrasivos
+  slug: cepillos-abrasivos
+  category_id: "abrasivos"
+  name: Cepillos abrasivos
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-cepillos-abrasivos.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Abrasivos"
+      link: "/productos/abrasivos/"
+    - name: "Cepillos abrasivos"
+      link: "/productos/abrasivos/cepillos-abrasivos/"
 
-- name: "Varillas y espárragos roscados"
-  slug: "varillas-y-esparragos-roscados"
-  image: "/Assets/04-categories/01.tonillería/02.subcategorias/04.varillas/Varillas_y_espárragos_totalmente_roscados.png"
-  alt: "Varillas y espárragos roscados"
-  link: "varillas-y-esparragos-roscados.html" 
+- id: masillas-selladores-y-fabricantes-de-juntas
+  slug: masillas-selladores-y-fabricantes-de-juntas
+  category_id: "adhesivos-y-sellantes"
+  name: Masillas, selladores y fabricantes de juntas
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-masillas-selladores.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Adhesivos y sellantes"
+      link: "/productos/adhesivos-y-sellantes/"
+    - name: "Masillas, selladores y fabricantes de juntas"
+      link: "/productos/adhesivos-y-sellantes/masillas-selladores-y-fabricantes-de-juntas/"
+
+- id: fijadores-de-roscas-y-compuestos-de-retencion
+  slug: fijadores-de-roscas-y-compuestos-de-retencion
+  category_id: "adhesivos-y-sellantes"
+  name: Fijadores de roscas y compuestos de retención
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-fijadores-roscas.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Adhesivos y sellantes"
+      link: "/productos/adhesivos-y-sellantes/"
+    - name: "Fijadores de roscas y compuestos de retención"
+      link: "/productos/adhesivos-y-sellantes/fijadores-de-roscas-y-compuestos-de-retencion/"
+
+- id: cinta
+  slug: cinta
+  category_id: "adhesivos-y-sellantes"
+  name: Cinta
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-cinta.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Adhesivos y sellantes"
+      link: "/productos/adhesivos-y-sellantes/"
+    - name: "Cinta"
+      link: "/productos/adhesivos-y-sellantes/cinta/"
+
+- id: resina
+  slug: resina
+  category_id: "resina-y-fibra-de-vidrio"
+  name: Resina
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-resina.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Resina y fibra de vidrio"
+      link: "/productos/resina-y-fibra-de-vidrio/"
+    - name: "Resina"
+      link: "/productos/resina-y-fibra-de-vidrio/resina/"
+
+- id: compuestos-de-fibra-de-vidrio
+  slug: compuestos-de-fibra-de-vidrio
+  category_id: "resina-y-fibra-de-vidrio"
+  name: Compuestos de fibra de vidrio
+  description: "xxxxxxxxxxxxx"
+  image: assets/images/subcategories/subcategory-compuestos-fibra.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products/"
+    - name: "Resina y fibra de vidrio"
+      link: "/productos/resina-y-fibra-de-vidrio/"
+    - name: "Compuestos de fibra de vidrio"
+      link: "/productos/resina-y-fibra-de-vidrio/compuestos-de-fibra-de-vidrio/" 

@@ -1,75 +1,791 @@
-- name: Tornillería Industrial
-  slug: tornilleria-industrial
-  description: Amplia gama de tornillos, tuercas y fijaciones para múltiples usos.
-  image: Assets/03.products/01.tornillos/Pernos-Tornillos.png
-  link: tornilleria-industrial.html
-  subcategories:
-    - name: Pernos y Tornillos
-      slug: pernos-y-tornillos
-      image: Assets/03.products/01.tornillos/Pernos-Tornillos.png
-      link: productos/tornilleria-industrial/pernos-y-tornillos/
-    - name: Tuercas
-      slug: tuercas
-      image: Assets/03.products/01.tornillos/Tuercas.png
-      link: productos/tornilleria-industrial/tuercas/
-    - name: Arandelas
-      slug: arandelas
-      image: Assets/03.products/01.tornillos/Arandelas.png
-      link: productos/tornilleria-industrial/arandelas/
-    - name: Varillas y espárragos roscados
-      slug: varillas-y-esparragos-roscados
-      image: Assets/03.products/01.tornillos/Varillas-espárragos-roscados.png
-      link: productos/tornilleria-industrial/varillas-y-esparragos-roscados/
+- id: pernos-de-cabeza-hexagonal
+  slug: "pernos-de-cabeza-hexagonal"
+  name: "Pernos de cabeza hexagonal"
+  description: "Nuestra línea de tornillería ofrece soluciones confiables para fijación mecánica en aplicaciones industriales exigentes. Contamos con tornillos, tuercas, arandelas y espárragos roscados en diferentes materiales, diámetros y acabados, ideales para procesos de manufactura, mantenimiento y ensamble."
+  subtitle: "Fijación robusta y confiable para aplicaciones industriales exigentes."
+  image: "/assets/images/products/pernos-de-cabeza-hexagonal.png"
+  subcategory_id: "pernos-y-tornillos"
+  meta_title: "Pernos de cabeza hexagonal - Soluciones de fijación industrial"
+  meta_description: "Pernos de cabeza hexagonal de alta calidad para aplicaciones industriales exigentes con diferentes diámetros y materiales disponibles"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
+    - name: "Pernos de cabeza hexagonal"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/pernos-de-cabeza-hexagonal.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "Desde 1/8\" hasta 1 1/2\" (o M3 a M36)."
+    - name: "Longitudes"
+      description: "De 1/4\" hasta 6\" (o 6 mm a 150 mm)."
+    - name: "Tipo de cabeza"
+      description: "Cilíndrica con hexágono interno."
+    - name: "Estilo de rosca"
+      description: "Completa o parcial."
+    - name: "Grados de resistencia"
+      description: "12.9 (métrico), Clase 10.9, SAE J429."
+  documentation:
+    - title: "ASME B18.3 Socket Head Cap Screws – Grainger"
+      link: "https://www.grainger.com/category/fasteners/bolts-screws/socket-head-cap-screws"
+  applications:
+    - industry: "Maquinaria industrial"
+      description: "Fijación de componentes con acceso limitado."
+    - industry: "Equipos electrónicos y robótica"
+      description: "Montaje compacto y preciso."
+    - industry: "Aeroespacial y automotriz"
+      description: "Áreas donde se requiere alta resistencia mecánica."
+    - industry: "Herramientas y moldes"
+      description: "Ensamblajes que requieren repetidas manipulaciones sin pérdida de sujeción."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con estándares como ASTM A574, ASME B18.3."
+    - name: "Materiales disponibles"
+      description: "Acero aleado, acero inoxidable (304, 316), titanio, aleaciones especiales."
+    - name: "Acabados"
+      description: "Óxido negro, zincado, galvanizado, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 180,000 psi para aleación de acero grado 12.9."
+    - name: "Roscas"
+      description: "Disponibles en métrico y UNC/UNF, rosca completa o parcial."
 
-- name: Abrasivos
-  slug: abrasivos
-  description: Discos, lijas y herramientas abrasivas para un acabado perfecto.
-  image: Assets/03.products/02.abrasivos/Abrasivos-para-lijado.png
-  link: abrasivos.html
-  subcategories:
-    - name: Abrasivos para lijado
-      slug: abrasivos-para-lijado
-      image: Assets/03.products/02.abrasivos/Abrasivos-para-lijado.png
-      link: abrasivos-para-lijado.html
-    - name: Abrasivos de corte y desbaste
-      slug: abrasivos-de-corte-y-desbaste
-      image: Assets/03.products/02.abrasivos/Abrasivos-de-corte-desbaste.png
-      link: abrasivos-de-corte-y-desbaste.html
-    - name: Cepillos abrasivos
-      slug: cepillos-abrasivos
-      image: Assets/03.products/02.abrasivos/Cepillos-abrasivos.png
-      link: cepillos-abrasivos.html
+- id: tornillos-de-cabeza-hueca
+  name: "Tornillos de cabeza hueca"
+  subtitle: "Solución compacta para espacios reducidos y aplicaciones de precisión."
+  description: "Los tornillos de cabeza hueca ofrecen una solución compacta y eficiente para aplicaciones donde el espacio es limitado. Ideales para montajes precisos en equipos electrónicos, maquinaria industrial y componentes automotrices."
+  image: "/assets/images/products/tornillos-de-cabeza-hueca.png"
+  slug: "tornillos-de-cabeza-hueca"
+  subcategory_id: "pernos-y-tornillos"
+  meta_title: "Tornillos de cabeza hueca - Fijación compacta y precisa"
+  meta_description: "Tornillos de cabeza hueca para aplicaciones de precisión en espacios reducidos con alta resistencia mecánica"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
+    - name: "Tornillos de cabeza hueca"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/tornillos-de-cabeza-hueca.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M2 a M24 (métrico) y #2 a 1\" (pulgadas)."
+    - name: "Longitudes"
+      description: "De 4 mm a 200 mm (métrico) y 1/8\" a 8\" (pulgadas)."
+    - name: "Tipo de cabeza"
+      description: "Cilíndrica con hexágono interno o Allen."
+    - name: "Estilo de rosca"
+      description: "Completa o parcial según aplicación."
+    - name: "Grados de resistencia"
+      description: "8.8, 10.9, 12.9 (métrico), Clase 8.8, 10.9, 12.9."
+  documentation:
+    - title: "Socket Head Cap Screws - Industrial Fasteners"
+      link: "https://www.grainger.com/category/fasteners/bolts-screws/socket-head-cap-screws"
+  applications:
+    - industry: "Electrónica y telecomunicaciones"
+      description: "Montaje de circuitos y componentes sensibles."
+    - industry: "Industria automotriz"
+      description: "Fijación de componentes internos del motor."
+    - industry: "Maquinaria de precisión"
+      description: "Ensamblajes que requieren ajuste fino."
+    - industry: "Instrumentación médica"
+      description: "Equipos que necesitan limpieza frecuente."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ISO 4762, DIN 912, ASME B18.3."
+    - name: "Materiales disponibles"
+      description: "Acero inoxidable 304/316, acero aleado, titanio, latón."
+    - name: "Acabados"
+      description: "Pasivado, óxido negro, zincado, niquelado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 1,200 MPa para grado 12.9."
+    - name: "Ventajas"
+      description: "Cabeza plana, alta resistencia, fácil instalación."
 
-- name: Adhesivos y sellantes
-  slug: adhesivos-y-sellantes
-  description: Soluciones de pegado y sellado industrial para todo tipo de superficies.
-  image: Assets/03.products/03.adhesivos/Masillas-selladores.png
-  link: adhesivos-y-sellantes.html
-  subcategories:
-    - name: Masillas, selladores y fabricantes de juntas
-      slug: masillas-selladores-y-fabricantes-de-juntas
-      image: Assets/03.products/03.adhesivos/Masillas-selladores.png
-      link: masillas-selladores-y-fabricantes-de-juntas.html
-    - name: Fijadores de roscas y compuestos de retención
-      slug: fijadores-de-roscas-y-compuestos-de-retencion
-      image: Assets/03.products/03.adhesivos/Fijadores-de-roscas.png
-      link: fijadores-de-roscas-y-compuestos-de-retencion.html
-    - name: Cinta
-      slug: cinta
-      image: Assets/03.products/03.adhesivos/Cinta.png
-      link: cinta.html
+- id: tornillos-para-taladrar-y-roscar
+  name: "Tornillos para taladrar y roscar"
+  subtitle: "Autotaladrantes para uniones rápidas y eficientes en metal."
+  description: "Los tornillos para taladrar y roscar eliminan la necesidad de pretaladrar, ofreciendo una solución rápida y eficiente para uniones en metal. Ideales para aplicaciones de producción en masa y mantenimiento industrial."
+  image: "/assets/images/products/tornillos-para-taladrar-y-roscar.png"
+  slug: "tornillos-para-taladrar-y-roscar"
+  subcategory_id: "pernos-y-tornillos"
+  meta_title: "Tornillos para taladrar y roscar - Unión rápida en metal"
+  meta_description: "Tornillos autotaladrantes para uniones rápidas en metal sin necesidad de pretaladrar"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
+    - name: "Tornillos para taladrar y roscar"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/tornillos-para-taladrar-y-roscar.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "#4 a 1/2\" (pulgadas) y M3 a M12 (métrico)."
+    - name: "Longitudes"
+      description: "De 1/4\" a 3\" (pulgadas) y 6 mm a 75 mm (métrico)."
+    - name: "Tipo de cabeza"
+      description: "Phillips, hexágono, Torx, ranura."
+    - name: "Material base"
+      description: "Acero al carbono, acero inoxidable, aluminio."
+    - name: "Grosor máximo"
+      description: "Hasta 3/16\" para acero y 1/4\" para aluminio."
+  documentation:
+    - title: "Self-Drilling Screws - Fastenal"
+      link: "https://www.fastenal.com/product/fasteners/screws/self-drilling-screws"
+  applications:
+    - industry: "Construcción metálica"
+      description: "Unión de perfiles y láminas de acero."
+    - industry: "Industria automotriz"
+      description: "Ensamblaje de carrocerías y componentes."
+    - industry: "Fabricación de muebles"
+      description: "Unión de estructuras metálicas."
+    - industry: "Mantenimiento industrial"
+      description: "Reparaciones rápidas en equipos."
+  characteristics:
+    - name: "Ventajas"
+      description: "No requiere pretaladrar, instalación rápida."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, aluminio."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, fosfatado, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 180,000 psi para acero grado 12.9."
+    - name: "Tipos de punta"
+      description: "Punta de broca, punta aguda, punta plana."
 
-- name: Resina y fibra de vidrio
-  slug: resina-y-fibra-de-vidrio
-  description: Materiales resistentes y duraderos para reparaciones estructurales.
-  image: Assets/03.products/04.resina/Resina.png
-  link: resina-y-fibra-de-vidrio.html
-  subcategories:
-    - name: Resina
-      slug: resina
-      image: Assets/03.products/04.resina/Resina.png
-      link: resina.html
-    - name: Compuestos de fibra de vidrio
-      slug: compuestos-de-fibra-de-vidrio
-      image: Assets/03.products/04.resina/Compuestos-fibra-de-vidrio.png
-      link: compuestos-de-fibra-de-vidrio.html 
+- id: tornillos-para-maquina
+  name: "Tornillos para máquina"
+  subtitle: "Fijación precisa para componentes mecánicos y electrónicos."
+  description: "Los tornillos para máquina son la solución ideal para fijaciones precisas en componentes mecánicos, electrónicos y equipos de precisión. Disponibles en múltiples tamaños y acabados para diversas aplicaciones industriales."
+  image: "/assets/images/products/tornillos-para-maquina.png"
+  slug: "tornillos-para-maquina"
+  subcategory_id: "pernos-y-tornillos"
+  meta_title: "Tornillos para máquina - Fijación precisa industrial"
+  meta_description: "Tornillos para máquina de alta precisión para componentes mecánicos y electrónicos"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
+    - name: "Tornillos para máquina"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/tornillos-para-maquina.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "#0 a 3/4\" (pulgadas) y M1.6 a M20 (métrico)."
+    - name: "Longitudes"
+      description: "De 1/8\" a 3\" (pulgadas) y 2 mm a 75 mm (métrico)."
+    - name: "Tipo de cabeza"
+      description: "Cabeza plana, cabeza redonda, cabeza ovalada."
+    - name: "Tipo de ranura"
+      description: "Phillips, ranura, Torx, hexágono interno."
+    - name: "Grados de resistencia"
+      description: "18-8, 316, acero al carbono, latón."
+  documentation:
+    - title: "Machine Screws - McMaster-Carr"
+      link: "https://www.mcmaster.com/machine-screws"
+  applications:
+    - industry: "Electrónica y computación"
+      description: "Fijación de placas de circuito y componentes."
+    - industry: "Instrumentación de precisión"
+      description: "Equipos de medición y control."
+    - industry: "Industria automotriz"
+      description: "Componentes internos y accesorios."
+    - industry: "Maquinaria industrial"
+      description: "Ensamblajes de precisión."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ANSI B18.6.3, ISO 4762, DIN 84."
+    - name: "Materiales disponibles"
+      description: "Acero inoxidable 18-8/316, acero al carbono, latón, aluminio."
+    - name: "Acabados"
+      description: "Pasivado, zincado, niquelado, cromado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 1,000 MPa para acero inoxidable."
+    - name: "Ventajas"
+      description: "Alta precisión, acabado uniforme, fácil instalación."
+
+- id: pernos-de-ojo
+  name: "Pernos de ojo"
+  subtitle: "Solución para izaje y tensado en aplicaciones industriales."
+  description: "Los pernos de ojo proporcionan un punto de anclaje seguro para izaje, tensado y sujeción en aplicaciones industriales. Disponibles en diferentes capacidades de carga y acabados para diversos entornos de trabajo."
+  image: "/assets/images/products/pernos-de-ojo.png"
+  slug: "pernos-de-ojo"
+  subcategory_id: "pernos-y-tornillos"
+  meta_title: "Pernos de ojo - Anclaje seguro para izaje industrial"
+  meta_description: "Pernos de ojo de alta resistencia para izaje, tensado y sujeción en aplicaciones industriales"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
+    - name: "Pernos de ojo"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/pernos-de-ojo.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "1/4\" a 2\" (pulgadas) y M6 a M48 (métrico)."
+    - name: "Capacidad de carga"
+      description: "Desde 200 lbs hasta 50,000 lbs según diámetro."
+    - name: "Tipo de ojo"
+      description: "Ojo redondo, ojo cuadrado, ojo alargado."
+    - name: "Longitud de rosca"
+      description: "Roscado completo o parcial según aplicación."
+    - name: "Grados de resistencia"
+      description: "Grado 2, Grado 5, Grado 8, acero inoxidable."
+  documentation:
+    - title: "Eye Bolts - Industrial Fasteners"
+      link: "https://www.grainger.com/category/fasteners/bolts-screws/eye-bolts"
+  applications:
+    - industry: "Construcción e infraestructura"
+      description: "Izaje de materiales y equipos pesados."
+    - industry: "Industria naval"
+      description: "Amarre y sujeción de cargas."
+    - industry: "Mantenimiento industrial"
+      description: "Puntos de anclaje para equipos."
+    - industry: "Transporte y logística"
+      description: "Sujeción de cargas en tránsito."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ASTM F1145, ASME B18.15."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, acero aleado."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, óxido negro, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 150,000 psi para grado 8."
+    - name: "Seguridad"
+      description: "Factor de seguridad mínimo 5:1."
+
+- id: pernos-en-u
+  name: "Pernos en U"
+  subtitle: "Fijación versátil para tuberías y componentes cilíndricos."
+  description: "Los pernos en U ofrecen una solución versátil para fijar tuberías, cables y componentes cilíndricos. Disponibles en diferentes tamaños y materiales para aplicaciones desde domésticas hasta industriales."
+  image: "/assets/images/products/pernos-en-u.png"
+  slug: "pernos-en-u"
+  subcategory_id: "pernos-y-tornillos"
+  meta_title: "Pernos en U - Fijación versátil para tuberías"
+  meta_description: "Pernos en U para fijación de tuberías, cables y componentes cilíndricos en aplicaciones industriales"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
+    - name: "Pernos en U"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/pernos-en-u.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "1/4\" a 2\" (pulgadas) y M6 a M48 (métrico)."
+    - name: "Capacidad de carga"
+      description: "Desde 100 lbs hasta 10,000 lbs según diámetro."
+    - name: "Tipo de perno"
+      description: "Perno en U estándar, perno en U con brida."
+    - name: "Longitud de rosca"
+      description: "Roscado completo o parcial según aplicación."
+    - name: "Grados de resistencia"
+      description: "Grado 2, Grado 5, acero inoxidable, latón."
+  documentation:
+    - title: "U-Bolts - Fastenal"
+      link: "https://www.fastenal.com/product/fasteners/bolts-screws/u-bolts"
+  applications:
+    - industry: "Plomería e instalaciones"
+      description: "Fijación de tuberías y conductos."
+    - industry: "Industria automotriz"
+      description: "Sujeción de componentes del motor."
+    - industry: "Construcción"
+      description: "Fijación de estructuras metálicas."
+    - industry: "Agricultura"
+      description: "Sujeción de equipos y maquinaria."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ASTM F467, ASME B18.21.1."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, latón, aluminio."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, óxido negro, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 120,000 psi para grado 5."
+    - name: "Ventajas"
+      description: "Fácil instalación, ajuste versátil, alta resistencia."
+
+- id: pernos-de-cabeza-redonda
+  name: "Pernos de cabeza redonda"
+  subtitle: "Fijación elegante con acabado suave para aplicaciones visibles."
+  description: "Los pernos de cabeza redonda ofrecen una fijación elegante y estética para aplicaciones donde la apariencia es importante. Ideales para muebles, acabados arquitectónicos y componentes visibles."
+  image: "/assets/images/products/pernos-de-cabeza-redonda.png"
+  slug: "pernos-de-cabeza-redonda"
+  subcategory_id: "pernos-y-tornillos"
+  meta_title: "Pernos de cabeza redonda - Fijación elegante y estética"
+  meta_description: "Pernos de cabeza redonda para aplicaciones donde la apariencia es importante"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Pernos y tornillos"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
+    - name: "Pernos de cabeza redonda"
+      link: "/productos/tornilleria-industrial/pernos-y-tornillos/pernos-de-cabeza-redonda.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "1/4\" a 1\" (pulgadas) y M6 a M24 (métrico)."
+    - name: "Longitudes"
+      description: "De 1/2\" a 6\" (pulgadas) y 12 mm a 150 mm (métrico)."
+    - name: "Tipo de cabeza"
+      description: "Cabeza redonda con ranura o Phillips."
+    - name: "Estilo de rosca"
+      description: "Roscado completo o parcial según aplicación."
+    - name: "Grados de resistencia"
+      description: "Grado 2, Grado 5, acero inoxidable, latón."
+  documentation:
+    - title: "Round Head Bolts - Industrial Fasteners"
+      link: "https://www.grainger.com/category/fasteners/bolts-screws/round-head-bolts"
+  applications:
+    - industry: "Mueblería y carpintería"
+      description: "Fijación de muebles y acabados."
+    - industry: "Arquitectura y construcción"
+      description: "Acabados visibles en estructuras."
+    - industry: "Industria automotriz"
+      description: "Componentes interiores y exteriores."
+    - industry: "Equipos médicos"
+      description: "Dispositivos donde la apariencia es crítica."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ANSI B18.5, ISO 7380, DIN 7380."
+    - name: "Materiales disponibles"
+      description: "Acero inoxidable, latón, aluminio, acero al carbono."
+    - name: "Acabados"
+      description: "Pulido, niquelado, cromado, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 100,000 psi para acero grado 5."
+    - name: "Ventajas"
+      description: "Acabado suave, apariencia elegante, fácil instalación."
+
+
+- id: tuercas-hexagonales
+  name: "Tuercas hexagonales"
+  subtitle: "Fijación estándar para aplicaciones generales y especializadas."
+  description: "Las tuercas hexagonales son el elemento de fijación más común y versátil en aplicaciones industriales. Disponibles en diferentes grados de resistencia y materiales para satisfacer las necesidades de cualquier proyecto."
+  image: "/assets/images/products/tuercas-hexagonales.png"
+  slug: "tuercas-hexagonales"
+  subcategory_id: "tuercas"
+  meta_title: "Tuercas hexagonales - Fijación estándar industrial"
+  meta_description: "Tuercas hexagonales de alta calidad para aplicaciones generales y especializadas en la industria"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Tuercas"
+      link: "/productos/tornilleria-industrial/tuercas/"
+    - name: "Tuercas hexagonales"
+      link: "/productos/tornilleria-industrial/tuercas/tuercas-hexagonales.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M3 a M48 (métrico) y #4 a 2\" (pulgadas)."
+    - name: "Altura"
+      description: "Estándar, alta y extra alta según aplicación."
+    - name: "Tipo de rosca"
+      description: "Métrica, UNC, UNF, NPT según estándar."
+    - name: "Grados de resistencia"
+      description: "Clase 5, Clase 8, Clase 10, acero inoxidable."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, óxido negro, pasivado."
+  documentation:
+    - title: "Hex Nuts - Industrial Fasteners"
+      link: "https://www.grainger.com/category/fasteners/nuts/hex-nuts"
+  applications:
+    - industry: "Construcción e infraestructura"
+      description: "Fijación de estructuras y componentes estructurales."
+    - industry: "Industria automotriz"
+      description: "Ensamblaje de motores y componentes del vehículo."
+    - industry: "Maquinaria industrial"
+      description: "Fijación de equipos y componentes mecánicos."
+    - industry: "Equipos electrónicos"
+      description: "Montaje de placas y componentes."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ANSI B18.2.2, ISO 4032, DIN 934."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, latón, aluminio."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 150,000 psi para grado 8."
+    - name: "Ventajas"
+      description: "Alta resistencia, fácil instalación, amplia disponibilidad."
+
+- id: tuercas-de-seguridad
+  name: "Tuercas de seguridad"
+  subtitle: "Prevención del aflojamiento en aplicaciones críticas."
+  description: "Las tuercas de seguridad incorporan mecanismos especiales para prevenir el aflojamiento por vibración, impacto o cargas dinámicas. Esenciales en aplicaciones donde la seguridad es crítica."
+  image: "/assets/images/products/tuercas-de-seguridad.png"
+  slug: "tuercas-de-seguridad"
+  subcategory_id: "tuercas"
+  meta_title: "Tuercas de seguridad - Prevención de aflojamiento"
+  meta_description: "Tuercas de seguridad con mecanismos de bloqueo para prevenir el aflojamiento en aplicaciones críticas"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Tuercas"
+      link: "/productos/tornilleria-industrial/tuercas/"
+    - name: "Tuercas de seguridad"
+      link: "/productos/tornilleria-industrial/tuercas/tuercas-de-seguridad.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M4 a M36 (métrico) y #8 a 1 1/2\" (pulgadas)."
+    - name: "Tipos de seguridad"
+      description: "Nylon insert, metal insert, deformación, cuña."
+    - name: "Temperatura máxima"
+      description: "Hasta 250°F para nylon, 450°F para metal."
+    - name: "Grados de resistencia"
+      description: "Clase 5, Clase 8, acero inoxidable."
+    - name: "Reutilización"
+      description: "Limitada según tipo y aplicación."
+  documentation:
+    - title: "Lock Nuts - Fastenal"
+      link: "https://www.fastenal.com/product/fasteners/nuts/lock-nuts"
+  applications:
+    - industry: "Aeroespacial"
+      description: "Componentes críticos del motor y estructura."
+    - industry: "Industria automotriz"
+      description: "Suspensión, motor y componentes de seguridad."
+    - industry: "Maquinaria pesada"
+      description: "Equipos sujetos a vibración constante."
+    - industry: "Equipos médicos"
+      description: "Dispositivos donde la seguridad es vital."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ANSI B18.2.2, ISO 7040, DIN 985."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, latón."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 150,000 psi para grado 8."
+    - name: "Ventajas"
+      description: "Prevención de aflojamiento, alta confiabilidad."
+
+- id: tuercas-de-acoplamiento
+  name: "Tuercas de acoplamiento"
+  subtitle: "Conexiones especializadas para tuberías y conductos."
+  description: "Las tuercas de acoplamiento están diseñadas específicamente para conexiones de tuberías, conductos y sistemas de fluidos. Disponibles en diferentes estándares y materiales para diversas aplicaciones."
+  image: "/assets/images/products/tuercas-de-acoplamiento.png"
+  slug: "tuercas-de-acoplamiento"
+  subcategory_id: "tuercas"
+  meta_title: "Tuercas de acoplamiento - Conexiones especializadas"
+  meta_description: "Tuercas de acoplamiento para conexiones de tuberías y conductos en sistemas de fluidos"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Tuercas"
+      link: "/productos/tornilleria-industrial/tuercas/"
+    - name: "Tuercas de acoplamiento"
+      link: "/productos/tornilleria-industrial/tuercas/tuercas-de-acoplamiento.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "1/8\" a 4\" (NPT) y M6 a M64 (métrico)."
+    - name: "Estándares"
+      description: "NPT, BSP, JIC, SAE, métrico."
+    - name: "Presión de trabajo"
+      description: "Hasta 10,000 psi según material y tamaño."
+    - name: "Temperatura"
+      description: "-65°F a +400°F según material."
+    - name: "Materiales"
+      description: "Acero inoxidable, latón, acero al carbono."
+  documentation:
+    - title: "Coupling Nuts - McMaster-Carr"
+      link: "https://www.mcmaster.com/coupling-nuts"
+  applications:
+    - industry: "Industria petroquímica"
+      description: "Conexiones de tuberías de alta presión."
+    - industry: "Sistemas hidráulicos"
+      description: "Conexiones de mangueras y conductos."
+    - industry: "Industria alimentaria"
+      description: "Sistemas de procesamiento y transporte."
+    - industry: "Equipos médicos"
+      description: "Sistemas de fluidos y gases."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ANSI B1.20.1, ISO 228, DIN 2999."
+    - name: "Materiales disponibles"
+      description: "Acero inoxidable 304/316, latón, acero al carbono."
+    - name: "Acabados"
+      description: "Pasivado, zincado, niquelado, cromado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 120,000 psi para acero inoxidable."
+    - name: "Ventajas"
+      description: "Conexión hermética, alta resistencia, fácil instalación."
+
+- id: tuercas-de-ojo
+  name: "Tuercas de ojo"
+  subtitle: "Solución para izaje y suspensión en aplicaciones industriales."
+  description: "Las tuercas de ojo proporcionan un punto de anclaje seguro para izaje, suspensión y tensado en aplicaciones industriales. Disponibles en diferentes capacidades de carga y acabados."
+  image: "/assets/images/products/tuercas-de-ojo.png"
+  slug: "tuercas-de-ojo"
+  subcategory_id: "tuercas"
+  meta_title: "Tuercas de ojo - Anclaje para izaje industrial"
+  meta_description: "Tuercas de ojo para izaje, suspensión y tensado en aplicaciones industriales"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Tuercas"
+      link: "/productos/tornilleria-industrial/tuercas/"
+    - name: "Tuercas de ojo"
+      link: "/productos/tornilleria-industrial/tuercas/tuercas-de-ojo.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M6 a M48 (métrico) y 1/4\" a 2\" (pulgadas)."
+    - name: "Capacidad de carga"
+      description: "Desde 200 lbs hasta 25,000 lbs según diámetro."
+    - name: "Tipo de ojo"
+      description: "Ojo redondo, ojo cuadrado, ojo alargado."
+    - name: "Grados de resistencia"
+      description: "Grado 5, Grado 8, acero inoxidable."
+    - name: "Factor de seguridad"
+      description: "Mínimo 5:1 según aplicación."
+  documentation:
+    - title: "Eye Nuts - Industrial Fasteners"
+      link: "https://www.grainger.com/category/fasteners/nuts/eye-nuts"
+  applications:
+    - industry: "Construcción e infraestructura"
+      description: "Izaje de materiales y equipos pesados."
+    - industry: "Industria naval"
+      description: "Amarre y sujeción de cargas."
+    - industry: "Mantenimiento industrial"
+      description: "Puntos de anclaje para equipos."
+    - industry: "Transporte y logística"
+      description: "Sujeción de cargas en tránsito."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ASTM F1145, ASME B18.15."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, acero aleado."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, óxido negro, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 150,000 psi para grado 8."
+    - name: "Ventajas"
+      description: "Anclaje seguro, alta capacidad de carga, fácil instalación." 
+
+
+
+
+- id: arandelas-planas
+  name: "Arandelas Planas"
+  subtitle: "Distribución uniforme de carga y protección para superficies."
+  description: "Las arandelas planas son elementos fundamentales en cualquier unión atornillada, proporcionando distribución uniforme de carga y protección para las superficies de contacto. Disponibles en diferentes tamaños y materiales para diversas aplicaciones."
+  image: "/assets/images/products/arandelas-planas.png"
+  slug: "arandelas-planas"
+  subcategory_id: "arandelas"
+  meta_title: "Arandelas Planas - Distribución de carga y protección"
+  meta_description: "Arandelas planas para distribución uniforme de carga y protección de superficies en uniones atornilladas"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Arandelas"
+      link: "/productos/tornilleria-industrial/arandelas/"
+    - name: "Arandelas Planas"
+      link: "/productos/tornilleria-industrial/arandelas/arandelas-planas.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M2 a M64 (métrico) y #0 a 2 1/2\" (pulgadas)."
+    - name: "Espesor"
+      description: "Desde 0.5 mm hasta 8 mm según aplicación."
+    - name: "Diámetro exterior"
+      description: "1.5x a 3x el diámetro del tornillo según estándar."
+    - name: "Materiales"
+      description: "Acero al carbono, acero inoxidable, latón, aluminio."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, óxido negro, pasivado."
+  documentation:
+    - title: "Flat Washers - Industrial Fasteners"
+      link: "https://www.grainger.com/category/fasteners/washers/flat-washers"
+  applications:
+    - industry: "Construcción e infraestructura"
+      description: "Fijación de estructuras y componentes estructurales."
+    - industry: "Industria automotriz"
+      description: "Ensamblaje de motores y componentes del vehículo."
+    - industry: "Maquinaria industrial"
+      description: "Fijación de equipos y componentes mecánicos."
+    - industry: "Equipos electrónicos"
+      description: "Montaje de placas y componentes sensibles."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ANSI B18.22.1, ISO 7089, DIN 125."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, latón, aluminio."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 150,000 psi para acero grado 8."
+    - name: "Ventajas"
+      description: "Distribución uniforme de carga, protección de superficies, fácil instalación."
+
+- id: arandelas-estructurales
+  name: "Arandelas Estructurales"
+  subtitle: "Soporte reforzado para uniones de alta resistencia."
+  description: "Las arandelas estructurales están diseñadas específicamente para aplicaciones de alta carga y uniones críticas. Proporcionan mayor área de contacto y resistencia para soportar cargas estructurales exigentes."
+  image: "/assets/images/products/arandelas-estructurales.png"
+  slug: "arandelas-estructurales"
+  subcategory_id: "arandelas"
+  meta_title: "Arandelas Estructurales - Soporte para uniones críticas"
+  meta_description: "Arandelas estructurales de alta resistencia para uniones críticas y aplicaciones de alta carga"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Arandelas"
+      link: "/productos/tornilleria-industrial/arandelas/"
+    - name: "Arandelas Estructurales"
+      link: "/productos/tornilleria-industrial/arandelas/arandelas-estructurales.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M8 a M64 (métrico) y 5/16\" a 2 1/2\" (pulgadas)."
+    - name: "Espesor"
+      description: "Desde 2 mm hasta 12 mm según aplicación."
+    - name: "Diámetro exterior"
+      description: "2x a 4x el diámetro del tornillo para mayor área de contacto."
+    - name: "Materiales"
+      description: "Acero aleado, acero inoxidable, acero de alta resistencia."
+    - name: "Grados de resistencia"
+      description: "Grado 8, Grado 10, acero inoxidable 304/316."
+  documentation:
+    - title: "Structural Washers - Fastenal"
+      link: "https://www.fastenal.com/product/fasteners/washers/structural-washers"
+  applications:
+    - industry: "Construcción de puentes"
+      description: "Uniones críticas en estructuras de acero."
+    - industry: "Industria pesada"
+      description: "Equipos y maquinaria de alta carga."
+    - industry: "Infraestructura energética"
+      description: "Torres de transmisión y estructuras de soporte."
+    - industry: "Industria naval"
+      description: "Estructuras marinas y componentes críticos."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ASTM F436, A325, A490."
+    - name: "Materiales disponibles"
+      description: "Acero aleado, acero inoxidable, acero de alta resistencia."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 180,000 psi para acero grado 10."
+    - name: "Ventajas"
+      description: "Alta resistencia, mayor área de contacto, soporte estructural."
+
+
+- id: varillas-y-esparragos-totalmente-roscados
+  name: "Varillas y espárragos totalmente roscados"
+  subtitle: "Versatilidad y resistencia para sistemas de fijación extendida."
+  description: "Las varillas y espárragos totalmente roscados ofrecen máxima versatilidad para sistemas de fijación donde se requiere roscado completo. Ideales para espaciadores, uniones ajustables y aplicaciones que requieren roscado en toda la longitud."
+  image: "/assets/images/products/varillas-y-esparragos-totalmente-roscados.png"
+  slug: "varillas-y-esparragos-totalmente-roscados"
+  subcategory_id: "varillas-y-esparragos-roscados"
+  meta_title: "Varillas y espárragos totalmente roscados - Fijación versátil"
+  meta_description: "Varillas y espárragos totalmente roscados para sistemas de fijación extendida con máxima versatilidad"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/index.html"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Varillas y espárragos roscados"
+      link: "/productos/tornilleria-industrial/varillas-y-esparragos-roscados/"
+    - name: "Varillas y espárragos totalmente roscados"
+      link: "/productos/tornilleria-industrial/varillas-y-esparragos-roscados/varillas-y-esparragos-totalmente-roscados.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M6 a M48 (métrico) y 1/4\" a 2\" (pulgadas)."
+    - name: "Longitudes"
+      description: "De 25 mm a 300 mm (métrico) y 1\" a 12\" (pulgadas)."
+    - name: "Tipo de rosca"
+      description: "Roscado completo en toda la longitud."
+    - name: "Grados de resistencia"
+      description: "Grado 5, Grado 8, acero inoxidable, titanio."
+    - name: "Tolerancias"
+      description: "Estándar o de alta precisión según aplicación."
+  documentation:
+    - title: "Fully Threaded Rods - McMaster-Carr"
+      link: "https://www.mcmaster.com/fully-threaded-rods"
+  applications:
+    - industry: "Construcción e infraestructura"
+      description: "Estructuras y soportes de carga ajustables."
+    - industry: "Industria automotriz"
+      description: "Componentes del motor y suspensión."
+    - industry: "Maquinaria industrial"
+      description: "Espaciadores y uniones de precisión ajustables."
+    - industry: "Equipos de medición"
+      description: "Sistemas de calibración y ajuste fino."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ASTM A193, ASME B18.31.1."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, acero aleado, titanio."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, óxido negro, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 150,000 psi para grado 8."
+    - name: "Ventajas"
+      description: "Máxima versatilidad, roscado completo, fácil ajuste."
+
+- id: varillas-y-esparragos-doble-extremo
+  name: "Varillas y espárragos roscados de doble extremo"
+  subtitle: "Soluciones versátiles para ensamblajes precisos y desmontables."
+  description: "Las varillas y espárragos roscados de doble extremo proporcionan soluciones versátiles para ensamblajes que requieren precisión y capacidad de desmontaje. Ideales para aplicaciones donde se necesita ajuste fino y fácil mantenimiento."
+  image: "/assets/images/products/varillas-y-esparragos-doble-extremo.png"
+  slug: "varillas-y-esparragos-doble-extremo"
+  subcategory_id: "varillas-y-esparragos-roscados"
+  meta_title: "Varillas y espárragos de doble extremo - Ensamblajes precisos"
+  meta_description: "Varillas y espárragos roscados de doble extremo para ensamblajes precisos y desmontables"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "/products.html"
+    - name: "Varillas y espárragos roscados"
+      link: "/productos/tornilleria-industrial/varillas-y-esparragos-roscados/"
+    - name: "Varillas y espárragos de doble extremo"
+      link: "/productos/tornilleria-industrial/varillas-y-esparragos-roscados/varillas-y-esparragos-doble-extremo.html"
+  specifications:
+    - name: "Diámetros disponibles"
+      description: "M6 a M36 (métrico) y 1/4\" a 1 1/2\" (pulgadas)."
+    - name: "Longitudes"
+      description: "De 30 mm a 200 mm (métrico) y 1 1/4\" a 8\" (pulgadas)."
+    - name: "Tipo de rosca"
+      description: "Roscado en ambos extremos con sección central lisa."
+    - name: "Longitud de rosca"
+      description: "Roscado parcial en cada extremo según estándar."
+    - name: "Grados de resistencia"
+      description: "Grado 5, Grado 8, acero inoxidable, titanio."
+  documentation:
+    - title: "Double-Ended Studs - Industrial Fasteners"
+      link: "https://www.grainger.com/category/fasteners/studs/double-ended-studs"
+  applications:
+    - industry: "Industria automotriz"
+      description: "Componentes del motor y transmisión."
+    - industry: "Maquinaria de precisión"
+      description: "Ensamblajes que requieren ajuste fino."
+    - industry: "Equipos médicos"
+      description: "Dispositivos que requieren desmontaje frecuente."
+    - industry: "Instrumentación industrial"
+      description: "Sistemas de medición y control."
+  characteristics:
+    - name: "Normas"
+      description: "Cumplen con ASTM A193, ASME B18.31.1."
+    - name: "Materiales disponibles"
+      description: "Acero al carbono, acero inoxidable, acero aleado, titanio."
+    - name: "Acabados"
+      description: "Zincado, galvanizado, óxido negro, pasivado."
+    - name: "Resistencia a la tracción"
+      description: "Hasta 150,000 psi para grado 8."
+    - name: "Ventajas"
+      description: "Fácil desmontaje, ajuste preciso, versatilidad de instalación."

@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Quienes Somos - Mac Master Importadores
-description: Conoce más sobre Mac Master Importadores, expertos en tornillería y soluciones industriales.
-css: about.css
-permalink: about.html
-hide_footer: true
-hide_fab: true
+title: "About Us"
+meta_title: "About Your Company Name - Our Story and Mission"
+meta_description: "Learn about Your Company Name, our mission to provide quality products, and our commitment to customer satisfaction."
 ---
 
 <!-- hero image -->
@@ -33,6 +30,7 @@ hide_fab: true
     </div>
   </div>
 </section>
+
 <!-- mision & vision -->
 <section id="mision">
   <div class="container-fluid">
@@ -215,4 +213,33 @@ hide_fab: true
     </div>
   </div>
 </section>
-{% include gallery.html %} {% include footer.html %} {% include fab.html %}
+
+<!-- Structured Data for Local Business -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/images/logo.png",
+    "description": "{{ site.description }}",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main St",
+        "addressLocality": "City",
+        "addressRegion": "State",
+        "postalCode": "12345",
+        "addressCountry": "US"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-123-4567",
+        "contactType": "customer service",
+        "availableLanguage": "English"
+    },
+    "sameAs": [
+        "https://twitter.com/yourcompany",
+        "https://facebook.com/yourcompany"
+    ]
+}
+</script> 

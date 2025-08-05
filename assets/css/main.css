@@ -1,0 +1,2122 @@
+/* ========================================
+  MAC MASTER WEB - MAIN STYLESHEET
+  ======================================== */
+
+/* ========================================
+  GLOBAL STYLES & CSS VARIABLES
+  ======================================== */
+  * {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+:root {
+  /* Text Colors */
+  --color-text-main: #ffffff;
+  --color-text-button: #000000;
+
+  /* Border */
+  --color-border: #7e8597;
+
+  /* Backgrounds */
+  --color-bg-primary: #121212;
+  --color-bg-secondary: #222222;
+
+  /* Primary Brand Color */
+  --color-primary: #f9a825;
+
+  /* Fonts */
+  --font-family-primary: "Bebas Neue", serif;
+  --font-family-secondary: "Noto Sans", serif;
+}
+
+body {
+  background-color: #121212;
+  background-image: url("/assets/images/background_noise.png");
+  background-repeat: repeat;
+}
+
+/* ========================================
+    NAVBAR - COMMON ACROSS ALL PAGES
+    ======================================== */
+.navbar {
+  padding: 1rem !important;
+}
+
+.navbar .container-fluid {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-primary);
+}
+
+.navbar .container-navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .container-navbar-brand .navbar-brand img {
+  width: 75%;
+}
+
+.navbar .navbar-toggler {
+  background-color: var(--white) !important;
+  border-color: var(--color-bg-primary);
+}
+
+/* ========================================
+    FAB (FLOATING ACTION BUTTON) - COMMON
+    ======================================== */
+.fixed-bottom {
+  left: auto !important;
+}
+
+.fixed-bottom a {
+  max-width: 96px;
+}
+
+.fixed-bottom a img {
+  width: 100%;
+}
+
+/* ========================================
+    FOOTER - COMMON ACROSS ALL PAGES
+    ======================================== */
+#footer .container-footer {
+  padding: 0.5rem;
+}
+
+#footer .container-footer .footer-options {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  background: var(--color-text-main);
+}
+
+#footer .container-footer .footer-options img {
+  width: 75%;
+}
+
+#footer .container-footer .footer-options .options .navbar-nav .nav-item a {
+  padding: 0;
+}
+
+#footer .container-footer .footer-options p {
+  color: var(--color-text-button);
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+#footer .container-footer .footer-data {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  background: var(--color-bg-secondary);
+  color: var(--color-text-main);
+}
+
+#footer .container-footer .footer-data .info {
+  align-self: stretch;
+}
+
+#footer .container-footer .footer-data .info p {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+#footer .container-footer .footer-data .info a {
+  color: var(--color-text-main);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+#footer .container-footer .footer-data .social-data .navbar-nav {
+  gap: 2rem;
+  align-self: stretch;
+}
+
+/* ========================================
+    GALLERY SECTION - COMMON ACROSS ALL PAGES
+    ======================================== */
+#gallery .container-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+#gallery .container-gallery .grid img {
+  width: 100%;
+}
+
+#gallery .container-gallery .banner-cta {
+  position: relative;
+  padding: 2.25rem 1rem;
+  align-self: stretch;
+  background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/image_bg.png?raw=true");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+#gallery .container-gallery .banner-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#gallery .container-gallery .banner-cta .title-description {
+  position: relative;
+  gap: 1rem;
+  align-self: stretch;
+  color: var(--color-text-main);
+  z-index: 2;
+}
+
+#gallery .container-gallery .banner-cta .title-description h2 {
+  color: var(--color-text-main);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .title-description p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#gallery .container-gallery .banner-cta .title-description a {
+  width: 100%;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--color-text-button);
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+}
+
+#gallery .container-gallery .banner-cta .data {
+  position: relative;
+  padding: 1rem;
+  margin: 3.75rem 0 0 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary);
+  background: var(--color-bg-secondary);
+  backdrop-filter: blur(3px);
+  z-index: 2;
+}
+
+#gallery .container-gallery .banner-cta .data p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+#gallery .container-gallery .banner-cta .data img {
+  width: 25%;
+}
+
+/* ========================================
+    INDEX PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Hero Image Section */
+#heroimage {
+  background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/Hero_mobile.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#heroimage .content-heroimage {
+  padding: 7.5rem 1rem 0 1rem;
+}
+
+#heroimage .content-heroimage .heroimage-title {
+  margin-bottom: 1.5rem;
+  color: var(--color-text-main);
+}
+
+#heroimage .content-heroimage .heroimage-title h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#heroimage .content-heroimage .heroimage-title p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+#heroimage .content-heroimage .heroimage-title p:nth-of-type(2) {
+  margin-bottom: 0;
+}
+
+#heroimage .content-heroimage .heroimage-title .btn-primary {
+  width: 100%;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-text-button);
+  padding: 16px 24px;
+  margin-top: 2.25rem;
+}
+
+#heroimage .content-heroimage .heroimage-data {
+  backdrop-filter: blur(4px);
+  padding: 2.25rem 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a {
+  margin: 0 0 1rem 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a p {
+  color: var(--color-text-main);
+  font-feature-settings: "liga" off, "clig" off;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0.75rem;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-a img {
+  width: 75%;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary);
+  background: var(--color-bg-secondary);
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#heroimage .content-heroimage .heroimage-data .data-b img {
+  width: 25%;
+  margin-bottom: 0.5rem;
+}
+
+/* Brands Section */
+#brand .container-brand {
+  padding: 2.25rem 1rem;
+}
+
+#brand .container-brand .badge {
+  width: auto;
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#brand .container-brand .brand-grid .brand-img {
+  padding: 2.25rem 0px;
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
+  border-right: 0;
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(3) {
+  border-bottom: 0;
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(4) {
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#brand .container-brand .brand-grid .brand-img img {
+  width: 80%;
+  object-fit: scale-down;
+}
+
+#brand .container-brand p {
+  color: var(--color-text-main);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Products Section */
+#products .container-products {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#products .container-products .badge {
+  width: auto;
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#products .container-products .title-description {
+  color: var(--color-text-main);
+}
+
+#products .container-products .title-description h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#products .container-products .title-description p {
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#products .container-products .grid-products .card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: linear-gradient(180deg, rgba(18, 18, 18, 0) 0%, #000 100%);
+}
+
+#products .container-products .grid-products .card .card-title {
+  align-self: stretch;
+  margin-bottom: 0;
+}
+
+#products .container-products .grid-products .card img {
+  width: 100%;
+}
+
+#products .container-products .grid-products .card .card-title h3 {
+  color: var(--color-text-main);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .container-products .grid-products .card .card-title p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#products .container-products a {
+  width: 100%;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-text-button);
+  padding: 1rem 1.5rem;
+}
+
+/* About Us Section */
+#about .container-about {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#about .container-about span {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#about .container-about .title-description {
+  align-self: stretch;
+}
+
+#about .container-about .title-description .heading {
+  align-self: stretch;
+  color: var(--color-text-main);
+}
+
+#about .container-about .title-description .heading h2 {
+  margin-bottom: 0;
+}
+
+#about .container-about .title-description .heading p {
+  margin-bottom: 0;
+}
+
+#about .container-about .title-description a {
+  width: 100%;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-text-button);
+  padding: 1rem 1.5rem;
+}
+
+#about .container-about .grid-stats {
+  align-self: stretch;
+}
+
+#about .container-about .grid-stats .card {
+  background-color: transparent;
+  padding: 2.25rem 0;
+  align-self: stretch;
+  border-radius: 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-main);
+}
+
+#about .container-about .grid-stats .card:nth-of-type(2) {
+  border-top: 0;
+}
+
+#about .container-about .grid-stats .card:nth-of-type(3) {
+  border: 0;
+}
+
+#about .container-about .grid-stats .card h3 {
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title {
+  align-self: stretch;
+}
+
+#about .container-about .grid-stats .card .card-title h4 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+/* ========================================
+    PRODUCTS PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Hero Image Section */
+#heroimage {
+  height: 70vh;
+  background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#heroimage .content-hero {
+  height: 150vw;
+  align-self: stretch;
+  padding: 0 1rem;
+}
+
+#heroimage .content-hero h1 {
+  color: var(--color-text-main);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#heroimage .content-hero p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+/* Products Section */
+#products .content-produts {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#products .content-produts .title-description {
+  align-self: stretch;
+}
+
+#products .content-produts .title-description h2 {
+  color: var(--color-text-main);
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .title-description p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .product-card {
+  align-self: stretch;
+}
+
+#products .content-produts .product-card h3 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#products .content-produts .product-card .content-card {
+  padding: 0 1rem;
+}
+
+#products .content-produts .product-card .content-card .card-hide {
+  opacity: 0;
+}
+
+#products .content-produts .product-card .content-card .card {
+  border-radius: 0;
+  background: none;
+  border: 1px solid var(--color-border);
+}
+
+#products .content-produts .product-card .content-card .card a {
+  height: 100%;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+}
+
+#products .content-produts .product-card .card:nth-of-type(2),
+#products .content-produts .product-card .card:nth-of-type(3),
+#products .content-produts .product-card .card:nth-of-type(4) {
+  border-top: 0;
+}
+
+#products .content-produts .product-card .content-card .card img {
+  width: 25%;
+}
+
+#products .content-produts .product-card .content-card .card h4 {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+/* ========================================
+    CATEGORY PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Products Section */
+#products .content-produts {
+  padding: 7.25rem 1rem 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#products .content-produts .title-description {
+  align-self: stretch;
+}
+
+#products .content-produts .title-description h1 {
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .title-description .breadcrumb {
+  margin-bottom: 0;
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  color: var(--color-border);
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+#products .content-produts .title-description .breadcrumb .active {
+  color: var(--color-text-main);
+}
+
+#products .content-produts p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .grid-products {
+  grid-template-columns: 1fr;
+}
+
+#products .content-produts .grid-products .card {
+  border-radius: 0;
+  background: none;
+  border: 1px solid var(--color-border);
+}
+
+#products .content-produts .grid-products .card:nth-of-type(2),
+#products .content-produts .grid-products .card:nth-of-type(3),
+#products .content-produts .grid-products .card:nth-of-type(4),
+#products .content-produts .grid-products .card:nth-of-type(5),
+#products .content-produts .grid-products .card:nth-of-type(6),
+#products .content-produts .grid-products .card:nth-of-type(7) {
+  border-top: 0;
+}
+
+#products .content-produts .grid-products .card a {
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+}
+
+#products .content-produts .grid-products .card a img {
+  width: 25%;
+}
+
+#products .content-produts .grid-products .card h4 {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+/* ========================================
+    CATEGORY DETAIL PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Products Section */
+#products .content-produts {
+  padding: 7.25rem 1rem 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#products .content-produts .title-description h1 {
+  color: var(--color-text-main);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .title-description .breadcrumb {
+  margin-bottom: 0;
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+  color: var(--color-border);
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+#products .content-produts .title-description .breadcrumb .active {
+  color: var(--color-text-main);
+}
+
+#products .content-produts h2 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .grid-products h3 {
+  color: var(--color-text-main);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .grid-products .content-card .card {
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  border-radius: 0;
+  background: none;
+  border: 1px solid var(--color-border);
+}
+
+#products .content-produts .grid-products .content-card .card:nth-child(2),
+#products .content-produts .grid-products .content-card .card:nth-child(3),
+#products .content-produts .grid-products .content-card .card:nth-child(4),
+#products .content-produts .grid-products .content-card .card:nth-child(5),
+#products .content-produts .grid-products .content-card .card:nth-child(6),
+#products .content-produts .grid-products .content-card .card:nth-child(7),
+#products .content-produts .grid-products .content-card .card:nth-child(8),
+#products .content-produts .grid-products .content-card .card:nth-child(9),
+#products .content-produts .grid-products .content-card .card:nth-child(10),
+#products .content-produts .grid-products .content-card .card:nth-child(11),
+#products .content-produts .grid-products .content-card .card:nth-child(12) {
+  border-top: 0;
+}
+
+#products .content-produts .grid-products .content-card .card img {
+  width: 25%;
+}
+
+#products .content-produts .grid-products .content-card .card h4 {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+/* Specifications Section */
+#products .specs h2 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .specs .container-specs table {
+  border: 1px solid var(--color-border);
+}
+
+#products .specs .container-specs table th {
+  color: var(--color-text-main);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 1rem;
+  align-self: stretch;
+  background-color: #121212;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#products .specs .container-specs table td {
+  color: var(--color-text-main);
+  font-size: 1.125rem;
+  font-family: "Instrument Sans";
+  font-style: normal;
+  line-height: 120%;
+  padding: 1rem;
+  align-items: center;
+  align-self: stretch;
+}
+
+/* Documentation Section */
+#products .documentary .title-description h2 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .documentary .title-description p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#products .documentary ul {
+  color: var(--color-primary);
+}
+
+#products .documentary a {
+  color: var(--color-primary);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+/* ========================================
+    ABOUT PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Hero Image Section */
+#heroimage .content-hero {
+  gap: 2.5rem;
+  padding: 9rem 1rem 2.25rem 1rem;
+}
+
+#heroimage .content-hero h1 {
+  color: var(--color-text-main);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#heroimage .content-hero img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+/* Mission & Vision Section */
+#mision .container-mision {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#mision .container-mision .title {
+  gap: 2.25rem;
+  align-self: stretch;
+}
+
+#mision .container-mision .title span {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#mision .container-mision .title h2 {
+  color: var(--color-text-main);
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#mision .container-mision .grid-detail {
+  align-self: stretch;
+}
+
+#mision .container-mision .grid-detail .card {
+  padding: 2.25rem 0;
+  gap: 2.25rem;
+  align-self: stretch;
+  border-radius: 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  background-color: transparent;
+}
+
+#mision .container-mision .grid-detail .card:nth-of-type(2) {
+  border-top: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+#mision .container-mision .grid-detail .card h3 {
+  color: var(--color-text-main);
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#mision .container-mision .grid-detail .card p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+/* Values Section */
+#values {
+  display: flex;
+  padding: 2.25rem 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#values .container-values {
+  align-self: stretch;
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+}
+
+#values .container-values .title-description {
+  padding: 2.25rem 1rem 0px 1rem;
+  gap: 2.25rem;
+  align-self: stretch;
+}
+
+#values .container-values .title-description span {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#values .container-values .title-description h2 {
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#values .container-values .title-description p {
+  color: var(--color-text-main);
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#values .container-values .values {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  align-self: stretch;
+  padding: 0 1rem;
+}
+
+#values .container-values .values .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+#values .container-values .values .text p {
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#values .container-values img {
+  width: 100%;
+  height: 100vw;
+  object-fit: cover;
+  border-radius: 0 0 1rem 1rem;
+}
+
+/* About Us Section */
+#about .container-about {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#about .container-about span {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#about .container-about .title-description {
+  align-self: stretch;
+}
+
+#about .container-about .title-description .heading {
+  align-self: stretch;
+  color: var(--color-text-main);
+}
+
+#about .container-about .title-description .heading h2 {
+  margin-bottom: 0;
+}
+
+#about .container-about .title-description .heading p {
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats {
+  align-self: stretch;
+}
+
+#about .container-about .grid-stats .card {
+  background-color: transparent;
+  padding: 2.25rem 0;
+  align-self: stretch;
+  border-radius: 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-main);
+}
+
+#about .container-about .grid-stats .card:nth-of-type(2) {
+  border-top: 0;
+}
+
+#about .container-about .grid-stats .card:nth-of-type(3) {
+  border: 0;
+}
+
+#about .container-about .grid-stats .card h3 {
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title {
+  align-self: stretch;
+}
+
+#about .container-about .grid-stats .card .card-title h4 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+/* Team Section */
+#team .container-team {
+  padding: 1rem;
+}
+
+#team .container-team img {
+  width: 100%;
+}
+
+#team .container-team .grid-images {
+  align-self: stretch;
+}
+
+/* ========================================
+    CONTACT PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Heading Section */
+#heading .title-description {
+  padding: 9rem 1rem 2.25rem 1rem;
+}
+
+#heading .title-description h1 {
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#heading .title-description p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+/* Contact Info Section */
+#contact-info .content-contact {
+  padding: 0.5rem;
+}
+
+#contact-info .content-contact .card {
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+#contact-info .content-contact .card h2 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#contact-info .content-contact .card .card-description p {
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#contact-info .content-contact .card .card-description p:nth-of-type(2) {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#contact-info .content-contact .card:nth-of-type(1) {
+  background-color: var(--color-primary);
+}
+
+#contact-info .content-contact .card:nth-of-type(1) h2 {
+  color: var(--color-bg-primary);
+}
+
+#contact-info .content-contact .card:nth-of-type(2) {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+}
+
+#contact-info .content-contact .card:nth-of-type(2) h2 {
+  color: var(--color-text-main);
+}
+
+#contact-info .content-contact .card:nth-of-type(2) p {
+  color: var(--color-text-main);
+}
+
+#contact-info .content-contact .card:nth-of-type(3) {
+  background-color: #101010;
+  border: 1px solid var(--color-border);
+}
+
+#contact-info .content-contact .card:nth-of-type(3) {
+  color: var(--color-text-main);
+}
+
+#contact-info .content-contact .card .card-description a {
+  color: var(--color-text-main);
+  text-decoration: none;
+}
+
+/* Form Section */
+#form .content-form {
+  padding: 0 0.5rem;
+}
+
+#form .content-form .maps {
+  height: 50vh;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#form .content-form .maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+#form .content-form form {
+  padding: 1.5rem 1rem;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: var(--color-text-main);
+}
+
+#form .content-form form .title-description {
+  color: var(--color-text-button);
+}
+
+#form .content-form form .title-description h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#form .content-form form .title-description p {
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#form .content-form form .inputs {
+  padding: 1rem;
+  border-radius: 0px 0px 0.5rem 0.5rem;
+  border-right: 1px solid rgba(233, 238, 234, 0.00);
+  border-bottom: 1px solid rgba(233, 238, 234, 0.00);
+  border-left: 1px solid rgba(233, 238, 234, 0.00);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #F4F4F4 100%);
+}
+
+#form .content-form form .inputs label {
+  font-size: 0.75rem;
+  color: var(--color-text-button);
+}
+
+#form .content-form form .inputs input {
+  border-radius: 0.5rem;
+  border: 1px solid #E9EEEA;
+}
+
+#form .content-form form .inputs button {
+  width: 100%;
+  color: var(--color-text-button);
+  text-align: center;
+  padding: 1rem;
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  border-radius: 0.5rem;
+  border: 0;
+  background: #F9A825;
+}
+
+/* ========================================
+    RESPONSIVE MEDIA QUERIES
+    ======================================== */
+
+/* Landscape phones, 608px */
+@media (min-width: 608px) {
+  .navbar .container-navbar-brand {
+    width: 100%;
+  }
+
+  /* Index Page */
+  #heroimage .content-heroimage {
+    padding: 9rem 1rem 0 1rem;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-a img {
+    width: 50%;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b {
+    gap: 1rem;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b .data-image {
+    flex: 0 0 5rem;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b .data-image img {
+    width: 100%;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b p {
+    font-size: 1rem;
+  }
+
+  /* Products Page */
+  #heroimage .content-hero {
+    height: 100vw;
+  }
+
+  #products .content-produts .product-card .card:nth-of-type(2) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .product-card .card:nth-of-type(4) {
+    border-left: 0;
+  }
+
+  /* Category Page */
+  #products .content-produts {
+    padding: 9.25rem 1rem 2.25rem 1rem;
+  }
+
+  #products .content-produts .grid-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(2),
+  #products .content-produts .grid-products .card:nth-of-type(4),
+  #products .content-produts .grid-products .card:nth-of-type(6) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  /* Category Detail Page */
+  #products .content-produts {
+    padding: 9.25rem 1rem 2.25rem 1rem;
+  }
+
+  #products .content-produts .grid-products .content-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(2),
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(6),
+  #products .content-produts .grid-products .content-card .card:nth-child(8),
+  #products .content-produts .grid-products .content-card .card:nth-child(10),
+  #products .content-produts .grid-products .content-card .card:nth-child(12) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(6),
+  #products .content-produts .grid-products .content-card .card:nth-child(8),
+  #products .content-produts .grid-products .content-card .card:nth-child(10),
+  #products .content-produts .grid-products .content-card .card:nth-child(12) {
+    border-top: 0;
+    border-left: 0;
+  }
+
+  /* About Page */
+  #values .container-values img {
+    height: 50vw;
+  }
+
+  #team .container-team img {
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+  /* Gallery Section */
+  #gallery .container-gallery .banner-cta .data .data-image {
+    flex: 0 0 5rem;
+  }
+
+  #gallery .container-gallery .banner-cta .data img {
+    width: 100%;
+  }
+
+  /* Footer */
+  #footer .container-footer .footer-options img {
+    width: 50%;
+  }
+}
+
+/* Tablets, 768px */
+@media (min-width: 768px) {
+  .navbar .container-navbar-brand .navbar-brand img {
+    width: 50%;
+  }
+
+  /* Index Page */
+  #heroimage {
+    background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/02.Hero/Hero_image.png?raw=true");
+  }
+
+  #heroimage .content-heroimage .heroimage-title .btn-primary {
+    width: auto;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-a {
+    margin: 0;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-a img {
+    width: 50%;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b {
+    width: auto;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b p {
+    font-size: 0.875rem;
+  }
+
+  #brand .container-brand .brand-grid .brand-img img {
+    width: 50%;
+  }
+
+  #products .container-products .grid-products {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #products .container-products a {
+    width: auto;
+  }
+
+  #about .container-about .grid-stats .card {
+    padding: 3.75rem 0;
+  }
+
+  #about .container-about .title-description a {
+    width: auto;
+  }
+
+  #gallery .container-gallery .grid img {
+    width: 32.9%;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description a {
+    width: auto;
+  }
+
+  #gallery .container-gallery .banner-cta .data img {
+    width: 100%;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  /* Products Page */
+  #heroimage {
+    height: 100%;
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true');
+  }
+
+  #heroimage .content-hero {
+    height: 60vw;
+  }
+
+  /* About Page */
+  #mision .container-mision .grid-detail .card {
+    padding: 3.75rem 0;
+  }
+
+  #mision .container-mision .grid-detail .card:nth-of-type(2) {
+    padding-bottom: 3.75rem;
+  }
+
+  #values .container-values .values {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 2.25rem;
+    padding: 0;
+  }
+
+  #about .container-about .grid-stats .card {
+    padding: 3.75rem 0;
+  }
+
+  #about .container-about .title-description a {
+    width: auto;
+  }
+
+  /* Contact Page */
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  /* Category Detail Page */
+  #products .content-produts .grid-products .content-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(3) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(10) {
+    border-left: 1px solid var(--color-border);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(5),
+  #products .content-produts .grid-products .content-card .card:nth-child(9),
+  #products .content-produts .grid-products .content-card .card:nth-child(11) {
+    border-left: 0;
+  }
+
+  #products .specs .container-specs table tr th {
+    border-right: 1px solid var(--color-border);
+  }
+}
+
+/* Desktop, 992px */
+@media (min-width: 992px) {
+  .navbar {
+    padding: 1rem 0 !important;
+  }
+
+  .navbar .navbar-brand {
+    width: auto;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 0.5rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--color-text-button);
+    font-weight: 500;
+  }
+
+  .navbar-expand-lg .navbar-nav .active {
+    font-weight: 500;
+    background-color: #D18100;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem !important;
+  }
+
+  /* Index Page */
+  #heroimage .content-heroimage {
+    padding: 9rem 0 0 0;
+  }
+
+  #brand .container-brand .brand-grid .brand-img img {
+    width: 100%;
+  }
+
+  #brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
+    border-right: 1px solid var(--color-border);
+  }
+
+  #about .container-about .title-description {
+    gap: 2.25rem;
+  }
+
+  #about .container-about .title-description .heading {
+    gap: 2.25rem;
+  }
+
+  #brand .container-brand .brand-grid .brand-img {
+    padding: 2.25rem 1.5rem;
+    border-bottom: 0;
+    border-right: 1px solid var(--color-border);
+  }
+
+  #gallery .container-gallery .banner-cta {
+    align-items: flex-start;
+  }
+
+  #gallery .container-gallery .banner-cta .data {
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    border-radius: 100px;
+  }
+
+  #gallery .container-gallery .banner-cta .data img {
+    width: 100%;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 50%;
+  }
+
+  #footer .container-footer .footer-data {
+    width: 49.5%;
+  }
+
+  /* Products Page */
+  #heroimage .content-hero {
+    height: 35vw;
+    padding: 3rem 0 0 0;
+  }
+
+  #products .content-produts {
+    padding: 2.25rem 0;
+  }
+
+  #products .content-produts .product-card .card:nth-of-type(3),
+  #products .content-produts .product-card .card:nth-of-type(4) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  /* Category Page */
+  #products .content-produts {
+    padding: 8.25rem 0 2.25rem 0;
+  }
+
+  #products .content-produts .grid-products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(3) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(6) {
+    border-top: 0;
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(7) {
+    border-left: 0;
+  }
+
+  /* Category Detail Page */
+  #products .content-produts {
+    padding: 8.25rem 0 2.25rem 0;
+  }
+
+  #products .content-produts .grid-products .content-card {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(5),
+  #products .content-produts .grid-products .content-card .card:nth-child(6) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(9) {
+    border-top: 0;
+    border-left: 1px solid var(--color-border);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(7) {
+    border-left: 1px solid var(--color-border);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(9), 
+  #products .content-produts .grid-products .content-card .card:nth-child(10) {
+    border-left: 0;
+  }
+
+  #products .specs,
+  #products .documentary {
+    padding: 0;
+  }
+
+  /* About Page */
+  #heroimage .content-hero {
+    padding: 9rem 0 2.25rem 0;
+  }
+
+  #mision .container-mision {
+    padding: 2.25rem 0;
+  }
+
+  #mision .container-mision .grid-detail .card h3 {
+    font-size: 2.25rem;
+  }
+
+  #values {
+    padding: 2.25rem 0;
+  }
+
+  #about .container-about .title-description {
+    gap: 2.25rem;
+  }
+
+  #about .container-about .title-description .heading {
+    gap: 2.25rem;
+  }
+
+  #team .container-team {
+    flex-direction: row;
+    padding: 0.5rem 0;
+  }
+
+  #team .container-team img {
+    width: 49%;
+    height: 100%;
+  }
+
+  #team .container-team .grid-images img {
+    width: 98%;
+    height: 50%;
+  }
+
+  /* Contact Page */
+  #heading .title-description h1 {
+    text-align: left;
+  }
+
+  #heading .title-description p {
+    text-align: left;
+  }
+
+  #contact-info .content-contact {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #form .content-form form {
+    padding: 3.75rem 3rem;
+  }
+}
+
+/* Large desktops, 1200px */
+@media (min-width: 1200px) {
+  /* Index Page */
+  #heroimage .content-heroimage .heroimage-title h1 {
+    font-size: 3.75rem;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+  }
+
+  #products .container-products {
+    padding: 4.5rem 0;
+    gap: 3.75rem;
+  }
+
+  #products .container-products .title-description {
+    gap: 2.25rem;
+  }
+
+  #products .container-products .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  #brand .container-brand .brand-grid .brand-img img {
+    width: 75%;
+  }
+
+  #products .container-products .grid-products {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  #about .container-about {
+    align-items: flex-start;
+    padding: 4.5rem 0;
+  }
+
+  #gallery .container-gallery .banner-cta {
+    padding: 3.75rem 10.063rem;
+  }
+
+  #footer .container-footer .footer-options,
+  #footer .container-footer .footer-data {
+    padding: 3.75rem;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 50%;
+  }
+
+  #footer .container-footer .footer-options p {
+    text-align: start;
+  }
+
+  /* About Page */
+  #about .container-about {
+    align-items: flex-start;
+    padding: 4.5rem 0;
+  }
+
+  #values .container-values .title-description {
+    padding: 3.75rem 1rem 0px 1rem;
+  }
+
+  #values .container-values img {
+    height: 64vh;
+  }
+
+  /* Contact Page */
+  #form .content-form .maps {
+    height: auto;
+    align-self: stretch;
+  }
+}
+
+/* Larger desktops, 1400px */
+@media (min-width: 1400px) {
+  /* Index Page */
+  #brand .container-brand {
+    padding: 4.5rem 0;
+  }
+
+  #about .container-about .grid-stats .card h3 {
+    font-size: 5rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description h2 {
+    font-size: 3.75rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description .btn {
+    margin-top: 2.25rem;
+  }
+
+  #gallery .container-gallery .banner-cta .data {
+    width: auto;
+    margin-top: 3.75rem;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  #footer .container-footer .footer-options p {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  /* Products Page */
+  #heroimage .content-hero h1 {
+    font-size: 3.75rem;
+  }
+
+  #products .content-produts .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description h2 {
+    font-size: 3.75rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description .btn {
+    margin-top: 2.25rem;
+  }
+
+  #gallery .container-gallery .banner-cta .data {
+    width: auto;
+    margin-top: 3.75rem;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  #footer .container-footer .footer-options p {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  /* Category Page */
+  #gallery .container-gallery .banner-cta .title-description h2 {
+    font-size: 3.75rem;
+  }
+
+  #products .content-produts p {
+    font-size: 1.5rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description h2 {
+    font-size: 3.75rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description .btn {
+    margin-top: 2.25rem;
+  }
+
+  #gallery .container-gallery .banner-cta .data {
+    width: auto;
+    margin-top: 3.75rem;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  #footer .container-footer .footer-options p {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  /* Category Detail Page */
+  #gallery .container-gallery .banner-cta .title-description h2 {
+    font-size: 3.75rem;
+  }
+
+  #products .content-produts p {
+    font-size: 1.5rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description h2 {
+    font-size: 3.75rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description .btn {
+    margin-top: 2.25rem;
+  }
+
+  #gallery .container-gallery .banner-cta .data {
+    width: auto;
+    margin-top: 3.75rem;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  #footer .container-footer .footer-options p {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  /* About Page */
+  #heroimage .content-hero h1 {
+    font-size: 3.75rem;
+  }
+
+  #mision .container-mision .title h2 {
+    font-size: 2.25rem;
+  }
+
+  #values .container-values img {
+    height: 60vh;
+  }
+
+  #values .container-values .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  #about .container-about .grid-stats .card h3 {
+    font-size: 5rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description h2 {
+    font-size: 3.75rem;
+  }
+
+  #gallery .container-gallery .banner-cta .title-description .btn {
+    margin-top: 2.25rem;
+  }
+
+  #gallery .container-gallery .banner-cta .data {
+    width: auto;
+    margin-top: 3.75rem;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  #footer .container-footer .footer-options p {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  /* Contact Page */
+  #contact-info .content-contact {
+    grid-template-columns: 6fr 3fr 3fr;
+  }
+
+  #form .content-form .maps {
+    display: flex;
+    flex: 1;
+  }
+
+  #form .content-form form {
+    flex-wrap: wrap;
+    flex: 0 0 59rem;
+  }
+
+  #footer .container-footer .footer-options {
+    flex: 1;
+  }
+
+  #footer .container-footer .footer-data {
+    flex-wrap: wrap;
+    flex: 0 0 59rem;
+  }
+
+  #footer .container-footer .footer-options img {
+    width: 35%;
+  }
+
+  #footer .container-footer .footer-options p {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+}

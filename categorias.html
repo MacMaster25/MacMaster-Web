@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Productos - Mac Master Importadores"
+meta_title: "Productos - Mac Master Importadores"
+meta_description: "Portafolio especializado en productos industriales MRO. Tornillería, adhesivos, abrasivos y más."
+---
+
+<!-- Hero Image Section -->
+<section id="heroimage" style="background-image: url('/assets/images/categories-hero.png');">
+  <div class="container-fluid">
+    <div class="content-hero row d-flex flex-column align-items-start justify-content-center gap-3 col-lg-8 offset-lg-1 col-xxl-6">
+      <h1 class="p-0">
+        En Mac Master Importadores nuestra prioridad es atenderte
+      </h1>
+      <p class="p-0">
+        Productos confiables, duraderos y técnicamente respaldados.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products">
+  <div class="container-fluid">
+    <div class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1">
+      <div class="title-description d-flex flex-column justify-content-center align-items-start gap-3 p-0">
+        <h2>Categorías de productos</h2>
+        <p>
+          En Mac Master Importadores ofrecemos un portafolio especializado en
+          productos industriales MRO (Mantenimiento, Reparación y Operación).
+          Desde soluciones en tornillería hasta adhesivos estructurales,
+          contamos con insumos confiables, de alta durabilidad y con respaldo
+          técnico para satisfacer las necesidades de la industria colombiana.
+          Explora nuestras líneas de productos diseñadas para mantener la
+          continuidad operativa y la eficiencia en todo tipo de entornos
+          productivos.
+        </p>
+      </div>
+      
+      {% for category in site.data.categories %}
+        <div class="product-card d-flex flex-column align-items-start gap-3 p-0">
+          <h3 class="mb-0">{{ category.name }}</h3>
+          <div class="content-card row row-cols-1 row-cols-sm-2 row-cols-lg-4 col col-lg col-xl-12">
+            
+            {% assign category_subcategories = site.data.subcategories | where: "category_id", category.id | limit: 4 %}
+            {% for subcategory in category_subcategories %}
+              <div class="card text-lg-center p-0">
+                <a href="{{ '/subcategory/' | append: subcategory.slug | relative_url }}"
+                   class="d-flex justify-content-start align-items-center gap-3 flex-lg-column">
+                  <img src="{{ subcategory.image | relative_url }}" alt="{{ subcategory.name }}" />
+                  <h4>{{ subcategory.name }}</h4>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+{% include gallery.html %}
