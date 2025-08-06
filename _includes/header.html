@@ -26,7 +26,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link {% if page.permalink == '/products.html' or page.permalink contains 'productos' %}active{% endif %}"
-             href="{{ 'categorias/' | append: category.slug }}">
+            href="{{ 'categorias' | append: category.slug | absolute_url }}">
             Productos
           </a>
         </li>
