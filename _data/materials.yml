@@ -222,3 +222,267 @@
   description: "Surtidos de tornillos autoperforantes para diferentes aplicaciones"
   subtitle: "Surtidos de tornillos autoperforantes."
   image: "/assets/images/materials/surtidos-de-tornillos-autoperforantes.png"
+  
+- id: tornillos-de-maquina-de-cabeza-redonda
+  slug: "tornillos-de-maquina-de-cabeza-redonda"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza redonda"
+  description: "Tornillos de máquina de cabeza redonda para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza redonda."
+  image: "/assets/images/materials/tornillos-de-maquina-de-cabeza-redonda.png"
+
+- id: tornillos-de-cabeza-plana-para-maquina
+  slug: "tornillos-de-cabeza-plana-para-maquina"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de cabeza plana para máquina"
+  description: "Tornillos de cabeza plana para máquina para aplicaciones industriales"
+  subtitle: "Tornillos de cabeza plana para máquina."
+  image: "/assets/images/materials/tornillos-de-cabeza-plana-para-maquina.png"
+
+- id: tornillos-de-maquina-de-cabeza-plana
+  slug: "tornillos-de-maquina-de-cabeza-plana"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza plana"
+  description: "Tornillos de máquina de cabeza plana para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza plana."
+  image: "/assets/images/materials/tornillos-de-maquina-de-cabeza-plana.png"
+
+- id: tornillos-para-maquina-de-cabeza-de-armadura
+  slug: "tornillos-para-maquina-de-cabeza-de-armadura"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos para máquina de cabeza de armadura"
+  description: "Tornillos para máquina de cabeza de armadura para aplicaciones industriales"
+  subtitle: "Tornillos para máquina de cabeza de armadura."
+  image: "/assets/images/materials/tornillos-para-maquina-de-cabeza-de-armadura.png"
+
+- id: tornillos-para-maquina-de-cabeza-cilindrica
+  slug: "tornillos-para-maquina-de-cabeza-cilindrica"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos para máquina de cabeza cilindrica"
+  description: "Tornillos para máquina de cabeza cilindrica para aplicaciones industriales"
+  subtitle: "Tornillos para máquina de cabeza cilindrica."
+  image: "/assets/images/materials/tornillos-para-maquina-de-cabeza-cilindrica.png"
+
+- id: tornillos-de-maquina-de-cabeza-cilindrica
+  slug: "tornillos-de-maquina-de-cabeza-cilindrica"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza cilindrica"
+  description: "Tornillos de máquina de cabeza cilindrica para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza cilindrica."
+  image: "/assets/images/materials/tornillos-de-maquina-de-cabeza-cilindrica.png"
+
+- id: tornillos-de-maquina-de-cabeza-ovalada
+  slug: "tornillos-de-maquina-de-cabeza-ovalada"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza ovalada"
+  description: "Tornillos de máquina de cabeza ovalada para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza ovalada."
+  image: "/assets/images/materials/tornillos-de-maquina-de-cabeza-ovalada.png"
+
+- id: tornillos-de-maquina-de-cabeza-hexagonal
+  slug: "tornillos-de-maquina-de-cabeza-hexagonal"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza hexagonal"
+  description: "Tornillos de máquina de cabeza hexagonal para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza hexagonal."
+  image: "/assets/images/materials/tornillos-de-maquina-de-cabeza-hexagonal.png"
+
+- id: tornillos-de-maquina-con-cabeza-de-encuadernacion
+  slug: "tornillos-de-maquina-con-cabeza-de-encuadernacion"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina con cabeza de encuadernacion"
+  description: "Tornillos de máquina con cabeza de encuadernacion para aplicaciones industriales"
+  subtitle: "Tornillos de máquina con cabeza de encuadernacion."
+  image: "/assets/images/materials/tornillos-de-maquina-con-cabeza-de-encuadernacion.png"
+
+- id: tornillos-para-maquina-de-cabeza-abombada
+  slug: "tornillos-para-maquina-de-cabeza-abombada"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos para máquina de cabeza abombada"
+  description: "Tornillos para máquina de cabeza abombada para aplicaciones industriales"
+  subtitle: "Tornillos para máquina de cabeza abombada."
+  image: "/assets/images/materials/tornillos-para-maquina-de-cabeza-abombada.png"
+
+- id: surtidos-de-tornillos-para-maquinas
+  slug: "surtidos-de-tornillos-para-maquinas"
+  product_id: "tornillos-para-maquina"
+  name: "Surtidos de tornillos para máquinas"
+  description: "Surtidos de tornillos para máquina para diferentes aplicaciones"
+  subtitle: "Surtidos de tornillos para máquinas."
+  image: "/assets/images/materials/surtidos-de-tornillos-para-maquinas.png"
+
+- id: pernos-de-ojo-para-maquinaria-con-hombro
+  slug: "pernos-de-ojo-para-maquinaria-con-hombro"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria con hombro"
+  description: "Pernos de ojo para maquinaria con hombro para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria con hombro."
+  image: "/assets/images/materials/pernos-de-ojo-para-maquinaria-con-hombro.png"
+
+- id: pernos-de-ojo-para-maquinaria-con-hombro-en-blanco
+  slug: "pernos-de-ojo-para-maquinaria-con-hombro-en-blanco"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria con hombro en blanco"
+  description: "Pernos de ojo para maquinaria con hombro en blanco para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria con hombro en blanco."
+  image: "/assets/images/materials/pernos-de-ojo-para-maquinaria-con-hombro-en-blanco.png"
+
+- id: pernos-de-ojo-para-maquinaria-sin-hombro
+  slug: "pernos-de-ojo-para-maquinaria-sin-hombro"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria sin hombro"
+  description: "Pernos de ojo para maquinaria sin hombro para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria sin hombro."
+  image: "/assets/images/materials/pernos-de-ojo-para-maquinaria-sin-hombro.png"
+
+- id: pernos-de-ojo-para-maquinaria-en-blanco-sin-hombro
+  slug: "pernos-de-ojo-para-maquinaria-en-blanco-sin-hombro"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria en blanco sin hombro"
+  description: "Pernos de ojo para maquinaria en blanco sin hombro para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria en blanco sin hombro."
+  image: "/assets/images/materials/pernos-de-ojo-para-maquinaria-en-blanco-sin-hombro.png"
+
+- id: enrutamiento-de-pernos-de-ojo
+  slug: "enrutamiento-de-pernos-de-ojo"
+  product_id: "pernos-de-ojo"
+  name: "Enrutamiento de pernos de ojo"
+  description: "Enrutamiento de pernos de ojo para aplicaciones industriales"
+  subtitle: "Enrutamiento de pernos de ojo."
+  image: "/assets/images/materials/enrutamiento-de-pernos-de-ojo.png"
+
+- id: tornillo-de-madera-con-ojo
+  slug: "tornillo-de-madera-con-ojo"
+  product_id: "pernos-de-ojo"
+  name: "Tornillo de madera con ojo"
+  description: "Tornillo de madera con ojo para aplicaciones industriales"
+  subtitle: "Tornillo de madera con ojo."
+  image: "/assets/images/materials/tornillo-de-madera-con-ojo.png"
+
+- id: pernos-en-u-estandar
+  slug: "pernos-en-u-estandar"
+  product_id: "pernos-en-u"
+  name: "Pernos en U estándar"
+  description: "Pernos en U estándar para aplicaciones industriales"
+  subtitle: "Pernos en U estándar."
+  image: "/assets/images/materials/pernos-en-u-estandar.png"
+
+- id: pernos-en-u-estandar-con-placas-de-montaje
+  slug: "pernos-en-u-estandar-con-placas-de-montaje"
+  product_id: "pernos-en-u"
+  name: "Pernos en U estándar con placas de montaje"
+  description: "Pernos en U estándar con placas de montaje para aplicaciones industriales"
+  subtitle: "Pernos en U estándar con placas de montaje."
+  image: "/assets/images/materials/pernos-en-u-estandar-con-placas-de-montaje.png"
+
+- id: pernos-en-u-cuadrados
+  slug: "pernos-en-u-cuadrados"
+  product_id: "pernos-en-u"
+  name: "Pernos en U cuadrados"
+  description: "Pernos en U cuadrados para aplicaciones industriales"
+  subtitle: "Pernos en U cuadrados."
+  image: "/assets/images/materials/pernos-en-u-cuadrados.png"
+
+- id: pernos-en-u-acolchados
+  slug: "pernos-en-u-acolchados"
+  product_id: "pernos-en-u"
+  name: "Pernos en U acolchados"
+  description: "Pernos en U acolchados para aplicaciones industriales"
+  subtitle: "Pernos en U acolchados."
+  image: "/assets/images/materials/pernos-en-u-acolchados.png"
+
+- id: pernos-en-u-con-amortiguacion-de-vibraciones
+  slug: "pernos-en-u-con-amortiguacion-de-vibraciones"
+  product_id: "pernos-en-u"
+  name: "Pernos en U con amortiguación de vibraciones"
+  description: "Pernos en U con amortiguación de vibraciones para aplicaciones industriales"
+  subtitle: "Pernos en U con amortiguación de vibraciones."
+  image: "/assets/images/materials/pernos-en-u-con-amortiguacion-de-vibraciones.png"
+
+- id: placas-de-montaje-para-pernos-en-u
+  slug: "placas-de-montaje-para-pernos-en-u"
+  product_id: "pernos-en-u"
+  name: "Placas de montaje para pernos en U"
+  description: "Placas de montaje para pernos en U para aplicaciones industriales"
+  subtitle: "Placas de montaje para pernos en U."
+  image: "/assets/images/materials/placas-de-montaje-con-pernos-en-u.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-2
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-2"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero de grado 2"
+  description: "Pernos de carruaje de cuello cuadrado de acero de grado 2 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero de grado 2."
+  image: "/assets/images/materials/pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-2.png"
+
+- id: pernos-de-paso-de-cabeza-ancha-y-cuello-cuadrado-de-acero-de-grado-a
+  slug: "pernos-de-paso-de-cabeza-ancha-y-cuello-cuadrado-de-acero-de-grado-a"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A"
+  description: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A para aplicaciones industriales"
+  subtitle: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A."
+  image: "/assets/images/materials/pernos-de-paso-de-cabeza-ancha-y-cuello-cuadrado-de-acero-de-grado-a.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-clase-4-6
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-clase-4-6"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero clase 4.6"
+  description: "Pernos de carruaje de cuello cuadrado de acero clase 4.6 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero clase 4.6."
+  image: "/assets/images/materials/pernos-de-carruaje-de-cuello-cuadrado-de-acero-clase-4-6.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-a2
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-a2"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2"
+  description: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2."
+  image: "/assets/images/materials/pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-a2.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-18-8
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-18-8"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8"
+  description: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8."
+  image: "/assets/images/materials/pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-18-8.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-316
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-316"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316"
+  description: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316."
+  image: "/assets/images/materials/pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-316.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-5
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-5"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero de grado 5"
+  description: "Pernos de carruaje de cuello cuadrado de acero de grado 5 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero de grado 5."
+  image: "/assets/images/materials/pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-5.png"
+
+- id: pernos-de-carruaje-con-cuello-acanalado-de-acero-de-grado-5
+  slug: "pernos-de-carruaje-con-cuello-acanalado-de-acero-de-grado-5"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje con cuello acanalado de acero de grado 5"
+  description: "Pernos de carruaje con cuello acanalado de acero de grado 5 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje con cuello acanalado de acero de grado 5."
+  image: "/assets/images/materials/pernos-de-carruaje-con-cuello-acanalado-de-acero-de-grado-5.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-8
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-8"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero de grado 8"
+  description: "Pernos de carruaje de cuello cuadrado de acero de grado 8 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero de grado 8."
+  image: "/assets/images/materials/pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-8.png"
+
+- id: surtidos-de-pernos-de-carruaje
+  slug: "surtidos-de-pernos-de-carruaje"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Surtidos de pernos de carruaje"
+  description: "Surtidos de pernos de carruaje para diferentes aplicaciones"
+  subtitle: "Surtidos de pernos de carruaje."
+  image: "/assets/images/materials/surtidos-de-tornillos-para-maquinas.png"
