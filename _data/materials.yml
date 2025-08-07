@@ -486,3 +486,179 @@
   description: "Surtidos de pernos de carruaje para diferentes aplicaciones"
   subtitle: "Surtidos de pernos de carruaje."
   image: "/assets/images/materials/surtidos-de-tornillos-para-maquinas.png"
+
+- id: tuercas-hexagonales-estandar
+  slug: "tuercas-hexagonales-estandar"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales estándar"
+  description: "Tuercas hexagonales estándar para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales estándar."
+  image: "/assets/images/materials/tuercas-hexagonales-estandar.png"
+
+- id: tuercas-hexagonales-pesadas
+  slug: "tuercas-hexagonales-pesadas"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales pesadas"
+  description: "Tuercas hexagonales pesadas para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales pesadas."
+  image: "/assets/images/materials/tuercas-hexagonales-pesadas.png"
+
+- id: tuercas-hexagonales-para-tornillos-de-maquina
+  slug: "tuercas-hexagonales-para-tornillos-de-maquina"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales para tornillos de máquina"
+  description: "Tuercas hexagonales para tornillos de máquina para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales para tornillos de máquina."
+  image: "/assets/images/materials/tuercas-hexagonales-para-tornillos-de-maquina.png"
+
+- id: tuercas-hexagonales-para-paneles
+  slug: "tuercas-hexagonales-para-paneles"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales para paneles"
+  description: "Tuercas hexagonales para paneles para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales para paneles."
+  image: "/assets/images/materials/tuercas-hexagonales-para-paneles.png"
+
+- id: tuercas-hexagonales-de-seguridad
+  slug: "tuercas-hexagonales-de-seguridad"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales de seguridad"
+  description: "Tuercas hexagonales de seguridad para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales de seguridad."
+  image: "/assets/images/materials/tuercas-hexagonales-de-seguridad.png"
+
+- id: tuercas-hexagonales-acme
+  slug: "tuercas-hexagonales-acme"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales ACME"
+  description: "Tuercas hexagonales ACME para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales ACME."
+  image: "/assets/images/materials/tuercas-hexagonales-acme.png"
+
+- id: tuercas-hexagonales-estandar-con-rosca-a-la-izquierda
+  slug: "tuercas-hexagonales-estandar-con-rosca-a-la-izquierda"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales estándar con rosca a la izquierda"
+  description: "Tuercas hexagonales estándar con rosca a la izquierda para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales estándar con rosca a la izquierda."
+  image: "/assets/images/materials/tuercas-hexagonales-estandar-con-rosca-a-la-izquierda.png"
+
+- id: surtidos-de-tuercas-hexagonales
+  slug: "surtidos-de-tuercas-hexagonales"
+  product_id: "tuercas-hexagonales"
+  name: "Surtidos de tuercas hexagonales"
+  description: "Surtidos de tuercas hexagonales para diferentes aplicaciones"
+  subtitle: "Surtidos de tuercas hexagonales."
+  image: "/assets/images/materials/surtidos-de-tuercas-hexagonales.png"
+
+- id: tuercas-de-seguridad-dentadas
+  slug: "tuercas-de-seguridad-dentadas"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad dentadas"
+  description: "Tuercas de seguridad dentadas para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad dentadas."
+  image: "/assets/images/materials/tuercas-de-seguridad-dentadas.png"
+
+- id: tuercas-de-seguridad-con-arandelas
+  slug: "tuercas-de-seguridad-con-arandelas"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad con arandelas"
+  description: "Tuercas de seguridad con arandelas para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad con arandelas."
+  image: "/assets/images/materials/tuercas-de-seguridad-con-arandelas.png"
+
+- id: tuercas-de-seguridad-autorroscantes
+  slug: "tuercas-de-seguridad-autorroscantes"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad autorroscantes"
+  description: "Tuercas de seguridad autorroscantes para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad autorroscantes."
+  image: "/assets/images/materials/tuercas-de-seguridad-autorroscantes.png"
+
+- id: tuercas-de-seguridad-con-insercion-de-nylon
+  slug: "tuercas-de-seguridad-con-insercion-de-nylon"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad con inserción de nylon"
+  description: "Tuercas de seguridad con inserción de nylon para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad con inserción de nylon."
+  image: "/assets/images/materials/tuercas-de-seguridad-con-insercion-de-nylon.png"
+
+- id: tuercas-de-seguridad-con-rosca-deformada
+  slug: "tuercas-de-seguridad-con-rosca-deformada"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad con rosca deformada"
+  description: "Tuercas de seguridad con rosca deformada para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad con rosca deformada."
+  image: "/assets/images/materials/tuercas-de-seguridad-con-rosca-deformada.png"
+
+- id: tuercas-de-seguridad-superiores-flexibles
+  slug: "tuercas-de-seguridad-superiores-flexibles"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad superiores flexibles"
+  description: "Tuercas de seguridad superiores flexibles para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad superiores flexibles."
+  image: "/assets/images/materials/tuercas-de-seguridad-superiores-flexibles.png"
+
+- id: tuercas-ranuradas-y-almenadas
+  slug: "tuercas-ranuradas-y-almenadas"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas ranuradas y almenadas"
+  description: "Tuercas ranuradas y almenadas para diferentes aplicaciones"
+  subtitle: "Tuercas ranuradas y almenadas."
+  image: "/assets/images/materials/tuercas-ranuradas-y-almenadas.png"
+
+- id: tuercas-de-acoplamiento-estandar
+  slug: "tuercas-de-acoplamiento-estandar"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento estándar"
+  description: "Tuercas de acoplamiento estándar para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento estándar."
+  image: "/assets/images/materials/tuercas-de-acoplamiento-estandar.png"
+
+- id: tuercas-de-acoplamiento-estandar-para-izquierdas
+  slug: "tuercas-de-acoplamiento-estandar-para-izquierdas"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento estándar para izquierdas"
+  description: "Tuercas de acoplamiento estándar para izquierdas para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento estándar para izquierdas."
+  image: "/assets/images/materials/tuercas-de-acoplamiento-estandar-para-izquierdas.png"
+
+- id: tuercas-de-acoplamiento-con-direccion-de-rosca-opuesta
+  slug: "tuercas-de-acoplamiento-con-direccion-de-rosca-opuesta"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento con dirección de rosca opuesta"
+  description: "Tuercas de acoplamiento con dirección de rosca opuesta para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento con dirección de rosca opuesta."
+  image: "/assets/images/materials/tuercas-de-acoplamiento-con-direccion-de-rosca-opuesta.png"
+
+- id: tuercas-de-acoplamiento-reductoras
+  slug: "tuercas-de-acoplamiento-reductoras"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento reductoras"
+  description: "Tuercas de acoplamiento reductoras para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento reductoras."
+  image: "/assets/images/materials/tuercas-de-acoplamiento-reductoras.png"
+
+- id: tuercas-de-acoplamiento-con-mirilla
+  slug: "tuercas-de-acoplamiento-con-mirilla"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento con mirilla"
+  description: "Tuercas de acoplamiento con mirilla para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento con mirilla."
+  image: "/assets/images/materials/tuercas-de-acoplamiento-con-mirilla.png"
+
+- id: tuercas-de-ojo-de-acero
+  slug: "tuercas-de-ojo-de-acero"
+  product_id: "tuercas-de-ojo"
+  name: "Tuercas de ojo de acero"
+  description: "Tuercas de ojo de acero para diferentes aplicaciones"
+  subtitle: "Tuercas de ojo de acero."
+  image: "/assets/images/materials/tuercas-de-ojo-de-acero.png"
+
+- id: tuercas-de-ojo-de-acero-inoxidable
+  slug: "tuercas-de-ojo-de-acero-inoxidable"
+  product_id: "tuercas-de-ojo"
+  name: "Tuercas de ojo de acero inoxidable"
+  description: "Tuercas de ojo de acero inoxidable para diferentes aplicaciones"
+  subtitle: "Tuercas de ojo de acero inoxidable."
+  image: "/assets/images/materials/tuercas-de-ojo-de-acero-inoxidable.png"
