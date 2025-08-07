@@ -2,7 +2,13 @@
 layout: default
 ---
 
-{% assign subcategory = site.data.subcategories | find: "slug", page.slug %}
+{% assign subcategory = nil %}
+{% for subcat in site.data.subcategories %}
+  {% if subcat.slug == page.slug %}
+    {% assign subcategory = subcat %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 <!-- Products Section -->
 <section id="products">
   <div class="container-fluid">
@@ -10,30 +16,38 @@ layout: default
       
       <!-- Title and Description -->
       <div class="title-description d-flex flex-column align-items-start justify-content-center gap-3 p-0">
-        <h1>{{ subcategory.name }}</h1>
-        
-        <!-- Dynamic Breadcrumb Navigation -->
-        {% include breadcrumb.html items=subcategory.breadcrumb %}
+        {% if subcategory %}
+          <h1>{{ subcategory.name }}</h1>
+          
+          <!-- Dynamic Breadcrumb Navigation -->
+          {% include breadcrumb.html items=subcategory.breadcrumb %}
+        {% else %}
+          <h1>Subcategoría no encontrada</h1>
+        {% endif %}
       </div>
       
       <!-- Subcategory Description -->
-      <p class="p-0">{{ subcategory.description }}</p>
+      {% if subcategory %}
+        <p class="p-0">{{ subcategory.description }}</p>
+      {% endif %}
 
       <!-- Products Grid -->
-      <div class="grid-products d-grid p-0">
-        {% assign category_products = site.data.products | where: "subcategory_id", subcategory.id %}
-        {% for product in category_products %}
-          <div class="card">
-            <a href="{{ 'product/' | append: product.slug | relative_url }}" 
-               class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
-              <img src="{{ product.image | relative_url }}"
-                   alt="{{ product.alt }}"
-                   class="product-image" />
-              <h4 id="{{ product.slug }}">{{ product.name }}</h4>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
+      {% if subcategory %}
+        <div class="grid-products d-grid p-0">
+          {% assign category_products = site.data.products | where: "subcategory_id", subcategory.id %}
+          {% for product in category_products %}
+            <div class="card">
+              <a href="{{ 'product/' | append: product.slug | relative_url }}" 
+                 class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
+                <img src="{{ product.image | relative_url }}"
+                     alt="{{ product.alt }}"
+                     class="product-image" />
+                <h4 id="{{ product.slug }}">{{ product.name }}</h4>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
       
     </div>
   </div>
