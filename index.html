@@ -137,7 +137,10 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         {% assign categories = site.data.categories %} {% for category in
         categories %}
         <div class="card d-flex flex-column align-items-start gap-4">
-          <img src="{{ category.image }}" alt="{{ category.name }}" />
+          <img
+            src="{{ category.image | relative_url }}"
+            alt="{{ category.name }}"
+          />
           <div class="card-title d-flex flex-column align-items-start gap-3">
             <h3>{{ category.name }}</h3>
             <p>{{ category.description }}</p>
