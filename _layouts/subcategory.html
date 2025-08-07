@@ -4,7 +4,13 @@ layout: default
 
 {% assign subcategory = site.data.subcategories | find: "id", page.slug %}
 <p>{{ page.slug }}</p>
+<p>--------------------------------</p>
+<p>{{ site.data.subcategories }}</p>
+<p>--------------------------------</p>
+<p>{{ subcategory }}</p>
+<p>--------------------------------</p>
 <p>{{ subcategory.id }}</p>
+<p>--------------------------------</p>
 <!-- Products Section -->
 <section id="products">
   <div class="container-fluid">
