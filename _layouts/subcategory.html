@@ -25,7 +25,7 @@ layout: default
         {% assign category_products = site.data.products | where: "subcategory_id", subcategory.id %}
         {% for product in category_products %}
           <div class="card">
-            <a href="{{ '/product/' | append: product.slug | relative_url }}" 
+            <a href="{{ 'product/' | append: product.slug | relative_url }}" 
                class="d-flex flex-lg-column text-lg-center justify-content-start align-items-center gap-4">
               <img src="{{ product.image | relative_url }}"
                    alt="{{ product.alt }}"
