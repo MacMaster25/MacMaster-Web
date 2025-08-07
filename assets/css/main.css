@@ -31,7 +31,7 @@
 
 body {
   background-color: #121212;
-  background-image: url("/assets/images/background_noise.png");
+  background-image: url("assets/images/background_noise.png");
   background-repeat: repeat;
 }
 
