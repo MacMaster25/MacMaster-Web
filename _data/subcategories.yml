@@ -2,15 +2,15 @@
   slug: pernos-y-tornillos
   category_id: "tornilleria-industrial"
   name: Pernos y tornillos
-  description: "Nuestra línea de tornillería ofrece soluciones confiables para fijación mecánica en aplicaciones industriales exigentes. Contamos con tornillos, tuercas, arandelas y espárragos roscados en diferentes materiales, diámetros y acabados, ideales para procesos de manufactura, mantenimiento y ensamble"
+  description: "Nuestra línea de tornillería ofrece soluciones confiables para fijación mecánica en aplicaciones industriales exigentes. Contamos con tornillos, tuercas, arandelas y espárragos roscados en diferentes materiales, diámetros y acabados, ideales para procesos de manufactura, mantenimiento y ensamble."
   image: assets/images/subcategories/subcategory-pernos-tornillos.png
   breadcrumb:
     - name: "Inicio"
       link: "/"
     - name: "Productos"
-      link: "/products/"
+      link: "/categorias/"
     - name: "Tornillería Industrial"
-      link: "/productos/tornilleria-industrial/"
+      link: "/categorias/"
     - name: "Pernos y tornillos"
       link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
 

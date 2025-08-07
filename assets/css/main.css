@@ -5,7 +5,7 @@
 /* ========================================
   GLOBAL STYLES & CSS VARIABLES
   ======================================== */
-  * {
+* {
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -563,7 +563,7 @@ body {
 /* Hero Image Section */
 #heroimage {
   height: 70vh;
-  background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true');
+  background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -702,7 +702,12 @@ body {
   margin-bottom: 0;
 }
 
-#products .content-produts .title-description .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+#products
+  .content-produts
+  .title-description
+  .breadcrumb
+  .breadcrumb-item
+  + .breadcrumb-item::before {
   color: var(--color-border);
 }
 
@@ -785,7 +790,12 @@ body {
   margin-bottom: 0;
 }
 
-#products .content-produts .title-description .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+#products
+  .content-produts
+  .title-description
+  .breadcrumb
+  .breadcrumb-item
+  + .breadcrumb-item::before {
   color: var(--color-border);
 }
 
@@ -1350,10 +1360,10 @@ body {
 #form .content-form form .inputs {
   padding: 1rem;
   border-radius: 0px 0px 0.5rem 0.5rem;
-  border-right: 1px solid rgba(233, 238, 234, 0.00);
-  border-bottom: 1px solid rgba(233, 238, 234, 0.00);
-  border-left: 1px solid rgba(233, 238, 234, 0.00);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #F4F4F4 100%);
+  border-right: 1px solid rgba(233, 238, 234, 0);
+  border-bottom: 1px solid rgba(233, 238, 234, 0);
+  border-left: 1px solid rgba(233, 238, 234, 0);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #f4f4f4 100%);
 }
 
 #form .content-form form .inputs label {
@@ -1363,7 +1373,7 @@ body {
 
 #form .content-form form .inputs input {
   border-radius: 0.5rem;
-  border: 1px solid #E9EEEA;
+  border: 1px solid #e9eeea;
 }
 
 #form .content-form form .inputs button {
@@ -1378,7 +1388,7 @@ body {
   line-height: 120%;
   border-radius: 0.5rem;
   border: 0;
-  background: #F9A825;
+  background: #f9a825;
 }
 
 /* ========================================
@@ -1570,7 +1580,7 @@ body {
   /* Products Page */
   #heroimage {
     height: 100%;
-    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true');
+    background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true");
   }
 
   #heroimage .content-hero {
@@ -1657,7 +1667,7 @@ body {
 
   .navbar-expand-lg .navbar-nav .active {
     font-weight: 500;
-    background-color: #D18100;
+    background-color: #d18100;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem !important;
   }
@@ -1774,7 +1784,7 @@ body {
     border-left: 1px solid var(--color-border);
   }
 
-  #products .content-produts .grid-products .content-card .card:nth-child(9), 
+  #products .content-produts .grid-products .content-card .card:nth-child(9),
   #products .content-produts .grid-products .content-card .card:nth-child(10) {
     border-left: 0;
   }

@@ -9,7 +9,6 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
 <section id="heroimage">
   <div class="container-fluid">
     <div class="row content-heroimage col-lg-10 offset-lg-1">
-      
       <!-- Hero Title -->
       <div class="heroimage-title p-sm-0">
         <div class="title col-md-10 col-lg-6 col-xl-8 col-xxl-6">
@@ -22,28 +21,31 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
             tornillería, abrasivos y más. Distribuimos productos de alta calidad
             para optimizar tus procesos y resultados.
           </p>
-          <a class="btn btn-primary" href="{{ '/categorias/' | append: category.slug | relative_url }}">
+          <a
+            class="btn btn-primary"
+            href="{{ '/categorias/' | append: category.slug | relative_url }}"
+          >
             Explora nuestros Productos
           </a>
         </div>
       </div>
-      
+
       <!-- Hero Data -->
-      <div class="heroimage-data d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
-        
+      <div
+        class="heroimage-data d-flex flex-column flex-md-row justify-content-md-between align-items-md-center"
+      >
         <!-- Official Distributors -->
         <div class="data-a">
           <p>Distribuidores oficiales</p>
           <div class="data-image">
-            <img
-              src="assets/images/grainger.png"
-              alt="Logo Greinger"
-            />
+            <img src="assets/images/grainger.png" alt="Logo Greinger" />
           </div>
         </div>
-        
+
         <!-- Customer Trust -->
-        <div class="data-b d-sm-flex flex-sm-wrap flex-lg-nowrap align-items-sm-center m-0">
+        <div
+          class="data-b d-sm-flex flex-sm-wrap flex-lg-nowrap align-items-sm-center m-0"
+        >
           <div class="data-image d-sm-flex flex-sm-wrap col-sm-2">
             <img
               src="assets/images/hero-people.png"
@@ -64,46 +66,42 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
 <section id="brand">
   <div class="container-fluid">
     <div class="container-brand d-flex flex-column align-items-center">
-      
       <!-- Section Badge -->
       <span class="badge">Marcas aliadas</span>
-      
+
       <!-- Brand Grid -->
-      <div class="brand-grid row row-cols-2 row-cols-lg-4 mb-5 col-md-10 col-lg-10 col-xl-8">
-        
+      <div
+        class="brand-grid row row-cols-2 row-cols-lg-4 mb-5 col-md-10 col-lg-10 col-xl-8"
+      >
         <!-- Brand 1 -->
-        <div class="brand-img d-flex flex-column align-items-center justify-content-center">
-          <img
-            src="assets/images/brand-logo-1.png"
-            alt="logo Greinger"
-          />
+        <div
+          class="brand-img d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="assets/images/brand-logo-1.png" alt="logo Greinger" />
         </div>
-        
+
         <!-- Brand 2 -->
-        <div class="brand-img d-flex flex-column align-items-center justify-content-center">
-          <img
-            src="assets/images/brand-logo-2.png"
-            alt="logo invesa"
-          />
+        <div
+          class="brand-img d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="assets/images/brand-logo-2.png" alt="logo invesa" />
         </div>
-        
+
         <!-- Brand 3 -->
-        <div class="brand-img d-flex flex-column align-items-center justify-content-center">
-          <img
-            src="assets/images/brand-logo-3.png"
-            alt="logo jushi"
-          />
+        <div
+          class="brand-img d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="assets/images/brand-logo-3.png" alt="logo jushi" />
         </div>
-        
+
         <!-- Brand 4 -->
-        <div class="brand-img d-flex flex-column align-items-center justify-content-center">
-          <img
-            src="assets/images/brand-logo-4.png"
-            alt="logo norton"
-          />
+        <div
+          class="brand-img d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="assets/images/brand-logo-4.png" alt="logo norton" />
         </div>
       </div>
-      
+
       <!-- Brand Description -->
       <p class="col-md-8 col-xl-5">
         Es un honor para nosotros asociarnos con clientes visionarios que nos
@@ -117,10 +115,9 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
 <section id="products">
   <div class="container-fluid">
     <div class="row container-products d-flex flex-column align-items-center">
-      
       <!-- Section Badge -->
       <span class="badge">Nuestros productos</span>
-      
+
       <!-- Section Title and Description -->
       <div class="title-description d-flex flex-column text-center gap-4">
         <h2 class="col-md-10 offset-md-1 col-xl-8 offset-xl-2">
@@ -133,30 +130,24 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
           productivos.
         </p>
       </div>
-      
+
       <!-- Products Grid -->
       <div class="grid-products d-grid gap-3 p-0 col-xl-10">
-        
         <!-- Product Card 1: Tornillería -->
-        {% assign categories = site.data.categories %}
-        {% for category in categories %}
+        {% assign categories = site.data.categories %} {% for category in
+        categories %}
         <div class="card d-flex flex-column align-items-start gap-4">
-          <img
-            src="{{ category.image }}"
-            alt="{{ category.name }}"
-          />
+          <img src="{{ category.image }}" alt="{{ category.name }}" />
           <div class="card-title d-flex flex-column align-items-start gap-3">
             <h3>{{ category.name }}</h3>
-            <p>
-              {{ category.description }}
-            </p>
+            <p>{{ category.description }}</p>
           </div>
         </div>
         {% endfor %}
       </div>
-      
+
       <!-- Call to Action -->
-      <a class="btn btn-primary" href="{{ '/categories/' | relative_url }}  ">
+      <a class="btn btn-primary" href="{{ '/categorias/' | relative_url }}  ">
         Explora nuestros Productos
       </a>
     </div>
@@ -166,11 +157,16 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
 <!-- About Section -->
 <section id="about">
   <div class="container-fluid">
-    <div class="row d-flex flex-column align-items-center container-about col-xl-10 offset-xl-1">
-      
+    <div
+      class="row d-flex flex-column align-items-center container-about col-xl-10 offset-xl-1"
+    >
       <!-- Section Title and Description -->
-      <div class="title-description d-flex flex-column align-items-start gap-3 col-lg-10 offset-lg-1">
-        <div class="heading d-flex flex-column align-items-start gap-3 col-xl-8">
+      <div
+        class="title-description d-flex flex-column align-items-start gap-3 col-lg-10 offset-lg-1"
+      >
+        <div
+          class="heading d-flex flex-column align-items-start gap-3 col-xl-8"
+        >
           <span class="badge">Quienes somos</span>
           <h2>Puntos clave que definen nuestro éxito</h2>
           <p>
@@ -184,14 +180,19 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
           Acerca de nosotros
         </a>
       </div>
-      
+
       <!-- Stats Grid -->
-      <div class="grid-stats d-flex flex-column align-items-start col-lg-10 offset-lg-1">
-        
+      <div
+        class="grid-stats d-flex flex-column align-items-start col-lg-10 offset-lg-1"
+      >
         <!-- Stat Card 1: Experience -->
-        <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
+        <div
+          class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4"
+        >
           <h3 class="col-md-6">+10 años</h3>
-          <div class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
+          <div
+            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6"
+          >
             <h4>Trayectoria</h4>
             <p>
               Más de una década impulsando soluciones industriales en todo el
@@ -199,11 +200,15 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
             </p>
           </div>
         </div>
-        
+
         <!-- Stat Card 2: Products -->
-        <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
+        <div
+          class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4"
+        >
           <h3 class="col-md-6">500+</h3>
-          <div class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
+          <div
+            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6"
+          >
             <h4>Productos disponibles</h4>
             <p>
               Un catálogo robusto y actualizado para cubrir múltiples
@@ -211,11 +216,15 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
             </p>
           </div>
         </div>
-        
+
         <!-- Stat Card 3: Customer Satisfaction -->
-        <div class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4">
+        <div
+          class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4"
+        >
           <h3 class="col-md-6">98%+</h3>
-          <div class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6">
+          <div
+            class="card-title d-flex flex-column justify-content-center align-items-start gap-3 mb-0 col-md-5 col-lg-6"
+          >
             <h4>Satisfacción de clientes</h4>
             <p>
               Nuestros clientes nos recomiendan por nuestra atención, servicio y

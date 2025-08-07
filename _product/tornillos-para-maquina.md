@@ -1,8 +1,8 @@
 ---
 layout: product
-title: "Pernos de cabeza hexagonal"
-slug: pernos-de-cabeza-hexagonal
+title: "Tornillos para máquina"
+slug: tornillos-para-maquina
 subcategory_id: pernos-y-tornillos
-meta_title: "Pernos de cabeza hexagonal - Soluciones de fijación industrial"
+meta_title: "Tornillos para máquina - Mac Master Importadores"
 meta_description: "Pernos de cabeza hexagonal de alta calidad para aplicaciones industriales exigentes con diferentes diámetros y materiales disponibles"
 ---
