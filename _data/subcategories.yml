@@ -34,7 +34,7 @@
   slug: arandelas
   category_id: "tornilleria-industrial"
   name: Arandelas
-  description: "xxxxxxxxxxxxx"
+  description: "Piezas planas que distribuyen la carga del tornillo o perno, previniendo daños en las superficies y aumentando la estabilidad del ensamble. Ideales para usos industriales, eléctricos y automotrices."
   image: assets/images/subcategories/subcategory-arandelas.png
   breadcrumb:
     - name: "Inicio"
@@ -42,15 +42,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Tornillería Industrial"
-      link: "/productos/tornilleria-industrial/"
+      link: "/categorias/"
     - name: "Arandelas"
-      link: "/productos/tornilleria-industrial/arandelas/"
+      link: "/subcategory/arandelas/"
 
 - id: varillas-y-esparragos-roscados
   slug: varillas-y-esparragos-roscados
   category_id: "tornilleria-industrial"
   name: Varillas y espárragos roscados
-  description: "xxxxxxxxxxxxx"
+  description: "Piezas planas que distribuyen la carga del tornillo o perno, previniendo daños en las superficies y aumentando la estabilidad del ensamble. Ideales para usos industriales, eléctricos y automotrices."
   image: assets/images/subcategories/subcategory-varillas-esparragos.png
   breadcrumb:
     - name: "Inicio"
@@ -58,15 +58,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Tornillería Industrial"
-      link: "/productos/tornilleria-industrial/"
+      link: "/categorias/"
     - name: "Varillas y espárragos roscados"
-      link: "/productos/tornilleria-industrial/varillas-y-esparragos-roscados/"
+      link: "/subcategory/varillas-y-esparragos-roscados/"
 
 - id: abrasivos-para-lijado
   slug: abrasivos-para-lijado
   category_id: "abrasivos"
   name: Abrasivos para lijado
-  description: "xxxxxxxxxxxxx"
+  description: "Discos, bandas y hojas diseñadas para preparar, pulir o suavizar superficies metálicas y no metálicas. Recomendados para trabajos de acabado en carpintería, metalmecánica e industrias generales."
   image: assets/images/subcategories/subcategory-abrasivos-lijado.png
   breadcrumb:
     - name: "Inicio"
@@ -74,15 +74,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Abrasivos"
-      link: "/productos/abrasivos/"
+      link: "/categorias/"
     - name: "Abrasivos para lijado"
-      link: "/productos/abrasivos/abrasivos-para-lijado/"
+      link: "/subcategory/abrasivos-para-lijado/"
 
 - id: abrasivos-de-corte-y-desbaste
   slug: abrasivos-de-corte-y-desbaste
   category_id: "abrasivos"
   name: Abrasivos de corte y desbaste
-  description: "xxxxxxxxxxxxx"
+  description: "Herramientas de alto rendimiento para cortar y desbastar metal, concreto y otros materiales duros. Fabricados para ofrecer precisión, velocidad y durabilidad en entornos exigentes."
   image: assets/images/subcategories/subcategory-abrasivos-corte.png
   breadcrumb:
     - name: "Inicio"
@@ -90,15 +90,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Abrasivos"
-      link: "/productos/abrasivos/"
+      link: "/categorias/"
     - name: "Abrasivos de corte y desbaste"
-      link: "/productos/abrasivos/abrasivos-de-corte-y-desbaste/"
+      link: "/subcategory/abrasivos-de-corte-y-desbaste/"
 
 - id: cepillos-abrasivos
   slug: cepillos-abrasivos
   category_id: "abrasivos"
   name: Cepillos abrasivos
-  description: "xxxxxxxxxxxxx"
+  description: "Accesorios ideales para limpieza, desbaste ligero y preparación de superficies. Disponibles en múltiples configuraciones para adaptarse a taladros, esmeriles y equipos industriales."
   image: assets/images/subcategories/subcategory-cepillos-abrasivos.png
   breadcrumb:
     - name: "Inicio"
@@ -106,15 +106,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Abrasivos"
-      link: "/productos/abrasivos/"
+      link: "/categorias/"
     - name: "Cepillos abrasivos"
-      link: "/productos/abrasivos/cepillos-abrasivos/"
+      link: "/subcategory/cepillos-abrasivos/"
 
 - id: masillas-selladores-y-fabricantes-de-juntas
   slug: masillas-selladores-y-fabricantes-de-juntas
   category_id: "adhesivos-y-sellantes"
   name: Masillas, selladores y fabricantes de juntas
-  description: "xxxxxxxxxxxxx"
+  description: "Nuestras masillas, selladores y fabricantes de juntas están formulados para resistir a condiciones extremas y garantizar una fijación duradera en cualquier superficie. Fabricados con materiales premium, nuestros productos son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
   image: assets/images/subcategories/subcategory-masillas-selladores.png
   breadcrumb:
     - name: "Inicio"
@@ -122,15 +122,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
-      link: "/productos/adhesivos-y-sellantes/"
+      link: "/categorias/"
     - name: "Masillas, selladores y fabricantes de juntas"
-      link: "/productos/adhesivos-y-sellantes/masillas-selladores-y-fabricantes-de-juntas/"
+      link: "/subcategory/masillas-selladores-y-fabricantes-de-juntas/"
 
 - id: fijadores-de-roscas-y-compuestos-de-retencion
   slug: fijadores-de-roscas-y-compuestos-de-retencion
   category_id: "adhesivos-y-sellantes"
   name: Fijadores de roscas y compuestos de retención
-  description: "xxxxxxxxxxxxx"
+  description: "Nuestros fijadores de roscas y compuestos de retención están diseñados para proporcionar una fijación firme y duradera en cualquier superficie. Fabricados con materiales de alta calidad, nuestros productos son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
   image: assets/images/subcategories/subcategory-fijadores-roscas.png
   breadcrumb:
     - name: "Inicio"
@@ -138,15 +138,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
-      link: "/productos/adhesivos-y-sellantes/"
+      link: "/categorias/"
     - name: "Fijadores de roscas y compuestos de retención"
-      link: "/productos/adhesivos-y-sellantes/fijadores-de-roscas-y-compuestos-de-retencion/"
+      link: "/subcategory/fijadores-de-roscas-y-compuestos-de-retencion/"
 
 - id: cinta
   slug: cinta
   category_id: "adhesivos-y-sellantes"
   name: Cinta
-  description: "xxxxxxxxxxxxx"
+  description: "Nuestras cintas adhesivas están diseñadas para proporcionar una fijación segura y duradera en cualquier superficie. Fabricadas con materiales premium, nuestras cintas son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
   image: assets/images/subcategories/subcategory-cinta.png
   breadcrumb:
     - name: "Inicio"
@@ -154,15 +154,15 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
-      link: "/productos/adhesivos-y-sellantes/"
+      link: "/categorias/"
     - name: "Cinta"
-      link: "/productos/adhesivos-y-sellantes/cinta/"
+      link: "/subcategory/cinta/"
 
 - id: resina
   slug: resina
   category_id: "resina-y-fibra-de-vidrio"
   name: Resina
-  description: "xxxxxxxxxxxxx"
+  description: "Ofrecemos una amplia gama de resinas en polímero para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento. Nuestros productos están diseñados para proporcionar una fijación firme y duradera en cualquier superficie."
   image: assets/images/subcategories/subcategory-resina.png
   breadcrumb:
     - name: "Inicio"
@@ -170,22 +170,22 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Resina y fibra de vidrio"
-      link: "/productos/resina-y-fibra-de-vidrio/"
+      link: "/subcategory/resina/"
     - name: "Resina"
-      link: "/productos/resina-y-fibra-de-vidrio/resina/"
+      link: "/subcategory/resina/"
 
 - id: compuestos-de-fibra-de-vidrio
   slug: compuestos-de-fibra-de-vidrio
   category_id: "resina-y-fibra-de-vidrio"
   name: Compuestos de fibra de vidrio
-  description: "xxxxxxxxxxxxx"
+  description: "Nuestros compuestos de fibra de vidrio están diseñados para proporcionar una fijación firme y duradera en cualquier superficie. Fabricados con materiales de alta calidad, nuestros productos son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
   image: assets/images/subcategories/subcategory-compuestos-fibra.png
   breadcrumb:
     - name: "Inicio"
       link: "/"
     - name: "Productos"
-      link: "/products/"
+      link: "/categorias/"
     - name: "Resina y fibra de vidrio"
-      link: "/productos/resina-y-fibra-de-vidrio/"
+      link: "/categorias/"
     - name: "Compuestos de fibra de vidrio"
-      link: "/productos/resina-y-fibra-de-vidrio/compuestos-de-fibra-de-vidrio/" 
+      link: "/subcategory/compuestos-de-fibra-de-vidrio/" 

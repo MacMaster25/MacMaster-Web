@@ -662,3 +662,867 @@
   description: "Tuercas de ojo de acero inoxidable para diferentes aplicaciones"
   subtitle: "Tuercas de ojo de acero inoxidable."
   image: "/assets/images/materials/tuercas-de-ojo-de-acero-inoxidable.png"
+
+- id: arandelas-planas-estandar
+  slug: "arandelas-planas-estandar"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas estándar"
+  description: "Arandelas planas estándar para diferentes aplicaciones"
+  subtitle: "Arandelas planas estándar."
+  image: "/assets/images/materials/arandelas-planas-estandar.png"
+
+- id: arandelas-planas-de-gran-tamaño
+  slug: "arandelas-planas-de-gran-tamaño"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas de gran tamaño"
+  description: "Arandelas planas de gran tamaño para diferentes aplicaciones"
+  subtitle: "Arandelas planas de gran tamaño."
+  image: "/assets/images/materials/arandelas-planas-de-gran-tamano.png"
+
+- id: arandelas-planas-estrechas
+  slug: "arandelas-planas-estrechas"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas estrechas"
+  description: "Arandelas planas estrechas para diferentes aplicaciones"
+  subtitle: "Arandelas planas estrechas."
+  image: "/assets/images/materials/arandelas-planas-estrechas.png"
+
+- id: arandelas-planas-sae
+  slug: "arandelas-planas-sae"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas SAE"
+  description: "Arandelas planas SAE para diferentes aplicaciones"
+  subtitle: "Arandelas planas SAE."
+  image: "/assets/images/materials/arandelas-planas-sae.png"
+
+- id: arandelas-planas-del-uss
+  slug: "arandelas-planas-del-uss"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas del USS"
+  description: "Arandelas planas del USS para diferentes aplicaciones"
+  subtitle: "Arandelas planas del USS."
+  image: "/assets/images/materials/arandelas-planas-del-uss.png"
+
+- id: arandelas-planas-de-especificacion-militar
+  slug: "arandelas-planas-de-especificacion-militar"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas de especificación militar"
+  description: "Arandelas planas de especificación militar para diferentes aplicaciones"
+  subtitle: "Arandelas planas de especificación militar."
+  image: "/assets/images/materials/arandelas-planas-de-especificacion-militar.png"
+
+- id: arandelas-planas-cuadradas
+  slug: "arandelas-planas-cuadradas"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas cuadradas"
+  description: "Arandelas planas cuadradas para diferentes aplicaciones"
+  subtitle: "Arandelas planas cuadradas."
+  image: "/assets/images/materials/arandelas-planas-cuadradas.png"
+
+- id: arandelas-planas-ranuradas
+  slug: "arandelas-planas-ranuradas"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas ranuradas"
+  description: "Arandelas planas ranuradas para diferentes aplicaciones"
+  subtitle: "Arandelas planas ranuradas."
+  image: "/assets/images/materials/arandelas-planas-ranuradas.png"
+
+- id: arandelas-planas-de-diseno-higienico
+  slug: "arandelas-planas-de-diseno-higienico"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas de diseño higiénico"
+  description: "Arandelas planas de diseño higiénico para diferentes aplicaciones"
+  subtitle: "Arandelas planas de diseño higiénico."
+  image: "/assets/images/materials/arandelas-planas-de-diseno-higienico.png"
+
+- id: surtidos-de-arandelas
+  slug: "surtidos-de-arandelas"
+  product_id: "arandelas-planas"
+  name: "Surtidos de arandelas"
+  description: "Surtidos de arandelas para diferentes aplicaciones"
+  subtitle: "Surtidos de arandelas."
+  image: "/assets/images/materials/surtidos-de-arandelas.png"
+
+- id: arandelas-estructurales-planas
+  slug: "arandelas-estructurales-planas"
+  product_id: "arandelas-estructurales"
+  name: "Arandelas estructurales planas"
+  description: "Arandelas estructurales planas para diferentes aplicaciones"
+  subtitle: "Arandelas estructurales planas."
+  image: "/assets/images/materials/arandelas-estructurales-planas.png"
+
+- id: arandelas-estructurales-biseladas-cuadradas
+  slug: "arandelas-estructurales-biseladas-cuadradas"
+  product_id: "arandelas-estructurales"
+  name: "Arandelas estructurales biseladas cuadradas"
+  description: "Arandelas estructurales biseladas cuadradas para diferentes aplicaciones"
+  subtitle: "Arandelas estructurales biseladas cuadradas."
+  image: "/assets/images/materials/arandelas-estructurales-biseladas-cuadradas.png"
+
+- id: varillas-y-esparragos-de-acero-totalmente-roscados
+  slug: "varillas-y-esparragos-de-acero-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de acero totalmente roscados"
+  description: "Varillas y espárragos de acero totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de acero totalmente roscados."
+  image: "/assets/images/materials/varillas-y-esparragos-de-acero-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-de-acero-inoxidable
+  slug: "varillas-y-esparragos-totalmente-roscados-de-acero-inoxidable"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados de acero inoxidable"
+  description: "Varillas y espárragos totalmente roscados de acero inoxidable para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados de acero inoxidable."
+  image: "/assets/images/materials/varillas-y-esparragos-totalmente-roscados-de-acero-inoxidable.png"
+
+- id: varillas-y-esparragos-de-laton-totalmente-roscados
+  slug: "varillas-y-esparragos-de-laton-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de latón totalmente roscados"
+  description: "Varillas y espárragos de latón totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de latón totalmente roscados."
+  image: "/assets/images/materials/varillas-y-esparragos-de-laton-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-de-aluminio-totalmente-roscados
+  slug: "varillas-y-esparragos-de-aluminio-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de aluminio totalmente roscados"
+  description: "Varillas y espárragos de aluminio totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de aluminio totalmente roscados."
+  image: "/assets/images/materials/varillas-y-esparragos-de-aluminio-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-de-plastico-totalmente-roscados
+  slug: "varillas-y-esparragos-de-plastico-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de plástico totalmente roscados"
+  description: "Varillas y espárragos de plástico totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de plástico totalmente roscados."
+  image: "/assets/images/materials/varillas-y-esparragos-de-plastico-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-de-titanio-totalmente-roscados
+  slug: "varillas-y-esparragos-de-titanio-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de titanio totalmente roscados"
+  description: "Varillas y espárragos de titanio totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de titanio totalmente roscados."
+  image: "/assets/images/materials/varillas-y-esparragos-de-titanio-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-con-tuercas
+  slug: "varillas-y-esparragos-totalmente-roscados-con-tuercas"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados con tuercas"
+  description: "Varillas y espárragos totalmente roscados con tuercas para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados con tuercas."
+  image: "/assets/images/materials/varillas-y-esparragos-totalmente-roscados-con-tuercas.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-para-zurdos
+  slug: "varillas-y-esparragos-totalmente-roscados-para-zurdos"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados para zurdos"
+  description: "Varillas y espárragos totalmente roscados para zurdos para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados para zurdos."
+  image: "/assets/images/materials/varillas-y-esparragos-totalmente-roscados-para-zurdos.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-recubiertos-de-ptfe-para-agua-salada
+  slug: "varillas-y-esparragos-totalmente-roscados-recubiertos-de-ptfe-para-agua-salada"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada"
+  description: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada."
+  image: "/assets/images/materials/varillas-y-esparragos-totalmente-roscados-recubiertos-de-ptfe-para-agua-salada.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-acme
+  slug: "varillas-y-esparragos-totalmente-roscados-acme"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados ACME"
+  description: "Varillas y espárragos totalmente roscados ACME para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados ACME."
+  image: "/assets/images/materials/varillas-y-esparragos-totalmente-roscados-acme.png"
+
+- id: varillas-y-esparragos-de-acero-de-doble-extremo
+  slug: "varillas-y-esparragos-de-acero-de-doble-extremo"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de acero de doble extremo"
+  description: "Espárragos de acero de doble extremo para diferentes aplicaciones"
+  subtitle: "Espárragos de acero de doble extremo."
+  image: "assets/images/materials/varillas-y-esparragos-roscados-de-acero-de-doble-extremo.png"
+
+- id: varillas-y-esparragos-de-aluminio-de-doble-extremo
+  slug: "varillas-y-esparragos-de-aluminio-de-doble-extremo"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de aluminio de doble extremo"
+  description: "Espárragos de aluminio de doble extremo para diferentes aplicaciones"
+  subtitle: "Espárragos de aluminio de doble extremo."
+  image: "assets/images/materials/varillas-y-esparragos-roscados-de-aluminio-de-doble-extremo.png"
+
+- id: varillas-y-esparragos-de-acero-inoxidable-de-doble-extremo
+  slug: "varillas-y-esparragos-de-acero-inoxidable-de-doble-extremo"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de acero inoxidable de doble extremo"
+  description: "Espárragos de acero inoxidable de doble extremo para diferentes aplicaciones"
+  subtitle: "Espárragos de acero inoxidable de doble extremo."
+  image: "assets/images/materials/varillas-y-esparragos-roscados-de-doble-extremo-de-acero-inoxidable.png"
+
+- id: varillas-y-esparragos-de-doble-extremo-con-planos-para-llave
+  slug: "varillas-y-esparragos-de-doble-extremo-con-planos-para-llave"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de doble extremo con planos para llave"
+  description: "Espárragos de doble extremo con planos para llave para diferentes aplicaciones"
+  subtitle: "Espárragos de doble extremo con planos para llave."
+  image: "assets/images/materials/varillas-y-esparragos-roscados-de-doble-extremo-con-planos-para-llave.png"
+
+- id: varillas-y-esparragos-de-doble-extremo-con-rosca-opuesta
+  slug: "varillas-y-esparragos-de-doble-extremo-con-rosca-opuesta"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de doble extremo con rosca opuesta"
+  description: "Espárragos de doble extremo con rosca opuesta para diferentes aplicaciones"
+  subtitle: "Espárragos de doble extremo con rosca opuesta."
+  image: "assets/images/materials/varillas-y-esparragos-de-doble-extremo-con-rosca-opuesta.png"
+
+- id: varillas-y-esparragos-de-doble-extremo-con-rosca-interna
+  slug: "varillas-y-esparragos-de-doble-extremo-con-rosca-interna"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de doble extremo con rosca interna"
+  description: "Espárragos de doble extremo con rosca interna para diferentes aplicaciones"
+  subtitle: "Espárragos de doble extremo con rosca interna."
+  image: "assets/images/materials/varillas-y-esparragos-de-doble-extremo-con-rosca-interna.png"
+
+- id: discos-laminas-alto-rendimiento-acero-carbono-inoxidable
+  slug: "discos-laminas-alto-rendimiento-acero-carbono-inoxidable"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de láminas de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para aceros especializados."
+  image: "/assets/images/materials/discos-laminas-alto-rendimiento-acero-carbono-inoxidable.png"
+
+- id: discos-laminas-alto-rendimiento-metales-blandos
+  slug: "discos-laminas-alto-rendimiento-metales-blandos"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de alto rendimiento para metales blandos"
+  description: "Discos de láminas de alto rendimiento optimizados para el trabajo con metales blandos"
+  subtitle: "Alto rendimiento para metales blandos."
+  image: "/assets/images/materials/discos-laminas-alto-rendimiento-metales-blandos.png"
+
+- id: discos-laminas-alto-rendimiento-todos-metales
+  slug: "discos-laminas-alto-rendimiento-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de alto rendimiento para todos los metales"
+  description: "Discos de láminas de alto rendimiento versátiles para trabajar con todos los tipos de metales"
+  subtitle: "Alto rendimiento universal para metales."
+  image: "/assets/images/materials/discos-laminas-alto-rendimiento-todos-metales.png"
+
+- id: discos-laminas-corte-frio-acero-carbono-inoxidable
+  slug: "discos-laminas-corte-frio-acero-carbono-inoxidable"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de corte en frío para acero al carbono y acero inoxidable"
+  description: "Discos de láminas especializados en corte en frío para acero al carbono y acero inoxidable"
+  subtitle: "Corte en frío para aceros especializados."
+  image: "/assets/images/materials/discos-laminas-corte-frio-acero-carbono-inoxidable.png"
+
+- id: discos-laminas-corte-frio-todos-metales
+  slug: "discos-laminas-corte-frio-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de corte en frío para todos los metales"
+  description: "Discos de láminas de corte en frío versátiles para trabajar con todos los tipos de metales"
+  subtitle: "Corte en frío universal para metales."
+  image: "/assets/images/materials/discos-laminas-corte-frio-todos-metales.png"
+
+- id: discos-laminas-uso-general-acero-inoxidable-metales-blandos
+  slug: "discos-laminas-uso-general-acero-inoxidable-metales-blandos"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de uso general para acero inoxidable y metales blandos"
+  description: "Discos de láminas de uso general diseñados para acero inoxidable y metales blandos"
+  subtitle: "Uso general para acero inoxidable y metales blandos."
+  image: "/assets/images/materials/discos-laminas-uso-general-acero-inoxidable-metales-blandos.png"
+
+- id: discos-laminas-acondicionamiento-superficies-todos-metales
+  slug: "discos-laminas-acondicionamiento-superficies-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas para acondicionamiento de superficies para todos los metales"
+  description: "Discos de láminas especializados en el acondicionamiento de superficies para todos los tipos de metales"
+  subtitle: "Acondicionamiento de superficies para todos los metales."
+  image: "/assets/images/materials/discos-laminas-acondicionamiento-superficies-todos-metales.png"
+
+- id: discos-laminas-mezclar-acabar-interleaf-todos-metales
+  slug: "discos-laminas-mezclar-acabar-interleaf-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas para mezclar y acabar Interleaf para todos los metales"
+  description: "Discos de láminas Interleaf especializados en mezclar y acabar para todos los tipos de metales"
+  subtitle: "Mezclar y acabar Interleaf para todos los metales."
+  image: "/assets/images/materials/discos-laminas-mezclar-acabar-interleaf-todos-metales.png"
+
+- id: discos-acondicionadores-superficies-corte-frio-todos-metales
+  slug: "discos-acondicionadores-superficies-corte-frio-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos acondicionadores de superficies de corte en frío para todos los metales"
+  description: "Discos acondicionadores de superficies especializados en corte en frío para todos los tipos de metales"
+  subtitle: "Corte en frío para todos los metales."
+  image: "/assets/images/materials/discos-acondicionadores-superficies-corte-frio-todos-metales.png"
+
+- id: discos-acondicionamiento-superficies-uso-general-todos-metales
+  slug: "discos-acondicionamiento-superficies-uso-general-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de acondicionamiento de superficies de uso general para todos los metales"
+  description: "Discos de acondicionamiento de superficies de uso general diseñados para todos los tipos de metales"
+  subtitle: "Uso general para todos los metales."
+  image: "/assets/images/materials/discos-acondicionamiento-superficies-uso-general-todos-metales.png"
+
+- id: discos-eliminacion-recubrimiento-corte-frio-todos-materiales
+  slug: "discos-eliminacion-recubrimiento-corte-frio-todos-materiales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de eliminación de recubrimiento de corte en frío para todos los materiales"
+  description: "Discos especializados en eliminación de recubrimiento de corte en frío para todos los tipos de materiales"
+  subtitle: "Eliminación de recubrimiento de corte en frío."
+  image: "/assets/images/materials/discos-eliminacion-recubrimiento-corte-frio-todos-materiales.png"
+
+- id: discos-eliminacion-recubrimientos-metales-calibre-fino
+  slug: "discos-eliminacion-recubrimientos-metales-calibre-fino"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de eliminación de recubrimientos para metales de calibre fino"
+  description: "Discos especializados en eliminación de recubrimientos para metales de calibre fino"
+  subtitle: "Eliminación de recubrimientos para metales finos."
+  image: "/assets/images/materials/discos-eliminacion-recubrimientos-metales-calibre-fino.png"
+
+- id: discos-eliminacion-revestimiento-todos-metales
+  slug: "discos-eliminacion-revestimiento-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de eliminación de revestimiento para todos los metales"
+  description: "Discos especializados en eliminación de revestimiento para todos los tipos de metales"
+  subtitle: "Eliminación de revestimiento para todos los metales."
+  image: "/assets/images/materials/discos-eliminacion-revestimiento-todos-metales.png"
+
+- id: discos-mezcla-acabado-todos-metales
+  slug: "discos-mezcla-acabado-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de mezcla y acabado para todos los metales"
+  description: "Discos especializados en mezcla y acabado para todos los tipos de metales"
+  subtitle: "Mezcla y acabado para todos los metales."
+  image: "/assets/images/materials/discos-mezcla-acabado-todos-metales.png"
+
+- id: discos-transparentes-acondicionamiento-superficies-todos-metales
+  slug: "discos-transparentes-acondicionamiento-superficies-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos transparentes de acondicionamiento de superficies para todos los metales"
+  description: "Discos transparentes especializados en acondicionamiento de superficies para todos los tipos de metales"
+  subtitle: "Acondicionamiento transparente para todos los metales."
+  image: "/assets/images/materials/discos-transparentes-acondicionamiento-superficies-todos-metales.png"
+
+- id: discos-fibra-alto-rendimiento-acero-carbono-inoxidable
+  slug: "discos-fibra-alto-rendimiento-acero-carbono-inoxidable"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de fibra de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para aceros especializados."
+  image: "/assets/images/materials/discos-fibra-alto-rendimiento-acero-carbono-inoxidable.png"
+
+- id: discos-fibra-corte-frio-acero-carbono-metales-blandos
+  slug: "discos-fibra-corte-frio-acero-carbono-metales-blandos"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de corte en frío para acero al carbono y metales blandos"
+  description: "Discos de fibra especializados en corte en frío para acero al carbono y metales blandos"
+  subtitle: "Corte en frío para acero al carbono y metales blandos."
+  image: "/assets/images/materials/discos-fibra-corte-frio-acero-carbono-metales-blandos.png"
+
+- id: discos-fibra-corte-frio-acero-inoxidable-aleaciones-niquel
+  slug: "discos-fibra-corte-frio-acero-inoxidable-aleaciones-niquel"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de corte en frío para acero inoxidable y aleaciones de níquel"
+  description: "Discos de fibra especializados en corte en frío para acero inoxidable y aleaciones de níquel"
+  subtitle: "Corte en frío para acero inoxidable y aleaciones de níquel."
+  image: "/assets/images/materials/discos-fibra-corte-frio-acero-inoxidable-aleaciones-niquel.png"
+
+- id: discos-fibra-uso-general-todos-metales
+  slug: "discos-fibra-uso-general-todos-metales"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de uso general para todos los metales"
+  description: "Discos de fibra de uso general diseñados para trabajar con todos los tipos de metales"
+  subtitle: "Uso general para todos los metales."
+  image: "/assets/images/materials/discos-fibra-uso-general-todos-metales.png"
+
+- id: discos-fibra-transparentes-alto-rendimiento-acero-carbono-inoxidable
+  slug: "discos-fibra-transparentes-alto-rendimiento-acero-carbono-inoxidable"
+  product_id: "discos-fibra"
+  name: "Discos de fibra transparentes de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de fibra transparentes de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento transparente para aceros especializados."
+  image: "/assets/images/materials/discos-fibra-transparentes-alto-rendimiento-acero-carbono-inoxidable.png"
+
+- id: discos-fibra-transparentes-corte-frio-acero-inoxidable-aleaciones-niquel
+  slug: "discos-fibra-transparentes-corte-frio-acero-inoxidable-aleaciones-niquel"
+  product_id: "discos-fibra"
+  name: "Discos de fibra transparentes de corte en frío para acero inoxidable y aleaciones de níquel"
+  description: "Discos de fibra transparentes especializados en corte en frío para acero inoxidable y aleaciones de níquel"
+  subtitle: "Corte en frío transparente para acero inoxidable y aleaciones de níquel."
+  image: "/assets/images/materials/discos-fibra-transparentes-corte-frio-acero-inoxidable-aleaciones-niquel.png"
+
+- id: discos-lijado-acabado-mamposteria-hormigon
+  slug: "discos-lijado-acabado-mamposteria-hormigon"
+  product_id: "discos-fibra"
+  name: "Discos de lijado y acabado para mampostería y hormigón"
+  description: "Discos especializados en lijado y acabado para mampostería y hormigón"
+  subtitle: "Lijado y acabado para mampostería y hormigón."
+  image: "/assets/images/materials/discos-lijado-acabado-mamposteria-hormigon.png"
+
+- id: hojas-lija-velcro-todas-superficies
+  slug: "hojas-lija-velcro-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija con velcro para todas las superficies"
+  description: "Hojas de lija con sistema de velcro diseñadas para trabajar con todas las superficies"
+  subtitle: "Sistema velcro para todas las superficies."
+  image: "/assets/images/materials/hojas-lija-velcro-todas-superficies.png"
+
+- id: hojas-lija-corte-frio-todas-superficies
+  slug: "hojas-lija-corte-frio-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija de corte en frío para todas las superficies"
+  description: "Hojas de lija especializadas en corte en frío para todas las superficies"
+  subtitle: "Corte en frío para todas las superficies."
+  image: "/assets/images/materials/hojas-lija-corte-frio-todas-superficies.png"
+
+- id: hojas-lija-uso-general-todas-superficies
+  slug: "hojas-lija-uso-general-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija de uso general para todas las superficies"
+  description: "Hojas de lija de uso general diseñadas para trabajar con todas las superficies"
+  subtitle: "Uso general para todas las superficies."
+  image: "/assets/images/materials/hojas-lija-uso-general-todas-superficies.png"
+
+- id: hojas-lijado-manual-maderas-blandas
+  slug: "hojas-lijado-manual-maderas-blandas"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lijado manual para maderas blandas"
+  description: "Hojas especializadas en lijado manual para maderas blandas"
+  subtitle: "Lijado manual para maderas blandas."
+  image: "/assets/images/materials/hojas-lijado-manual-maderas-blandas.png"
+
+- id: hojas-lijado-acabado-humedo-seco-todas-superficies
+  slug: "hojas-lijado-acabado-humedo-seco-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lijado y acabado húmedo-seco para todas las superficies"
+  description: "Hojas especializadas en lijado y acabado húmedo-seco para todas las superficies"
+  subtitle: "Lijado y acabado húmedo-seco para todas las superficies."
+  image: "/assets/images/materials/hojas-lijado-acabado-humedo-seco-todas-superficies.png"
+
+- id: hojas-lija-flexibles-todos-materiales
+  slug: "hojas-lija-flexibles-todos-materiales"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija flexibles para todos los materiales"
+  description: "Hojas de lija flexibles diseñadas para trabajar con todos los materiales"
+  subtitle: "Flexibles para todos los materiales."
+  image: "/assets/images/materials/hojas-lija-flexibles-todos-materiales.png"
+
+- id: hojas-lija-humedas-secas-todas-superficies
+  slug: "hojas-lija-humedas-secas-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija húmedas y secas para todas las superficies"
+  description: "Hojas de lija húmedas y secas diseñadas para trabajar con todas las superficies"
+  subtitle: "Húmedas y secas para todas las superficies."
+  image: "/assets/images/materials/hojas-lija-humedas-secas-todas-superficies.png"
+
+- id: hojas-preparacion-acabado-pintura-humeda-seca-todas-superficies
+  slug: "hojas-preparacion-acabado-pintura-humeda-seca-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de preparación y acabado de pintura húmeda-seca para todas las superficies"
+  description: "Hojas especializadas en preparación y acabado de pintura húmeda-seca para todas las superficies"
+  subtitle: "Preparación y acabado de pintura húmeda-seca para todas las superficies."
+  image: "/assets/images/materials/hojas-preparacion-acabado-pintura-humeda-seca-todas-superficies.png"
+
+- id: hojas-pulido-todos-metales
+  slug: "hojas-pulido-todos-metales"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de pulido para todos los metales"
+  description: "Hojas especializadas en pulido para todos los metales"
+  subtitle: "Pulido para todos los metales."
+  image: "/assets/images/materials/hojas-pulido-todos-metales.png"
+
+- id: pantallas-lijado-humedo-seco-materiales-blandos
+  slug: "pantallas-lijado-humedo-seco-materiales-blandos"
+  product_id: "hojas-papel-lija"
+  name: "Pantallas de lijado húmedo-seco para materiales blandos"
+  description: "Pantallas especializadas en lijado húmedo-seco para materiales blandos"
+  subtitle: "Lijado húmedo-seco para materiales blandos."
+  image: "/assets/images/materials/pantallas-lijado-humedo-seco-materiales-blandos.png"
+
+- id: pantallas-humedas-secas-lijadoras-paneles-yeso
+  slug: "pantallas-humedas-secas-lijadoras-paneles-yeso"
+  product_id: "hojas-papel-lija"
+  name: "Pantallas húmedas-secas para lijadoras de paneles de yeso"
+  description: "Pantallas húmedas-secas especializadas para lijadoras de paneles de yeso"
+  subtitle: "Húmedas-secas para lijadoras de paneles de yeso."
+  image: "/assets/images/materials/pantallas-humedas-secas-lijadoras-paneles-yeso.png"
+
+- id: surtidos-hojas-papel-lija
+  slug: "surtidos-hojas-papel-lija"
+  product_id: "hojas-papel-lija"
+  name: "Surtidos de hojas de papel de lija"
+  description: "Surtidos completos de hojas de papel de lija para diferentes aplicaciones"
+  subtitle: "Surtidos completos para diferentes aplicaciones."
+  image: "/assets/images/materials/surtidos-hojas-papel-lija.png"
+
+- id: discos-combinados-alto-rendimiento-carbono-acero-inoxidable
+  slug: "discos-combinados-alto-rendimiento-carbono-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento para carbono y acero inoxidable"
+  description: "Discos combinados de alto rendimiento diseñados específicamente para trabajar con carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para carbono y acero inoxidable."
+  image: "/assets/images/materials/discos-combinados-alto-rendimiento-carbono-acero-inoxidable.png"
+
+- id: discos-combinados-alto-rendimiento-tuberias
+  slug: "discos-combinados-alto-rendimiento-tuberias"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento para tuberías"
+  description: "Discos combinados de alto rendimiento especializados para trabajar con tuberías"
+  subtitle: "Alto rendimiento para tuberías."
+  image: "/assets/images/materials/discos-combinados-alto-rendimiento-tuberias.png"
+
+- id: discos-combinados-alto-rendimiento-libres-contaminantes-acero-inoxidable
+  slug: "discos-combinados-alto-rendimiento-libres-contaminantes-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento y libres de contaminantes para acero inoxidable"
+  description: "Discos combinados de alto rendimiento y libres de contaminantes diseñados específicamente para acero inoxidable"
+  subtitle: "Alto rendimiento y libres de contaminantes para acero inoxidable."
+  image: "/assets/images/materials/discos-combinados-alto-rendimiento-libres-contaminantes-acero-inoxidable.png"
+
+- id: discos-combinados-uso-general-acero-carbono-acero-inoxidable
+  slug: "discos-combinados-uso-general-acero-carbono-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de uso general para acero al carbono y acero inoxidable"
+  description: "Discos combinados de uso general diseñados para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Uso general para acero al carbono y acero inoxidable."
+  image: "/assets/images/materials/discos-combinados-uso-general-acero-carbono-acero-inoxidable.png"
+
+- id: discos-combinados-uso-general-metales-blandos
+  slug: "discos-combinados-uso-general-metales-blandos"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de uso general para metales blandos"
+  description: "Discos combinados de uso general diseñados para trabajar con metales blandos"
+  subtitle: "Uso general para metales blandos."
+  image: "/assets/images/materials/discos-combinados-uso-general-metales-blandos.png"
+
+- id: discos-combinados-uso-general-tuberias
+  slug: "discos-combinados-uso-general-tuberias"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de uso general para tuberías"
+  description: "Discos combinados de uso general diseñados para trabajar con tuberías"
+  subtitle: "Uso general para tuberías."
+  image: "/assets/images/materials/discos-combinados-uso-general-tuberias.png"
+
+- id: discos-combinados-alto-rendimiento-fundiciones
+  slug: "discos-combinados-alto-rendimiento-fundiciones"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento para fundiciones"
+  description: "Discos combinados de alto rendimiento diseñados específicamente para trabajar con fundiciones"
+  subtitle: "Alto rendimiento para fundiciones."
+  image: "/assets/images/materials/discos-combinados-alto-rendimiento-fundiciones.png"
+
+- id: discos-combinados-corte-frio-acero-carbono-acero-inoxidable
+  slug: "discos-combinados-corte-frio-acero-carbono-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de corte en frío para acero al carbono y acero inoxidable"
+  description: "Discos combinados especializados en corte en frío para acero al carbono y acero inoxidable"
+  subtitle: "Corte en frío para acero al carbono y acero inoxidable."
+  image: "/assets/images/materials/discos-combinados-corte-frio-acero-carbono-acero-inoxidable.png"
+
+- id: discos-combinados-corte-frio-tuberias
+  slug: "discos-combinados-corte-frio-tuberias"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de corte en frío para tuberías"
+  description: "Discos combinados especializados en corte en frío para tuberías"
+  subtitle: "Corte en frío para tuberías."
+  image: "/assets/images/materials/discos-combinados-corte-frio-tuberias.png"
+
+- id: discos-corte-acero-inoxidable-libres-contaminantes-corte-frio
+  slug: "discos-corte-acero-inoxidable-libres-contaminantes-corte-frio"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de acero inoxidable libres de contaminantes y de corte en frío"
+  description: "Discos de corte especializados para acero inoxidable, libres de contaminantes y diseñados para corte en frío"
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "/assets/images/materials/discos-corte-acero-inoxidable-libres-contaminantes-corte-frio.png"
+
+- id: discos-corte-alto-rendimiento-acero-carbono-acero-inoxidable
+  slug: "discos-corte-alto-rendimiento-acero-carbono-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de corte de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para aceros especializados."
+  image: "/assets/images/materials/discos-corte-alto-rendimiento-acero-carbono-acero-inoxidable.png"
+
+- id: discos-corte-corte-frio-acero-carbono-acero-inoxidable
+  slug: "discos-corte-corte-frio-acero-carbono-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de corte en frío para acero al carbono y acero inoxidable"
+  description: "Discos de corte especializados en corte en frío para acero al carbono y acero inoxidable"
+  subtitle: "Corte en frío para aceros especializados."
+  image: "/assets/images/materials/discos-corte-corte-frio-acero-carbono-acero-inoxidable.png"
+
+- id: discos-corte-uso-general-acero-carbono-acero-inoxidable
+  slug: "discos-corte-uso-general-acero-carbono-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de uso general para acero al carbono y acero inoxidable"
+  description: "Discos de corte de uso general diseñados para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Uso general para acero al carbono y acero inoxidable."
+  image: "/assets/images/materials/discos-corte-uso-general-acero-carbono-acero-inoxidable.png"
+
+- id: discos-corte-uso-general-metales-blandos
+  slug: "discos-corte-uso-general-metales-blandos"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de uso general para metales blandos"
+  description: "Discos de corte de uso general diseñados para trabajar con metales blandos"
+  subtitle: "Uso general para metales blandos."
+  image: "/assets/images/materials/discos-corte-uso-general-metales-blandos.png"
+
+- id: discos-corte-libres-contaminantes-acero-inoxidable
+  slug: "discos-corte-libres-contaminantes-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte libres de contaminantes para acero inoxidable"
+  description: "Discos de corte libres de contaminantes diseñados específicamente para acero inoxidable"
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "/assets/images/materials/discos-corte-libres-contaminantes-acero-inoxidable.png"
+
+- id: discos-corte-hormigon-mamposteria
+  slug: "discos-corte-hormigon-mamposteria"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte para hormigón y mampostería"
+  description: "Discos de corte especializados para trabajar con hormigón y mampostería"
+  subtitle: "Especializados para hormigón y mampostería."
+  image: "/assets/images/materials/discos-corte-hormigon-mamposteria.png"
+
+- id: piedras-abrasivas-alto-rendimiento-acero-carbono-acero-inoxidable
+  slug: "piedras-abrasivas-alto-rendimiento-acero-carbono-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Piedras abrasivas de alto rendimiento diseñadas para desbaste y acabado en acero al carbono y acero inoxidable."
+  subtitle: "Alto rendimiento para acero al carbono y acero inoxidable."
+  image: "/assets/images/materials/piedras-abrasivas-alto-rendimiento-acero-carbono-acero-inoxidable.png"
+
+- id: piedras-abrasivas-alto-rendimiento-fundiciones
+  slug: "piedras-abrasivas-alto-rendimiento-fundiciones"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de alto rendimiento para fundiciones"
+  description: "Piedras abrasivas de alto rendimiento ideales para desbaste y acabado en materiales de fundición."
+  subtitle: "Alto rendimiento para fundiciones."
+  image: "/assets/images/materials/piedras-abrasivas-alto-rendimiento-fundiciones.png"
+
+- id: piedras-abrasivas-alto-rendimiento-libres-contaminantes-acero-inoxidable
+  slug: "piedras-abrasivas-alto-rendimiento-libres-contaminantes-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de alto rendimiento y libres de contaminantes para acero inoxidable"
+  description: "Piedras abrasivas de alto rendimiento, libres de contaminantes, para un acabado impecable en acero inoxidable."
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "/assets/images/materials/piedras-abrasivas-alto-rendimiento-libres-contaminantes-acero-inoxidable.png"
+
+- id: piedras-abrasivas-corte-frio-acero-carbono-acero-inoxidable
+  slug: "piedras-abrasivas-corte-frio-acero-carbono-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de corte en frío para acero al carbono y acero inoxidable"
+  description: "Piedras abrasivas de corte en frío para minimizar el calor en acero al carbono y acero inoxidable."
+  subtitle: "Corte en frío para acero al carbono y acero inoxidable."
+  image: "/assets/images/materials/piedras-abrasivas-corte-frio-acero-carbono-acero-inoxidable.png"
+
+- id: piedras-abrasivas-corte-frio-fundiciones
+  slug: "piedras-abrasivas-corte-frio-fundiciones"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de corte en frío para fundiciones"
+  description: "Piedras abrasivas de corte en frío diseñadas para trabajar con materiales de fundición."
+  subtitle: "Corte en frío para fundiciones."
+  image: "/assets/images/materials/piedras-abrasivas-corte-frio-fundiciones.png"
+
+- id: piedras-abrasivas-diamante-todos-materiales
+  slug: "piedras-abrasivas-diamante-todos-materiales"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de diamante para todos los materiales"
+  description: "Piedras abrasivas con diamante para un rendimiento superior en todo tipo de materiales."
+  subtitle: "Diamante para todos los materiales."
+  image: "/assets/images/materials/piedras-abrasivas-diamante-todos-materiales.png"
+
+- id: piedras-abrasivas-uso-general-acero-carbono-acero-inoxidable
+  slug: "piedras-abrasivas-uso-general-acero-carbono-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de uso general para acero al carbono y acero inoxidable"
+  description: "Piedras abrasivas de uso general para desbaste y acabado en acero al carbono y acero inoxidable."
+  subtitle: "Uso general para acero al carbono y acero inoxidable."
+  image: "/assets/images/materials/piedras-abrasivas-uso-general-acero-carbono-acero-inoxidable.png"
+
+- id: piedras-abrasivas-uso-general-metales-blandos
+  slug: "piedras-abrasivas-uso-general-metales-blandos"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de uso general para metales blandos"
+  description: "Piedras abrasivas de uso general para desbaste y acabado en metales blandos."
+  subtitle: "Uso general para metales blandos."
+  image: "/assets/images/materials/piedras-abrasivas-uso-general-metales-blandos.png"
+
+- id: piedras-abrasivas-libres-contaminantes-acero-inoxidable
+  slug: "piedras-abrasivas-libres-contaminantes-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas libres de contaminantes para acero inoxidable"
+  description: "Piedras abrasivas libres de contaminantes para un acabado limpio en acero inoxidable."
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "/assets/images/materials/piedras-abrasivas-libres-contaminantes-acero-inoxidable.png"
+
+- id: piedras-abrasivas-hormigon-mamposteria
+  slug: "piedras-abrasivas-hormigon-mamposteria"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas para hormigón y mampostería"
+  description: "Piedras abrasivas especializadas para desbaste y corte en hormigón y mampostería."
+  subtitle: "Para hormigón y mampostería."
+  image: "/assets/images/materials/piedras-abrasivas-hormigon-mamposteria.png"
+
+- id: cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de esquinas resistentes para acero al carbono"
+  description: "Cepillos de rueda de alambre diseñados para limpieza resistente en esquinas de acero al carbono."
+  subtitle: "Limpieza resistente en esquinas de acero al carbono."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-inoxidable
+  slug: "cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-inoxidable"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de esquinas resistentes para acero inoxidable"
+  description: "Cepillos de rueda de alambre diseñados para limpieza resistente en esquinas de acero inoxidable."
+  subtitle: "Limpieza resistente en esquinas de acero inoxidable."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-inoxidable.png"
+
+- id: cepillos-rueda-alambre-limpieza-soldadura-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-soldadura-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de soldadura para acero al carbono"
+  description: "Cepillos de rueda de alambre para la limpieza de soldaduras en acero al carbono."
+  subtitle: "Limpieza de soldaduras en acero al carbono."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-soldadura-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-soldadura-acero-inoxidable
+  slug: "cepillos-rueda-alambre-limpieza-soldadura-acero-inoxidable"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de soldadura para acero inoxidable"
+  description: "Cepillos de rueda de alambre para la limpieza de soldaduras en acero inoxidable."
+  subtitle: "Limpieza de soldaduras en acero inoxidable."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-soldadura-acero-inoxidable.png"
+
+- id: cepillos-rueda-alambre-limpieza-intensiva-antichispas-materiales-blandos
+  slug: "cepillos-rueda-alambre-limpieza-intensiva-antichispas-materiales-blandos"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza intensiva antichispas para materiales blandos"
+  description: "Cepillos de rueda de alambre para limpieza intensiva, antichispas, para materiales blandos."
+  subtitle: "Limpieza intensiva antichispas para materiales blandos."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-intensiva-antichispas-materiales-blandos.png"
+
+- id: cepillos-rueda-alambre-limpieza-intensiva-superficies-acero-carbono-contorneadas
+  slug: "cepillos-rueda-alambre-limpieza-intensiva-superficies-acero-carbono-contorneadas"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza intensiva para superficies de acero al carbono contorneadas"
+  description: "Cepillos de rueda de alambre para limpieza intensiva de superficies contorneadas de acero al carbono."
+  subtitle: "Limpieza intensiva para superficies contorneadas de acero al carbono."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-intensiva-superficies-acero-carbono-contorneadas.png"
+
+- id: cepillos-rueda-alambre-limpieza-intensiva-superficies-planas-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-intensiva-superficies-planas-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza intensiva para superficies planas de acero al carbono"
+  description: "Cepillos de rueda de alambre para limpieza intensiva de superficies planas de acero al carbono."
+  subtitle: "Limpieza intensiva para superficies planas de acero al carbono."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-intensiva-superficies-planas-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-ligera-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-ligera-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza ligera para acero al carbono"
+  description: "Cepillos de rueda de alambre para limpieza ligera en acero al carbono."
+  subtitle: "Limpieza ligera para acero al carbono."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-ligera-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-pesada-antichispas-metales-duros
+  slug: "cepillos-rueda-alambre-limpieza-pesada-antichispas-metales-duros"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza pesada antichispas para metales duros"
+  description: "Cepillos de rueda de alambre para limpieza pesada, antichispas, para metales duros."
+  subtitle: "Limpieza pesada antichispas para metales duros."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-pesada-antichispas-metales-duros.png"
+
+- id: cepillos-rueda-alambre-limpieza-profunda-superficies-contorneadas-acero-inoxidable
+  slug: "cepillos-rueda-alambre-limpieza-profunda-superficies-contorneadas-acero-inoxidable"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza profunda para superficies contorneadas de acero inoxidable"
+  description: "Cepillos de rueda de alambre para limpieza profunda de superficies contorneadas de acero inoxidable."
+  subtitle: "Limpieza profunda para superficies contorneadas de acero inoxidable."
+  image: "/assets/images/materials/cepillos-rueda-alambre-limpieza-profunda-superficies-contorneadas-acero-inoxidable.png"
+
+- id: cepillos-taza-limpieza-intensiva-antichispas-materiales-blandos
+  slug: "cepillos-taza-limpieza-intensiva-antichispas-materiales-blandos"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza intensiva antichispas para materiales blandos"
+  description: "Cepillos de taza para limpieza intensiva, antichispas, para materiales blandos."
+  subtitle: "Limpieza intensiva antichispas para materiales blandos."
+  image: "/assets/images/materials/cepillos-taza-limpieza-intensiva-antichispas-materiales-blandos.png"
+
+- id: cepillos-taza-limpieza-intensiva-superficies-acero-carbono-contorneadas
+  slug: "cepillos-taza-limpieza-intensiva-superficies-acero-carbono-contorneadas"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza intensiva para superficies de acero al carbono contorneadas"
+  description: "Cepillos de taza para limpieza intensiva de superficies contorneadas de acero al carbono."
+  subtitle: "Limpieza intensiva para superficies contorneadas de acero al carbono."
+  image: "/assets/images/materials/cepillos-taza-limpieza-intensiva-superficies-acero-carbono-contorneadas.png"
+
+- id: cepillos-taza-limpieza-ligera-acero-carbono
+  slug: "cepillos-taza-limpieza-ligera-acero-carbono"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligera para acero al carbono"
+  description: "Cepillos de taza para limpieza ligera en acero al carbono."
+  subtitle: "Limpieza ligera para acero al carbono."
+  image: "/assets/images/materials/cepillos-taza-limpieza-ligera-acero-carbono.png"
+
+- id: cepillos-taza-limpieza-ligera-acero-inoxidable
+  slug: "cepillos-taza-limpieza-ligera-acero-inoxidable"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligera para acero inoxidable"
+  description: "Cepillos de taza para limpieza ligera en acero inoxidable."
+  subtitle: "Limpieza ligera para acero inoxidable."
+  image: "/assets/images/materials/cepillos-taza-limpieza-ligera-acero-inoxidable.png"
+
+- id: cepillos-taza-limpieza-ligeros-antichispas-materiales-blandos
+  slug: "cepillos-taza-limpieza-ligeros-antichispas-materiales-blandos"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligeros antichispas para materiales blandos"
+  description: "Cepillos de taza para limpieza ligera, antichispas, para materiales blandos."
+  subtitle: "Limpieza ligeros antichispas para materiales blandos."
+  image: "/assets/images/materials/cepillos-taza-limpieza-ligeros-antichispas-materiales-blandos.png"
+
+- id: cepillos-taza-limpieza-ligeros-antichispas-metales-duros
+  slug: "cepillos-taza-limpieza-ligeros-antichispas-metales-duros"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligeros antichispas para metales duros"
+  description: "Cepillos de taza para limpieza ligera, antichispas, para metales duros."
+  subtitle: "Limpieza ligeros antichispas para metales duros."
+  image: "/assets/images/materials/cepillos-taza-limpieza-ligeros-antichispas-metales-duros.png"
+
+- id: cepillos-taza-limpieza-pesada-antichispas-metales-duros
+  slug: "cepillos-taza-limpieza-pesada-antichispas-metales-duros"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza pesada antichispas para metales duros"
+  description: "Cepillos de taza para limpieza pesada, antichispas, para metales duros."
+  subtitle: "Limpieza pesada antichispas para metales duros."
+  image: "/assets/images/materials/cepillos-taza-limpieza-pesada-antichispas-metales-duros.png"
+
+- id: cepillos-taza-limpieza-profunda-cara-ancha-superficies-contorneadas-acero-carbono
+  slug: "cepillos-taza-limpieza-profunda-cara-ancha-superficies-contorneadas-acero-carbono"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza profunda de cara ancha para superficies contorneadas de acero al carbono"
+  description: "Cepillos de taza para limpieza profunda de cara ancha en superficies contorneadas de acero al carbono."
+  subtitle: "Limpieza profunda de cara ancha para superficies contorneadas de acero al carbono."
+  image: "/assets/images/materials/cepillos-taza-limpieza-profunda-cara-ancha-superficies-contorneadas-acero-carbono.png"
+
+- id: cepillos-taza-limpieza-profunda-superficies-contorneadas-acero-inoxidable
+  slug: "cepillos-taza-limpieza-profunda-superficies-contorneadas-acero-inoxidable"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza profunda para superficies contorneadas de acero inoxidable"
+  description: "Cepillos de taza para limpieza profunda de superficies contorneadas de acero inoxidable."
+  subtitle: "Limpieza profunda para superficies contorneadas de acero inoxidable."
+  image: "/assets/images/materials/cepillos-taza-limpieza-profunda-superficies-contorneadas-acero-inoxidable.png"
+
+- id: cepillos-taza-desbarbadores-todos-metales
+  slug: "cepillos-taza-desbarbadores-todos-metales"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos desbarbadores para todos los metales"
+  description: "Cepillos de taza desbarbadores para todos los tipos de metales."
+  subtitle: "Desbarbadores para todos los metales."
+  image: "/assets/images/materials/cepillos-taza-desbarbadores-todos-metales.png"

@@ -2,7 +2,7 @@
 title: "Your Company Name"
 email: "contact@yourcompany.com"
 description: "Your company description - specializing in quality products"
-baseurl: "/MacMaster-Web" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://macmaster25.github.io" # the base hostname & protocol for your site
 twitter_username: "yourcompany"
 github_username: "yourcompany"

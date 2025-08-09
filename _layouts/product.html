@@ -4,160 +4,168 @@ layout: default
 
 <!-- Structured Data for SEO -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "{{ page.title }}",
-  "description": "{{ page.description }}",
-  "image": "{{ site.url }}{{ page.image }}",
-  "brand": {
-    "@type": "Brand",
-    "name": "{{ site.title }}"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "{{ page.price | remove: '$' | remove: ',' }}",
-    "priceCurrency": "COP",
-    "availability": "{% if page.in_stock %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
-    "seller": {
-      "@type": "Organization",
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "{{ page.title }}",
+    "description": "{{ page.description }}",
+    "image": "{{ site.url }}{{ page.image }}",
+    "brand": {
+      "@type": "Brand",
       "name": "{{ site.title }}"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "{{ page.price | remove: '$' | remove: ',' }}",
+      "priceCurrency": "COP",
+      "availability": "{% if page.in_stock %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
+      "seller": {
+        "@type": "Organization",
+        "name": "{{ site.title }}"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "12"
     }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "12"
   }
-}
 </script>
 
-{% assign product = nil %}
-{% for prod in site.data.products %}
-  {% if prod.id == page.slug %}
-    {% assign product = prod %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{% assign product = nil %} {% for prod in site.data.products %} {% if prod.id ==
+page.slug %} {% assign product = prod %} {% break %} {% endif %} {% endfor %}
 
 <section id="products">
   <div class="container-fluid">
-    <div class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2">
-      
+    <div
+      class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2"
+    >
       <!-- Product Header -->
-      <div class="title-description d-flex flex-column justify-content-center align-items-start gap-3 p-0">
+      <div
+        class="title-description d-flex flex-column justify-content-center align-items-start gap-3 p-0"
+      >
         {% if product %}
-          <h1>{{ product.name }}</h1>
-          
-          <!-- Breadcrumb Navigation -->
-          {% include breadcrumb.html items=product.breadcrumb %}
-        {% else %}
-          <h1>Producto no encontrado</h1>
+        <h1>{{ product.name }}</h1>
+
+        <!-- Breadcrumb Navigation -->
+        {% include breadcrumb.html items=product.breadcrumb %} {% else %}
+        <h1>Producto no encontrado</h1>
         {% endif %}
       </div>
 
       <!-- Product Information -->
       {% if product %}
-        <h2 class="p-0">{{ product.subtitle }}</h2>
-        <p class="p-0">{{ product.description }}</p>
+      <h2 class="p-0">{{ product.subtitle }}</h2>
+      <p class="p-0">{{ product.description }}</p>
       {% endif %}
 
       <!-- Materials Section -->
       {% if product %}
-        <div class="grid-products d-flex flex-column align-items-start gap-4 p-0 col-md-12">
-          <h3>Clase del material</h3>
-          <div class="content-card d-grid col-12">
-            {% assign products_materials = site.data.materials | where: "product_id", product.id %}
-            {% for material in products_materials %}
-              <div class="card d-flex flex-row flex-md-column justify-content-start justify-content-lg-center align-items-center text-lg-center gap-4">
-                <img src="{{ material.image | relative_url }}" 
-                     alt="{{ material.alt }}" />
-                <h4>{{ material.name }}</h4>
-              </div>
-            {% endfor %}
+      <div
+        class="grid-products d-flex flex-column align-items-start gap-4 p-0 col-md-12"
+      >
+        <h3>Clase del material</h3>
+        <div class="content-card d-grid col-12">
+          {% assign products_materials = site.data.materials | where:
+          "product_id", product.id %} {% for material in products_materials %}
+          <div
+            class="card d-flex flex-row flex-md-column justify-content-start justify-content-lg-center align-items-center text-lg-center gap-4"
+          >
+            <img
+              src="{{ material.image | relative_url }}"
+              alt="{{ material.name }}"
+            />
+            <h4>{{ material.name }}</h4>
           </div>
+          {% endfor %}
         </div>
+      </div>
       {% endif %}
 
       <!-- Applications Section -->
       {% if product and product.applications %}
-        <div class="specs d-flex flex-column align-items-start gap-4 p-0">
-          <h2>Aplicaciones Comunes</h2>
-          <div class="container-specs col-12">
-            <table class="table table-dark table-striped-columns">
-              <tbody>
-                {% for application in product.applications %}
-                  <tr>
-                    <th class="col-md-6 col-xl-5">{{ application.industry }}:</th>
-                    <td class="col-md-6 col-xl-7">{{ application.description }}</td>
-                  </tr>
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
+      <div class="specs d-flex flex-column align-items-start gap-4 p-0">
+        <h2>Aplicaciones Comunes</h2>
+        <div class="container-specs col-12">
+          <table class="table table-dark table-striped-columns">
+            <tbody>
+              {% for application in product.applications %}
+              <tr>
+                <th class="col-md-6 col-xl-5">{{ application.industry }}:</th>
+                <td class="col-md-6 col-xl-7">{{ application.description }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
         </div>
+      </div>
       {% endif %}
 
       <!-- Technical Characteristics Section -->
       {% if product and product.characteristics %}
-        <div class="specs d-flex flex-column align-items-start gap-3 p-0">
-          <h2>Características Técnicas</h2>
-          <div class="container-specs col-12">
-            <table class="table table-dark table-striped-columns">
-              <tbody>
-                {% for characteristic in product.characteristics %}
-                  <tr>
-                    <th class="col-md-6 col-xl-5">{{ characteristic.name }}:</th>
-                    <td class="col-md-6 col-xl-7">
-                      {{ characteristic.description }}
-                    </td>
-                  </tr>
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
+      <div class="specs d-flex flex-column align-items-start gap-3 p-0">
+        <h2>Características Técnicas</h2>
+        <div class="container-specs col-12">
+          <table class="table table-dark table-striped-columns">
+            <tbody>
+              {% for characteristic in product.characteristics %}
+              <tr>
+                <th class="col-md-6 col-xl-5">{{ characteristic.name }}:</th>
+                <td class="col-md-6 col-xl-7">
+                  {{ characteristic.description }}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
         </div>
+      </div>
       {% endif %}
 
       <!-- General Specifications Section -->
       {% if product and product.specifications %}
-        <div class="specs d-flex flex-column align-items-start gap-3 p-0">
-          <h2>Especificaciones Generales</h2>
-          <div class="container-specs col-12">
-            <table class="table table-dark table-striped-columns">
-              <tbody>
-                {% for specification in product.specifications %}
-                  <tr>
-                    <th class="col-md-6 col-xl-5">{{ specification.name }}:</th>
-                    <td class="col-md-6 col-xl-7">{{ specification.description }}</td>
-                  </tr>
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
+      <div class="specs d-flex flex-column align-items-start gap-3 p-0">
+        <h2>Especificaciones Generales</h2>
+        <div class="container-specs col-12">
+          <table class="table table-dark table-striped-columns">
+            <tbody>
+              {% for specification in product.specifications %}
+              <tr>
+                <th class="col-md-6 col-xl-5">{{ specification.name }}:</th>
+                <td class="col-md-6 col-xl-7">
+                  {{ specification.description }}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
         </div>
+      </div>
       {% endif %}
 
       <!-- Documentation Section -->
       {% if product and product.documentation %}
-        <div class="documentary d-flex flex-column align-items-start gap-3 p-0">
-          <div class="title-description d-flex flex-column justify-content-center align-items-start gap-3">
-            <h2>Documentación Técnica</h2>
-            <p>
-              Para más detalles sobre especificaciones y aplicaciones, puedes
-              consultar las siguientes fuentes:
-            </p>
-          </div>
-          <ul>
-            {% for documentation in product.documentation %}
-              <li>
-                <a href="{{ documentation.link }}" target="_blank">{{ documentation.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
+      <div class="documentary d-flex flex-column align-items-start gap-3 p-0">
+        <div
+          class="title-description d-flex flex-column justify-content-center align-items-start gap-3"
+        >
+          <h2>Documentación Técnica</h2>
+          <p>
+            Para más detalles sobre especificaciones y aplicaciones, puedes
+            consultar las siguientes fuentes:
+          </p>
         </div>
+        <ul>
+          {% for documentation in product.documentation %}
+          <li>
+            <a href="{{ documentation.link }}" target="_blank"
+              >{{ documentation.title }}</a
+            >
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
-
     </div>
   </div>
 </section>
