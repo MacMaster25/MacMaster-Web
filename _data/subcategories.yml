@@ -114,7 +114,7 @@
   slug: masillas-selladores-y-fabricantes-de-juntas
   category_id: "adhesivos-y-sellantes"
   name: Masillas, selladores y fabricantes de juntas
-  description: "Nuestras masillas, selladores y fabricantes de juntas están formulados para resistir a condiciones extremas y garantizar una fijación duradera en cualquier superficie. Fabricados con materiales premium, nuestros productos son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
+  description: "Productos especializados en sellado y unión de superficies, ideales para prevenir fugas, vibraciones y filtraciones. Aptos para aplicaciones automotrices, mecánicas e industriales."
   image: assets/images/subcategories/subcategory-masillas-selladores.png
   breadcrumb:
     - name: "Inicio"
@@ -126,11 +126,11 @@
     - name: "Masillas, selladores y fabricantes de juntas"
       link: "/subcategory/masillas-selladores-y-fabricantes-de-juntas/"
 
-- id: fijadores-de-roscas-y-compuestos-de-retencion
-  slug: fijadores-de-roscas-y-compuestos-de-retencion
+- id: trabadores-de-roscas-y-compuestos-de-retencion
+  slug: trabadores-de-roscas-y-compuestos-de-retencion
   category_id: "adhesivos-y-sellantes"
-  name: Fijadores de roscas y compuestos de retención
-  description: "Nuestros fijadores de roscas y compuestos de retención están diseñados para proporcionar una fijación firme y duradera en cualquier superficie. Fabricados con materiales de alta calidad, nuestros productos son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
+  name: Trabadores de roscas y compuestos de retención
+  description: "Soluciones químicas para asegurar piezas roscadas y componentes cilíndricos, evitando aflojamientos por vibración o cargas dinámicas. Imprescindibles en mantenimiento y ensamblaje técnico."
   image: assets/images/subcategories/subcategory-fijadores-roscas.png
   breadcrumb:
     - name: "Inicio"
@@ -139,14 +139,14 @@
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
       link: "/categorias/"
-    - name: "Fijadores de roscas y compuestos de retención"
-      link: "/subcategory/fijadores-de-roscas-y-compuestos-de-retencion/"
+    - name: "Trabadores de roscas y compuestos de retención"
+      link: "/subcategory/trabadores-de-roscas-y-compuestos-de-retencion/"
 
-- id: cinta
-  slug: cinta
+- id: cintas
+  slug: cintas
   category_id: "adhesivos-y-sellantes"
-  name: Cinta
-  description: "Nuestras cintas adhesivas están diseñadas para proporcionar una fijación segura y duradera en cualquier superficie. Fabricadas con materiales premium, nuestras cintas son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
+  name: Cintas
+  description: "Cintas adhesivas y técnicas utilizadas para aislamiento, sellado, fijación y protección en ambientes industriales. Disponibles en múltiples materiales y niveles de adhesión según su uso."
   image: assets/images/subcategories/subcategory-cinta.png
   breadcrumb:
     - name: "Inicio"
@@ -155,8 +155,8 @@
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
       link: "/categorias/"
-    - name: "Cinta"
-      link: "/subcategory/cinta/"
+    - name: "Cintas"
+      link: "/subcategory/cintas/"
 
 - id: resina
   slug: resina

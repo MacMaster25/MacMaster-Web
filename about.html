@@ -216,30 +216,30 @@ meta_description: "Learn about Your Company Name, our mission to provide quality
 
 <!-- Structured Data for Local Business -->
 <script type="application/ld+json">
-{
+  {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "{{ site.title }}",
     "url": "{{ site.url }}",
-    "logo": "{{ site.url }}/assets/images/logo.png",
+    "logo": "{{ 'assets/images/logo.png' | relative_url }}",
     "description": "{{ site.description }}",
     "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "123 Main St",
-        "addressLocality": "City",
-        "addressRegion": "State",
-        "postalCode": "12345",
-        "addressCountry": "US"
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main St",
+      "addressLocality": "City",
+      "addressRegion": "State",
+      "postalCode": "12345",
+      "addressCountry": "US"
     },
     "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+1-555-123-4567",
-        "contactType": "customer service",
-        "availableLanguage": "English"
+      "@type": "ContactPoint",
+      "telephone": "+1-555-123-4567",
+      "contactType": "customer service",
+      "availableLanguage": "English"
     },
     "sameAs": [
-        "https://twitter.com/yourcompany",
-        "https://facebook.com/yourcompany"
+      "https://twitter.com/yourcompany",
+      "https://facebook.com/yourcompany"
     ]
-}
+  }
 </script>
