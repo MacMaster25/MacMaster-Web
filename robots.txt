@@ -18,6 +18,6 @@ Disallow: /assets/css/
 Allow: /categories/
 Allow: /subcategories/
 Allow: /products/
-Allow: /about/
+Allow: /quienes_somos/
 Allow: /contact/
 Allow: /search/ 
