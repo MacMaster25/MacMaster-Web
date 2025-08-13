@@ -1967,3 +1967,53 @@
   subtitle: "Cinta de reparación transparente para reparaciones discretas y estéticas."
   image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-de-reparacion-transparente.png"
 
+- id: resina-epoxica-industrial-gris
+  slug: "resina-epoxica-industrial-gris"
+  product_id: "resina-epoxica-industrial"
+  name: "Resina epóxica industrial gris"
+  description: "Resina epóxica industrial de color gris para reparaciones estructurales y uniones permanentes en aplicaciones industriales."
+  subtitle: "Resina epóxica industrial gris de alta resistencia para reparaciones estructurales exigentes."
+  image: "assets/images/materials/resina-epoxica-industrial/resina-epoxica-industrial-gris.png"
+
+- id: resina-epoxica-industrial-negra
+  slug: "resina-epoxica-industrial-negra"
+  product_id: "resina-epoxica-industrial"
+  name: "Resina epóxica industrial negra"
+  description: "Resina epóxica industrial de color negro para reparaciones estructurales y uniones permanentes en aplicaciones industriales."
+  subtitle: "Resina epóxica industrial negra de alta resistencia para reparaciones estructurales exigentes."
+  image: "assets/images/materials/resina-epoxica-industrial/resina-epoxica-industrial-negra.png"
+
+- id: resina-epoxica-industrial-aluminio
+  slug: "resina-epoxica-industrial-aluminio"
+  product_id: "resina-epoxica-industrial"
+  name: "Resina epóxica industrial aluminio"
+  description: "Resina epóxica industrial de color aluminio para reparaciones estructurales y uniones permanentes en aplicaciones industriales."
+  subtitle: "Resina epóxica industrial aluminio de alta resistencia para reparaciones estructurales exigentes."
+  image: "assets/images/materials/resina-epoxica-industrial/resina-epoxica-industrial-aluminio.png"
+
+- id: resina-poliuretano-reparacion-beige
+  slug: "resina-poliuretano-reparacion-beige"
+  product_id: "resina-poliuretano-reparacion"
+  name: "Resina de poliuretano para reparación beige"
+  description: "Resina de poliuretano de color beige para reparaciones rápidas y eficientes en superficies metálicas y plásticas."
+  subtitle: "Resina de poliuretano beige para reparaciones rápidas con alta flexibilidad y resistencia a impactos."
+  image: "assets/images/materials/resina-poliuretano-reparacion/resina-poliuretano-reparacion-beige.png"
+
+- id: resina-poliuretano-reparacion-gris
+  slug: "resina-poliuretano-reparacion-gris"
+  product_id: "resina-poliuretano-reparacion"
+  name: "Resina de poliuretano para reparación gris"
+  description: "Resina de poliuretano de color gris para reparaciones rápidas y eficientes en superficies metálicas y plásticas."
+  subtitle: "Resina de poliuretano gris para reparaciones rápidas con alta flexibilidad y resistencia a impactos."
+  image: "assets/images/materials/resina-poliuretano-reparacion/resina-poliuretano-reparacion-gris.png"
+
+- id: resina-poliuretano-reparacion-negra
+  slug: "resina-poliuretano-reparacion-negra"
+  product_id: "resina-poliuretano-reparacion"
+  name: "Resina de poliuretano para reparación negra"
+  description: "Resina de poliuretano de color negro para reparaciones rápidas y eficientes en superficies metálicas y plásticas."
+  subtitle: "Resina de poliuretano negra para reparaciones rápidas con alta flexibilidad y resistencia a impactos."
+  image: "assets/images/materials/resina-poliuretano-reparacion/resina-poliuretano-reparacion-negra.png"
+
+
+

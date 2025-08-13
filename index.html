@@ -67,7 +67,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         <div class="data-b d-flex flex-lg-nowrap align-items-sm-center m-0">
           <div class="data-image d-sm-flex">
             <img
-              src="{{ 'assets/images/hero-people.png' | relative_url }}"
+              src="{{ 'assets/images/guarantee-icon.png' | relative_url }}"
               class="mb-2 mb-sm-0"
               alt="imagen icono de garantia de devoluciones"
             />
@@ -84,14 +84,14 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
 <!-- Brands Section -->
 <section id="brand" class="py-5 px-1">
   <div class="container-fluid">
-    <!-- NUEVO: Se agrego align-items-lg-center y gap-5 en la linea:112 -->
+    <!-- NUEVO: Se agrego align-items-lg-center y gap-5 -->
     <div
       class="container-brand d-flex flex-column align-items-start align-items-lg-center gap-5 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2"
     >
       <div class="col-12 align-items-start">
         <span class="badge">Marcas aliadas</span>
       </div>
-      <!-- NUEVO: Se agrego nuevo div en la linea:118-130 -->
+
       <div
         class="brand-title d-flex justify-content-between align-items-start flex-column flex-lg-row gap-lg-5"
       >
@@ -108,7 +108,9 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
           </p>
         </div>
         <div class="col-12 col-lg-auto">
-          <a href="/about.html" class="btn btn-main col-12 col-lg-auto"
+          <a
+            href="{{ '/quienes_somos' | relative_url }}"
+            class="btn btn-main col-12 col-lg-auto"
             >Acerca de nosotros</a
           >
         </div>
@@ -118,7 +120,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         <div class="col-md-4 mb-1">
           <div class="p-5 bg-dark rounded-3 h-100">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/award_star.png?raw=true"
+              src="{{ 'assets/images/award-star.png' | relative_url }}"
               alt="Ícono calidad industrial"
               width="36"
               height="36"
@@ -130,7 +132,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         <div class="col-md-4 mb-1">
           <div class="p-5 bg-dark rounded-3 h-100">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/delivery_truck_bolt.png?raw=true"
+              src="{{ 'assets/images/delivery-truck-bolt.png' | relative_url }}"
               alt="Ícono entrega rápida"
               width="36"
               height="36"
@@ -142,7 +144,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         <div class="col-md-4">
           <div class="p-5 bg-dark rounded-3 h-100">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/identity_platform.png?raw=true"
+              src="{{ 'assets/images/identity-platform.png' | relative_url }}"
               alt="Ícono atención personalizada"
               width="36"
               height="36"
@@ -157,8 +159,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         class="brand-stats position-relative rounded-4 overflow-hidden col-md-12"
       >
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/bg_about_us.png?raw=true"
-          alt="trayectoria"
+          src="{{ 'assets/images/bg-about-us.png' | relative_url }}"
           class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0"
         />
         <div
@@ -210,7 +211,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
             class="brand-img d-flex flex-column align-items-center justify-content-center"
           >
             <img
-              src="{{ 'assets/images/grainger.png' | relative_url }}"
+              src="{{ 'assets/images/marcas/brand-logo-1.png' | relative_url }}"
               alt="logo Greinger"
             />
           </div>
@@ -218,7 +219,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
             class="brand-img d-flex flex-column align-items-center justify-content-center"
           >
             <img
-              src="{{ 'assets/images/brand-logo-2.png' | relative_url }}"
+              src="{{ 'assets/images/marcas/brand-logo-2.png' | relative_url }}"
               alt="logo invesa"
             />
           </div>
@@ -226,7 +227,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
             class="brand-img d-flex flex-column align-items-center justify-content-center"
           >
             <img
-              src="{{ 'assets/images/brand-logo-3.png' | relative_url }}"
+              src="{{ 'assets/images/marcas/brand-logo-3.png' | relative_url }}"
               alt="logo jushi"
             />
           </div>
@@ -234,7 +235,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
             class="brand-img d-flex flex-column align-items-center justify-content-center"
           >
             <img
-              src="{{ 'assets/images/brand-logo-4.png' | relative_url }}"
+              src="{{ 'assets/images/marcas/brand-logo-4.png' | relative_url }}"
               alt="logo norton"
             />
           </div>
@@ -305,11 +306,15 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
               <li>Maquinaria pesada y equipos industriales</li>
               <li>Instalaciones eléctricas y mecánicas</li>
             </ul>
-            <a href="#" class="btn btn-dark">Explorar Tornillería</a>
+            <a
+              href="{{ '/subcategory/pernos-y-tornillos' | relative_url }}"
+              class="btn btn-dark"
+              >Explorar Tornillería</a
+            >
           </div>
           <div class="w-100 w-md-50 h-auto p-0">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/tornilleria-industrial-fijaciones-macmaster.png?raw=true"
+              src="{{ 'assets/images/tornilleria-industrial-fijaciones-macmaster.png' | relative_url }}"
               alt="Imagen tornillería industrial"
               class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover"
             />
@@ -343,11 +348,15 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
               <li>Procesos de mantenimiento industrial</li>
               <li>Industria automotriz y de construcción</li>
             </ul>
-            <a href="#" class="btn btn-dark">Explorar Abrasivos</a>
+            <a
+              href="{{ '/subcategory/abrasivos-para-lijado' | relative_url }}"
+              class="btn btn-dark"
+              >Explorar Abrasivos</a
+            >
           </div>
           <div class="w-100 w-md-50 h-auto p-0">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/abrasivos-macmaster-corte-chispas.png?raw=true"
+              src="{{ 'assets/images/abrasivos-macmaster-corte-chispas.png' | relative_url }}"
               alt="Imagen abrasivos industriales"
               class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover"
             />
@@ -379,12 +388,16 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
               <li>Recubrimientos anticorrosivos</li>
               <li>Refuerzos de ductos, láminas y estructuras</li>
             </ul>
-            <a href="#" class="btn btn-dark">Explorar Resina y Fibra</a>
+            <a
+              href="{{ '/subcategory/resina' | relative_url }}"
+              class="btn btn-dark"
+              >Explorar Resina y Fibra</a
+            >
           </div>
           <div class="w-100 w-md-50 h-auto p-0">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/resina-y-fibra-aplicaciones-tecnicas.png?raw=true"
-              alt="Imagen tornillería industrial"
+              src="{{ 'assets/images/resina-y-fibra-aplicaciones-tecnicas.png' | relative_url }}"
+              alt="Imagen fibra de vidrio industrial"
               class="img-fluid rounded-4 shadow h-100 w-100 object-fit-cover"
             />
           </div>
@@ -395,7 +408,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         <div class="col-md-4 mb-1">
           <div class="p-5 bg-dark rounded-3 h-100">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/award_star.png?raw=true"
+              src="{{ 'assets/images/award-star.png' | relative_url }}"
               alt="Ícono calidad industrial"
               width="36"
               height="36"
@@ -407,7 +420,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         <div class="col-md-4 mb-1">
           <div class="p-5 bg-dark rounded-3 h-100">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/delivery_truck_bolt.png?raw=true"
+              src="{{ 'assets/images/delivery-truck-bolt.png' | relative_url }}"
               alt="Ícono entrega rápida"
               width="36"
               height="36"
@@ -419,7 +432,7 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
         <div class="col-md-4">
           <div class="p-5 bg-dark rounded-3 h-100">
             <img
-              src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/03.marcas/identity_platform.png?raw=true"
+              src="{{ 'assets/images/identity-platform.png' | relative_url }}"
               alt="Ícono atención personalizada"
               width="36"
               height="36"
@@ -439,42 +452,42 @@ meta_description: "Mac Master Importadores, especialistas en tornillería, adhes
     <div class="row row-cols-1 row-cols-md-3 g-2">
       <div class="col">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/spray-pintura-industrial-tekbond.png?raw=true"
+          src="{{ 'assets/images/contact/spray-pintura-industrial-tekbond.png' | relative_url }}"
           alt="Aplicación de pintura en aerosol industrial Tekbond en proceso de mantenimiento"
           class="img-fluid w-100 rounded-3"
         />
       </div>
       <div class="col">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/amoladora-angular-chispas-abrasivo.png?raw=true"
+          src="{{ 'assets/images/contact/amoladora-angular-chispas-abrasivo.png' | relative_url }}"
           alt="Uso de amoladora angular con disco abrasivo generando chispas"
           class="img-fluid w-100 rounded-3"
         />
       </div>
       <div class="col">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-industriales-negros.png?raw=true"
+          src="{{ 'assets/images/contact/pernos-industriales-negros.png' | relative_url }}"
           alt="Pernos industriales negros de alta resistencia organizados en grupo"
           class="img-fluid w-100 rounded-3"
         />
       </div>
       <div class="col">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/pernos-u-acero-inoxidable.png?raw=true"
+          src="{{ 'assets/images/contact/pernos-u-acero-inoxidable.png' | relative_url }}"
           alt="Conjunto de pernos en forma de U de acero inoxidable organizados en caja"
           class="img-fluid w-100 rounded-3"
         />
       </div>
       <div class="col">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/fibra-de-vidrio-industrial.png?raw=true"
+          src="{{ 'assets/images/contact/fibra-de-vidrio-industrial.png' | relative_url }}"
           alt="Rollo de fibra de vidrio tejida para uso industrial"
           class="img-fluid w-100 rounded-3"
         />
       </div>
       <div class="col">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/01.Inicio/05.gallery/adhesivo-industrial-motor.png?raw=true"
+          src="{{ 'assets/images/contact/adhesivo-industrial-motor.png' | relative_url }}"
           alt="Aplicación de adhesivo industrial en componentes de motor durante mantenimiento mecánico"
           class="img-fluid w-100 rounded-3"
         />

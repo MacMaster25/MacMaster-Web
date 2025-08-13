@@ -107,7 +107,7 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
             </p>
           </div>
         </div>
-        <!-- NUEVO: Se agregó div card nuevo Linea:132" -->
+        <!-- NUEVO: Se agregó div card nuevo -->
         <div
           class="card d-flex flex-column flex-md-row align-items-start justify-content-md-between gap-4"
         >
@@ -143,14 +143,14 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
     <div class="row g-3">
       <div class="col-md-6">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/abrasivos-macmaster-corte-chispas.png?raw=true"
+          src="{{ '/assets/images/abrasivos-macmaster-corte-chispas.png' | relative_url }}"
           alt="Fachada de bodega MacMaster"
           class="img-fluid w-100 h-100 object-fit-cover rounded-4 shadow-sm"
         />
       </div>
       <div class="col-md-6">
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/04.products/resina-y-fibra-aplicaciones-tecnicas.png?raw=true"
+          src="{{ '/assets/images/resina-y-fibra-aplicaciones-tecnicas.png' | relative_url }}"
           alt="Zona de carga bodega MacMaster"
           class="img-fluid w-100 h-100 object-fit-cover rounded-4 shadow-sm"
         />
@@ -164,7 +164,6 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
     <div
       class="container-values row d-flex flex-column align-items-start p-0 col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2"
     >
-      <!-- CAMBIO: se agrego gap-3 en la linea: 177 -->
       <div
         class="title-description d-flex flex-column justify-content-center align-items-center gap-3"
       >
@@ -203,7 +202,7 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
         </div>
       </div>
       <img
-        src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/02.about/tornilleria-industrial-fijaciones-macmaster.png?raw=true"
+        src="{{ '/assets/images/tornilleria-industrial-fijaciones-macmaster.png' | relative_url }}"
         class="p-0 img-fade-top"
         alt=" imagen de tornillería industrial y fijaciones MacMaster"
       />
@@ -244,7 +243,7 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
       class="container-team row row-cols-1 row-cols-lg-2 gap-1 col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2"
     >
       <img
-        src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/02.about/team.png?raw=true"
+        src="{{ '/assets/images/team.png' | relative_url }}"
         class="col-lg-6 p-0"
         alt=""
       />
@@ -252,12 +251,12 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
         class="grid-images d-flex flex-column align-items-start gap-1 col-lg-6 p-0"
       >
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/02.about/team_1.png?raw=true"
+          src="{{ '/assets/images/team-1.png' | relative_url }}"
           class="p-0"
           alt=""
         />
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/02.about/team_2.png?raw=true"
+          src="{{ '/assets/images/team-2.png' | relative_url }}"
           class="p-0"
           alt=""
         />
@@ -265,51 +264,9 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
     </div>
   </div>
 </section>
-<!-- NUEVO: beneficios -->
-<section
-  id="benefits"
-  class="bg-black mb-2 py-4 py-xl-5 px-1 px-lg-0 text-light"
->
-  <div class="container-fluid py-lg-3 col-lg-10 offset-lg-1">
-    <div>
-      <h2 class="fw-bold mb-3">Beneficios de trabajar con MacMaster</h2>
-      <p class="mb-5">
-        En MacMaster te ofrecemos soluciones industriales confiables, respaldo
-        técnico y productos de alta calidad que impulsan tu productividad y
-        eficiencia.
-      </p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
-      <div class="col">
-        <h6 class="fw-bold text-uppercase mb-3">Asesoría técnica experta</h6>
-        <p class="mb-0 col-10">
-          Te ayudamos a elegir el producto ideal según tu industria y
-          aplicación.
-        </p>
-      </div>
-      <div class="col">
-        <h6 class="fw-bold text-uppercase mb-3">
-          Entrega rápida a nivel nacional
-        </h6>
-        <p class="mb-0 col-10">
-          Contamos con amplio stock disponible para despachos rápidos.
-        </p>
-      </div>
-      <div class="col">
-        <h6 class="fw-bold text-uppercase mb-3">Precios competitivos</h6>
-        <p class="mb-0 col-10">
-          Ofrecemos calidad industrial al mejor costo del mercado.
-        </p>
-      </div>
-      <div class="col">
-        <h6 class="fw-bold text-uppercase mb-3">Garantía de calidad</h6>
-        <p class="mb-0 col-10">
-          Productos resistentes, duraderos y certificados para uso industrial.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+
+<!-- Benefits -->
+{% include benefits.html %}
 
 <!-- Structured Data for Local Business -->
 <script type="application/ld+json">

@@ -131,68 +131,8 @@ body {
 /* ========================================
     FOOTER - COMMON ACROSS ALL PAGES
     ======================================== */
-#footer .container-footer {
-  padding: 0.5rem;
-}
-
-#footer .container-footer .footer-options {
-  padding: 2.25rem 1rem;
-  gap: 2.25rem;
-  align-self: stretch;
-  border-radius: 0.5rem;
-  background: var(--color-text-main);
-}
-
-#footer .container-footer .footer-options img {
-  width: 75%;
-}
-
-#footer .container-footer .footer-options .options .navbar-nav .nav-item a {
-  padding: 0;
-}
-
-#footer .container-footer .footer-options p {
-  color: var(--color-text-button);
-  text-align: center;
-  font-family: "Instrument Sans";
+#footer .footer-info p {
   font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-
-#footer .container-footer .footer-data {
-  padding: 2.25rem 1rem;
-  gap: 2.25rem;
-  align-self: stretch;
-  border-radius: 0.5rem;
-  background: var(--color-bg-secondary);
-  color: var(--color-text-main);
-}
-
-#footer .container-footer .footer-data .info {
-  align-self: stretch;
-}
-
-#footer .container-footer .footer-data .info p {
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-}
-
-#footer .container-footer .footer-data .info a {
-  color: var(--color-text-main);
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 120%;
-}
-
-#footer .container-footer .footer-data .social-data .navbar-nav {
-  gap: 2rem;
-  align-self: stretch;
 }
 
 /* ========================================
@@ -693,37 +633,73 @@ body {
     ======================================== */
 
 /* Hero Image Section */
-#heroimage {
-  height: 70vh;
+#heroimage-categories {
   background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-#heroimage .content-hero {
-  height: 150vw;
-  align-self: stretch;
-  padding: 0 1rem;
+#heroimage-categories .content-heroimage {
+  padding: 7.5rem 1rem 0 1rem;
 }
 
-#heroimage .content-hero h1 {
+#heroimage-categories .content-heroimage .heroimage-title {
+  margin-bottom: 1.5rem;
   color: var(--color-text-main);
-  font-size: 2.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  margin-bottom: 0;
 }
 
-#heroimage .content-hero p {
+#heroimage-categories .content-heroimage .heroimage-title h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#heroimage-categories .content-heroimage .heroimage-title p {
+  font-size: 1.125rem;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data {
+  backdrop-filter: blur(4px);
+  padding: 2.25rem 0;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-a {
+  margin: 0 0 1rem 0;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-a p {
+  color: var(--color-text-main);
+  font-feature-settings: "liga" off, "clig" off;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-a img {
+  width: 75%;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-b {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary);
+  background: var(--color-bg-secondary);
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-b p {
   color: var(--color-text-main);
   font-family: "Instrument Sans";
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
   margin-bottom: 0;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-b img {
+  width: 75%;
 }
 
 /* Products Section */
@@ -816,10 +792,6 @@ body {
   gap: 2.25rem;
 }
 
-#products .content-produts .title-description {
-  align-self: stretch;
-}
-
 #products .content-produts .title-description h1 {
   color: var(--color-text-main);
   text-align: center;
@@ -860,6 +832,11 @@ body {
   font-weight: 400;
   line-height: 120%;
   margin-bottom: 0;
+}
+
+#products .content-produts .tabs .active {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 #products .content-produts .grid-products {
@@ -904,11 +881,6 @@ body {
     ======================================== */
 
 /* Products Section */
-#products .content-produts {
-  padding: 7.25rem 1rem 2.25rem 1rem;
-  gap: 2.25rem;
-}
-
 #products .content-produts .title-description h1 {
   color: var(--color-text-main);
   font-size: 2.25rem;
@@ -1256,6 +1228,75 @@ body {
 }
 
 /* ========================================
+    RESINA Y FIBRA DE VIDRIO
+    ======================================== */
+
+/* Resina y fibra de vidrio */
+
+/* Hero */
+#heroimage {
+  background: linear-gradient(
+      to bottom,
+      rgba(18, 18, 18, 0),
+      rgba(18, 18, 18, 0.35),
+      rgba(18, 18, 18, 1)
+    ),
+    url("https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+}
+
+#heroimage .heading {
+  min-height: 600px;
+}
+
+#heroimage span {
+  border: 1px solid var(--color-border-secondary);
+}
+
+/* Types of resine */
+#types h2 {
+  font-size: 1.75rem;
+}
+
+#types .size-img {
+  height: 300px;
+}
+
+/* Applications */
+#aplications h2 {
+  font-size: 1.75rem;
+}
+
+/* Applications */
+#aplications p {
+  font-size: 1rem;
+}
+
+#aplications .container-image {
+  background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/encapsulado-resina-mesa-arte-decoracion-brillante.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+}
+
+#aplications .card-body {
+  background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  backdrop-filter: blur(2px);
+}
+
+#aplications .card-body h5 {
+  font-size: 1.125rem;
+}
+
+#aplications .card-body p {
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+}
+
+/* ========================================
     RESPONSIVE MEDIA QUERIES
     ======================================== */
 
@@ -1290,10 +1331,6 @@ body {
     font-size: 1rem;
   }
 
-  #heroimage .content-heroimage {
-    padding: 9rem 1rem 0 1rem;
-  }
-
   #values .container-values img {
     height: 50vw;
   }
@@ -1305,8 +1342,33 @@ body {
   }
 
   /* Products Page */
-  #heroimage .content-hero {
-    height: 100vw;
+  #heroimage-categories .content-heroimage {
+    padding: 9rem 1rem 0 1rem;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-a img {
+    width: 50%;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b {
+    gap: 1rem;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b .data-image {
+    flex: 0 0 2rem;
+  }
+
+  #heroimage-categories
+    .content-heroimage
+    .heroimage-data
+    .data-b
+    .data-image
+    img {
+    width: 100%;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b p {
+    font-size: 1rem;
   }
 
   #products .content-produts .product-card .card:nth-of-type(2) {
@@ -1319,10 +1381,6 @@ body {
   }
 
   /* Category Page */
-  #products .content-produts {
-    padding: 9.25rem 1rem 2.25rem 1rem;
-  }
-
   #products .content-produts .grid-products {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1335,10 +1393,6 @@ body {
   }
 
   /* Category Detail Page */
-  #products .content-produts {
-    padding: 9.25rem 1rem 2.25rem 1rem;
-  }
-
   #products .content-produts .grid-products .content-card {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1371,11 +1425,6 @@ body {
     height: 50vh;
     object-fit: cover;
     border-radius: 0.5rem;
-  }
-
-  /* Footer */
-  #footer .container-footer .footer-options img {
-    width: 50%;
   }
 }
 
@@ -1439,10 +1488,6 @@ body {
     width: 50%;
   }
 
-  #footer .container-footer .footer-options img {
-    width: 35%;
-  }
-
   #heroimage-about .content-heroimage {
     padding: 9rem 1rem 0 1rem;
   }
@@ -1458,13 +1503,20 @@ body {
   }
 
   /* Products Page */
-  #heroimage {
-    height: 100%;
+  #heroimage-categories {
     background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true");
   }
 
-  #heroimage .content-hero {
-    height: 60vw;
+  #heroimage-categories .content-heroimage .heroimage-data .data-a {
+    margin: 0;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b {
+    width: auto;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b p {
+    font-size: 0.875rem;
   }
 
   /* About Page */
@@ -1489,11 +1541,6 @@ body {
 
   #about .container-about .title-description a {
     width: auto;
-  }
-
-  /* Contact Page */
-  #footer .container-footer .footer-options img {
-    width: 35%;
   }
 
   /* Category Detail Page */
@@ -1571,14 +1618,6 @@ body {
     border-right: 1px solid var(--color-border);
   }
 
-  #footer .container-footer .footer-options img {
-    width: 50%;
-  }
-
-  #footer .container-footer .footer-data {
-    width: 49.5%;
-  }
-
   /* About Page */
   #heroimage-about .content-heroimage {
     padding: 9rem 0 0 0;
@@ -1613,13 +1652,8 @@ body {
   }
 
   /* Products Page */
-  #heroimage .content-hero {
-    height: 35vw;
-    padding: 3rem 0 0 0;
-  }
-
-  #products .content-produts {
-    padding: 2.25rem 0;
+  #heroimage-categories .content-heroimage {
+    padding: 9rem 0 0 0;
   }
 
   #products .content-produts .product-card .card:nth-of-type(3),
@@ -1629,10 +1663,6 @@ body {
   }
 
   /* Category Page */
-  #products .content-produts {
-    padding: 8.25rem 0 2.25rem 0;
-  }
-
   #products .content-produts .grid-products {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -1651,10 +1681,6 @@ body {
   }
 
   /* Category Detail Page */
-  #products .content-produts {
-    padding: 8.25rem 0 2.25rem 0;
-  }
-
   #products .content-produts .grid-products .content-card {
     grid-template-columns: repeat(6, 1fr);
   }
@@ -1741,6 +1767,11 @@ body {
   #form .content-form form {
     padding: 3.75rem 3rem;
   }
+
+  /* Resina y fibra de vidrio */
+  #types .size-img {
+    height: 530px;
+  }
 }
 
 /* Large desktops, 1200px */
@@ -1779,19 +1810,6 @@ body {
     min-height: 650px;
   }
 
-  #footer .container-footer .footer-options,
-  #footer .container-footer .footer-data {
-    padding: 3.75rem;
-  }
-
-  #footer .container-footer .footer-options img {
-    width: 50%;
-  }
-
-  #footer .container-footer .footer-options p {
-    text-align: start;
-  }
-
   /* About Page */
   #heroimage-about .content-heroimage .heroimage-title h1 {
     font-size: 3rem;
@@ -1808,6 +1826,16 @@ body {
 
   #values .container-values img {
     height: 64vh;
+  }
+
+  /* Category Page */
+  #heroimage-categories .content-heroimage .heroimage-title h1 {
+    font-size: 3rem;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
   }
 
   /* Contact Page */
@@ -1833,16 +1861,7 @@ body {
   }
 
   #contact-us h2 {
-    font-size: 3.75rem;
-  }
-
-  #footer .container-footer .footer-options img {
-    width: 35%;
-  }
-
-  #footer .container-footer .footer-options p {
-    margin-top: 3rem;
-    margin-bottom: 0;
+    font-size: 2.25rem;
   }
 
   /* About Page */
@@ -1883,21 +1902,12 @@ body {
   }
 
   /* Products Page */
-  #heroimage .content-hero h1 {
-    font-size: 3.75rem;
+  #heroimage-categories .content-heroimage .heroimage-title p {
+    font-size: 1.5rem;
   }
 
   #products .content-produts .title-description h2 {
     font-size: 2.25rem;
-  }
-
-  #footer .container-footer .footer-options img {
-    width: 35%;
-  }
-
-  #footer .container-footer .footer-options p {
-    margin-top: 3rem;
-    margin-bottom: 0;
   }
 
   /* Category Page */
@@ -1905,27 +1915,9 @@ body {
     font-size: 1.5rem;
   }
 
-  #footer .container-footer .footer-options img {
-    width: 35%;
-  }
-
-  #footer .container-footer .footer-options p {
-    margin-top: 3rem;
-    margin-bottom: 0;
-  }
-
   /* Category Detail Page */
   #products .content-produts p {
     font-size: 1.5rem;
-  }
-
-  #footer .container-footer .footer-options img {
-    width: 35%;
-  }
-
-  #footer .container-footer .footer-options p {
-    margin-top: 3rem;
-    margin-bottom: 0;
   }
 
   /* About Page */
@@ -1949,15 +1941,6 @@ body {
     font-size: 5rem;
   }
 
-  #footer .container-footer .footer-options img {
-    width: 35%;
-  }
-
-  #footer .container-footer .footer-options p {
-    margin-top: 3rem;
-    margin-bottom: 0;
-  }
-
   /* Contact Page */
   #contact-info .content-contact {
     grid-template-columns: 6fr 3fr 3fr;
@@ -1973,22 +1956,9 @@ body {
     flex: 0 0 59rem;
   }
 
-  #footer .container-footer .footer-options {
-    flex: 1;
-  }
-
-  #footer .container-footer .footer-data {
-    flex-wrap: wrap;
-    flex: 0 0 59rem;
-  }
-
-  #footer .container-footer .footer-options img {
-    width: 35%;
-  }
-
-  #footer .container-footer .footer-options p {
-    margin-top: 3rem;
-    margin-bottom: 0;
+  /* Footer */
+  #footer .footer-info p {
+    font-size: 1.5rem;
   }
 }
 
@@ -1999,4 +1969,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+/* Resina y fibra de vidrio */
+#types h2 {
+  font-size: 2.25rem;
+}
+
+#aplications h2 {
+  font-size: 2.25rem;
+}
+
+#aplications p {
+  font-size: 1.5rem;
+}
+
+#aplications .card-body h5 {
+  font-size: 1.5rem;
 }

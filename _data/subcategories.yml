@@ -4,6 +4,17 @@
   name: Pernos y tornillos
   description: "Nuestra línea de tornillería ofrece soluciones confiables para fijación mecánica en aplicaciones industriales exigentes. Contamos con tornillos, tuercas, arandelas y espárragos roscados en diferentes materiales, diámetros y acabados, ideales para procesos de manufactura, mantenimiento y ensamble."
   image: assets/images/subcategories/subcategory-pernos-tornillos.png
+  tab_name: "Pernos"
+  applications_title: "Aplicaciones y desempeño de nuestra tornillería"
+  applications_description: "La tornillería industrial de MacMaster ofrece una amplia variedad de elementos de unión diseñados para resistir altas cargas, garantizar seguridad estructural y facilitar el ensamblaje de componentes en ambientes industriales."
+  benefits:
+    - "Alta resistencia mecánica y durabilidad prolongada"
+    - "Disponibilidad en diferentes medidas, materiales y acabados"
+    - "Compatibilidad con estándares internacionales"
+  applications:
+    - "Construcción metálica"
+    - "Maquinaria pesada y equipos industriales"
+    - "Instalaciones eléctricas y mecánicas"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -11,8 +22,6 @@
       link: "/categorias/"
     - name: "Tornillería Industrial"
       link: "/categorias/"
-    - name: "Pernos y tornillos"
-      link: "/productos/tornilleria-industrial/pernos-y-tornillos/"
 
 - id: tuercas
   slug: tuercas
@@ -20,6 +29,17 @@
   name: Tuercas
   description: "Elementos esenciales de fijación que aseguran uniones firmes al complementar tornillos y pernos. Disponibles en distintos formatos, materiales y recubrimientos para aplicaciones industriales, mecánicas y estructurales."
   image: assets/images/subcategories/subcategory-tuercas.png
+  tab_name: "Tuercas"
+  applications_title: "Aplicaciones y desempeño de nuestra tornillería"
+  applications_description: "La tornillería industrial de MacMaster ofrece una amplia variedad de elementos de unión diseñados para resistir altas cargas, garantizar seguridad estructural y facilitar el ensamblaje de componentes en ambientes industriales."
+  benefits:
+    - "Alta compatibilidad con diferentes tipos de pernos y tornillos"
+    - "Disponibles en materiales resistentes a la corrosión"
+    - "Diversidad de formatos (hexagonales, de seguridad, ciegas, etc.)"
+  applications:
+    - "Unión de componentes metálicos en estructuras industriales"
+    - "Montaje de maquinaria y equipos pesados"
+    - "Instalaciones eléctricas y de telecomunicaciones"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -27,8 +47,6 @@
       link: "/categorias/"
     - name: "Tornillería Industrial"
       link: "/categorias/"
-    - name: "Tuercas"
-      link: "/productos/tornilleria-industrial/tuercas/"
 
 - id: arandelas
   slug: arandelas
@@ -36,6 +54,17 @@
   name: Arandelas
   description: "Piezas planas que distribuyen la carga del tornillo o perno, previniendo daños en las superficies y aumentando la estabilidad del ensamble. Ideales para usos industriales, eléctricos y automotrices."
   image: assets/images/subcategories/subcategory-arandelas.png
+  tab_name: "Arandelas"
+  applications_title: "Aplicaciones y desempeño de nuestra tornillería"
+  applications_description: "La tornillería industrial de MacMaster ofrece una amplia variedad de elementos de unión diseñados para resistir altas cargas, garantizar seguridad estructural y facilitar el ensamblaje de componentes en ambientes industriales."
+  benefits:
+    - "Distribuyen uniformemente la carga de apriete"
+    - "Mejoran la fijación al evitar el aflojamiento por vibración"
+    - "Amplia variedad de tipos (planas, de presión, dentadas)"
+  applications:
+    - "Ensambles en maquinaria vibratoria o de alto torque"
+    - "Instalaciones estructurales en acero"
+    - "Sistemas de fijación para tableros eléctricos y paneles"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -43,15 +72,24 @@
       link: "/categorias/"
     - name: "Tornillería Industrial"
       link: "/categorias/"
-    - name: "Arandelas"
-      link: "/subcategory/arandelas/"
 
 - id: varillas-y-esparragos-roscados
   slug: varillas-y-esparragos-roscados
   category_id: "tornilleria-industrial"
   name: Varillas y espárragos roscados
-  description: "Piezas planas que distribuyen la carga del tornillo o perno, previniendo daños en las superficies y aumentando la estabilidad del ensamble. Ideales para usos industriales, eléctricos y automotrices."
+  description: "Elementos de fijación cilíndricos con rosca en ambos extremos o en toda su longitud, ideales para uniones de largo alcance y aplicaciones donde se requiere ajuste de altura. Perfectos para montaje de equipos, anclajes estructurales y ensambles que necesitan resistencia y versatilidad."
   image: assets/images/subcategories/subcategory-varillas-esparragos.png
+  tab_name: "Varillas"
+  applications_title: "Aplicaciones y desempeño de nuestra tornillería"
+  applications_description: "La tornillería industrial de MacMaster ofrece una amplia variedad de elementos de unión diseñados para resistir altas cargas, garantizar seguridad estructural y facilitar el ensamblaje de componentes en ambientes industriales."
+  benefits:
+    - "Permiten fijaciones de largo alcance y de alta resistencia"
+    - "Disponibles en múltiples pasos de rosca y materiales"
+    - "Fáciles de cortar y adaptar"
+  applications:
+    - "Fijación de equipos industriales a bases de concreto"
+    - "Ensambles en sistemas HVAC y estructuras metálicas"
+    - "Anclajes temporales o permanentes en obras civiles"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -59,8 +97,6 @@
       link: "/categorias/"
     - name: "Tornillería Industrial"
       link: "/categorias/"
-    - name: "Varillas y espárragos roscados"
-      link: "/subcategory/varillas-y-esparragos-roscados/"
 
 - id: abrasivos-para-lijado
   slug: abrasivos-para-lijado
@@ -68,6 +104,17 @@
   name: Abrasivos para lijado
   description: "Discos, bandas y hojas diseñadas para preparar, pulir o suavizar superficies metálicas y no metálicas. Recomendados para trabajos de acabado en carpintería, metalmecánica e industrias generales."
   image: assets/images/subcategories/subcategory-abrasivos-lijado.png
+  tab_name: "Lijado"
+  applications_title: "Aplicaciones y desempeño de nuestros abrasivos"
+  applications_description: "Nuestros abrasivos industriales están diseñados para trabajar sobre metal, madera, plástico y más, permitiendo cortes limpios, acabados suaves y procesos de lijado eficientes en cualquier línea de producción."
+  benefits:
+    - "Ofrecen un acabado superficial uniforme"
+    - "Disponibles en distintos granos y formatos"
+    - "Compatibles con herramientas manuales y eléctricas"
+  applications:
+    - "Preparación de superficies metálicas y de madera en procesos industriales"
+    - "Lijado de piezas automotrices para reparación y pintura"
+    - "Restauración de mobiliario o estructuras metálicas antes del recubrimiento"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -75,8 +122,6 @@
       link: "/categorias/"
     - name: "Abrasivos"
       link: "/categorias/"
-    - name: "Abrasivos para lijado"
-      link: "/subcategory/abrasivos-para-lijado/"
 
 - id: abrasivos-de-corte-y-desbaste
   slug: abrasivos-de-corte-y-desbaste
@@ -84,6 +129,17 @@
   name: Abrasivos de corte y desbaste
   description: "Herramientas de alto rendimiento para cortar y desbastar metal, concreto y otros materiales duros. Fabricados para ofrecer precisión, velocidad y durabilidad en entornos exigentes."
   image: assets/images/subcategories/subcategory-abrasivos-corte.png
+  tab_name: "Corte"
+  applications_title: "Aplicaciones y desempeño de nuestros abrasivos"
+  applications_description: "Nuestros abrasivos industriales están diseñados para trabajar sobre metal, madera, plástico y más, permitiendo cortes limpios, acabados suaves y procesos de lijado eficientes en cualquier línea de producción."
+  benefits:
+    - "Alta capacidad de remoción de material"
+    - "Están fabricados con materiales de alta dureza"
+    - "Disponibles para diversas herramientas rotativas"
+  applications:
+    - "Corte de tubos, perfiles y planchas metálicas en estructuras industriales"
+    - "Desbaste de cordones de soldadura en procesos de fabricación"
+    - "Mantenimiento y reparación de maquinaria pesada"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -91,8 +147,6 @@
       link: "/categorias/"
     - name: "Abrasivos"
       link: "/categorias/"
-    - name: "Abrasivos de corte y desbaste"
-      link: "/subcategory/abrasivos-de-corte-y-desbaste/"
 
 - id: cepillos-abrasivos
   slug: cepillos-abrasivos
@@ -100,6 +154,17 @@
   name: Cepillos abrasivos
   description: "Accesorios ideales para limpieza, desbaste ligero y preparación de superficies. Disponibles en múltiples configuraciones para adaptarse a taladros, esmeriles y equipos industriales."
   image: assets/images/subcategories/subcategory-cepillos-abrasivos.png
+  tab_name: "Cepillos"
+  applications_title: "Aplicaciones y desempeño de nuestros abrasivos"
+  applications_description: "Nuestros abrasivos industriales están diseñados para trabajar sobre metal, madera, plástico y más, permitiendo cortes limpios, acabados suaves y procesos de lijado eficientes en cualquier línea de producción."
+  benefits:
+    - "Permiten limpieza sin dañar la superficie base"
+    - "Gran versatilidad en materiales y formas"
+    - "Ideales para acabados finos y superficies irregulares"
+  applications:
+    - "Limpieza de piezas metálicas antes de pintar o soldar"
+    - "Eliminación de óxidos y recubrimientos en mantenimiento industrial"
+    - "Acabados decorativos o técnicos en metales y aleaciones"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -107,8 +172,6 @@
       link: "/categorias/"
     - name: "Abrasivos"
       link: "/categorias/"
-    - name: "Cepillos abrasivos"
-      link: "/subcategory/cepillos-abrasivos/"
 
 - id: masillas-selladores-y-fabricantes-de-juntas
   slug: masillas-selladores-y-fabricantes-de-juntas
@@ -116,6 +179,17 @@
   name: Masillas, selladores y fabricantes de juntas
   description: "Productos especializados en sellado y unión de superficies, ideales para prevenir fugas, vibraciones y filtraciones. Aptos para aplicaciones automotrices, mecánicas e industriales."
   image: assets/images/subcategories/subcategory-masillas-selladores.png
+  tab_name: "Masillas"
+  applications_title: "Aplicaciones y desempeño de nuestros adhesivos"
+  applications_description: "Nuestros adhesivos industriales están formulados para ofrecer uniones resistentes y duraderas sobre una amplia variedad de superficies como metal, plástico, vidrio, madera y materiales compuestos. Ideales para procesos de ensamble, reparación y fabricación, garantizan alta adherencia, secado controlado y desempeño confiable en entornos exigentes."
+  benefits:
+    - "Resistencia a temperaturas extremas y ambientes agresivos"
+    - "Excelente adherencia a una amplia variedad de materiales"
+    - "Formulación flexible que permite absorber vibraciones y movimientos estructurales"
+  applications:
+    - "Sellado de juntas en sistemas HVAC, ductos y paneles metálicos"
+    - "Aislamiento y protección contra humedad en gabinetes eléctricos y maquinaria"
+    - "Uniones elásticas en la instalación de ventanas industriales o cerramientos"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -123,8 +197,6 @@
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
       link: "/categorias/"
-    - name: "Masillas, selladores y fabricantes de juntas"
-      link: "/subcategory/masillas-selladores-y-fabricantes-de-juntas/"
 
 - id: trabadores-de-roscas-y-compuestos-de-retencion
   slug: trabadores-de-roscas-y-compuestos-de-retencion
@@ -132,6 +204,17 @@
   name: Trabadores de roscas y compuestos de retención
   description: "Soluciones químicas para asegurar piezas roscadas y componentes cilíndricos, evitando aflojamientos por vibración o cargas dinámicas. Imprescindibles en mantenimiento y ensamblaje técnico."
   image: assets/images/subcategories/subcategory-fijadores-roscas.png
+  tab_name: "Fijadores"
+  applications_title: "Aplicaciones y desempeño de nuestros adhesivos"
+  applications_description: "Nuestros adhesivos industriales están formulados para ofrecer uniones resistentes y duraderas sobre una amplia variedad de superficies como metal, plástico, vidrio, madera y materiales compuestos. Ideales para procesos de ensamble, reparación y fabricación, garantizan alta adherencia, secado controlado y desempeño confiable en entornos exigentes."
+  benefits:
+    - "Evitan el aflojamiento por vibración o impacto"
+    - "Rellenan completamente los espacios entre superficies metálicas"
+    - "Disponibles en diferentes resistencias"
+  applications:
+    - "Fijación de tornillos y pernos en maquinaria pesada y equipos de producción"
+    - "Retención de cojinetes, bujes y engranajes en ejes rotativos"
+    - "Ensamble de componentes hidráulicos y neumáticos con resistencia a fugas"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -139,8 +222,6 @@
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
       link: "/categorias/"
-    - name: "Trabadores de roscas y compuestos de retención"
-      link: "/subcategory/trabadores-de-roscas-y-compuestos-de-retencion/"
 
 - id: cintas
   slug: cintas
@@ -148,6 +229,17 @@
   name: Cintas
   description: "Cintas adhesivas y técnicas utilizadas para aislamiento, sellado, fijación y protección en ambientes industriales. Disponibles en múltiples materiales y niveles de adhesión según su uso."
   image: assets/images/subcategories/subcategory-cinta.png
+  tab_name: "Cintas"
+  applications_title: "Aplicaciones y desempeño de nuestros adhesivos"
+  applications_description: "Nuestros adhesivos industriales están formulados para ofrecer uniones resistentes y duraderas sobre una amplia variedad de superficies como metal, plástico, vidrio, madera y materiales compuestos. Ideales para procesos de ensamble, reparación y fabricación, garantizan alta adherencia, secado controlado y desempeño confiable en entornos exigentes."
+  benefits:
+    - "Ofrecen soluciones rápidas y limpias para fijación y aislamiento"
+    - "Amplia gama de cintas técnicas (aislantes, de doble cara, reflectivas, de aluminio, etc.)"
+    - "Alta resistencia a la tracción, abrasión y exposición a químicos"
+  applications:
+    - "Montaje de paneles, señalización o componentes sin perforaciones"
+    - "Aislamiento eléctrico de conductores y conexiones en tableros industriales"
+    - "Sellado de uniones en sistemas de ventilación o climatización"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -155,8 +247,6 @@
       link: "/categorias/"
     - name: "Adhesivos y sellantes"
       link: "/categorias/"
-    - name: "Cintas"
-      link: "/subcategory/cintas/"
 
 - id: resina
   slug: resina
@@ -171,8 +261,6 @@
       link: "/categorias/"
     - name: "Resina y fibra de vidrio"
       link: "/subcategory/resina/"
-    - name: "Resina"
-      link: "/subcategory/resina/"
 
 - id: compuestos-de-fibra-de-vidrio
   slug: compuestos-de-fibra-de-vidrio
@@ -180,6 +268,16 @@
   name: Compuestos de fibra de vidrio
   description: "Nuestros compuestos de fibra de vidrio están diseñados para proporcionar una fijación firme y duradera en cualquier superficie. Fabricados con materiales de alta calidad, nuestros productos son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
   image: assets/images/subcategories/subcategory-compuestos-fibra.png
+  applications_title: "Aplicaciones y desempeño de nuestros compuestos de fibra"
+  applications_description: "Nuestro portafolio en resina y fibra de vidrio está enfocado en aplicaciones que requieren resistencia estructural, durabilidad y facilidad de moldeado, ideales para trabajos técnicos y de mantenimiento."
+  benefits:
+    - "Resistencia a temperaturas extremas y ambientes agresivos"
+    - "Excelente adherencia a una amplia variedad de materiales"
+    - "Formulación flexible que permite absorber vibraciones y movimientos estructurales"
+  applications:
+    - "Fabricación de paneles estructurales y carcasas para equipos eléctricos, HVAC o maquinaria industrial"
+    - "Refuerzo de superficies y componentes en ambientes marinos, químicos o con exposición a humedad prolongada"
+    - "Moldeo de piezas a medida como rejillas, cubiertas, bandejas portacables y perfiles estructurales no conductivos"
   breadcrumb:
     - name: "Inicio"
       link: "/"
@@ -187,5 +285,13 @@
       link: "/categorias/"
     - name: "Resina y fibra de vidrio"
       link: "/categorias/"
-    - name: "Compuestos de fibra de vidrio"
-      link: "/subcategory/compuestos-de-fibra-de-vidrio/" 
+
+- id: fibra-de-vidrio
+  slug: fibra-de-vidrio
+  category_id: "resina-y-fibra-de-vidrio"
+  name: Fibra de vidrio
+  description: "Nuestros compuestos de fibra de vidrio están diseñados para proporcionar una fijación firme y duradera en cualquier superficie. Fabricados con materiales de alta calidad, nuestros productos son ideales para aplicaciones en la industria automotriz, metalúrgica y el sector de mantenimiento."
+  image: assets/images/subcategories/subcategory-fibra-de-vidrio.png
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"

@@ -6,20 +6,62 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
 ---
 
 <!-- Hero Image Section -->
-<section id="heroimage" class="categories-hero">
+<section id="heroimage-categories">
   <div class="container-fluid">
-    <div
-      class="content-hero row d-flex flex-column align-items-start justify-content-center gap-3 col-lg-8 offset-lg-1 col-xxl-6"
-    >
-      <h1 class="p-0">
-        En Mac Master Importadores nuestra prioridad es atenderte
-      </h1>
-      <p class="p-0">
-        Productos confiables, duraderos y técnicamente respaldados.
-      </p>
+    <div class="row content-heroimage col-lg-10 offset-lg-1">
+      <div class="heroimage-title px-0">
+        <div class="title col-md-10 col-lg-8">
+          <h1>
+            Productos industriales confiables para mantenimiento, producción y
+            ensamblaje en Colombia.
+          </h1>
+          <p class="mb-md-4 mb-xl-5">
+            Explora nuestra amplia gama de productos para la industria:
+            tornillería, abrasivos, resinas, adhesivos y más. Productos de alto
+            desempeño para la industria colombiana.
+          </p>
+          <a
+            class="btn btn-main col-12 col-md-auto"
+            href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Contacta un asesor</a
+          >
+        </div>
+      </div>
+      <div
+        class="heroimage-data d-flex flex-column flex-md-row justify-content-md-between align-items-md-center gap-md-4"
+      >
+        <div class="data-a col-md-6">
+          <div class="data-image">
+            <img
+              src="{{ '/assets/images/grainger.png' | relative_url }}"
+              alt="Logo Greinger"
+            />
+          </div>
+          <p class="mt-3">
+            Acceso a más de 500.000 referencias industriales gracias a nuestra
+            alianza con Grainger.
+          </p>
+        </div>
+        <div class="data-b d-flex flex-lg-nowrap align-items-sm-center m-0">
+          <div class="data-image d-sm-flex">
+            <img
+              src="{{ '/assets/images/guarantee-icon.png' | relative_url }}"
+              class="mb-2 mb-sm-0"
+              alt="imagen icono de garantia de devoluciones"
+            />
+          </div>
+          <p class="d-sm-flex">
+            Garantía de satisfacción: devoluciones sin costo en 30 días.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
+{% include benefits.html %}
 
 <!-- Products Section -->
 <section id="products">
@@ -27,25 +69,23 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
     <div
       class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1"
     >
-      <div
-        class="title-description d-flex flex-column justify-content-center align-items-start gap-3 p-0"
-      >
-        <h2>Categorías de productos</h2>
-        <p>
-          En Mac Master Importadores ofrecemos un portafolio especializado en
-          productos industriales MRO (Mantenimiento, Reparación y Operación).
-          Desde soluciones en tornillería hasta adhesivos estructurales,
-          contamos con insumos confiables, de alta durabilidad y con respaldo
-          técnico para satisfacer las necesidades de la industria colombiana.
-          Explora nuestras líneas de productos diseñadas para mantener la
-          continuidad operativa y la eficiencia en todo tipo de entornos
-          productivos.
-        </p>
-      </div>
-
       {% for category in site.data.categories %}
-      <div class="product-card d-flex flex-column align-items-start gap-3 p-0">
-        <h3 class="mb-0">{{ category.name }}</h3>
+      <div class="product-card d-flex flex-column align-items-start gap-4 p-0">
+        <div
+          class="title-category d-flex flex-column flex-md-row justify-content-center gap-3"
+        >
+          <h3 class="mb-0">{{ category.name }}</h3>
+          <div class="d-flex justify-content-between align-items-center gap-3">
+            {% assign first_subcategory = site.data.subcategories | where:
+            "category_id", category.id | first %}
+            <a
+              href="{{ '/subcategory/' | append: first_subcategory.slug | relative_url }}"
+              class="btn-main-link"
+              >{{ category.cta_link_short }}</a
+            >
+          </div>
+        </div>
+        <p class="mb-0 text-white">{{ category.description_short }}</p>
         <div
           class="content-card row row-cols-1 row-cols-sm-2 row-cols-lg-4 col col-lg col-xl-12"
         >
@@ -72,5 +112,125 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
   </div>
 </section>
 
-<!-- Gallery Section -->
-{% include gallery.html %}
+<section
+  id="solutions"
+  class="bg-black mb-2 py-4 py-xl-5 px-1 px-lg-0 text-light"
+>
+  <div class="container-fluid py-lg-3 col-lg-10 offset-lg-1">
+    <div>
+      <h2 class="fw-bold mb-3">
+        Soluciones confiables para sectores que mueven la economía
+      </h2>
+      <p class="mb-5">
+        En MacMaster impulsamos el rendimiento de las industrias más exigentes
+        con productos técnicos de alta calidad. Ya sea en mantenimiento,
+        producción o instalación, brindamos soporte a empresas que necesitan
+        soluciones duraderas, eficientes y disponibles.
+      </p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+      <div class="col">
+        <h6 class="fw-bold text-uppercase mb-3">Mantenimiento Industrial</h6>
+        <p class="mb-0">
+          Evita paradas no planificadas con acceso rápido a tornillería,
+          abrazaderas, rodamientos y más.
+        </p>
+      </div>
+      <div class="col">
+        <h6 class="fw-bold text-uppercase mb-3">Construcción e Ingeniería</h6>
+        <p class="mb-0">
+          Asegura calidad y durabilidad con productos certificados para obras
+          civiles e instalaciones técnicas.
+        </p>
+      </div>
+      <div class="col col-md-12 col-xl">
+        <h6 class="fw-bold text-uppercase mb-3">Talleres y Ferreterías</h6>
+        <p class="mb-0 col-md-12">
+          Encuentra todo lo necesario para atender a tus clientes con un
+          catálogo especializado y asesoría directa.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact-us" class="container-fluid px-2">
+  <div class="d-flex flex-column flex-xl-row">
+    <!-- Banner Izquierdo -->
+    <div class="w-100 mb-2 me-md-1 mb-xl-0">
+      <div
+        class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
+      >
+        <img
+          src="{{ '/assets/images/image-bg.png' | relative_url }}"
+          class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
+          alt="Asesora industrial"
+        />
+        <div
+          class="position-relative p-4 p-lg-5 z-1 bg-gradient-dark h-100 d-flex flex-column justify-content-between min-height-xl"
+        >
+          <div>
+            <span class="badge py-2 px-2 mb-3">CONTÁCTENOS</span>
+            <h2 class="fw-bold mb-3">
+              ¿Listo para tu próxima<br />compra industrial?
+            </h2>
+            <p class="mb-4 col-xxl-8">
+              En Mac Master Importadores estamos para ayudarte a encontrar justo
+              lo que tu negocio necesita. Escríbenos y recibí asesoría
+              personalizada en minutos.
+            </p>
+            <a
+              class="text-center btn btn-main"
+              href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+              target="_blank"
+              >Habla con un asesor</a
+            >
+          </div>
+          <div class="d-inline-flex">
+            <div
+              class="guarantee d-flex flex-column flex-md-row align-items-md-center mt-4 small rounded-4 px-3 py-3 gap-2 bg-dark bg-opacity-75"
+            >
+              <img
+                src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/02.Hero/guarantee_icon.png?raw=true"
+                alt="Icono garantía"
+                width="24"
+                height="24"
+              />
+              <p class="mb-0">
+                Garantía de satisfacción: devoluciones sin costo en 30 días.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Derecho -->
+    <div class="w-100 ms-md-1">
+      <div
+        class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
+      >
+        <img
+          src="{{ '/assets/images/image-bg-cataloge.png' | relative_url }}"
+          class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
+          alt="Industria de la construcción"
+        />
+        <div
+          class="position-relative p-4 p-lg-5 z-1 bg-gradient-dark h-100 d-flex flex-column justify-content-between"
+        >
+          <div>
+            <span class="badge py-2 px-2 mb-3">CATALOGO DE PRODUCTOS</span>
+            <h2 class="fw-bold mb-3">
+              Soluciones para<br />la Industria de la<br />construcción
+            </h2>
+            <a
+              class="text-center btn btn-main"
+              href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+              target="_blank"
+              >Ver catálogo de productos</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
