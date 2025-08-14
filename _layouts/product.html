@@ -9,7 +9,7 @@ layout: default
     "@type": "Product",
     "name": "{{ page.title }}",
     "description": "{{ page.description }}",
-    "image": "{{ site.url }}{{ page.image }}",
+    "image": "{{ page.image | relative_url }}",
     "brand": {
       "@type": "Brand",
       "name": "{{ site.title }}"

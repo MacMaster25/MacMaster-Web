@@ -74,7 +74,19 @@ meta_description: "Contact Your Company Name for customer support, sales inquiri
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <form class="d-flex flex-column align-items-start gap-4 col-xl-6">
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        class="d-flex flex-column align-items-start gap-4 col-xl-6"
+      >
+        <!-- Campo oculto para Netlify -->
+        <input type="hidden" name="form-name" value="contact" />
+        <!-- Campo honeypot para protección anti-spam -->
+        <p style="display: none">
+          <label>No llenar este campo: <input name="bot-field" /></label>
+        </p>
         <div
           class="title-description d-flex flex-column justify-content-center align-items-center gap-3"
         >
@@ -87,31 +99,46 @@ meta_description: "Contact Your Company Name for customer support, sales inquiri
         </div>
         <div class="inputs d-flex flex-column align-items-start gap-3 col-12">
           <div class="col-12">
-            <label for="exampleFormControlInput1" class="form-label"
+            <label
+              for="exampleFormControlInput1"
+              class="form-label"
+              style="display: none"
               >Nombres Completo</label
             >
             <input
               type="text"
               class="form-control"
+              name="nombre"
               placeholder="Nombre Completo"
               aria-label="First name"
             />
           </div>
           <div class="col-12">
-            <label for="exampleFormControlInput1" class="form-label"
+            <label
+              for="exampleFormControlInput1"
+              class="form-label"
+              style="display: none"
               >Correo electrónico</label
             >
             <input
               type="email"
               class="form-control"
               id="exampleFormControlInput1"
-              placeholder="correo@example.com"
+              name="email"
+              placeholder="correo@ejemplo.com"
             />
           </div>
           <div class="col-12">
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label"
+              style="display: none"
+              >Mensaje</label
+            >
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
+              name="mensaje"
               rows="3"
               placeholder="Escribir mensaje"
             ></textarea>
@@ -131,7 +158,7 @@ meta_description: "Contact Your Company Name for customer support, sales inquiri
     "name": "{{ site.company_name }}",
     "image": "{{ 'assets/images/macmaster-logo.png' | relative_url }}",
     "description": "{{ site.description }}",
-    "url": "{{ site.url }}",
+    "url": "{{ page.url | relative_url }}",
     "telephone": "{{ site.company_phone }}",
     "email": "{{ site.company_email }}",
     "address": {

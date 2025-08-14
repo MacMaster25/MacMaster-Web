@@ -62,7 +62,7 @@ defaults:
       layout: "category"
   - scope:
       path: ""
-      type: "subcategories"
+      type: "subcategory"
     values:
       layout: "subcategory"
 

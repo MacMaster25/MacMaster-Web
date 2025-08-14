@@ -30,9 +30,9 @@
     />
     <meta
       property="og:image"
-      content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ 'assets/images/default-og.jpg' | relative_url }}{% endif %}"
+      content="{% if page.image %}{{ 'assets/images/macmaster-logo.png' | relative_url }}{% else %}{{ 'assets/images/macmaster-logo.png' | relative_url }}{% endif %}"
     />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ page.url | relative_url }}" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter Card Meta Tags -->
@@ -47,11 +47,11 @@
     />
     <meta
       name="twitter:image"
-      content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ 'assets/images/default-og.jpg' | relative_url }}{% endif %}"
+      content="{% if page.image %}{{ 'assets/images/macmaster-logo.png' | relative_url }}{% else %}{{ 'assets/images/macmaster-logo.png' | relative_url }}{% endif %}"
     />
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="canonical" href="{{ page.url | relative_url }}" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -79,7 +79,7 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "{{ site.company_name }}",
-        "url": "{{ site.url }}",
+        "url": "{{ page.url | relative_url }}",
         "logo": "{{ 'assets/images/macmaster-logo.png' | relative_url }}",
         "description": "{{ site.description }}",
         "address": {
@@ -94,7 +94,7 @@
           "@type": "ContactPoint",
           "telephone": "{{ site.company_phone }}",
           "contactType": "customer service",
-          "availableLanguage": "English"
+          "availableLanguage": "Español"
         },
         "sameAs": [
           "{{ site.company_facebook }}",
@@ -111,7 +111,7 @@
         "name": "{{ site.company_name }}",
         "image": "{{ 'assets/images/macmaster-logo.png' | relative_url }}",
         "description": "{{ site.description }}",
-        "url": "{{ site.url }}",
+        "url": "{{ page.url | relative_url }}",
         "telephone": "{{ site.company_phone }}",
         "email": "{{ site.company_email }}",
         "address": {
@@ -124,18 +124,18 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": "40.7128",
-          "longitude": "-74.0060"
+          "latitude": "{{ site.company_latitude }}",
+          "longitude": "{{ site.company_longitude }}"
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "dayOfWeek": ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"],
           "opens": "09:00",
           "closes": "18:00"
         },
         "priceRange": "$$",
         "paymentAccepted": "{{ site.company_payment_methods | join: ', ' }}",
-        "currenciesAccepted": "USD"
+        "currenciesAccepted": "COP"
       }
     </script>
 
