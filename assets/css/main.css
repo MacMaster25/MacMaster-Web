@@ -63,7 +63,7 @@ a.btn-main-outline:hover {
 
 body {
   background-color: #121212;
-  background-image: url("/assets/images/background-noise.png");
+  background-image: url("assets/images/background-noise.png");
   background-repeat: repeat;
 }
 
@@ -141,7 +141,7 @@ body {
 
 /* Hero Image Section */
 #heroimage-index {
-  background-image: url("/assets/images/hero-mobile.png");
+  background-image: url("assets/images/hero-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -149,13 +149,13 @@ body {
 
 /* Specific override for home page */
 #heroimage-index.home-hero {
-  background-image: url("/assets/images/hero-image.png") !important;
+  background-image: url("assets/images/hero-image.png") !important;
 }
 
 /* Specific override for quienes somos page */
 #heroimage-index.quienes-somos-hero {
   height: 70vh;
-  background-image: url("/assets/images/about/banner.png");
+  background-image: url("assets/images/about/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -359,7 +359,7 @@ body {
 /* Hero Image Section */
 
 #heroimage-about {
-  background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/02.about/banner.png?raw=true");
+  background-image: url("assets/images/about/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -634,7 +634,7 @@ body {
 
 /* Hero Image Section */
 #heroimage-categories {
-  background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_mobile.png?raw=true");
+  background-image: url("assets/images/hero-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
