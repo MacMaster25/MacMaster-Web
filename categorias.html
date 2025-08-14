@@ -35,7 +35,7 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
         <div class="data-a col-md-6">
           <div class="data-image">
             <img
-              src="{{ '/assets/images/grainger.png' | relative_url }}"
+              src="{{ 'assets/images/grainger.png' | relative_url }}"
               alt="Logo Greinger"
             />
           </div>
@@ -47,7 +47,7 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
         <div class="data-b d-flex flex-lg-nowrap align-items-sm-center m-0">
           <div class="data-image d-sm-flex">
             <img
-              src="{{ '/assets/images/guarantee-icon.png' | relative_url }}"
+              src="{{ 'assets/images/guarantee-icon.png' | relative_url }}"
               class="mb-2 mb-sm-0"
               alt="imagen icono de garantia de devoluciones"
             />
@@ -79,7 +79,7 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
             {% assign first_subcategory = site.data.subcategories | where:
             "category_id", category.id | first %}
             <a
-              href="{{ '/subcategory/' | append: first_subcategory.slug | relative_url }}"
+              href="{{ 'subcategory/' | append: first_subcategory.slug | relative_url }}"
               class="btn-main-link"
               >{{ category.cta_link_short }}</a
             >
@@ -94,7 +94,7 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
           category_subcategories %}
           <div class="card text-lg-center p-0">
             <a
-              href="{{ '/subcategory/' | append: subcategory.slug | relative_url }}"
+              href="{{ 'subcategory/' | append: subcategory.slug | relative_url }}"
               class="d-flex justify-content-start align-items-center gap-3 flex-lg-column"
             >
               <img
@@ -162,7 +162,7 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
         class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
       >
         <img
-          src="{{ '/assets/images/image-bg.png' | relative_url }}"
+          src="{{ 'assets/images/image-bg.png' | relative_url }}"
           class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
           alt="Asesora industrial"
         />
@@ -191,7 +191,7 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
               class="guarantee d-flex flex-column flex-md-row align-items-md-center mt-4 small rounded-4 px-3 py-3 gap-2 bg-dark bg-opacity-75"
             >
               <img
-                src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/01.Inicio/02.Hero/guarantee_icon.png?raw=true"
+                src="{{ 'assets/images/guarantee-icon.png' | relative_url }}"
                 alt="Icono garantía"
                 width="24"
                 height="24"
@@ -210,7 +210,7 @@ meta_description: "Portafolio especializado en productos industriales MRO. Torni
         class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
       >
         <img
-          src="{{ '/assets/images/image-bg-cataloge.png' | relative_url }}"
+          src="{{ 'assets/images/image-bg-cataloge.png' | relative_url }}"
           class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
           alt="Industria de la construcción"
         />

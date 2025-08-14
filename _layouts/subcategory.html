@@ -43,7 +43,7 @@ endif %} {% endfor %}
         append: " rounded-start" %} {% endif %} {% if forloop.last %} {% assign
         tab_class = tab_class | append: " rounded-end" %} {% endif %}
         <a
-          href="{{ '/subcategory/' | append: subcat.slug | relative_url }}"
+          href="{{ 'subcategory/' | append: subcat.slug | relative_url }}"
           class="{{ tab_class }}"
           >{{ subcat.tab_name }}</a
         >
@@ -128,7 +128,7 @@ endif %} {% endfor %}
       style="flex: 1 1 300px"
     >
       <a
-        href="{{ '/subcategory/' | append: first_subcategory.slug | relative_url }}"
+        href="{{ 'subcategory/' | append: first_subcategory.slug | relative_url }}"
       >
         {% if category.id == "tornilleria-industrial" %}
         <img

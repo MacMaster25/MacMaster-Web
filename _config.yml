@@ -1,27 +1,27 @@
 # Site settings
-title: "Your Company Name"
-email: "contact@yourcompany.com"
-description: "Your company description - specializing in quality products"
+title: "Mac Master Importadores"
+email: "proyectos@macmaster.co"
+description: "Mac Master Importadores - Proveedores de equipos comerciales e industriales"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://macmaster25.github.io" # the base hostname & protocol for your site
-twitter_username: "yourcompany"
-github_username: "yourcompany"
+twitter_username: "macmasterimportadores"
+github_username: "macmaster25"
 
 # Company Information for SEO
-company_name: "Your Company Name"
-company_phone: "+1-555-123-4567"
-company_email: "contact@yourcompany.com"
-company_street: "123 Main Street"
-company_city: "New York"
-company_state: "NY"
-company_zip: "10001"
-company_country: "US"
-company_hours: "Monday-Friday 9AM-6PM"
-company_payment_methods: ["Cash", "Credit Card", "PayPal"]
-company_facebook: "https://www.facebook.com/yourcompany"
-company_twitter: "https://twitter.com/yourcompany"
-company_linkedin: "https://www.linkedin.com/company/yourcompany"
-company_instagram: "https://www.instagram.com/yourcompany"
+company_name: "Mac Master Importadores"
+company_phone: "+57 317 789 9482"
+company_email: "proyectos@macmaster.co"
+company_street: "Av. 5c Nte. #46 - 01"
+company_city: "Cali"
+company_state: "Valle del Cauca"
+company_zip: "760001"
+company_country: "Colombia"
+company_hours: "Lunes a Viernes 8:00 AM - 5:00 PM"
+company_payment_methods: ["Efectivo", "Transferencias", "PSE", "Tarjeta de crédito", "Tarjeta de débito"]
+company_instagram: "https://www.instagram.com/macmasterimport"
+company_facebook: "https://www.facebook.com/macmasterimport"
+company_latitude: "3.4848443509959193"
+company_longitude: "-76.52750052432418"
 
 # Build settings
 markdown: kramdown
@@ -68,15 +68,15 @@ defaults:
 
 # SEO Settings
 author:
-  name: "Your Company Name"
-  email: "contact@yourcompany.com"
+  name: "Mac Master Importadores"
+  email: "proyectos@macmaster.co"
 
 # Social media
 social:
-  name: "Your Company Name"
+  name: "Mac Master Importadores"
   links:
-    - "https://twitter.com/yourcompany"
-    - "https://facebook.com/yourcompany"
+    - "https://www.instagram.com/macmasterimport"
+    - "https://www.facebook.com/macmasterimport"
 
 # Google Analytics (replace with your tracking ID)
 google_analytics: "GA_TRACKING_ID"

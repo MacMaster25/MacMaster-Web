@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://yourcompany.com/sitemap.xml
+Sitemap: https://macmaster.co/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/
@@ -15,9 +15,9 @@ Disallow: /assets/js/
 Disallow: /assets/css/
 
 # Allow important pages
-Allow: /categories/
-Allow: /subcategories/
+Allow: /categorias/
+Allow: /subcategory/
 Allow: /products/
 Allow: /quienes_somos/
-Allow: /contact/
+Allow: /contactenos/
 Allow: /search/ 

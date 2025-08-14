@@ -1967,53 +1967,138 @@
   subtitle: "Cinta de reparación transparente para reparaciones discretas y estéticas."
   image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-de-reparacion-transparente.png"
 
-- id: resina-epoxica-industrial-gris
-  slug: "resina-epoxica-industrial-gris"
-  product_id: "resina-epoxica-industrial"
-  name: "Resina epóxica industrial gris"
-  description: "Resina epóxica industrial de color gris para reparaciones estructurales y uniones permanentes en aplicaciones industriales."
-  subtitle: "Resina epóxica industrial gris de alta resistencia para reparaciones estructurales exigentes."
-  image: "assets/images/materials/resina-epoxica-industrial/resina-epoxica-industrial-gris.png"
+- id: angulo-de-empotramiento-de-hormigon-con-fibra-de-vidrio
+  slug: "angulo-de-empotramiento-de-hormigon-con-fibra-de-vidrio"
+  product_id: "angulos-de-fibra-de-vidrio"
+  name: "Ángulo de empotramiento de hormigón con fibra de vidrio"
+  description: "Ángulo estructural de fibra de vidrio diseñado específicamente para empotramiento en hormigón, ideal para refuerzos estructurales en construcciones civiles."
+  subtitle: "Ángulo de empotramiento de hormigón con fibra de vidrio para refuerzos estructurales en construcciones civiles."
+  image: "assets/images/materials/angulos-de-fibra-de-vidrio/angulo-de-empotramiento-de-hormigon-con-fibra-de-vidrio.png"
 
-- id: resina-epoxica-industrial-negra
-  slug: "resina-epoxica-industrial-negra"
-  product_id: "resina-epoxica-industrial"
-  name: "Resina epóxica industrial negra"
-  description: "Resina epóxica industrial de color negro para reparaciones estructurales y uniones permanentes en aplicaciones industriales."
-  subtitle: "Resina epóxica industrial negra de alta resistencia para reparaciones estructurales exigentes."
-  image: "assets/images/materials/resina-epoxica-industrial/resina-epoxica-industrial-negra.png"
+- id: angulo-de-fibra-de-vidrio-estructural
+  slug: "angulo-de-fibra-de-vidrio-estructural"
+  product_id: "angulos-de-fibra-de-vidrio"
+  name: "Ángulo de fibra de vidrio estructural"
+  description: "Ángulo estructural de fibra de vidrio de alta resistencia para aplicaciones industriales que requieren soporte estructural y resistencia a la corrosión."
+  subtitle: "Ángulo estructural de fibra de vidrio de alta resistencia para aplicaciones industriales exigentes."
+  image: "assets/images/materials/angulos-de-fibra-de-vidrio/angulo-de-fibra-de-vidrio-estructural.png"
 
-- id: resina-epoxica-industrial-aluminio
-  slug: "resina-epoxica-industrial-aluminio"
-  product_id: "resina-epoxica-industrial"
-  name: "Resina epóxica industrial aluminio"
-  description: "Resina epóxica industrial de color aluminio para reparaciones estructurales y uniones permanentes en aplicaciones industriales."
-  subtitle: "Resina epóxica industrial aluminio de alta resistencia para reparaciones estructurales exigentes."
-  image: "assets/images/materials/resina-epoxica-industrial/resina-epoxica-industrial-aluminio.png"
+- id: angulo-en-y-para-empotramiento-de-hormigon-con-fibra-de-vidrio
+  slug: "angulo-en-y-para-empotramiento-de-hormigon-con-fibra-de-vidrio"
+  product_id: "angulos-de-fibra-de-vidrio"
+  name: "Ángulo en Y para empotramiento de hormigón con fibra de vidrio"
+  description: "Ángulo en forma de Y de fibra de vidrio diseñado para empotramiento en hormigón, proporcionando refuerzo estructural en tres direcciones."
+  subtitle: "Ángulo en Y de fibra de vidrio para empotramiento en hormigón con refuerzo estructural multidireccional."
+  image: "assets/images/materials/angulos-de-fibra-de-vidrio/angulo-en-y-para-empotramiento-de-hormigon-con-fibra-de-vidrio.png"
 
-- id: resina-poliuretano-reparacion-beige
-  slug: "resina-poliuretano-reparacion-beige"
-  product_id: "resina-poliuretano-reparacion"
-  name: "Resina de poliuretano para reparación beige"
-  description: "Resina de poliuretano de color beige para reparaciones rápidas y eficientes en superficies metálicas y plásticas."
-  subtitle: "Resina de poliuretano beige para reparaciones rápidas con alta flexibilidad y resistencia a impactos."
-  image: "assets/images/materials/resina-poliuretano-reparacion/resina-poliuretano-reparacion-beige.png"
+- id: canales-en-u-de-fibra-de-vidrio
+  slug: "canales-en-u-de-fibra-de-vidrio"
+  product_id: "canales-en-u-de-fibra-de-vidrio"
+  name: "Canales en U de fibra de vidrio"
+  description: "Canales en U de fibra de vidrio diseñados para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  subtitle: "Canales en U de fibra de vidrio para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  image: "assets/images/materials/canales-en-u-de-fibra-de-vidrio/canales-en-u-de-fibra-de-vidrio.png"
 
-- id: resina-poliuretano-reparacion-gris
-  slug: "resina-poliuretano-reparacion-gris"
-  product_id: "resina-poliuretano-reparacion"
-  name: "Resina de poliuretano para reparación gris"
-  description: "Resina de poliuretano de color gris para reparaciones rápidas y eficientes en superficies metálicas y plásticas."
-  subtitle: "Resina de poliuretano gris para reparaciones rápidas con alta flexibilidad y resistencia a impactos."
-  image: "assets/images/materials/resina-poliuretano-reparacion/resina-poliuretano-reparacion-gris.png"
+- id: vigas-en-i-de-fibra-de-vidrio
+  slug: "vigas-en-i-de-fibra-de-vidrio"
+  product_id: "vigas-en-i-de-fibra-de-vidrio"
+  name: "Vigas en I de fibra de vidrio"
+  description: "Vigas en I de fibra de vidrio diseñadas para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  subtitle: "Vigas en I de fibra de vidrio para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  image: "assets/images/materials/vigas-en-i-de-fibra-de-vidrio/vigas-en-i-de-fibra-de-vidrio.png"
 
-- id: resina-poliuretano-reparacion-negra
-  slug: "resina-poliuretano-reparacion-negra"
-  product_id: "resina-poliuretano-reparacion"
-  name: "Resina de poliuretano para reparación negra"
-  description: "Resina de poliuretano de color negro para reparaciones rápidas y eficientes en superficies metálicas y plásticas."
-  subtitle: "Resina de poliuretano negra para reparaciones rápidas con alta flexibilidad y resistencia a impactos."
-  image: "assets/images/materials/resina-poliuretano-reparacion/resina-poliuretano-reparacion-negra.png"
+- id: rejilla-cubierta-resistente-a-la-corrosion-y-a-los-impactos
+  slug: "rejilla-cubierta-resistente-a-la-corrosion-y-a-los-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla cubierta resistente a la corrosión y a los impactos"
+  description: "Rejilla de fibra de vidrio con cubierta protectora diseñada para resistir la corrosión y los impactos en entornos industriales exigentes."
+  subtitle: "Rejilla cubierta resistente a la corrosión y a los impactos para entornos industriales exigentes."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-cubierta-resistente-a-la-corrosion-y-a-los-impactos.png"
 
+- id: rejilla-de-alta-capacidad-de-carga-resistente-a-acidos-e-impactos
+  slug: "rejilla-de-alta-capacidad-de-carga-resistente-a-acidos-e-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla de alta capacidad de carga resistente a ácidos e impactos"
+  description: "Rejilla de fibra de vidrio de alta capacidad de carga diseñada para resistir ácidos e impactos en aplicaciones industriales pesadas."
+  subtitle: "Rejilla de alta capacidad de carga resistente a ácidos e impactos para aplicaciones industriales pesadas."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-de-alta-capacidad-de-carga-resistente-a-acidos-e-impactos.png"
 
+- id: rejilla-de-alta-capacidad-de-carga-resistente-a-la-corrosion-y-a-los-impactos
+  slug: "rejilla-de-alta-capacidad-de-carga-resistente-a-la-corrosion-y-a-los-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla de alta capacidad de carga resistente a la corrosión y a los impactos"
+  description: "Rejilla de fibra de vidrio de alta capacidad de carga diseñada para resistir la corrosión y los impactos en entornos industriales corrosivos."
+  subtitle: "Rejilla de alta capacidad de carga resistente a la corrosión y a los impactos para entornos industriales corrosivos."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-de-alta-capacidad-de-carga-resistente-a-la-corrosion-y-a-los-impactos.png"
 
+- id: rejilla-estructural-industrial-resistente-al-acido
+  slug: "rejilla-estructural-industrial-resistente-al-acido"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla estructural industrial resistente al ácido"
+  description: "Rejilla estructural de fibra de vidrio diseñada para aplicaciones industriales que requieren resistencia al ácido y soporte estructural."
+  subtitle: "Rejilla estructural industrial resistente al ácido para aplicaciones industriales exigentes."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-estructural-industrial-resistente-al-acido.png"
+
+- id: rejilla-estructural-resistente-al-fuego
+  slug: "rejilla-estructural-resistente-al-fuego"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla estructural resistente al fuego"
+  description: "Rejilla estructural de fibra de vidrio con propiedades de resistencia al fuego para aplicaciones que requieren seguridad contra incendios."
+  subtitle: "Rejilla estructural resistente al fuego para aplicaciones que requieren seguridad contra incendios."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-estructural-resistente-al-fuego.png"
+
+- id: rejilla-peatonal-estructural-resistente-al-fuego
+  slug: "rejilla-peatonal-estructural-resistente-al-fuego"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla peatonal estructural resistente al fuego"
+  description: "Rejilla peatonal estructural de fibra de vidrio con resistencia al fuego para pasarelas y áreas de tránsito peatonal seguras."
+  subtitle: "Rejilla peatonal estructural resistente al fuego para pasarelas y áreas de tránsito peatonal seguras."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-peatonal-estructural-resistente-al-fuego.png"
+
+- id: rejilla-peatonal-exterior-resistente-a-la-corrosion-y-a-los-rayos-uv
+  slug: "rejilla-peatonal-exterior-resistente-a-la-corrosion-y-a-los-rayos-uv"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla peatonal exterior resistente a la corrosión y a los rayos UV"
+  description: "Rejilla peatonal exterior de fibra de vidrio diseñada para resistir la corrosión y la degradación por rayos UV en entornos exteriores."
+  subtitle: "Rejilla peatonal exterior resistente a la corrosión y a los rayos UV para entornos exteriores."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-peatonal-exterior-resistente-a-la-corrosion-y-a-los-rayos-uv.png"
+
+- id: rejilla-resistente-a-acidos-e-impactos
+  slug: "rejilla-resistente-a-acidos-e-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a ácidos e impactos"
+  description: "Rejilla de fibra de vidrio diseñada para resistir ácidos e impactos en aplicaciones industriales generales."
+  subtitle: "Rejilla resistente a ácidos e impactos para aplicaciones industriales generales."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-acidos-e-impactos.png"
+
+- id: rejilla-resistente-a-impactos-de-grado-alimenticio
+  slug: "rejilla-resistente-a-impactos-de-grado-alimenticio"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a impactos de grado alimenticio"
+  description: "Rejilla de fibra de vidrio de grado alimenticio diseñada para resistir impactos en entornos de procesamiento de alimentos."
+  subtitle: "Rejilla resistente a impactos de grado alimenticio para entornos de procesamiento de alimentos."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-impactos-de-grado-alimenticio.png"
+
+- id: rejilla-resistente-a-la-corrosion-para-trabajos-ligeros
+  slug: "rejilla-resistente-a-la-corrosion-para-trabajos-ligeros"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a la corrosión para trabajos ligeros"
+  description: "Rejilla de fibra de vidrio resistente a la corrosión diseñada para aplicaciones de trabajos ligeros en entornos corrosivos."
+  subtitle: "Rejilla resistente a la corrosión para trabajos ligeros en entornos corrosivos."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-la-corrosion-para-trabajos-ligeros.png"
+
+- id: rejilla-resistente-a-la-corrosion-y-a-los-impactos
+  slug: "rejilla-resistente-a-la-corrosion-y-a-los-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a la corrosión y a los impactos"
+  description: "Rejilla de fibra de vidrio diseñada para resistir la corrosión y los impactos en aplicaciones industriales estándar."
+  subtitle: "Rejilla resistente a la corrosión y a los impactos para aplicaciones industriales estándar."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-la-corrosion-y-a-los-impactos.png"
+
+- id: suelos-medicos-resistentes-a-la-corrosion-no-magneticos
+  slug: "suelos-medicos-resistentes-a-la-corrosion-no-magneticos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Suelos médicos resistentes a la corrosión no magnéticos"
+  description: "Suelos médicos de fibra de vidrio diseñados para entornos médicos con resistencia a la corrosión y propiedades no magnéticas."
+  subtitle: "Suelos médicos resistentes a la corrosión no magnéticos para entornos médicos especializados."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/suelos-medicos-resistentes-a-la-corrosion-no-magneticos.png"

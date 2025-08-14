@@ -143,14 +143,14 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
     <div class="row g-3">
       <div class="col-md-6">
         <img
-          src="{{ '/assets/images/abrasivos-macmaster-corte-chispas.png' | relative_url }}"
+          src="{{ 'assets/images/abrasivos-macmaster-corte-chispas.png' | relative_url }}"
           alt="Fachada de bodega MacMaster"
           class="img-fluid w-100 h-100 object-fit-cover rounded-4 shadow-sm"
         />
       </div>
       <div class="col-md-6">
         <img
-          src="{{ '/assets/images/resina-y-fibra-aplicaciones-tecnicas.png' | relative_url }}"
+          src="{{ 'assets/images/resina-y-fibra-aplicaciones-tecnicas.png' | relative_url }}"
           alt="Zona de carga bodega MacMaster"
           class="img-fluid w-100 h-100 object-fit-cover rounded-4 shadow-sm"
         />
@@ -202,7 +202,7 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
         </div>
       </div>
       <img
-        src="{{ '/assets/images/tornilleria-industrial-fijaciones-macmaster.png' | relative_url }}"
+        src="{{ 'assets/images/tornilleria-industrial-fijaciones-macmaster.png' | relative_url }}"
         class="p-0 img-fade-top"
         alt=" imagen de tornillería industrial y fijaciones MacMaster"
       />
@@ -243,7 +243,7 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
       class="container-team row row-cols-1 row-cols-lg-2 gap-1 col-lg-10 offset-lg-1 col-xxl-8 offset-xxl-2"
     >
       <img
-        src="{{ '/assets/images/team.png' | relative_url }}"
+        src="{{ 'assets/images/team.png' | relative_url }}"
         class="col-lg-6 p-0"
         alt=""
       />
@@ -251,12 +251,12 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
         class="grid-images d-flex flex-column align-items-start gap-1 col-lg-6 p-0"
       >
         <img
-          src="{{ '/assets/images/team-1.png' | relative_url }}"
+          src="{{ 'assets/images/team-1.png' | relative_url }}"
           class="p-0"
           alt=""
         />
         <img
-          src="{{ '/assets/images/team-2.png' | relative_url }}"
+          src="{{ 'assets/images/team-2.png' | relative_url }}"
           class="p-0"
           alt=""
         />
@@ -273,27 +273,24 @@ meta_description: "Conoce a Mac Master Importadores, nuestra misión de proporci
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "{{ site.title }}",
+    "name": "{{ site.company_name }}",
     "url": "{{ site.url }}",
-    "logo": "{{ 'assets/images/logo.png' | relative_url }}",
+    "logo": "{{ 'assets/images/macmaster-logo.png' | relative_url }}",
     "description": "{{ site.description }}",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "123 Main St",
-      "addressLocality": "City",
-      "addressRegion": "State",
-      "postalCode": "12345",
-      "addressCountry": "US"
+      "streetAddress": "{{ site.company_street }}",
+      "addressLocality": "{{ site.company_city }}",
+      "addressRegion": "{{ site.company_state }}",
+      "postalCode": "{{ site.company_zip }}",
+      "addressCountry": "{{ site.company_country }}"
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-555-123-4567",
+      "telephone": "{{ site.company_phone }}",
       "contactType": "customer service",
-      "availableLanguage": "English"
+      "availableLanguage": "Español"
     },
-    "sameAs": [
-      "https://twitter.com/yourcompany",
-      "https://facebook.com/yourcompany"
-    ]
+    "sameAs": ["{{ site.company_instagram }}", "{{ site.company_facebook }}"]
   }
 </script>
