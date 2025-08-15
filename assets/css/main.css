@@ -141,25 +141,25 @@ body {
 
 /* Hero Image Section */
 #heroimage-index {
-  background-image: url("/assets/images/hero-mobile.png");
+  background-image: url("./assets/images/hero-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* Specific override for home page */
+/* Specific override for home page
 #heroimage-index.home-hero {
   background-image: url("./assets/images/hero-image.png") !important;
-}
+} */
 
 /* Specific override for quienes somos page */
-#heroimage-index.quienes-somos-hero {
+/* #heroimage-index.quienes-somos-hero {
   height: 70vh;
-  background-image: url("/assets/images/about/banner.png");
+  background-image: url("./assets/images/about/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
+} */
 
 #heroimage-index .content-heroimage {
   padding: 7.5rem 1rem 0 1rem;
@@ -1230,7 +1230,7 @@ body {
       rgba(18, 18, 18, 0.35),
       rgba(18, 18, 18, 1)
     ),
-    url("/assets/images/subcategory-resina/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png");
+    url("./assets/images/subcategory-resina/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1265,7 +1265,7 @@ body {
 }
 
 #aplications .container-image {
-  background-image: url("/assets/images/subcategory-resina/encapsulado-resina-mesa-arte-decoracion-brillante.png");
+  background-image: url("./assets/images/subcategory-resina/encapsulado-resina-mesa-arte-decoracion-brillante.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 350px;
@@ -1445,9 +1445,9 @@ body {
   }
 
   /* Specific override for home page desktop */
-  #heroimage.home-hero {
+  /* #heroimage.home-hero {
     background-image: url("/assets/images/hero-image.png") !important;
-  }
+  } */
 
   #heroimage .content-heroimage .heroimage-data .data-a {
     margin: 0;
@@ -1493,7 +1493,7 @@ body {
 
   /* Products Page */
   #heroimage-categories {
-    background-image: url("./assets/images/hero-desktop.png");
+    background-image: url("/assets/images/hero-desktop.png");
   }
 
   #heroimage-categories .content-heroimage .heroimage-data .data-a {
