@@ -338,7 +338,7 @@
     - name: "Productos"
       link: "/categorias/"
     - name: "Resina y fibra de vidrio"
-      link: "/categorias/"
+      link: "/subcategory/resina/"
 
 - id: fibra-de-vidrio
   slug: fibra-de-vidrio

@@ -11,9 +11,9 @@
     - name: "Inicio"
       link: "/"
     - name: "Productos"
-      link: "/categorias/"
+      link: "categorias/"
     - name: "Tornillería industrial"
-      link: "/subcategory/pernos-y-tornillos/"
+      link: "subcategory/pernos-y-tornillos/"
     - name: "Pernos de cabeza hexagonal"
       link: "/"
   applications:
@@ -64,9 +64,9 @@
     - name: "Inicio"
       link: "/"
     - name: "Productos"
-      link: "/categorias/"
+      link: "categorias/"
     - name: "Tornillería industrial"
-      link: "/subcategory/pernos-y-tornillos/"
+      link: "subcategory/pernos-y-tornillos/"
     - name: "Tornillos de cabeza hueca"
       link: "/"
   applications:
