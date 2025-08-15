@@ -63,7 +63,7 @@ a.btn-main-outline:hover {
 
 body {
   background-color: #121212;
-  background-image: url("{{ 'assets/images/background-noise.png' | relative_url }}");
+  background-image: url("./assets/images/background-noise.png");
   background-repeat: repeat;
 }
 
@@ -149,7 +149,7 @@ body {
 
 /* Specific override for home page */
 #heroimage-index.home-hero {
-  background-image: url("/assets/images/hero-image.png") !important;
+  background-image: url("./assets/images/hero-image.png") !important;
 }
 
 /* Specific override for quienes somos page */
@@ -1493,7 +1493,7 @@ body {
 
   /* Products Page */
   #heroimage-categories {
-    background-image: url("{{ 'assets/images/hero-desktop.png' | relative_url }}");
+    background-image: url("./assets/images/hero-desktop.png");
   }
 
   #heroimage-categories .content-heroimage .heroimage-data .data-a {
