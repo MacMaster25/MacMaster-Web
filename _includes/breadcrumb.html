@@ -33,7 +33,7 @@ endif %} {% endunless %} {% if breadcrumb_items %}
       %}
     >
       {% if forloop.last %} {{ item.name }} {% else %}
-      <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+      <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
       {% endif %}
     </li>
     {% endfor %} {% else %} {% comment %} Handle auto-generated breadcrumb items
@@ -54,7 +54,7 @@ endif %} {% endunless %} {% if breadcrumb_items %}
       %}
     >
       {% if forloop.last %} {{ item_name }} {% else %}
-      <a href="{{ site.baseurl }}{{ item_link }}">{{ item_name }}</a>
+      <a href="{{ item_link | relative_url }}">{{ item_name }}</a>
       {% endif %}
     </li>
     {% endif %} {% endfor %} {% endif %}
