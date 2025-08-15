@@ -63,7 +63,7 @@ a.btn-main-outline:hover {
 
 body {
   background-color: #121212;
-  background-image: url("./assets/images/background-noise.png");
+  background-image: url("../../assets/images/background-noise.png");
   background-repeat: repeat;
 }
 
@@ -141,7 +141,7 @@ body {
 
 /* Hero Image Section */
 #heroimage-index {
-  background-image: url("./assets/images/hero-mobile.png");
+  background-image: url("../../assets/images/hero-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -149,13 +149,13 @@ body {
 
 /* Specific override for home page
 #heroimage-index.home-hero {
-  background-image: url("./assets/images/hero-image.png") !important;
+  background-image: url("../../assets/images/hero-image.png") !important;
 } */
 
 /* Specific override for quienes somos page */
 /* #heroimage-index.quienes-somos-hero {
   height: 70vh;
-  background-image: url("./assets/images/about/banner.png");
+  background-image: url("../../assets/images/about/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -359,7 +359,7 @@ body {
 /* Hero Image Section */
 
 #heroimage-about {
-  background-image: url("./assets/images/about/banner-mobile.png");
+  background-image: url("../../assets/images/about/banner-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -634,7 +634,7 @@ body {
 
 /* Hero Image Section */
 #heroimage-categories {
-  background-image: url("/.assets/images/hero-mobile-categories.png");
+  background-image: url("../../assets/images/hero-mobile-categories.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1425,7 +1425,7 @@ body {
 
   /* Index Page */
   #heroimage-index {
-    background-image: url("./assets/images/hero-image.png");
+    background-image: url("../../assets/images/hero-image.png");
   }
 
   #heroimage-index .content-heroimage .heroimage-data .data-a {
@@ -1493,7 +1493,7 @@ body {
 
   /* Products Page */
   #heroimage-categories {
-    background-image: url("./assets/images/hero-desktop.png");
+    background-image: url("../../assets/images/hero-desktop.png");
   }
 
   #heroimage-categories .content-heroimage .heroimage-data .data-a {
@@ -1510,7 +1510,7 @@ body {
 
   /* About Page */
   #heroimage-about {
-    background-image: url("/assets/images/about/banner.png");
+    background-image: url("../../assets/images/about/banner.png");
   }
 
   #mision .container-mision .grid-detail .card {
@@ -1958,7 +1958,7 @@ body {
 /* Categories Hero Section */
 .categories-hero {
   height: 70vh;
-  background-image: url("./assets/images/categories-hero.png");
+  background-image: url("../../assets/images/categories-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
