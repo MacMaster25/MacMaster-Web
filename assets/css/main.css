@@ -63,7 +63,7 @@ a.btn-main-outline:hover {
 
 body {
   background-color: #121212;
-  background-image: url("assets/images/background-noise.png");
+  background-image: url("/assets/images/background-noise.png");
   background-repeat: repeat;
 }
 
@@ -141,7 +141,7 @@ body {
 
 /* Hero Image Section */
 #heroimage-index {
-  background-image: url("assets/images/hero-mobile.png");
+  background-image: url("/assets/images/hero-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -149,13 +149,13 @@ body {
 
 /* Specific override for home page */
 #heroimage-index.home-hero {
-  background-image: url("assets/images/hero-image.png") !important;
+  background-image: url("/assets/images/hero-image.png") !important;
 }
 
 /* Specific override for quienes somos page */
 #heroimage-index.quienes-somos-hero {
   height: 70vh;
-  background-image: url("assets/images/about/banner.png");
+  background-image: url("/assets/images/about/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -359,7 +359,7 @@ body {
 /* Hero Image Section */
 
 #heroimage-about {
-  background-image: url("assets/images/about/banner.png");
+  background-image: url("/assets/images/about/banner-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -634,7 +634,7 @@ body {
 
 /* Hero Image Section */
 #heroimage-categories {
-  background-image: url("assets/images/hero-mobile.png");
+  background-image: url("/assets/images/hero-mobile-categories.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -704,7 +704,6 @@ body {
 
 /* Products Section */
 #products .content-produts {
-  padding: 2.25rem 1rem;
   gap: 2.25rem;
 }
 
@@ -790,16 +789,6 @@ body {
 #products .content-produts {
   padding: 7.25rem 1rem 2.25rem 1rem;
   gap: 2.25rem;
-}
-
-#products .content-produts .title-description h1 {
-  color: var(--color-text-main);
-  text-align: center;
-  font-size: 2.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  margin-bottom: 0;
 }
 
 #products .content-produts .title-description .breadcrumb {
@@ -1224,7 +1213,7 @@ body {
   line-height: 120%;
   border-radius: 0.5rem;
   border: 0;
-  background: #f9a825;
+  background: #ffc107;
 }
 
 /* ========================================
@@ -1241,7 +1230,7 @@ body {
       rgba(18, 18, 18, 0.35),
       rgba(18, 18, 18, 1)
     ),
-    url("https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png?raw=true");
+    url("/assets/images/subcategory-resina/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1276,7 +1265,7 @@ body {
 }
 
 #aplications .container-image {
-  background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/encapsulado-resina-mesa-arte-decoracion-brillante.png?raw=true");
+  background-image: url("/assets/images/subcategory-resina/encapsulado-resina-mesa-arte-decoracion-brillante.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 350px;
@@ -1504,7 +1493,7 @@ body {
 
   /* Products Page */
   #heroimage-categories {
-    background-image: url("https://github.com/MacMaster25/MacMaster-Web/blob/main/Assets/03.products/Hero_desktop.png?raw=true");
+    background-image: url("/assets/images/hero-desktop.png");
   }
 
   #heroimage-categories .content-heroimage .heroimage-data .data-a {
@@ -1520,6 +1509,10 @@ body {
   }
 
   /* About Page */
+  #heroimage-about {
+    background-image: url("/assets/images/about/banner.png");
+  }
+
   #mision .container-mision .grid-detail .card {
     padding: 3.75rem 0;
   }
