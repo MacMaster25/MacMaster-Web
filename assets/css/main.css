@@ -63,7 +63,7 @@ a.btn-main-outline:hover {
 
 body {
   background-color: #121212;
-  background-image: url("/assets/images/background-noise.png");
+  background-image: url("{{ '/assets/images/background-noise.png' | relative_url }}");
   background-repeat: repeat;
 }
 
@@ -1493,7 +1493,7 @@ body {
 
   /* Products Page */
   #heroimage-categories {
-    background-image: url("/assets/images/hero-desktop.png");
+    background-image: url("{{ '/assets/images/hero-desktop.png' | relative_url }}");
   }
 
   #heroimage-categories .content-heroimage .heroimage-data .data-a {
