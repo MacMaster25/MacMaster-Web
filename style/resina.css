@@ -191,6 +191,16 @@ body {
     line-height: 150%;
 }
 
+/*accordion*/
+.accordion-button:not(.collapsed)::after {
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/04-categories/04.resina/chevron-down.png?raw=true');
+}
+
+.accordion-button::after {
+    background-image: url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/04-categories/04.resina/chevron-down.png?raw=true');
+    
+}
+
 /*industrial-category*/
 #industrial-category h2 {
     font-size: 1.5rem;
