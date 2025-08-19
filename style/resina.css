@@ -383,7 +383,7 @@ body {
     }
 
     #types .size-img {
-        height: 530px;
+        height: 500px;
     }
 
     #footer .container-footer .footer-options img {
@@ -397,6 +397,10 @@ body {
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
+    #types .size-img {
+        height: 450px;
+    }
+
     #gallery .container-gallery .banner-cta {
         padding: 3.75rem 10.063rem;
     }
@@ -427,6 +431,10 @@ body {
 
     #types h2 {
         font-size: 2.25rem;
+    }
+
+    #types .size-img {
+        height: 400px;
     }
 
     #aplications h2 {
