@@ -77,12 +77,16 @@ meta_description: "Contact Your Company Name for customer support, sales inquiri
       <form
         name="contact"
         method="POST"
+        action="/"
         data-netlify="true"
-        netlify-honeypot="bot-field"
+        data-netlify-honeypot="bot-field"
+        enctype="application/x-www-form-urlencoded"
         class="d-flex flex-column align-items-start gap-4 col-xl-6"
       >
         <!-- Campo oculto para Netlify -->
         <input type="hidden" name="form-name" value="contact" />
+        <!-- Campo oculto adicional para Netlify -->
+        <input type="hidden" name="bot-field" />
         <!-- Campo honeypot para protección anti-spam -->
         <p style="display: none">
           <label>No llenar este campo: <input name="bot-field" /></label>
