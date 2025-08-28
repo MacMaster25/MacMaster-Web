@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Resina y fibra de vidrio"
+meta_title: "Resina y fibra de vidrio - Mac Master Importadores | Asesoría y Soporte Técnico"
+meta_description: "Resina y fibra de vidrio de alta calidad para aplicaciones industriales. Contamos con una amplia gama de productos para satisfacer tus necesidades."
 ---
 
 {% assign subcategory = nil %} {% for subcat in site.data.subcategories %} {% if
@@ -106,14 +109,12 @@ endif %} {% endfor %}
     <!-- Accordion -->
     <div class="col-lg-6">
       <h2 class="fw-bold text-white mb-4">{{ subcategory.types_title }}</h2>
-      <div class="border rounded-2 text-white" id="accordionExample">
+      <div class="accordion" id="accordionExample">
         {% for type in subcategory.types %}
-        <div class="accordion-item {% if forloop.first %}mb-0{% endif %}">
-          <h2
-            class="accordion-header p-3 {% unless forloop.last %}mb-3 border-bottom{% endunless %}"
-          >
+        <div class="accordion-item">
+          <h2 class="accordion-header">
             <button
-              class="accordion-button {% unless forloop.first %}collapsed{% endunless %}"
+              class="accordion-button text-bg-dark {% unless forloop.first %}collapsed{% endunless %}"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapse{{ forloop.index }}"
@@ -125,10 +126,12 @@ endif %} {% endfor %}
           </h2>
           <div
             id="collapse{{ forloop.index }}"
-            class="accordion-collapse collapse {% if forloop.first %}show{% endif %} {% unless forloop.last %}border-bottom{% endunless %}"
+            class="accordion-collapse collapse {% if forloop.first %}show{% endif %}"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body {% if forloop.last %}mt-3{% endif %}">
+            <div
+              class="accordion-body text-bg-dark {% if forloop.last %}rounded-4{% endif %}"
+            >
               <ul>
                 <li>{{ type.main_use }}</li>
                 <li>{{ type.main_benefit }}</li>
@@ -267,25 +270,25 @@ endif %} {% endfor %}
       >
         {% if category.id == "tornilleria-industrial" %}
         <img
-          src="{{ 'assets/images/tornilleria-industrial-fijaciones-macmaster.png' | relative_url }}"
+          src="{{ 'assets/images/index/tornilleria-industrial-fijaciones-macmaster.webp' | relative_url }}"
           class="img-fluid w-100 h-100 object-fit-cover opacity-75"
           alt="{{ category.name }}"
         />
         {% elsif category.id == "abrasivos" %}
         <img
-          src="{{ 'assets/images/abrasivos-macmaster-corte-chispas.png' | relative_url }}"
+          src="{{ 'assets/images/index/abrasivos-macmaster-corte-chispas.webp' | relative_url }}"
           class="img-fluid w-100 h-100 object-fit-cover opacity-75"
           alt="{{ category.name }}"
         />
         {% elsif category.id == "adhesivos-y-sellantes" %}
         <img
-          src="{{ 'assets/images/industrial-category/adhesivos-y-sellantes.png' | relative_url }}"
+          src="{{ 'assets/images/index/adhesivo-industrial-motor.webp' | relative_url }}"
           class="img-fluid w-100 h-100 object-fit-cover opacity-75"
           alt="{{ category.name }}"
         />
         {% elsif category.id == "resina-y-fibra-de-vidrio" %}
         <img
-          src="{{ 'assets/images/industrial-category/resina-y-fibra-de-vidrio.png' | relative_url }}"
+          src="{{ 'assets/images/index/resina-y-fibra-aplicaciones-tecnicas.webp' | relative_url }}"
           class="img-fluid w-100 h-100 object-fit-cover opacity-75"
           alt="{{ category.name }}"
         />

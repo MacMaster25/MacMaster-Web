@@ -141,7 +141,7 @@ body {
 
 /* Hero Image Section */
 #heroimage-index {
-  background-image: url("../../assets/images/hero-mobile.png");
+  background-image: url("../../assets/images/hero-image-mobile.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -634,10 +634,27 @@ body {
 
 /* Hero Image Section */
 #heroimage-categories {
-  background-image: url("../../assets/images/hero-mobile-categories.png");
+  position: relative;
+  background-image: url("../../assets/images/categories-hero-mobile.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+#heroimage-categories::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  z-index: 1;
+}
+
+#heroimage-categories > * {
+  position: relative;
+  z-index: 2;
 }
 
 #heroimage-categories .content-heroimage {
@@ -1254,6 +1271,14 @@ body {
   height: 300px;
 }
 
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/images/chevron-down.png");
+}
+
+.accordion-button::after {
+  background-image: url("../../assets/images/chevron-down.png");
+}
+
 /* Applications */
 #aplications h2 {
   font-size: 1.75rem;
@@ -1425,7 +1450,7 @@ body {
 
   /* Index Page */
   #heroimage-index {
-    background-image: url("../../assets/images/hero-image.png");
+    background-image: url("../../assets/images/hero-image-desktop.webp");
   }
 
   #heroimage-index .content-heroimage .heroimage-data .data-a {
@@ -1433,7 +1458,7 @@ body {
   }
 
   #heroimage-index .content-heroimage .heroimage-data .data-a img {
-    width: 50%;
+    width: 35%;
   }
 
   #heroimage-index .content-heroimage .heroimage-data .data-b {
@@ -1493,11 +1518,15 @@ body {
 
   /* Products Page */
   #heroimage-categories {
-    background-image: url("../../assets/images/hero-desktop.png");
+    background-image: url("../../assets/images/categories-hero.webp");
   }
 
   #heroimage-categories .content-heroimage .heroimage-data .data-a {
     margin: 0;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-a img {
+    width: 35%;
   }
 
   #heroimage-categories .content-heroimage .heroimage-data .data-b {
@@ -1956,13 +1985,13 @@ body {
 }
 
 /* Categories Hero Section */
-.categories-hero {
+/* .categories-hero {
   height: 70vh;
   background-image: url("../../assets/images/categories-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
+} */
 
 /* Resina y fibra de vidrio */
 #types h2 {
