@@ -36,7 +36,7 @@ body {
 
 /*hero image*/
 #hero-about {
-    background: url("https://raw.githubusercontent.com/MacMaster25/MacMaster-Web/e6cd14ea6d3b6f72e650cce08f818e29cd556ec5/Assets/02.about/grid_bg.svg") center/cover no-repeat;
+    background: url("https://raw.githubusercontent.com/MacMaster25/MacMaster-Web/3a7ae8023ddfc3c19d6934800a1e16915eeaf988/Assets/02.about/grid_bg.svg") center/cover no-repeat;
     position: relative;
     min-height: 100vh;
     padding-top: 7rem;
@@ -419,8 +419,14 @@ body {
         width: 100%;
     }
 
-    #heroimage .content-heroimage {
-        padding: 9rem 1rem 0 1rem;
+    #hero-about {
+        padding-top: 9rem;
+    }
+
+    #hero-about .main-image img {
+        max-height: 360px;
+        width: 100%;
+        object-fit: cover;
     }
 
     #values .container-values img {
@@ -444,10 +450,8 @@ body {
         width: 50%;
     }
 
-    #hero-about .main-image img {
-        max-height: 360px;
-        width: 100%;
-        object-fit: cover;
+    #hero-about {
+        padding-top: 7rem;
     }
 
     #about .container-about .grid-stats .card {
