@@ -486,6 +486,11 @@ body {
         padding: 0;
     }
 
+    #mision .container img {
+        min-height: 700px;
+        object-fit: cover;
+    }
+
     #footer .container-footer .footer-options img {
         width: 35%;
     }
@@ -592,6 +597,10 @@ body {
 
     #values .container-values img {
         height: 64vh;
+    }
+
+    #mision .container img {
+        min-height: 580px;
     }
 
     #contact-us .min-height-xl {
