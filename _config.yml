@@ -2,7 +2,7 @@
 title: "Mac Master Importadores"
 email: "proyectos@macmaster.co"
 description: "Mac Master Importadores - Proveedores de equipos comerciales e industriales"
-baseurl: "/MacMaster-Web" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://macmaster25.github.io" # the base hostname & protocol for your site
 twitter_username: "macmasterimportadores"
 github_username: "macmaster25"
