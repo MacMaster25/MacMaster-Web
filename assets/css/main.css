@@ -358,31 +358,54 @@ body {
 
 /* Hero Image Section */
 
-#heroimage-about {
-  background-image: url("../../assets/images/about/banner-mobile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+#hero-about {
+  background: url("https://raw.githubusercontent.com/MacMaster25/MacMaster-Web/3a7ae8023ddfc3c19d6934800a1e16915eeaf988/Assets/02.about/grid_bg.svg")
+    center/cover no-repeat;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
 }
 
-#heroimage-about .content-heroimage {
-  padding: 7.5rem 1rem 0 1rem;
+#hero-about::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 200, 0, 0.4), transparent 70%);
+  z-index: 0;
 }
 
-#heroimage-about .content-heroimage .heroimage-title {
-  margin-bottom: 1.5rem;
-  color: var(--color-text-main);
-}
-
-#heroimage-about .content-heroimage .heroimage-title h1 {
+#hero-about h1 {
   font-size: 2.25rem;
   font-weight: bold;
-  margin-bottom: 1rem;
 }
 
-#heroimage-about .content-heroimage .heroimage-title p {
+#hero-about p {
+  font-family: instrument-sans, sans-serif;
   font-size: 1.125rem;
-  margin-bottom: 1rem;
+}
+
+#hero-about .grid-images img {
+  position: relative;
+  z-index: 1;
+}
+
+#hero-about .small-image {
+  width: 35%;
+}
+
+#hero-about .main-image {
+  border: 1px solid rgba(255, 193, 7, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#hero-about .medium-image {
+  width: 66%;
 }
 
 /*essence*/
@@ -496,6 +519,13 @@ body {
   line-height: 150%;
 }
 
+#location .map-responsive {
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  border: 0;
+}
+
 /*values*/
 #values {
   display: flex;
@@ -588,7 +618,7 @@ body {
 }
 
 /*mision & vision*/
-#mision .container span {
+#mision .container-fluid span {
   padding: 0.5rem;
   border: 1px solid var(--color-primary);
   border-radius: 0.5rem;
@@ -596,11 +626,17 @@ body {
   text-transform: uppercase;
 }
 
-#mision .container h2 {
+#mision .container-fluid h2 {
   color: var(--color-text-main);
   font-size: 1.75rem;
   font-style: normal;
   line-height: 120%;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#mision .container-fluid p {
+  font-family: "Instrument Sans";
+  line-height: 160%;
 }
 
 /*team*/
@@ -1234,6 +1270,27 @@ body {
 }
 
 /* ========================================
+    THANK YOU PAGE SPECIFIC STYLES
+    ======================================== */
+
+#thankyou {
+  padding: 6.5rem 0.5rem 0 0.5rem;
+}
+
+#thankyou .card-thanks {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+}
+
+#thankyou .card-thanks .success {
+  color: #20c997;
+}
+
+#thankyou .card-thanks .info-text {
+  border-top: 1px solid var(--color-border);
+}
+
+/* ========================================
     RESINA Y FIBRA DE VIDRIO
     ======================================== */
 
@@ -1345,8 +1402,8 @@ body {
     font-size: 1rem;
   }
 
-  #values .container-values img {
-    height: 50vw;
+  #location .map-responsive {
+    min-height: 400px;
   }
 
   #team .container-team img {
@@ -1431,6 +1488,16 @@ body {
   }
 
   /* About Page */
+  #hero-about {
+    padding-top: 9rem;
+  }
+
+  #hero-about .main-image img {
+    max-height: 360px;
+    width: 100%;
+    object-fit: cover;
+  }
+
   #values .container-values img {
     height: 50vw;
   }
@@ -1439,6 +1506,11 @@ body {
     height: 50vh;
     object-fit: cover;
     border-radius: 0.5rem;
+  }
+
+  /* Thank you Page */
+  #thankyou {
+    padding: 7.5rem 0.5rem 0 0.5rem;
   }
 }
 
@@ -1506,10 +1578,6 @@ body {
     padding: 9rem 1rem 0 1rem;
   }
 
-  #values .container-values img {
-    height: 50vw;
-  }
-
   #team .container-team img {
     height: 50vh;
     object-fit: cover;
@@ -1542,12 +1610,13 @@ body {
     background-image: url("../../assets/images/about/banner.png");
   }
 
-  #mision .container-mision .grid-detail .card {
-    padding: 3.75rem 0;
+  #hero-about {
+    padding-top: 7rem;
   }
 
-  #mision .container-mision .grid-detail .card:nth-of-type(2) {
-    padding-bottom: 3.75rem;
+  #mision .container-fluid img {
+    min-height: 700px;
+    object-fit: cover;
   }
 
   #values .container-values .values {
@@ -1588,6 +1657,11 @@ body {
 
   #products .specs .container-specs table tr th {
     border-right: 1px solid var(--color-border);
+  }
+
+  /* Thank you Page */
+  #thankyou {
+    padding: 6.5rem 0.5rem 0 0.5rem;
   }
 }
 
@@ -1641,9 +1715,26 @@ body {
   }
 
   /* About Page */
-  #heroimage-about .content-heroimage {
-    padding: 9rem 0 0 0;
-    min-height: 600px;
+  #hero-about {
+    min-height: 70vh;
+    padding-top: 5rem;
+  }
+
+  #hero-about::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    top: 30%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 200, 0, 0.4),
+      transparent 70%
+    );
+    z-index: 0;
   }
 
   #about .container-about .title-description {
@@ -1734,9 +1825,9 @@ body {
   }
 
   /* About Page */
-  #heroimage .content-hero {
+  /* #heroimage .content-hero {
     padding: 9rem 0 2.25rem 0;
-  }
+  } */
 
   #mision .container-mision {
     padding: 2.25rem 0;
@@ -1833,8 +1924,8 @@ body {
   }
 
   /* About Page */
-  #heroimage-about .content-heroimage .heroimage-title h1 {
-    font-size: 3rem;
+  #hero-about::before {
+    top: 0%;
   }
 
   #about .container-about {
@@ -1847,7 +1938,11 @@ body {
   }
 
   #values .container-values img {
-    height: 64vh;
+    height: 100vh;
+  }
+
+  #mision .container-fluid img {
+    min-height: 580px;
   }
 
   /* Category Page */
@@ -1887,8 +1982,16 @@ body {
   }
 
   /* About Page */
-  #heroimage-about .content-heroimage .heroimage-title p {
-    font-size: 1.5rem;
+  #hero-about {
+    min-height: 80vh;
+  }
+
+  #hero-about .main-image img {
+    max-height: 540px;
+  }
+
+  #hero-about h1 {
+    font-size: 3rem;
   }
 
   #essence h2 {
@@ -1915,7 +2018,7 @@ body {
     font-size: 2.25rem;
   }
 
-  #mision .container h2 {
+  #mision .container-fluid h2 {
     font-size: 2.25rem;
   }
 
