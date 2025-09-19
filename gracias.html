@@ -44,7 +44,7 @@ meta_description: "Gracias por contactarnos. Hemos recibido tu mensaje y uno de 
         class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
       >
         <img
-          src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/03.products/image_bg_cataloge.png?raw=true"
+          src="{{ 'assets/images/image-bg-cataloge.webp' | relative_url }}"
           class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
           alt="Industria de la construcción"
         />
@@ -72,7 +72,7 @@ meta_description: "Gracias por contactarnos. Hemos recibido tu mensaje y uno de 
         class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
       >
         <img
-          src="https://macmaster25.github.io/MacMaster-Web/assets/images/categories-hero.webp"
+          src="{{ 'assets/images/categories-hero.webp' | relative_url }}"
           class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
           alt="Asesora industrial"
         />
@@ -86,10 +86,7 @@ meta_description: "Gracias por contactarnos. Hemos recibido tu mensaje y uno de 
               Regresa a la página principal para conocer más sobre nuestros
               servicios y trayectoria.
             </p>
-            <a
-              class="text-center btn btn-main"
-              href="index.html"
-              target="_blank"
+            <a class="text-center btn btn-main" href="{{ '/' | relative_url }}"
               >Volver al inicio</a
             >
           </div>
