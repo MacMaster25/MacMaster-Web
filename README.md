@@ -169,7 +169,7 @@ El sitio está optimizado para **GitHub Pages**:
 1. **Push al repositorio** principal
 2. **GitHub Pages** se activa automáticamente
 3. **Netlify Forms** se detecta y configura
-4. **Sitio disponible** en `https://tu-usuario.github.io/MacMaster-Web`
+4. **Sitio disponible** en `https://macmaster25.github.io/MacMaster-Web/`
 
 ### Compatibilidad
 
@@ -226,7 +226,7 @@ category_id: "categoria-existente"
 - **Empresa:** MacMaster Importadores SAS
 - **Email:** proyectos@macmaster.co
 - **Teléfono:** (57) 317 789 9482
-- **Dirección:** Av. 5c Nte. #46, Cali, Valle del Cauca, Colombia
+- **Dirección:** Av. 5c Nte. #46 01, Cali, Valle del Cauca, Colombia
 
 ## 📄 Licencia
 
@@ -255,4 +255,5 @@ Para contribuir al proyecto:
 
 **Desarrollado con ❤️ para MacMaster Importadores SAS**
 
-*Última actualización: Agosto 2024*
+*Última actualización: Agosto 2025*
+
