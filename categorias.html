@@ -1,0 +1,243 @@
+---
+layout: default
+title: "Productos - Mac Master Importadores"
+meta_title: "Productos - Mac Master Importadores"
+meta_description: "Portafolio especializado en productos industriales MRO. Tornillería, adhesivos, abrasivos y más."
+---
+
+<!-- Hero Image Section -->
+<section id="heroimage-categories">
+  <div class="container-fluid">
+    <div class="row content-heroimage col-lg-10 offset-lg-1">
+      <div class="heroimage-title px-0">
+        <div class="title col-md-10 col-lg-8">
+          <h1>
+            Productos industriales confiables para mantenimiento, producción y
+            ensamblaje en Colombia.
+          </h1>
+          <p class="mb-md-4 mb-xl-5">
+            Explora nuestra amplia gama de productos para la industria:
+            tornillería, abrasivos, resinas, adhesivos y más. Productos de alto
+            desempeño para la industria colombiana.
+          </p>
+          <a
+            class="btn btn-main col-12 col-md-auto"
+            href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Contacta un asesor</a
+          >
+        </div>
+      </div>
+      <div
+        class="heroimage-data d-flex flex-column flex-md-row justify-content-md-between align-items-md-center gap-md-4"
+      >
+        <div class="data-a">
+          <div class="data-image">
+            <img
+              src="{{ 'assets/images/grainger.png' | relative_url }}"
+              alt="Logo Greinger"
+            />
+          </div>
+          <p class="mt-3 col-md-8">
+            Acceso a más de 500.000 referencias industriales gracias a nuestra
+            alianza con Grainger.
+            <a
+              href="https://www.grainger.com/content/general-catalog"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-main-link fw-bold"
+              >Ver Catálogo</a
+            >
+          </p>
+        </div>
+        <div class="data-b d-flex flex-lg-nowrap align-items-sm-center m-0">
+          <div class="data-image d-sm-flex">
+            <img
+              src="{{ 'assets/images/guarantee-icon.png' | relative_url }}"
+              class="mb-2 mb-sm-0"
+              alt="imagen icono de garantia de devoluciones"
+            />
+          </div>
+          <p class="d-sm-flex">
+            Garantía de calidad: productos 100% certificados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include benefits.html %}
+
+<!-- Products Section -->
+<section id="products">
+  <div class="container-fluid">
+    <div
+      class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1 py-4"
+    >
+      {% for category in site.data.categories %}
+      <div class="product-card d-flex flex-column align-items-start gap-4 p-0">
+        <div
+          class="title-category d-flex flex-column flex-md-row justify-content-center gap-3"
+        >
+          <h3 class="mb-0">{{ category.name }}</h3>
+          <div class="d-flex justify-content-between align-items-center gap-3">
+            {% assign first_subcategory = site.data.subcategories | where:
+            "category_id", category.id | first %}
+            <a
+              href="{{ 'subcategory/' | append: first_subcategory.slug | relative_url }}"
+              class="btn-main-link"
+              >{{ category.cta_link_short }}</a
+            >
+          </div>
+        </div>
+        <p class="mb-0 text-white">{{ category.description_short }}</p>
+        <div
+          class="content-card row row-cols-1 row-cols-sm-2 row-cols-lg-4 col col-lg col-xl-12"
+        >
+          {% assign category_subcategories = site.data.subcategories | where:
+          "category_id", category.id | limit: 4 %} {% for subcategory in
+          category_subcategories %}
+          <div class="card text-lg-center p-0">
+            <a
+              href="{{ 'subcategory/' | append: subcategory.slug | relative_url }}"
+              class="d-flex justify-content-start align-items-center gap-3 flex-lg-column"
+            >
+              <img
+                src="{{ subcategory.image | relative_url }}"
+                alt="{{ subcategory.name }}"
+              />
+              <h4>{{ subcategory.name }}</h4>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section
+  id="solutions"
+  class="bg-black mb-2 py-4 py-xl-5 px-1 px-lg-0 text-light"
+>
+  <div class="container-fluid py-lg-3 col-lg-10 offset-lg-1">
+    <div>
+      <h2 class="fw-bold mb-3">
+        Soluciones confiables para sectores que mueven la economía
+      </h2>
+      <p class="mb-5">
+        En MacMaster impulsamos el rendimiento de las industrias más exigentes
+        con productos técnicos de alta calidad. Ya sea en mantenimiento,
+        producción o instalación, brindamos soporte a empresas que necesitan
+        soluciones duraderas, eficientes y disponibles.
+      </p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+      <div class="col">
+        <h6 class="fw-bold text-uppercase mb-3">Mantenimiento Industrial</h6>
+        <p class="mb-0">
+          Evita paradas no planificadas con acceso rápido a tornillería,
+          abrazaderas, rodamientos y más.
+        </p>
+      </div>
+      <div class="col">
+        <h6 class="fw-bold text-uppercase mb-3">Construcción e Ingeniería</h6>
+        <p class="mb-0">
+          Asegura calidad y durabilidad con productos certificados para obras
+          civiles e instalaciones técnicas.
+        </p>
+      </div>
+      <div class="col col-md-12 col-xl">
+        <h6 class="fw-bold text-uppercase mb-3">Talleres y Ferreterías</h6>
+        <p class="mb-0 col-md-12">
+          Encuentra todo lo necesario para atender a tus clientes con un
+          catálogo especializado y asesoría directa.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact-us" class="container-fluid px-2">
+  <div class="d-flex flex-column flex-xl-row">
+    <!-- Banner Izquierdo -->
+    <div class="w-100 mb-2 me-md-1 mb-xl-0">
+      <div
+        class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
+      >
+        <img
+          src="{{ 'assets/images/image-bg.png' | relative_url }}"
+          class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
+          alt="Asesora industrial"
+        />
+        <div
+          class="position-relative p-4 p-lg-5 z-1 bg-gradient-dark h-100 d-flex flex-column justify-content-between min-height-xl"
+        >
+          <div>
+            <span class="badge py-2 px-2 mb-3">CONTÁCTENOS</span>
+            <h2 class="fw-bold mb-3">
+              ¿Listo para tu próxima<br />compra industrial?
+            </h2>
+            <p class="mb-4 col-xxl-8">
+              En Mac Master Importadores estamos para ayudarte a encontrar justo
+              lo que tu negocio necesita. Escríbenos y recibí asesoría
+              personalizada en minutos.
+            </p>
+            <a
+              class="text-center btn btn-main"
+              href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+              target="_blank"
+              >Habla con un asesor</a
+            >
+          </div>
+          <div class="d-inline-flex">
+            <div
+              class="guarantee d-flex flex-column flex-md-row align-items-md-center mt-4 small rounded-4 px-3 py-3 gap-2 bg-dark bg-opacity-75"
+            >
+              <img
+                src="{{ 'assets/images/guarantee-icon.png' | relative_url }}"
+                alt="Icono garantía"
+                width="24"
+                height="24"
+              />
+              <p class="mb-0">
+                Garantía de calidad: productos 100% certificados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Derecho -->
+    <div class="w-100 ms-md-1">
+      <div
+        class="position-relative text-white rounded-4 overflow-hidden h-100 min-height-xl"
+      >
+        <img
+          src="{{ 'assets/images/image-bg-cataloge.webp' | relative_url }}"
+          class="w-100 h-100 object-fit-cover opacity-50 position-absolute top-0 start-0 z-0"
+          alt="Industria de la construcción"
+        />
+        <div
+          class="position-relative p-4 p-lg-5 z-1 bg-gradient-dark h-100 d-flex flex-column justify-content-between"
+        >
+          <div>
+            <span class="badge py-2 px-2 mb-3">CATALOGO DE PRODUCTOS</span>
+            <h2 class="fw-bold mb-3">
+              Soluciones para<br />la Industria de la<br />construcción
+            </h2>
+            <a
+              class="text-center btn btn-main"
+              href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
+              target="_blank"
+              >Ver catálogo de productos</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

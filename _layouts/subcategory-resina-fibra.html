@@ -1,0 +1,306 @@
+---
+layout: default
+title: "Resina y fibra de vidrio"
+meta_title: "Resina y fibra de vidrio - Mac Master Importadores | Asesoría y Soporte Técnico"
+meta_description: "Resina y fibra de vidrio de alta calidad para aplicaciones industriales. Contamos con una amplia gama de productos para satisfacer tus necesidades."
+---
+
+{% assign subcategory = nil %} {% for subcat in site.data.subcategories %} {% if
+subcat.slug == page.slug %} {% assign subcategory = subcat %} {% break %} {%
+endif %} {% endfor %}
+<!-- Products Section -->
+<section id="products">
+  <div class="container-fluid">
+    <div
+      class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1"
+    >
+      <!-- Title and Description -->
+      <div
+        class="title-description d-flex flex-column align-items-start justify-content-center gap-3 p-0"
+      >
+        {% if subcategory %}
+        <h1>{{ subcategory.name }}</h1>
+
+        <!-- Dynamic Breadcrumb Navigation -->
+        {% include breadcrumb.html items=subcategory.breadcrumb %} {% else %}
+        <h1>Subcategoría no encontrada</h1>
+        {% endif %}
+      </div>
+
+      <!-- Subcategory Description -->
+      {% if subcategory %}
+      <p class="p-0">{{ subcategory.description }}</p>
+      {% endif %}
+
+      <!-- Tabs -->
+      {% assign category_subcategories = site.data.subcategories | where:
+      "category_id", subcategory.category_id %} {% if
+      category_subcategories.size > 1 %}
+      <div class="tabs d-flex flex-wrap gap-2 px-0">
+        {% for subcat in category_subcategories %} {% assign is_active = "" %}
+        {% if page.slug == subcat.slug %} {% assign is_active = "active" %} {%
+        endif %} {% assign tab_class = "text-decoration-none px-3 py-2
+        text-white border rounded" %} {% if is_active == "active" %} {% assign
+        tab_class = "rounded text-decoration-none px-3 py-2 rounded active" %}
+        {% endif %} {% if forloop.first %} {% assign tab_class = tab_class |
+        append: " rounded-start" %} {% endif %} {% if forloop.last %} {% assign
+        tab_class = tab_class | append: " rounded-end" %} {% endif %}
+        <a
+          href="{{ 'subcategory/' | append: subcat.slug | relative_url }}"
+          class="{{ tab_class }}"
+          >{{ subcat.tab_name }}</a
+        >
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- Dynamic Content Section -->
+{% if subcategory and subcategory.applications_title %}
+<!-- Hero Image Section -->
+<section
+  id="heroimage"
+  class="position-relative text-white"
+  style="background: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.35), rgba(18, 18, 18, 1)), url('{{ subcategory.hero_background | relative_url }}'); background-size: cover; background-repeat: no-repeat; background-position: center; min-height: 600px;"
+>
+  <div class="heading container d-flex align-items-center py-5">
+    <div class="col-lg-6">
+      <span class="badge mb-3 px-2 py-2">PRODUCTO DESTACADO</span>
+      <h1 class="fw-bold display-5 mb-4">
+        {{ subcategory.applications_title }}
+      </h1>
+      <p class="lead mb-4 text-light">
+        {{ subcategory.applications_description }}
+      </p>
+      <a
+        class="btn btn-main col-12 col-md-auto"
+        href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20resina%20y%20fibra%20de%20vidrio.%20¿Podrían%20brindarme%20más%20información%3F"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Contacta un asesor</a
+      >
+    </div>
+  </div>
+</section>
+
+<!-- Benefits Section -->
+{% if subcategory.benefits %}
+<section class="container-fluid text-white py-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-2 px-3">
+    {% for benefit in subcategory.benefits %}
+    <div class="col">
+      <div class="bg-dark rounded-3 p-3 h-100">
+        {% assign benefit_parts = benefit | split: ':' %}
+        <h6 class="fw-bold small mb-2">{{ benefit_parts[0] }}</h6>
+        <p class="mb-0 small">{{ benefit_parts[1] }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Tipos de resina/fibra Section -->
+{% if subcategory.types_title and subcategory.types %}
+<section id="types" class="container-fluid col-lg-10 offset-lg-1 py-5">
+  <div class="row align-items-start">
+    <!-- Accordion -->
+    <div class="col-lg-6">
+      <h2 class="fw-bold text-white mb-4">{{ subcategory.types_title }}</h2>
+      <div class="accordion" id="accordionExample">
+        {% for type in subcategory.types %}
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button text-bg-dark {% unless forloop.first %}collapsed{% endunless %}"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse{{ forloop.index }}"
+              aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}"
+              aria-controls="collapse{{ forloop.index }}"
+            >
+              {{ type.name }}
+            </button>
+          </h2>
+          <div
+            id="collapse{{ forloop.index }}"
+            class="accordion-collapse collapse {% if forloop.first %}show{% endif %}"
+            data-bs-parent="#accordionExample"
+          >
+            <div
+              class="accordion-body text-bg-dark {% if forloop.last %}rounded-4{% endif %}"
+            >
+              <ul>
+                <li>{{ type.main_use }}</li>
+                <li>{{ type.main_benefit }}</li>
+              </ul>
+              {% if type.description %}
+              <p class="px-3">{{ type.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <!-- Imagen -->
+    <div class="col-lg-6 mt-3 mt-lg-0">
+      <div class="overflow-hidden rounded-4 size-img">
+        <img
+          src="{{ subcategory.accordion_image | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover"
+          alt="Tipos de {{ subcategory.name | downcase }}"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Applications Section -->
+{% if subcategory.applications_grid %}
+<section id="aplications" class="container-fluid col-lg-10 offset-lg-1 py-5">
+  <h2 class="fw-bold text-white">{{ subcategory.applications_grid.title }}</h2>
+  <p class="text-white">{{ subcategory.applications_grid.subtitle }}</p>
+  <div class="row g-2 g-md-3 mt-3">
+    <!-- Fila 1 -->
+    <div class="col-12 col-md-6 col-xl-4">
+      <div class="position-relative overflow-hidden rounded-4">
+        <div class="overflow-hidden" style="height: 430px">
+          <img
+            src="{{ subcategory.applications_grid.applications[0].image | relative_url }}"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt="{{ subcategory.applications_grid.applications[0].title }}"
+          />
+        </div>
+        <div class="position-absolute bottom-0 start-0 w-100">
+          <div class="card-body p-3 text-white">
+            <h5>{{ subcategory.applications_grid.applications[0].title }}:</h5>
+            <p class="mb-0">
+              {{ subcategory.applications_grid.applications[0].description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-8">
+      <div class="position-relative overflow-hidden rounded-4">
+        <div class="overflow-hidden" style="height: 430px">
+          <img
+            src="{{ subcategory.applications_grid.applications[1].image | relative_url }}"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt="{{ subcategory.applications_grid.applications[1].title }}"
+          />
+        </div>
+        <div class="position-absolute bottom-0 start-0 w-100">
+          <div class="card-body p-3 text-white">
+            <h5>{{ subcategory.applications_grid.applications[1].title }}</h5>
+            <p class="mb-0">
+              {{ subcategory.applications_grid.applications[1].description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fila 2 -->
+    <div class="col-12 col-md-6 col-xl-8">
+      <div class="position-relative overflow-hidden rounded-4">
+        <div class="overflow-hidden" style="height: 438px">
+          <img
+            src="{{ subcategory.applications_grid.applications[2].image | relative_url }}"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt="{{ subcategory.applications_grid.applications[2].title }}"
+          />
+        </div>
+        <div class="position-absolute bottom-0 start-0 w-100">
+          <div class="card-body p-3 text-white">
+            <h5>{{ subcategory.applications_grid.applications[2].title }}</h5>
+            <p class="mb-0">
+              {{ subcategory.applications_grid.applications[2].description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+      <div class="position-relative overflow-hidden rounded-4">
+        <div class="overflow-hidden" style="height: 438px">
+          <img
+            src="{{ subcategory.applications_grid.applications[3].image | relative_url }}"
+            class="img-fluid w-100 h-100 object-fit-cover"
+            alt="{{ subcategory.applications_grid.applications[3].title }}"
+          />
+        </div>
+        <div class="position-absolute bottom-0 start-0 w-100">
+          <div class="card-body p-3 text-white">
+            <h5>{{ subcategory.applications_grid.applications[3].title }}</h5>
+            <p class="mb-0">
+              {{ subcategory.applications_grid.applications[3].description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %} {% endif %}
+
+<!-- Benefits -->
+{% include benefits.html %}
+
+<section
+  id="industrial-category"
+  class="container-fluid py-5 px-lg-0 col-lg-10 offset-lg-1"
+>
+  <h2 class="text-white fw-bold mb-4">Conoce más soluciones industriales</h2>
+  <div
+    class="d-flex flex-column flex-md-row flex-wrap flex-lg-nowrap gap-2 gap-md-3 justify-content-center"
+  >
+    {% for category in site.data.categories %} {% unless category.id ==
+    subcategory.category_id %} {% assign first_subcategory =
+    site.data.subcategories | where: "category_id", category.id | first %}
+    <div
+      class="rounded-4 overflow-hidden position-relative"
+      style="flex: 1 1 300px"
+    >
+      <a
+        href="{{ 'subcategory/' | append: first_subcategory.slug | relative_url }}"
+      >
+        {% if category.id == "tornilleria-industrial" %}
+        <img
+          src="{{ 'assets/images/index/tornilleria-industrial-fijaciones-macmaster.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
+        {% elsif category.id == "abrasivos" %}
+        <img
+          src="{{ 'assets/images/index/abrasivos-macmaster-corte-chispas.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
+        {% elsif category.id == "adhesivos-y-sellantes" %}
+        <img
+          src="{{ 'assets/images/index/adhesivo-industrial-motor.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
+        {% elsif category.id == "resina-y-fibra-de-vidrio" %}
+        <img
+          src="{{ 'assets/images/index/resina-y-fibra-aplicaciones-tecnicas.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
+        {% endif %}
+        <div class="position-absolute bottom-0 start-0 p-3 text-white fw-bold">
+          {{ category.name }}
+        </div>
+      </a>
+    </div>
+    {% endunless %} {% endfor %}
+  </div>
+</section>
+
+<!-- Gallery -->
+{% include gallery.html %}

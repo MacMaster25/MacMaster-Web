@@ -256,3 +256,4 @@ Para contribuir al proyecto:
 **Desarrollado con ❤️ para MacMaster Importadores SAS**
 
 *Última actualización: Agosto 2025*
+

@@ -1,0 +1,2114 @@
+/* ========================================
+  MAC MASTER WEB - MAIN STYLESHEET
+  ======================================== */
+
+/* ========================================
+  GLOBAL STYLES & CSS VARIABLES
+  ======================================== */
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+:root {
+  /* Text Colors */
+  --color-text-main: #ffffff;
+  --color-text-button: #000000;
+
+  /* Border */
+  --color-border: #7e8597;
+  --color-border-secondary: #ffc107;
+
+  /* Backgrounds */
+  --color-bg-primary: #121212;
+  --color-bg-secondary: #222222;
+
+  /* Primary Brand Color */
+  --color-primary: #ffc107;
+  --color-secondary: #121212;
+
+  /* Fonts */
+  --font-family-primary: "Bebas Neue", serif;
+  --font-family-secondary: "Noto Sans", serif;
+}
+
+a.btn-main {
+  background-color: #ffc107;
+  color: var(--color-text-button);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-main-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  font-weight: 500;
+  border: 1px solid var(--color-primary);
+  padding: 0.5rem 1rem;
+}
+
+a.btn-main-link {
+  color: var(--color-primary);
+}
+
+a.btn-main:hover {
+  background-color: #fff;
+  color: var(--color-text-button);
+}
+
+a.btn-main-outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-button);
+}
+
+body {
+  background-color: #121212;
+  background-image: url("../../assets/images/background-noise.png");
+  background-repeat: repeat;
+}
+
+/* ========================================
+    NAVBAR - COMMON ACROSS ALL PAGES
+    ======================================== */
+.navbar {
+  padding: 1rem !important;
+}
+
+.navbar .container-fluid {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-primary);
+}
+
+.navbar .container-navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .container-navbar-brand .navbar-brand img {
+  width: 75%;
+}
+
+.navbar .navbar-toggler {
+  background-color: var(--white) !important;
+  border-color: var(--color-bg-primary);
+}
+
+/* ========================================
+    FAB (FLOATING ACTION BUTTON) - COMMON
+    ======================================== */
+.fixed-bottom {
+  left: auto !important;
+}
+
+.fixed-bottom a {
+  max-width: 96px;
+}
+
+.fixed-bottom a img {
+  width: 100%;
+}
+
+/* ========================================
+    BANNER CTA - COMMON ACROSS ALL PAGES
+    ======================================== */
+#contact-us span,
+#contact-us .guarantee {
+  border: 1px solid var(--color-border-secondary);
+}
+
+#contact-us h2 {
+  font-size: 1.75rem;
+}
+
+#contact-us p {
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+/* ========================================
+    FOOTER - COMMON ACROSS ALL PAGES
+    ======================================== */
+#footer .footer-info p {
+  font-size: 1rem;
+}
+
+/* ========================================
+    INDEX PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Hero Image Section */
+#heroimage-index {
+  background-image: url("../../assets/images/hero-image-mobile.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Specific override for home page
+#heroimage-index.home-hero {
+  background-image: url("../../assets/images/hero-image.png") !important;
+} */
+
+/* Specific override for quienes somos page */
+/* #heroimage-index.quienes-somos-hero {
+  height: 70vh;
+  background-image: url("../../assets/images/about/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+
+#heroimage-index .content-heroimage {
+  padding: 7.5rem 1rem 0 1rem;
+}
+
+#heroimage-index .content-heroimage .heroimage-title {
+  margin-bottom: 1.5rem;
+  color: var(--color-text-main);
+}
+
+#heroimage-index .content-heroimage .heroimage-title h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#heroimage-index .content-heroimage .heroimage-title p {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+#heroimage-index .content-heroimage .heroimage-title p:nth-of-type(2) {
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+#heroimage-index .content-heroimage .heroimage-data {
+  backdrop-filter: blur(4px);
+  padding: 2.25rem 0;
+}
+
+#heroimage-index .content-heroimage .heroimage-data .data-a {
+  margin: 0 0 1rem 0;
+}
+
+#heroimage-index .content-heroimage .heroimage-data .data-a p {
+  color: var(--color-text-main);
+  font-feature-settings: "liga" off, "clig" off;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+#heroimage-index .content-heroimage .heroimage-data .data-a img {
+  width: 75%;
+}
+
+#heroimage-index .content-heroimage .heroimage-data .data-b {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary);
+  background: var(--color-bg-secondary);
+}
+
+#heroimage-index .content-heroimage .heroimage-data .data-b p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#heroimage-index .content-heroimage .heroimage-data .data-b img {
+  width: 75%;
+}
+
+/* Brands Section */
+#brand {
+  background-color: #020202;
+}
+
+#brand .container-brand .badge {
+  width: auto;
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#brand .container-brand .title-description h2 {
+  color: var(--color-text-main);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#brand .container-brand .brand-benefits h5 {
+  color: var(--color-text-main);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+#brand .container-brand .grid-stats small {
+  font-family: "Instrument Sans";
+}
+
+#brand .container-brand .brand-grid .brand-img {
+  padding: 2.25rem 0px;
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
+  border-right: 0;
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(3) {
+  border-bottom: 0;
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(4) {
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#brand .container-brand .brand-grid .brand-img img {
+  width: 80%;
+  object-fit: scale-down;
+}
+
+#brand .container-brand p {
+  color: var(--color-text-main);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Products Section */
+#products .container-products .badge {
+  width: auto;
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#products .container-products .title-description {
+  color: var(--color-text-main);
+}
+
+#products .container-products .title-description h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#products .container-products .title-description p {
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#products .container-products .grid-products h6,
+#products .container-products .grid-products p,
+#products .container-products .grid-products li {
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Instrument Sans";
+  font-weight: 300;
+}
+
+#products .container-products .grid-products h3 {
+  font-size: 1.125rem;
+}
+
+#products .container-products .grid-products h6 {
+  font-size: 0.75rem;
+}
+
+#products .container-products .grid-products p {
+  font-size: 0.875rem;
+}
+
+#products .container-products .brand-benefits h5 {
+  color: var(--color-text-main);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+/* ========================================
+    ABOUT PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Hero Image Section */
+
+#hero-about {
+  background: url("https://raw.githubusercontent.com/MacMaster25/MacMaster-Web/3a7ae8023ddfc3c19d6934800a1e16915eeaf988/Assets/02.about/grid_bg.svg")
+    center/cover no-repeat;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+#hero-about::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 200, 0, 0.4), transparent 70%);
+  z-index: 0;
+}
+
+#hero-about h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+#hero-about p {
+  font-family: instrument-sans, sans-serif;
+  font-size: 1.125rem;
+}
+
+#hero-about .grid-images img {
+  position: relative;
+  z-index: 1;
+}
+
+#hero-about .small-image {
+  width: 35%;
+}
+
+#hero-about .main-image {
+  border: 1px solid rgba(255, 193, 7, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#hero-about .medium-image {
+  width: 66%;
+}
+
+/*essence*/
+#essence h2 {
+  font-size: 1.75rem;
+  line-height: 120%;
+}
+
+#essence p {
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+#essence .container-essence {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+/*about us*/
+#about .container-about {
+  padding: 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#about .container-about span {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#about .container-about .title-description {
+  align-self: stretch;
+}
+
+#about .container-about .title-description .heading {
+  align-self: stretch;
+  color: var(--color-text-main);
+}
+
+#about .container-about .title-description .heading h2 {
+  margin-bottom: 0;
+}
+
+#about .container-about .title-description .heading p {
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats {
+  align-self: stretch;
+}
+
+#about .container-about .grid-stats .card {
+  background-color: transparent;
+  padding: 2.25rem 0;
+  align-self: stretch;
+  border-radius: 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-main);
+}
+
+#about .container-about .grid-stats .card:nth-of-type(2),
+#about .container-about .grid-stats .card:nth-of-type(3) {
+  border-top: 0;
+}
+
+#about .container-about .grid-stats .card:nth-of-type(4) {
+  border: 0;
+}
+
+#about .container-about .grid-stats .card h3 {
+  font-size: 3.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title {
+  align-self: stretch;
+}
+
+#about .container-about .grid-stats .card .card-title h4 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#about .container-about .grid-stats .card .card-title p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+/*location*/
+#location h2 {
+  font-size: 1.75rem;
+  line-height: 120%;
+}
+
+#location p {
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+#location .map-responsive {
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  border: 0;
+}
+
+/*values*/
+#values {
+  display: flex;
+  padding: 2.25rem 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#values .container-values {
+  align-self: stretch;
+  border-radius: 1rem;
+  border: 1px solid var(--color-border);
+}
+
+#values .container-values .title-description {
+  padding: 2.25rem 1rem 0px 1rem;
+}
+
+#values .container-values .title-description span {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#values .container-values .title-description h2 {
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#values .container-values .title-description p {
+  color: var(--color-text-main);
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#values .container-values .values {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  align-self: stretch;
+  padding: 0 1rem;
+}
+
+#values .container-values .values .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+#values .container-values .values .text p {
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#values .container-values img {
+  width: 100%;
+  height: 100vw;
+  object-fit: cover;
+  border-radius: 0 0 1rem 1rem;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 30%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 30%
+  );
+}
+
+/*mision & vision*/
+#mision .container-fluid span {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+#mision .container-fluid h2 {
+  color: var(--color-text-main);
+  font-size: 1.75rem;
+  font-style: normal;
+  line-height: 120%;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#mision .container-fluid p {
+  font-family: "Instrument Sans";
+  line-height: 160%;
+}
+
+/*team*/
+#team .container-team {
+  padding: 1rem;
+}
+
+#team .container-team img {
+  width: 100%;
+}
+
+#team .container-team .grid-images {
+  align-self: stretch;
+}
+
+/*benefits*/
+#benefits h2 {
+  font-size: 1.75rem;
+  line-height: 120%;
+}
+
+#benefits p {
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+/* ========================================
+    PRODUCTS PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Hero Image Section */
+#heroimage-categories {
+  position: relative;
+  background-image: url("../../assets/images/categories-hero-mobile.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#heroimage-categories::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  z-index: 1;
+}
+
+#heroimage-categories > * {
+  position: relative;
+  z-index: 2;
+}
+
+#heroimage-categories .content-heroimage {
+  padding: 7.5rem 1rem 0 1rem;
+}
+
+#heroimage-categories .content-heroimage .heroimage-title {
+  margin-bottom: 1.5rem;
+  color: var(--color-text-main);
+}
+
+#heroimage-categories .content-heroimage .heroimage-title h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#heroimage-categories .content-heroimage .heroimage-title p {
+  font-size: 1.125rem;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data {
+  backdrop-filter: blur(4px);
+  padding: 2.25rem 0;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-a {
+  margin: 0 0 1rem 0;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-a p {
+  color: var(--color-text-main);
+  font-feature-settings: "liga" off, "clig" off;
+  font-size: 1rem;
+  line-height: 120%;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-a img {
+  width: 75%;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-b {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0 0 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-primary);
+  background: var(--color-bg-secondary);
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-b p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#heroimage-categories .content-heroimage .heroimage-data .data-b img {
+  width: 75%;
+}
+
+/* Products Section */
+#products .content-produts {
+  gap: 2.25rem;
+}
+
+#products .content-produts .title-description {
+  align-self: stretch;
+}
+
+#products .content-produts .title-description h2 {
+  color: var(--color-text-main);
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .title-description p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .product-card {
+  align-self: stretch;
+}
+
+#products .content-produts .product-card h3 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#products .content-produts .product-card .content-card {
+  padding: 0 1rem;
+}
+
+#products .content-produts .product-card .content-card .card-hide {
+  opacity: 0;
+}
+
+#products .content-produts .product-card .content-card .card {
+  border-radius: 0;
+  background: none;
+  border: 1px solid var(--color-border);
+}
+
+#products .content-produts .product-card .content-card .card a {
+  height: 100%;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+}
+
+#products .content-produts .product-card .card:nth-of-type(2),
+#products .content-produts .product-card .card:nth-of-type(3),
+#products .content-produts .product-card .card:nth-of-type(4) {
+  border-top: 0;
+}
+
+#products .content-produts .product-card .content-card .card img {
+  width: 25%;
+}
+
+#products .content-produts .product-card .content-card .card h4 {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+/* ========================================
+    CATEGORY PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Products Section */
+#products .content-produts {
+  padding: 7.25rem 1rem 2.25rem 1rem;
+  gap: 2.25rem;
+}
+
+#products .content-produts .title-description .breadcrumb {
+  margin-bottom: 0;
+}
+
+#products
+  .content-produts
+  .title-description
+  .breadcrumb
+  .breadcrumb-item
+  + .breadcrumb-item::before {
+  color: var(--color-border);
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+#products .content-produts .title-description .breadcrumb .active {
+  color: var(--color-text-main);
+}
+
+#products .content-produts p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .tabs .active {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+#products .content-produts .grid-products {
+  grid-template-columns: 1fr;
+}
+
+#products .content-produts .grid-products .card {
+  border-radius: 0;
+  background: none;
+  border: 1px solid var(--color-border);
+}
+
+#products .content-produts .grid-products .card:nth-of-type(2),
+#products .content-produts .grid-products .card:nth-of-type(3),
+#products .content-produts .grid-products .card:nth-of-type(4),
+#products .content-produts .grid-products .card:nth-of-type(5),
+#products .content-produts .grid-products .card:nth-of-type(6),
+#products .content-produts .grid-products .card:nth-of-type(7) {
+  border-top: 0;
+}
+
+#products .content-produts .grid-products .card a {
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+}
+
+#products .content-produts .grid-products .card a img {
+  width: 25%;
+}
+
+#products .content-produts .grid-products .card h4 {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+/* ========================================
+    CATEGORY DETAIL PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Products Section */
+#products .content-produts .title-description h1 {
+  color: var(--color-text-main);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .title-description .breadcrumb {
+  margin-bottom: 0;
+}
+
+#products
+  .content-produts
+  .title-description
+  .breadcrumb
+  .breadcrumb-item
+  + .breadcrumb-item::before {
+  color: var(--color-border);
+}
+
+#products .content-produts .title-description .breadcrumb .breadcrumb-item a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+#products .content-produts .title-description .breadcrumb .active {
+  color: var(--color-text-main);
+}
+
+#products .content-produts h2 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .grid-products h3 {
+  color: var(--color-text-main);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .content-produts .grid-products .content-card .card {
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  border-radius: 0;
+  background: none;
+  border: 1px solid var(--color-border);
+}
+
+#products .content-produts .grid-products .content-card .card:nth-child(2),
+#products .content-produts .grid-products .content-card .card:nth-child(3),
+#products .content-produts .grid-products .content-card .card:nth-child(4),
+#products .content-produts .grid-products .content-card .card:nth-child(5),
+#products .content-produts .grid-products .content-card .card:nth-child(6),
+#products .content-produts .grid-products .content-card .card:nth-child(7),
+#products .content-produts .grid-products .content-card .card:nth-child(8),
+#products .content-produts .grid-products .content-card .card:nth-child(9),
+#products .content-produts .grid-products .content-card .card:nth-child(10),
+#products .content-produts .grid-products .content-card .card:nth-child(11),
+#products .content-produts .grid-products .content-card .card:nth-child(12) {
+  border-top: 0;
+}
+
+#products .content-produts .grid-products .content-card .card img {
+  width: 25%;
+}
+
+#products .content-produts .grid-products .content-card .card h4 {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+/* Specifications Section */
+#products .specs h2 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .specs .container-specs table {
+  border: 1px solid var(--color-border);
+}
+
+#products .specs .container-specs table th {
+  color: var(--color-text-main);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 1rem;
+  align-self: stretch;
+  background-color: #121212;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#products .specs .container-specs table td {
+  color: var(--color-text-main);
+  font-size: 1.125rem;
+  font-family: "Instrument Sans";
+  font-style: normal;
+  line-height: 120%;
+  padding: 1rem;
+  align-items: center;
+  align-self: stretch;
+}
+
+/* Documentation Section */
+#products .documentary .title-description h2 {
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#products .documentary .title-description p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#products .documentary ul {
+  color: var(--color-primary);
+}
+
+#products .documentary a {
+  color: var(--color-primary);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+/* ========================================
+    CONTACT PAGE SPECIFIC STYLES
+    ======================================== */
+
+/* Heading Section */
+#heading .title-description {
+  padding: 9rem 1rem 2.25rem 1rem;
+}
+
+#heading .title-description h1 {
+  color: var(--color-text-main);
+  text-align: center;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#heading .title-description p {
+  color: var(--color-text-main);
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+/* Contact Info Section */
+#contact-info .content-contact {
+  padding: 0.5rem;
+}
+
+#contact-info .content-contact .card {
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+#contact-info .content-contact .card h2 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+#contact-info .content-contact .card .card-description p {
+  font-family: "Instrument Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#contact-info .content-contact .card .card-description p:nth-of-type(2) {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#contact-info .content-contact .card:nth-of-type(1) {
+  background-color: var(--color-primary);
+}
+
+#contact-info .content-contact .card:nth-of-type(1) h2 {
+  color: var(--color-bg-primary);
+}
+
+#contact-info .content-contact .card:nth-of-type(2) {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+}
+
+#contact-info .content-contact .card:nth-of-type(2) h2 {
+  color: var(--color-text-main);
+}
+
+#contact-info .content-contact .card:nth-of-type(2) p {
+  color: var(--color-text-main);
+}
+
+#contact-info .content-contact .card:nth-of-type(3) {
+  background-color: #101010;
+  border: 1px solid var(--color-border);
+}
+
+#contact-info .content-contact .card:nth-of-type(3) {
+  color: var(--color-text-main);
+}
+
+#contact-info .content-contact .card .card-description a {
+  color: var(--color-text-main);
+  text-decoration: none;
+}
+
+/* Form Section */
+#form .content-form {
+  padding: 0 0.5rem;
+}
+
+#form .content-form .maps {
+  height: 50vh;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#form .content-form .maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+#form .content-form form {
+  padding: 1.5rem 1rem;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: var(--color-text-main);
+}
+
+#form .content-form form .title-description {
+  color: var(--color-text-button);
+}
+
+#form .content-form form .title-description h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+#form .content-form form .title-description p {
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+#form .content-form form .inputs {
+  padding: 1rem;
+  border-radius: 0px 0px 0.5rem 0.5rem;
+  border-right: 1px solid rgba(233, 238, 234, 0);
+  border-bottom: 1px solid rgba(233, 238, 234, 0);
+  border-left: 1px solid rgba(233, 238, 234, 0);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #f4f4f4 100%);
+}
+
+#form .content-form form .inputs label {
+  font-size: 0.75rem;
+  color: var(--color-text-button);
+}
+
+#form .content-form form .inputs input {
+  border-radius: 0.5rem;
+  border: 1px solid #e9eeea;
+}
+
+#form .content-form form .inputs button {
+  width: 100%;
+  color: var(--color-text-button);
+  text-align: center;
+  padding: 1rem;
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  border-radius: 0.5rem;
+  border: 0;
+  background: #ffc107;
+}
+
+/* ========================================
+    THANK YOU PAGE SPECIFIC STYLES
+    ======================================== */
+
+#thankyou {
+  padding: 6.5rem 0.5rem 0 0.5rem;
+}
+
+#thankyou .card-thanks {
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+}
+
+#thankyou .card-thanks .success {
+  color: #20c997;
+}
+
+#thankyou .card-thanks .info-text {
+  border-top: 1px solid var(--color-border);
+}
+
+/* ========================================
+    RESINA Y FIBRA DE VIDRIO
+    ======================================== */
+
+/* Resina y fibra de vidrio */
+
+/* Hero */
+#heroimage {
+  background: linear-gradient(
+      to bottom,
+      rgba(18, 18, 18, 0),
+      rgba(18, 18, 18, 0.35),
+      rgba(18, 18, 18, 1)
+    ),
+    url("./assets/images/subcategory-resina/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+}
+
+#heroimage .heading {
+  min-height: 600px;
+}
+
+#heroimage span {
+  border: 1px solid var(--color-border-secondary);
+}
+
+/* Types of resine */
+#types h2 {
+  font-size: 1.75rem;
+}
+
+#types .size-img {
+  height: 300px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/images/chevron-down.png");
+}
+
+.accordion-button::after {
+  background-image: url("../../assets/images/chevron-down.png");
+}
+
+/* Applications */
+#aplications h2 {
+  font-size: 1.75rem;
+}
+
+/* Applications */
+#aplications p {
+  font-size: 1rem;
+}
+
+#aplications .container-image {
+  background-image: url("./assets/images/subcategory-resina/encapsulado-resina-mesa-arte-decoracion-brillante.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+}
+
+#aplications .card-body {
+  background: linear-gradient(0deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  backdrop-filter: blur(2px);
+}
+
+#aplications .card-body h5 {
+  font-size: 1.125rem;
+}
+
+#aplications .card-body p {
+  font-family: "Instrument Sans";
+  font-size: 1rem;
+}
+
+/* ========================================
+    RESPONSIVE MEDIA QUERIES
+    ======================================== */
+
+/* Landscape phones, 608px */
+@media (min-width: 608px) {
+  .navbar .container-navbar-brand {
+    width: 100%;
+  }
+
+  /* Index Page */
+  #heroimage-index .content-heroimage {
+    padding: 9rem 1rem 0 1rem;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-a img {
+    width: 50%;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-b {
+    gap: 1rem;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-b .data-image {
+    flex: 0 0 2rem;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-b .data-image img {
+    width: 100%;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-b p {
+    font-size: 1rem;
+  }
+
+  #location .map-responsive {
+    min-height: 400px;
+  }
+
+  #team .container-team img {
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+  /* Products Page */
+  #heroimage-categories .content-heroimage {
+    padding: 9rem 1rem 0 1rem;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-a img {
+    width: 50%;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b {
+    gap: 1rem;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b .data-image {
+    flex: 0 0 2rem;
+  }
+
+  #heroimage-categories
+    .content-heroimage
+    .heroimage-data
+    .data-b
+    .data-image
+    img {
+    width: 100%;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b p {
+    font-size: 1rem;
+  }
+
+  #products .content-produts .product-card .card:nth-of-type(2) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .product-card .card:nth-of-type(4) {
+    border-left: 0;
+  }
+
+  /* Category Page */
+  #products .content-produts .grid-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(2),
+  #products .content-produts .grid-products .card:nth-of-type(4),
+  #products .content-produts .grid-products .card:nth-of-type(6) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  /* Category Detail Page */
+  #products .content-produts .grid-products .content-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(2),
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(6),
+  #products .content-produts .grid-products .content-card .card:nth-child(8),
+  #products .content-produts .grid-products .content-card .card:nth-child(10),
+  #products .content-produts .grid-products .content-card .card:nth-child(12) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(6),
+  #products .content-produts .grid-products .content-card .card:nth-child(8),
+  #products .content-produts .grid-products .content-card .card:nth-child(10),
+  #products .content-produts .grid-products .content-card .card:nth-child(12) {
+    border-top: 0;
+    border-left: 0;
+  }
+
+  /* About Page */
+  #hero-about {
+    padding-top: 9rem;
+  }
+
+  #hero-about .main-image img {
+    max-height: 360px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #values .container-values img {
+    height: 50vw;
+  }
+
+  #team .container-team img {
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+  /* Thank you Page */
+  #thankyou {
+    padding: 7.5rem 0.5rem 0 0.5rem;
+  }
+}
+
+/* Tablets, 768px */
+@media (min-width: 768px) {
+  .navbar .container-navbar-brand .navbar-brand img {
+    width: 50%;
+  }
+
+  /* Index Page */
+  #heroimage-index {
+    background-image: url("../../assets/images/hero-image-desktop.webp");
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-a {
+    margin: 0;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-a img {
+    width: 35%;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-b {
+    width: auto;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-b p {
+    font-size: 0.875rem;
+  }
+
+  /* Specific override for home page desktop */
+  /* #heroimage.home-hero {
+    background-image: url("/assets/images/hero-image.png") !important;
+  } */
+
+  #heroimage .content-heroimage .heroimage-data .data-a {
+    margin: 0;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-a img {
+    width: 50%;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b {
+    width: auto;
+  }
+
+  #heroimage .content-heroimage .heroimage-data .data-b p {
+    font-size: 0.875rem;
+  }
+
+  #brand .container-brand .brand-stats {
+    min-height: 500px;
+  }
+
+  #brand .container-brand .brand-stats .brand-heading {
+    min-height: 500px;
+  }
+
+  #brand .container-brand .brand-grid .brand-img img {
+    width: 50%;
+  }
+
+  #heroimage-about .content-heroimage {
+    padding: 9rem 1rem 0 1rem;
+  }
+
+  #team .container-team img {
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+  /* Products Page */
+  #heroimage-categories {
+    background-image: url("../../assets/images/categories-hero.webp");
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-a {
+    margin: 0;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-a img {
+    width: 35%;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b {
+    width: auto;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b p {
+    font-size: 0.875rem;
+  }
+
+  /* About Page */
+  #heroimage-about {
+    background-image: url("../../assets/images/about/banner.png");
+  }
+
+  #hero-about {
+    padding-top: 7rem;
+  }
+
+  #mision .container-fluid img {
+    min-height: 700px;
+    object-fit: cover;
+  }
+
+  #values .container-values .values {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 2.25rem;
+    padding: 0;
+  }
+
+  #about .container-about .grid-stats .card {
+    padding: 3.75rem 0;
+  }
+
+  #about .container-about .title-description a {
+    width: auto;
+  }
+
+  /* Category Detail Page */
+  #products .content-produts .grid-products .content-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(3) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(10) {
+    border-left: 1px solid var(--color-border);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(5),
+  #products .content-produts .grid-products .content-card .card:nth-child(9),
+  #products .content-produts .grid-products .content-card .card:nth-child(11) {
+    border-left: 0;
+  }
+
+  #products .specs .container-specs table tr th {
+    border-right: 1px solid var(--color-border);
+  }
+
+  /* Thank you Page */
+  #thankyou {
+    padding: 6.5rem 0.5rem 0 0.5rem;
+  }
+}
+
+/* Desktop, 992px */
+@media (min-width: 992px) {
+  .navbar {
+    padding: 1rem 0 !important;
+  }
+
+  .navbar .navbar-brand {
+    width: auto;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 0.5rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--color-text-button);
+    font-weight: 500;
+  }
+
+  .navbar-expand-lg .navbar-nav .active {
+    font-weight: 500;
+    background-color: #d18100;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem !important;
+  }
+
+  /* Index Page */
+  #heroimage-index .content-heroimage {
+    padding: 9rem 0 0 0;
+  }
+
+  #brand .container-brand .brand-grid .brand-img img {
+    width: 100%;
+  }
+
+  #brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
+    border-right: 1px solid var(--color-border);
+  }
+
+  #brand .container-brand .brand-grid .brand-img {
+    padding: 2.25rem 1.5rem;
+    border-bottom: 0;
+    border-right: 1px solid var(--color-border);
+  }
+
+  /* About Page */
+  #hero-about {
+    min-height: 70vh;
+    padding-top: 5rem;
+  }
+
+  #hero-about::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    top: 30%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 100%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 200, 0, 0.4),
+      transparent 70%
+    );
+    z-index: 0;
+  }
+
+  #about .container-about .title-description {
+    gap: 2.25rem;
+  }
+
+  #about .container-about .title-description .heading {
+    gap: 2.25rem;
+  }
+
+  #values {
+    padding: 2.25rem 0;
+  }
+
+  #team .container-team {
+    flex-direction: row;
+    padding: 0.5rem 0;
+  }
+
+  #team .container-team img {
+    width: 49%;
+    height: 100%;
+  }
+
+  #team .container-team .grid-images img {
+    width: 98%;
+    height: 50%;
+  }
+
+  /* Products Page */
+  #heroimage-categories .content-heroimage {
+    padding: 9rem 0 0 0;
+  }
+
+  #products .content-produts .product-card .card:nth-of-type(3),
+  #products .content-produts .product-card .card:nth-of-type(4) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  /* Category Page */
+  #products .content-produts .grid-products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(3) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(6) {
+    border-top: 0;
+  }
+
+  #products .content-produts .grid-products .card:nth-of-type(7) {
+    border-left: 0;
+  }
+
+  /* Category Detail Page */
+  #products .content-produts .grid-products .content-card {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(4),
+  #products .content-produts .grid-products .content-card .card:nth-child(5),
+  #products .content-produts .grid-products .content-card .card:nth-child(6) {
+    border-top: 1px solid var(--color-border);
+    border-left: 0;
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(9) {
+    border-top: 0;
+    border-left: 1px solid var(--color-border);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(7) {
+    border-left: 1px solid var(--color-border);
+  }
+
+  #products .content-produts .grid-products .content-card .card:nth-child(9),
+  #products .content-produts .grid-products .content-card .card:nth-child(10) {
+    border-left: 0;
+  }
+
+  #products .specs,
+  #products .documentary {
+    padding: 0;
+  }
+
+  /* About Page */
+  /* #heroimage .content-hero {
+    padding: 9rem 0 2.25rem 0;
+  } */
+
+  #mision .container-mision {
+    padding: 2.25rem 0;
+  }
+
+  #mision .container-mision .grid-detail .card h3 {
+    font-size: 2.25rem;
+  }
+
+  #values {
+    padding: 2.25rem 0;
+  }
+
+  #about .container-about .title-description {
+    gap: 2.25rem;
+  }
+
+  #about .container-about .title-description .heading {
+    gap: 2.25rem;
+  }
+
+  #team .container-team {
+    flex-direction: row;
+    padding: 0.5rem 0;
+  }
+
+  #team .container-team img {
+    width: 49%;
+    height: 100%;
+  }
+
+  #team .container-team .grid-images img {
+    width: 98%;
+    height: 50%;
+  }
+
+  /* Contact Page */
+  #heading .title-description h1 {
+    text-align: left;
+  }
+
+  #heading .title-description p {
+    text-align: left;
+  }
+
+  #contact-info .content-contact {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #form .content-form form {
+    padding: 3.75rem 3rem;
+  }
+
+  /* Resina y fibra de vidrio */
+  #types .size-img {
+    height: 530px;
+  }
+}
+
+/* Large desktops, 1200px */
+@media (min-width: 1200px) {
+  /* Index Page */
+  #heroimage-index .content-heroimage .heroimage-title h1 {
+    font-size: 3rem;
+  }
+
+  #brand .container-brand .brand-stats {
+    min-height: 650px;
+  }
+
+  #brand .container-brand .brand-stats .brand-heading {
+    min-height: 650px;
+  }
+
+  #brand .container-brand .brand-grid .brand-img img {
+    width: 75%;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-data .data-b {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+  }
+
+  #products .container-products .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  #products .container-products .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  #contact-us .min-height-xl {
+    min-height: 650px;
+  }
+
+  /* About Page */
+  #hero-about::before {
+    top: 0%;
+  }
+
+  #about .container-about {
+    align-items: flex-start;
+    padding: 4.5rem 0;
+  }
+
+  #values .container-values .title-description {
+    padding: 3.75rem 1rem 0px 1rem;
+  }
+
+  #values .container-values img {
+    height: 100vh;
+  }
+
+  #mision .container-fluid img {
+    min-height: 580px;
+  }
+
+  /* Category Page */
+  #heroimage-categories .content-heroimage .heroimage-title h1 {
+    font-size: 3rem;
+  }
+
+  #heroimage-categories .content-heroimage .heroimage-data .data-b {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+  }
+
+  /* Contact Page */
+  #form .content-form .maps {
+    height: auto;
+    align-self: stretch;
+  }
+}
+
+/* Larger desktops, 1400px */
+@media (min-width: 1400px) {
+  /* Index Page */
+  #heroimage-index .content-heroimage .heroimage-title p {
+    font-size: 1.5rem;
+  }
+
+  #heroimage-index .content-heroimage .heroimage-title p:nth-of-type(2) {
+    font-size: 1.125rem;
+  }
+
+  #brand .container-brand {
+    padding: 4.5rem 0;
+  }
+
+  #contact-us h2 {
+    font-size: 2.25rem;
+  }
+
+  /* About Page */
+  #hero-about {
+    min-height: 80vh;
+  }
+
+  #hero-about .main-image img {
+    max-height: 540px;
+  }
+
+  #hero-about h1 {
+    font-size: 3rem;
+  }
+
+  #essence h2 {
+    font-size: 2.25rem;
+  }
+
+  #essence p {
+    font-size: 1.5rem;
+  }
+
+  #location h2 {
+    font-size: 2.25rem;
+  }
+
+  #location p {
+    font-size: 1.5rem;
+  }
+
+  #values .container-values img {
+    height: 60vh;
+  }
+
+  #values .container-values .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  #mision .container-fluid h2 {
+    font-size: 2.25rem;
+  }
+
+  #benefits h2 {
+    font-size: 2.25rem;
+  }
+
+  /* Products Page */
+  #heroimage-categories .content-heroimage .heroimage-title p {
+    font-size: 1.5rem;
+  }
+
+  #products .content-produts .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  /* Category Page */
+  #products .content-produts p {
+    font-size: 1.5rem;
+  }
+
+  /* Category Detail Page */
+  #products .content-produts p {
+    font-size: 1.5rem;
+  }
+
+  /* About Page */
+  #heroimage-about .content-hero h1 {
+    font-size: 3.75rem;
+  }
+
+  #mision .container-mision .title h2 {
+    font-size: 2.25rem;
+  }
+
+  #values .container-values img {
+    height: 60vh;
+  }
+
+  #values .container-values .title-description h2 {
+    font-size: 2.25rem;
+  }
+
+  #about .container-about .grid-stats .card h3 {
+    font-size: 5rem;
+  }
+
+  /* Contact Page */
+  #contact-info .content-contact {
+    grid-template-columns: 6fr 3fr 3fr;
+  }
+
+  #form .content-form .maps {
+    display: flex;
+    flex: 1;
+  }
+
+  #form .content-form form {
+    flex-wrap: wrap;
+    flex: 0 0 59rem;
+  }
+
+  /* Footer */
+  #footer .footer-info p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Categories Hero Section */
+/* .categories-hero {
+  height: 70vh;
+  background-image: url("../../assets/images/categories-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+
+/* Resina y fibra de vidrio */
+#types h2 {
+  font-size: 2.25rem;
+}
+
+#aplications h2 {
+  font-size: 2.25rem;
+}
+
+#aplications p {
+  font-size: 1.5rem;
+}
+
+#aplications .card-body h5 {
+  font-size: 1.5rem;
+}

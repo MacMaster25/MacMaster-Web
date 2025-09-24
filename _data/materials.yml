@@ -1,0 +1,2104 @@
+- id: acero-baja-resistencia
+  slug: "acero-baja-resistencia"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero baja resistencia"
+  description: "Acero baja resistencia para aplicaciones industriales"
+  subtitle: "Fijación robusta y confiable para aplicaciones industriales exigentes."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-baja-resistencia.png"
+
+- id: acero-grado-5
+  slug: "acero-grado-5"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero grado 5"
+  description: "Acero de alta resistencia para aplicaciones industriales"
+  subtitle: "Material de grado 5 para máxima durabilidad y resistencia."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-grado-5.png"
+
+- id: acero-grado-8
+  slug: "acero-grado-8"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero grado 8"
+  description: "Acero de muy alta resistencia para aplicaciones críticas"
+  subtitle: "Material de grado 8 para las aplicaciones más exigentes."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-grado-8.png"
+
+- id: acero-grado-9
+  slug: "acero-grado-9"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero grado 9"
+  description: "Acero de máxima resistencia para aplicaciones especializadas"
+  subtitle: "Material de grado 9 para condiciones extremas."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-grado-9.png"
+
+- id: acero-clase-8-8
+  slug: "acero-clase-8-8"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero de clase 8.8"
+  description: "Acero de clase 8.8 para aplicaciones estructurales"
+  subtitle: "Material clase 8.8 para construcciones y estructuras."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-clase-8-8.png"
+
+- id: acero-clase-10-9
+  slug: "acero-clase-10-9"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero de clase 10.9"
+  description: "Acero de clase 10.9 para aplicaciones de alta tensión"
+  subtitle: "Material clase 10.9 para aplicaciones de alta resistencia."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-clase-10-9.png"
+
+- id: acero-inoxidable-18-8
+  slug: "acero-inoxidable-18-8"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero inoxidable 18-8"
+  description: "Acero inoxidable 18-8 para resistencia a la corrosión"
+  subtitle: "Material inoxidable 18-8 para ambientes corrosivos."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-inoxidable-18-8.png"
+
+- id: acero-inoxidable-316
+  slug: "acero-inoxidable-316"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero inoxidable 316"
+  description: "Acero inoxidable 316 para aplicaciones marinas y químicas"
+  subtitle: "Material inoxidable 316 para ambientes extremos."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-inoxidable-316.png"
+
+- id: acero-inoxidable-a2
+  slug: "acero-inoxidable-a2"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero inoxidable A2"
+  description: "Acero inoxidable A2 para aplicaciones generales"
+  subtitle: "Material inoxidable A2 para uso general."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-inoxidable-a2.png"
+
+- id: acero-inoxidable-a4
+  slug: "acero-inoxidable-a4"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero inoxidable A4"
+  description: "Acero inoxidable A4 para aplicaciones químicas"
+  subtitle: "Material inoxidable A4 para ambientes químicos."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-inoxidable-a4.png"
+
+- id: acero-grado-8-mano-izquierda
+  slug: "acero-grado-8-mano-izquierda"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero grado 8 mano izquierda"
+  description: "Acero grado 8 con rosca izquierda para aplicaciones especiales"
+  subtitle: "Material grado 8 con rosca izquierda para casos especiales."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-grado-8-mano-izquierda.png"
+
+- id: acero-inoxidable-18-8-mano-izquierda
+  slug: "acero-inoxidable-18-8-mano-izquierda"
+  product_id: "pernos-de-cabeza-hexagonal"
+  name: "Acero inoxidable 18-8 mano izquierda"
+  description: "Acero inoxidable 18-8 con rosca izquierda para ambientes corrosivos"
+  subtitle: "Material inoxidable 18-8 con rosca izquierda para casos especiales."
+  image: "assets/images/materials/pernos-de-cabeza-hexagonal/acero-inoxidable-18-8-mano-izquierda.png"
+
+
+- id: tornillos-cabeza-hueca-sistema-pulgadas
+  slug: "tornillos-cabeza-hueca-sistema-pulgadas"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca estándar del sistema en pulgadas"
+  description: "Tornillos de cabeza hueca estándar del sistema en pulgadas para aplicaciones industriales"
+  subtitle: "Tornillos de cabeza hueca estándar del sistema en pulgadas."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-sistema-pulgadas.png"
+
+- id: tornillos-cabeza-hueca-sistema-metrico
+  slug: "tornillos-cabeza-hueca-sistema-metrico"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca estándar del sistema métrico"
+  description: "Tornillos de cabeza hueca estándar del sistema métrico para aplicaciones industriales"
+  subtitle: "Tornillos de cabeza hueca estándar del sistema métrico."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-sistema-metrico.png"
+
+- id: tornillos-cabeza-hueca-especificacion-militar
+  slug: "tornillos-cabeza-hueca-especificacion-militar"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca de especificación militar"
+  description: "Tornillos de cabeza hueca de especificación militar para aplicaciones críticas"
+  subtitle: "Tornillos de cabeza hueca de especificación militar."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-especificacion-militar.png"
+
+- id: tornillos-cabeza-hueca-perfil-bajo
+  slug: "tornillos-cabeza-hueca-perfil-bajo"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca estándar de perfil bajo"
+  description: "Tornillos de cabeza hueca estándar de perfil bajo para espacios reducidos"
+  subtitle: "Tornillos de cabeza hueca estándar de perfil bajo."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-perfil-bajo.png"
+
+- id: tornillos-cabeza-hueca-estandar-brida
+  slug: "tornillos-cabeza-hueca-estandar-brida"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca estándar con brida"
+  description: "Tornillos de cabeza hueca estándar con brida para mayor superficie de contacto"
+  subtitle: "Tornillos de cabeza hueca estándar con brida."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-estandar-brida.png"
+
+- id: tornillos-cabeza-hueca-plana
+  slug: "tornillos-cabeza-hueca-plana"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca plana"
+  description: "Tornillos de cabeza hueca plana para aplicaciones de superficie lisa"
+  subtitle: "Tornillos de cabeza hueca plana."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-plana.png"
+
+- id: tornillos-cabeza-hueca-boton
+  slug: "tornillos-cabeza-hueca-boton"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca de botón"
+  description: "Tornillos de cabeza hueca de botón para aplicaciones estéticas"
+  subtitle: "Tornillos de cabeza hueca de botón."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-boton.png"
+
+- id: tornillos-cabeza-hueca-con-brida
+  slug: "tornillos-cabeza-hueca-con-brida"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca con brida"
+  description: "Tornillos de cabeza hueca con brida para mayor estabilidad"
+  subtitle: "Tornillos de cabeza hueca con brida."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-con-brida.png"
+
+- id: tornillos-cabeza-hueca-ventilados
+  slug: "tornillos-cabeza-hueca-ventilados"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca ventilados"
+  description: "Tornillos de cabeza hueca ventilados para aplicaciones especiales"
+  subtitle: "Tornillos de cabeza hueca ventilados."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-ventilados.png"
+
+- id: tornillos-cabeza-hueca-con-bloqueo
+  slug: "tornillos-cabeza-hueca-con-bloqueo"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Tornillos de cabeza hueca con bloqueo"
+  description: "Tornillos de cabeza hueca con bloqueo para prevenir aflojamiento"
+  subtitle: "Tornillos de cabeza hueca con bloqueo."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/tornillos-cabeza-hueca-con-bloqueo.png"
+
+- id: surtidos-tornillos-cabeza-hueca
+  slug: "surtidos-tornillos-cabeza-hueca"
+  product_id: "tornillos-de-cabeza-hueca"
+  name: "Surtidos de tornillos de cabeza hueca"
+  description: "Surtidos de tornillos de cabeza hueca para diferentes aplicaciones"
+  subtitle: "Surtidos de tornillos de cabeza hueca."
+  image: "assets/images/materials/tornillos-de-cabeza-hueca/surtidos-tornillos-cabeza-hueca.png"
+
+- id: tornillos-autoperforantes-para-union-de-metal-con-metal
+  slug: "tornillos-autoperforantes-para-union-de-metal-con-metal"
+  product_id: "tornillos-para-taladrar-y-roscar"
+  name: "Tornillos autoperforantes para union de metal con metal"
+  description: "Tornillos autoperforantes para union de metal con metal para aplicaciones industriales"
+  subtitle: "Tornillos autoperforantes para union de metal con metal."
+  image: "assets/images/materials/tornillos-para-taladrar-y-roscar/tornillos-autoperforantes-para-union-de-metal-con-metal.png"
+
+- id: tornillos-autoperforantes-de-sellado-para-union-de-metal-con-metal
+  slug: "tornillos-autoperforantes-de-sellado-para-union-de-metal-con-metal"
+  product_id: "tornillos-para-taladrar-y-roscar"
+  name: "Tornillos autoperforantes de sellado para union de metal con metal"
+  description: "Tornillos autoperforantes de sellado para union de metal con metal para aplicaciones industriales"
+  subtitle: "Tornillos autoperforantes de sellado para union de metal con metal."
+  image: "assets/images/materials/tornillos-para-taladrar-y-roscar/tornillos-autoperforantes-de-sellado-para-union-de-metal-con-metal.png"
+
+- id: tornillos-autoperforantes-para-union-de-madera-y-metal
+  slug: "tornillos-autoperforantes-para-union-de-madera-y-metal"
+  product_id: "tornillos-para-taladrar-y-roscar"
+  name: "Tornillos autoperforantes para union de madera y metal"
+  description: "Tornillos autoperforantes para union de madera y metal para aplicaciones industriales"
+  subtitle: "Tornillos autoperforantes para union de madera y metal."
+  image: "assets/images/materials/tornillos-para-taladrar-y-roscar/tornillos-autoperforantes-para-union-de-madera-y-metal.png"
+
+- id: tornillos-autoperforantes-de-sellado-para-union-de-madera-y-metal
+  slug: "tornillos-autoperforantes-de-sellado-para-union-de-madera-y-metal"
+  product_id: "tornillos-para-taladrar-y-roscar"
+  name: "Tornillos autoperforantes de sellado para union de madera y metal"
+  description: "Tornillos autoperforantes de sellado para union de madera y metal para aplicaciones industriales"
+  subtitle: "Tornillos autoperforantes de sellado para union de madera y metal."
+  image: "assets/images/materials/tornillos-para-taladrar-y-roscar/tornillos-autoperforantes-de-sellado-para-union-de-madera-y-metal.png"
+
+- id: surtidos-de-tornillos-autoperforantes
+  slug: "surtidos-de-tornillos-autoperforantes"
+  product_id: "tornillos-para-taladrar-y-roscar"
+  name: "Surtidos de tornillos autoperforantes"
+  description: "Surtidos de tornillos autoperforantes para diferentes aplicaciones"
+  subtitle: "Surtidos de tornillos autoperforantes."
+  image: "assets/images/materials/tornillos-para-taladrar-y-roscar/surtidos-de-tornillos-autoperforantes.png"
+  
+- id: tornillos-de-maquina-de-cabeza-redonda
+  slug: "tornillos-de-maquina-de-cabeza-redonda"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza redonda"
+  description: "Tornillos de máquina de cabeza redonda para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza redonda."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-de-maquina-de-cabeza-redonda.png"
+
+- id: tornillos-de-cabeza-plana-para-maquina
+  slug: "tornillos-de-cabeza-plana-para-maquina"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de cabeza plana para máquina"
+  description: "Tornillos de cabeza plana para máquina para aplicaciones industriales"
+  subtitle: "Tornillos de cabeza plana para máquina."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-de-cabeza-plana-para-maquina.png"
+
+- id: tornillos-de-maquina-de-cabeza-plana
+  slug: "tornillos-de-maquina-de-cabeza-plana"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza plana"
+  description: "Tornillos de máquina de cabeza plana para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza plana."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-de-maquina-de-cabeza-plana.png"
+
+- id: tornillos-para-maquina-de-cabeza-de-armadura
+  slug: "tornillos-para-maquina-de-cabeza-de-armadura"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos para máquina de cabeza de armadura"
+  description: "Tornillos para máquina de cabeza de armadura para aplicaciones industriales"
+  subtitle: "Tornillos para máquina de cabeza de armadura."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-para-maquina-de-cabeza-de-armadura.png"
+
+- id: tornillos-para-maquina-de-cabeza-cilindrica
+  slug: "tornillos-para-maquina-de-cabeza-cilindrica"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos para máquina de cabeza cilindrica"
+  description: "Tornillos para máquina de cabeza cilindrica para aplicaciones industriales"
+  subtitle: "Tornillos para máquina de cabeza cilindrica."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-para-maquina-de-cabeza-cilindrica.png"
+
+- id: tornillos-de-maquina-de-cabeza-cilindrica
+  slug: "tornillos-de-maquina-de-cabeza-cilindrica"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza cilindrica"
+  description: "Tornillos de máquina de cabeza cilindrica para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza cilindrica."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-de-maquina-de-cabeza-cilindrica.png"
+
+- id: tornillos-de-maquina-de-cabeza-ovalada
+  slug: "tornillos-de-maquina-de-cabeza-ovalada"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza ovalada"
+  description: "Tornillos de máquina de cabeza ovalada para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza ovalada."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-de-maquina-de-cabeza-ovalada.png"
+
+- id: tornillos-de-maquina-de-cabeza-hexagonal
+  slug: "tornillos-de-maquina-de-cabeza-hexagonal"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina de cabeza hexagonal"
+  description: "Tornillos de máquina de cabeza hexagonal para aplicaciones industriales"
+  subtitle: "Tornillos de máquina de cabeza hexagonal."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-de-maquina-de-cabeza-hexagonal.png"
+
+- id: tornillos-de-maquina-con-cabeza-de-encuadernacion
+  slug: "tornillos-de-maquina-con-cabeza-de-encuadernacion"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos de máquina con cabeza de encuadernacion"
+  description: "Tornillos de máquina con cabeza de encuadernacion para aplicaciones industriales"
+  subtitle: "Tornillos de máquina con cabeza de encuadernacion."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-de-maquina-con-cabeza-de-encuadernacion.png"
+
+- id: tornillos-para-maquina-de-cabeza-abombada
+  slug: "tornillos-para-maquina-de-cabeza-abombada"
+  product_id: "tornillos-para-maquina"
+  name: "Tornillos para máquina de cabeza abombada"
+  description: "Tornillos para máquina de cabeza abombada para aplicaciones industriales"
+  subtitle: "Tornillos para máquina de cabeza abombada."
+  image: "assets/images/materials/tornillos-para-maquina/tornillos-para-maquina-de-cabeza-abombada.png"
+
+- id: surtidos-de-tornillos-para-maquinas
+  slug: "surtidos-de-tornillos-para-maquinas"
+  product_id: "tornillos-para-maquina"
+  name: "Surtidos de tornillos para máquinas"
+  description: "Surtidos de tornillos para máquina para diferentes aplicaciones"
+  subtitle: "Surtidos de tornillos para máquinas."
+  image: "assets/images/materials/tornillos-para-maquina/surtidos-de-tornillos-para-maquinas.png"
+
+- id: pernos-de-ojo-para-maquinaria-con-hombro
+  slug: "pernos-de-ojo-para-maquinaria-con-hombro"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria con hombro"
+  description: "Pernos de ojo para maquinaria con hombro para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria con hombro."
+  image: "assets/images/materials/pernos-de-ojo/pernos-de-ojo-para-maquinaria-con-hombro.png"
+
+- id: pernos-de-ojo-para-maquinaria-con-hombro-en-blanco
+  slug: "pernos-de-ojo-para-maquinaria-con-hombro-en-blanco"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria con hombro en blanco"
+  description: "Pernos de ojo para maquinaria con hombro en blanco para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria con hombro en blanco."
+  image: "assets/images/materials/pernos-de-ojo/pernos-de-ojo-para-maquinaria-con-hombro-en-blanco.png"
+
+- id: pernos-de-ojo-para-maquinaria-sin-hombro
+  slug: "pernos-de-ojo-para-maquinaria-sin-hombro"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria sin hombro"
+  description: "Pernos de ojo para maquinaria sin hombro para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria sin hombro."
+  image: "assets/images/materials/pernos-de-ojo/pernos-de-ojo-para-maquinaria-sin-hombro.png"
+
+- id: pernos-de-ojo-para-maquinaria-en-blanco-sin-hombro
+  slug: "pernos-de-ojo-para-maquinaria-en-blanco-sin-hombro"
+  product_id: "pernos-de-ojo"
+  name: "Pernos de ojo para maquinaria en blanco sin hombro"
+  description: "Pernos de ojo para maquinaria en blanco sin hombro para aplicaciones industriales"
+  subtitle: "Pernos de ojo para maquinaria en blanco sin hombro."
+  image: "assets/images/materials/pernos-de-ojo/pernos-de-ojo-para-maquinaria-en-blanco-sin-hombro.png"
+
+- id: enrutamiento-de-pernos-de-ojo
+  slug: "enrutamiento-de-pernos-de-ojo"
+  product_id: "pernos-de-ojo"
+  name: "Enrutamiento de pernos de ojo"
+  description: "Enrutamiento de pernos de ojo para aplicaciones industriales"
+  subtitle: "Enrutamiento de pernos de ojo."
+  image: "assets/images/materials/pernos-de-ojo/enrutamiento-de-pernos-de-ojo.png"
+
+- id: tornillo-de-madera-con-ojo
+  slug: "tornillo-de-madera-con-ojo"
+  product_id: "pernos-de-ojo"
+  name: "Tornillo de madera con ojo"
+  description: "Tornillo de madera con ojo para aplicaciones industriales"
+  subtitle: "Tornillo de madera con ojo."
+  image: "assets/images/materials/pernos-de-ojo/tornillo-de-madera-con-ojo.png"
+
+- id: pernos-en-u-estandar
+  slug: "pernos-en-u-estandar"
+  product_id: "pernos-en-u"
+  name: "Pernos en U estándar"
+  description: "Pernos en U estándar para aplicaciones industriales"
+  subtitle: "Pernos en U estándar."
+  image: "assets/images/materials/pernos-en-u/pernos-en-u-estandar.png"
+
+- id: pernos-en-u-estandar-con-placas-de-montaje
+  slug: "pernos-en-u-estandar-con-placas-de-montaje"
+  product_id: "pernos-en-u"
+  name: "Pernos en U estándar con placas de montaje"
+  description: "Pernos en U estándar con placas de montaje para aplicaciones industriales"
+  subtitle: "Pernos en U estándar con placas de montaje."
+  image: "assets/images/materials/pernos-en-u/pernos-en-u-estandar-con-placas-de-montaje.png"
+
+- id: pernos-en-u-cuadrados
+  slug: "pernos-en-u-cuadrados"
+  product_id: "pernos-en-u"
+  name: "Pernos en U cuadrados"
+  description: "Pernos en U cuadrados para aplicaciones industriales"
+  subtitle: "Pernos en U cuadrados."
+  image: "assets/images/materials/pernos-en-u/pernos-en-u-cuadrados.png"
+
+- id: pernos-en-u-acolchados
+  slug: "pernos-en-u-acolchados"
+  product_id: "pernos-en-u"
+  name: "Pernos en U acolchados"
+  description: "Pernos en U acolchados para aplicaciones industriales"
+  subtitle: "Pernos en U acolchados."
+  image: "assets/images/materials/pernos-en-u/pernos-en-u-acolchados.png"
+
+- id: pernos-en-u-con-amortiguacion-de-vibraciones
+  slug: "pernos-en-u-con-amortiguacion-de-vibraciones"
+  product_id: "pernos-en-u"
+  name: "Pernos en U con amortiguación de vibraciones"
+  description: "Pernos en U con amortiguación de vibraciones para aplicaciones industriales"
+  subtitle: "Pernos en U con amortiguación de vibraciones."
+  image: "assets/images/materials/pernos-en-u/pernos-en-u-con-amortiguacion-de-vibraciones.png"
+
+- id: placas-de-montaje-para-pernos-en-u
+  slug: "placas-de-montaje-para-pernos-en-u"
+  product_id: "pernos-en-u"
+  name: "Placas de montaje para pernos en U"
+  description: "Placas de montaje para pernos en U para aplicaciones industriales"
+  subtitle: "Placas de montaje para pernos en U."
+  image: "assets/images/materials/pernos-en-u/placas-de-montaje-con-pernos-en-u.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-2
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-2"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero de grado 2"
+  description: "Pernos de carruaje de cuello cuadrado de acero de grado 2 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero de grado 2."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-2.png"
+
+- id: pernos-de-paso-de-cabeza-ancha-y-cuello-cuadrado-de-acero-de-grado-a
+  slug: "pernos-de-paso-de-cabeza-ancha-y-cuello-cuadrado-de-acero-de-grado-a"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A"
+  description: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A para aplicaciones industriales"
+  subtitle: "Pernos de paso de cabeza ancha y cuello cuadrado de acero de grado A."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-paso-de-cabeza-ancha-y-cuello-cuadrado-de-acero-de-grado-a.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-clase-4-6
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-clase-4-6"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero clase 4.6"
+  description: "Pernos de carruaje de cuello cuadrado de acero clase 4.6 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero clase 4.6."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-de-cuello-cuadrado-de-acero-clase-4-6.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-a2
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-a2"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2"
+  description: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero inoxidable A2."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-a2.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-18-8
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-18-8"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8"
+  description: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero inoxidable 18-8."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-18-8.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-316
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-316"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316"
+  description: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero inoxidable 316."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-de-cuello-cuadrado-de-acero-inoxidable-316.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-5
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-5"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero de grado 5"
+  description: "Pernos de carruaje de cuello cuadrado de acero de grado 5 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero de grado 5."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-5.png"
+
+- id: pernos-de-carruaje-con-cuello-acanalado-de-acero-de-grado-5
+  slug: "pernos-de-carruaje-con-cuello-acanalado-de-acero-de-grado-5"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje con cuello acanalado de acero de grado 5"
+  description: "Pernos de carruaje con cuello acanalado de acero de grado 5 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje con cuello acanalado de acero de grado 5."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-con-cuello-acanalado-de-acero-de-grado-5.png"
+
+- id: pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-8
+  slug: "pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-8"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Pernos de carruaje de cuello cuadrado de acero de grado 8"
+  description: "Pernos de carruaje de cuello cuadrado de acero de grado 8 para aplicaciones industriales"
+  subtitle: "Pernos de carruaje de cuello cuadrado de acero de grado 8."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/pernos-de-carruaje-de-cuello-cuadrado-de-acero-de-grado-8.png"
+
+- id: surtidos-de-pernos-de-carruaje
+  slug: "surtidos-de-pernos-de-carruaje"
+  product_id: "pernos-de-cabeza-redonda"
+  name: "Surtidos de pernos de carruaje"
+  description: "Surtidos de pernos de carruaje para diferentes aplicaciones"
+  subtitle: "Surtidos de pernos de carruaje."
+  image: "assets/images/materials/pernos-de-cabeza-redonda/surtidos-de-tornillos-para-maquinas.png"
+
+- id: tuercas-hexagonales-estandar
+  slug: "tuercas-hexagonales-estandar"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales estándar"
+  description: "Tuercas hexagonales estándar para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales estándar."
+  image: "assets/images/materials/tuercas-hexagonales/tuercas-hexagonales-estandar.png"
+
+- id: tuercas-hexagonales-pesadas
+  slug: "tuercas-hexagonales-pesadas"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales pesadas"
+  description: "Tuercas hexagonales pesadas para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales pesadas."
+  image: "assets/images/materials/tuercas-hexagonales/tuercas-hexagonales-pesadas.png"
+
+- id: tuercas-hexagonales-para-tornillos-de-maquina
+  slug: "tuercas-hexagonales-para-tornillos-de-maquina"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales para tornillos de máquina"
+  description: "Tuercas hexagonales para tornillos de máquina para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales para tornillos de máquina."
+  image: "assets/images/materials/tuercas-hexagonales/tuercas-hexagonales-para-tornillos-de-maquina.png"
+
+- id: tuercas-hexagonales-para-paneles
+  slug: "tuercas-hexagonales-para-paneles"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales para paneles"
+  description: "Tuercas hexagonales para paneles para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales para paneles."
+  image: "assets/images/materials/tuercas-hexagonales/tuercas-hexagonales-para-paneles.png"
+
+- id: tuercas-hexagonales-de-seguridad
+  slug: "tuercas-hexagonales-de-seguridad"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales de seguridad"
+  description: "Tuercas hexagonales de seguridad para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales de seguridad."
+  image: "assets/images/materials/tuercas-hexagonales/tuercas-hexagonales-de-seguridad.png"
+
+- id: tuercas-hexagonales-acme
+  slug: "tuercas-hexagonales-acme"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales ACME"
+  description: "Tuercas hexagonales ACME para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales ACME."
+  image: "assets/images/materials/tuercas-hexagonales/tuercas-hexagonales-acme.png"
+
+- id: tuercas-hexagonales-estandar-con-rosca-a-la-izquierda
+  slug: "tuercas-hexagonales-estandar-con-rosca-a-la-izquierda"
+  product_id: "tuercas-hexagonales"
+  name: "Tuercas hexagonales estándar con rosca a la izquierda"
+  description: "Tuercas hexagonales estándar con rosca a la izquierda para diferentes aplicaciones"
+  subtitle: "Tuercas hexagonales estándar con rosca a la izquierda."
+  image: "assets/images/materials/tuercas-hexagonales/tuercas-hexagonales-estandar-con-rosca-a-la-izquierda.png"
+
+- id: surtidos-de-tuercas-hexagonales
+  slug: "surtidos-de-tuercas-hexagonales"
+  product_id: "tuercas-hexagonales"
+  name: "Surtidos de tuercas hexagonales"
+  description: "Surtidos de tuercas hexagonales para diferentes aplicaciones"
+  subtitle: "Surtidos de tuercas hexagonales."
+  image: "assets/images/materials/tuercas-hexagonales/surtidos-de-tuercas-hexagonales.png"
+
+- id: tuercas-de-seguridad-dentadas
+  slug: "tuercas-de-seguridad-dentadas"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad dentadas"
+  description: "Tuercas de seguridad dentadas para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad dentadas."
+  image: "assets/images/materials/tuercas-de-seguridad/tuercas-de-seguridad-dentadas.png"
+
+- id: tuercas-de-seguridad-con-arandelas
+  slug: "tuercas-de-seguridad-con-arandelas"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad con arandelas"
+  description: "Tuercas de seguridad con arandelas para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad con arandelas."
+  image: "assets/images/materials/tuercas-de-seguridad/tuercas-de-seguridad-con-arandelas.png"
+
+- id: tuercas-de-seguridad-autorroscantes
+  slug: "tuercas-de-seguridad-autorroscantes"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad autorroscantes"
+  description: "Tuercas de seguridad autorroscantes para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad autorroscantes."
+  image: "assets/images/materials/tuercas-de-seguridad/tuercas-de-seguridad-autorroscantes.png"
+
+- id: tuercas-de-seguridad-con-insercion-de-nylon
+  slug: "tuercas-de-seguridad-con-insercion-de-nylon"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad con inserción de nylon"
+  description: "Tuercas de seguridad con inserción de nylon para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad con inserción de nylon."
+  image: "assets/images/materials/tuercas-de-seguridad/tuercas-de-seguridad-con-insercion-de-nylon.png"
+
+- id: tuercas-de-seguridad-con-rosca-deformada
+  slug: "tuercas-de-seguridad-con-rosca-deformada"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad con rosca deformada"
+  description: "Tuercas de seguridad con rosca deformada para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad con rosca deformada."
+  image: "assets/images/materials/tuercas-de-seguridad/tuercas-de-seguridad-con-rosca-deformada.png"
+
+- id: tuercas-de-seguridad-superiores-flexibles
+  slug: "tuercas-de-seguridad-superiores-flexibles"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas de seguridad superiores flexibles"
+  description: "Tuercas de seguridad superiores flexibles para diferentes aplicaciones"
+  subtitle: "Tuercas de seguridad superiores flexibles."
+  image: "assets/images/materials/tuercas-de-seguridad/tuercas-de-seguridad-superiores-flexibles.png"
+
+- id: tuercas-ranuradas-y-almenadas
+  slug: "tuercas-ranuradas-y-almenadas"
+  product_id: "tuercas-de-seguridad"
+  name: "Tuercas ranuradas y almenadas"
+  description: "Tuercas ranuradas y almenadas para diferentes aplicaciones"
+  subtitle: "Tuercas ranuradas y almenadas."
+  image: "assets/images/materials/tuercas-de-seguridad/tuercas-ranuradas-y-almenadas.png"
+
+- id: tuercas-de-acoplamiento-estandar
+  slug: "tuercas-de-acoplamiento-estandar"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento estándar"
+  description: "Tuercas de acoplamiento estándar para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento estándar."
+  image: "assets/images/materials/tuercas-de-acoplamiento/tuercas-de-acoplamiento-estandar.png"
+
+- id: tuercas-de-acoplamiento-estandar-para-izquierdas
+  slug: "tuercas-de-acoplamiento-estandar-para-izquierdas"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento estándar para izquierdas"
+  description: "Tuercas de acoplamiento estándar para izquierdas para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento estándar para izquierdas."
+  image: "assets/images/materials/tuercas-de-acoplamiento/tuercas-de-acoplamiento-estandar-para-izquierdas.png"
+
+- id: tuercas-de-acoplamiento-con-direccion-de-rosca-opuesta
+  slug: "tuercas-de-acoplamiento-con-direccion-de-rosca-opuesta"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento con dirección de rosca opuesta"
+  description: "Tuercas de acoplamiento con dirección de rosca opuesta para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento con dirección de rosca opuesta."
+  image: "assets/images/materials/tuercas-de-acoplamiento/tuercas-de-acoplamiento-con-direccion-de-rosca-opuesta.png"
+
+- id: tuercas-de-acoplamiento-reductoras
+  slug: "tuercas-de-acoplamiento-reductoras"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento reductoras"
+  description: "Tuercas de acoplamiento reductoras para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento reductoras."
+  image: "assets/images/materials/tuercas-de-acoplamiento/tuercas-de-acoplamiento-reductoras.png"
+
+- id: tuercas-de-acoplamiento-con-mirilla
+  slug: "tuercas-de-acoplamiento-con-mirilla"
+  product_id: "tuercas-de-acoplamiento"
+  name: "Tuercas de acoplamiento con mirilla"
+  description: "Tuercas de acoplamiento con mirilla para diferentes aplicaciones"
+  subtitle: "Tuercas de acoplamiento con mirilla."
+  image: "assets/images/materials/tuercas-de-acoplamiento/tuercas-de-acoplamiento-con-mirilla.png"
+
+- id: tuercas-de-ojo-de-acero
+  slug: "tuercas-de-ojo-de-acero"
+  product_id: "tuercas-de-ojo"
+  name: "Tuercas de ojo de acero"
+  description: "Tuercas de ojo de acero para diferentes aplicaciones"
+  subtitle: "Tuercas de ojo de acero."
+  image: "assets/images/materials/tuercas-de-ojo/tuercas-de-ojo-de-acero.png"
+
+- id: tuercas-de-ojo-de-acero-inoxidable
+  slug: "tuercas-de-ojo-de-acero-inoxidable"
+  product_id: "tuercas-de-ojo"
+  name: "Tuercas de ojo de acero inoxidable"
+  description: "Tuercas de ojo de acero inoxidable para diferentes aplicaciones"
+  subtitle: "Tuercas de ojo de acero inoxidable."
+  image: "assets/images/materials/tuercas-de-ojo/tuercas-de-ojo-de-acero-inoxidable.png"
+
+- id: arandelas-planas-estandar
+  slug: "arandelas-planas-estandar"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas estándar"
+  description: "Arandelas planas estándar para diferentes aplicaciones"
+  subtitle: "Arandelas planas estándar."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-estandar.png"
+
+- id: arandelas-planas-de-gran-tamaño
+  slug: "arandelas-planas-de-gran-tamaño"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas de gran tamaño"
+  description: "Arandelas planas de gran tamaño para diferentes aplicaciones"
+  subtitle: "Arandelas planas de gran tamaño."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-de-gran-tamano.png"
+
+- id: arandelas-planas-estrechas
+  slug: "arandelas-planas-estrechas"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas estrechas"
+  description: "Arandelas planas estrechas para diferentes aplicaciones"
+  subtitle: "Arandelas planas estrechas."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-estrechas.png"
+
+- id: arandelas-planas-sae
+  slug: "arandelas-planas-sae"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas SAE"
+  description: "Arandelas planas SAE para diferentes aplicaciones"
+  subtitle: "Arandelas planas SAE."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-sae.png"
+
+- id: arandelas-planas-del-uss
+  slug: "arandelas-planas-del-uss"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas del USS"
+  description: "Arandelas planas del USS para diferentes aplicaciones"
+  subtitle: "Arandelas planas del USS."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-del-uss.png"
+
+- id: arandelas-planas-de-especificacion-militar
+  slug: "arandelas-planas-de-especificacion-militar"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas de especificación militar"
+  description: "Arandelas planas de especificación militar para diferentes aplicaciones"
+  subtitle: "Arandelas planas de especificación militar."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-de-especificacion-militar.png"
+
+- id: arandelas-planas-cuadradas
+  slug: "arandelas-planas-cuadradas"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas cuadradas"
+  description: "Arandelas planas cuadradas para diferentes aplicaciones"
+  subtitle: "Arandelas planas cuadradas."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-cuadradas.png"
+
+- id: arandelas-planas-ranuradas
+  slug: "arandelas-planas-ranuradas"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas ranuradas"
+  description: "Arandelas planas ranuradas para diferentes aplicaciones"
+  subtitle: "Arandelas planas ranuradas."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-ranuradas.png"
+
+- id: arandelas-planas-de-diseno-higienico
+  slug: "arandelas-planas-de-diseno-higienico"
+  product_id: "arandelas-planas"
+  name: "Arandelas planas de diseño higiénico"
+  description: "Arandelas planas de diseño higiénico para diferentes aplicaciones"
+  subtitle: "Arandelas planas de diseño higiénico."
+  image: "assets/images/materials/arandelas-planas/arandelas-planas-de-diseno-higienico.png"
+
+- id: surtidos-de-arandelas
+  slug: "surtidos-de-arandelas"
+  product_id: "arandelas-planas"
+  name: "Surtidos de arandelas"
+  description: "Surtidos de arandelas para diferentes aplicaciones"
+  subtitle: "Surtidos de arandelas."
+  image: "assets/images/materials/arandelas-planas/surtidos-de-arandelas.png"
+
+- id: arandelas-estructurales-planas
+  slug: "arandelas-estructurales-planas"
+  product_id: "arandelas-estructurales"
+  name: "Arandelas estructurales planas"
+  description: "Arandelas estructurales planas para diferentes aplicaciones"
+  subtitle: "Arandelas estructurales planas."
+  image: "assets/images/materials/arandelas-estructurales/arandelas-estructurales-planas.png"
+
+- id: arandelas-estructurales-biseladas-cuadradas
+  slug: "arandelas-estructurales-biseladas-cuadradas"
+  product_id: "arandelas-estructurales"
+  name: "Arandelas estructurales biseladas cuadradas"
+  description: "Arandelas estructurales biseladas cuadradas para diferentes aplicaciones"
+  subtitle: "Arandelas estructurales biseladas cuadradas."
+  image: "assets/images/materials/arandelas-estructurales/arandelas-estructurales-biseladas-cuadradas.png"
+
+- id: varillas-y-esparragos-de-acero-totalmente-roscados
+  slug: "varillas-y-esparragos-de-acero-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de acero totalmente roscados"
+  description: "Varillas y espárragos de acero totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de acero totalmente roscados."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-de-acero-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-de-acero-inoxidable
+  slug: "varillas-y-esparragos-totalmente-roscados-de-acero-inoxidable"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados de acero inoxidable"
+  description: "Varillas y espárragos totalmente roscados de acero inoxidable para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados de acero inoxidable."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-totalmente-roscados-de-acero-inoxidable.png"
+
+- id: varillas-y-esparragos-de-laton-totalmente-roscados
+  slug: "varillas-y-esparragos-de-laton-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de latón totalmente roscados"
+  description: "Varillas y espárragos de latón totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de latón totalmente roscados."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-de-laton-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-de-aluminio-totalmente-roscados
+  slug: "varillas-y-esparragos-de-aluminio-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de aluminio totalmente roscados"
+  description: "Varillas y espárragos de aluminio totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de aluminio totalmente roscados."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-de-aluminio-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-de-plastico-totalmente-roscados
+  slug: "varillas-y-esparragos-de-plastico-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de plástico totalmente roscados"
+  description: "Varillas y espárragos de plástico totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de plástico totalmente roscados."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-de-plastico-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-de-titanio-totalmente-roscados
+  slug: "varillas-y-esparragos-de-titanio-totalmente-roscados"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos de titanio totalmente roscados"
+  description: "Varillas y espárragos de titanio totalmente roscados para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos de titanio totalmente roscados."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-de-titanio-totalmente-roscados.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-con-tuercas
+  slug: "varillas-y-esparragos-totalmente-roscados-con-tuercas"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados con tuercas"
+  description: "Varillas y espárragos totalmente roscados con tuercas para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados con tuercas."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-totalmente-roscados-con-tuercas.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-para-zurdos
+  slug: "varillas-y-esparragos-totalmente-roscados-para-zurdos"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados para zurdos"
+  description: "Varillas y espárragos totalmente roscados para zurdos para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados para zurdos."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-totalmente-roscados-para-zurdos.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-recubiertos-de-ptfe-para-agua-salada
+  slug: "varillas-y-esparragos-totalmente-roscados-recubiertos-de-ptfe-para-agua-salada"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada"
+  description: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados recubiertos de PTFE para agua salada."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-totalmente-roscados-recubiertos-de-ptfe-para-agua-salada.png"
+
+- id: varillas-y-esparragos-totalmente-roscados-acme
+  slug: "varillas-y-esparragos-totalmente-roscados-acme"
+  product_id: "varillas-y-esparragos-totalmente-roscados"
+  name: "Varillas y espárragos totalmente roscados ACME"
+  description: "Varillas y espárragos totalmente roscados ACME para diferentes aplicaciones"
+  subtitle: "Varillas y espárragos totalmente roscados ACME."
+  image: "assets/images/materials/varillas-y-esparragos-totalmente-roscados/varillas-y-esparragos-totalmente-roscados-acme.png"
+
+- id: varillas-y-esparragos-de-acero-de-doble-extremo
+  slug: "varillas-y-esparragos-de-acero-de-doble-extremo"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de acero de doble extremo"
+  description: "Espárragos de acero de doble extremo para diferentes aplicaciones"
+  subtitle: "Espárragos de acero de doble extremo."
+  image: "assets/images/materials/varillas-y-esparragos-doble-extremo/varillas-y-esparragos-roscados-de-acero-de-doble-extremo.png"
+
+- id: varillas-y-esparragos-de-aluminio-de-doble-extremo
+  slug: "varillas-y-esparragos-de-aluminio-de-doble-extremo"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de aluminio de doble extremo"
+  description: "Espárragos de aluminio de doble extremo para diferentes aplicaciones"
+  subtitle: "Espárragos de aluminio de doble extremo."
+  image: "assets/images/materials/varillas-y-esparragos-doble-extremo/varillas-y-esparragos-roscados-de-aluminio-de-doble-extremo.png"
+
+- id: varillas-y-esparragos-de-acero-inoxidable-de-doble-extremo
+  slug: "varillas-y-esparragos-de-acero-inoxidable-de-doble-extremo"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de acero inoxidable de doble extremo"
+  description: "Espárragos de acero inoxidable de doble extremo para diferentes aplicaciones"
+  subtitle: "Espárragos de acero inoxidable de doble extremo."
+  image: "assets/images/materials/varillas-y-esparragos-doble-extremo/varillas-y-esparragos-roscados-de-doble-extremo-de-acero-inoxidable.png"
+
+- id: varillas-y-esparragos-de-doble-extremo-con-planos-para-llave
+  slug: "varillas-y-esparragos-de-doble-extremo-con-planos-para-llave"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de doble extremo con planos para llave"
+  description: "Espárragos de doble extremo con planos para llave para diferentes aplicaciones"
+  subtitle: "Espárragos de doble extremo con planos para llave."
+  image: "assets/images/materials/varillas-y-esparragos-doble-extremo/varillas-y-esparragos-roscados-de-doble-extremo-con-planos-para-llave.png"
+
+- id: varillas-y-esparragos-de-doble-extremo-con-rosca-opuesta
+  slug: "varillas-y-esparragos-de-doble-extremo-con-rosca-opuesta"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de doble extremo con rosca opuesta"
+  description: "Espárragos de doble extremo con rosca opuesta para diferentes aplicaciones"
+  subtitle: "Espárragos de doble extremo con rosca opuesta."
+  image: "assets/images/materials/varillas-y-esparragos-doble-extremo/varillas-y-esparragos-de-doble-extremo-con-rosca-opuesta.png"
+
+- id: varillas-y-esparragos-de-doble-extremo-con-rosca-interna
+  slug: "varillas-y-esparragos-de-doble-extremo-con-rosca-interna"
+  product_id: "varillas-y-esparragos-doble-extremo"
+  name: "Espárragos de doble extremo con rosca interna"
+  description: "Espárragos de doble extremo con rosca interna para diferentes aplicaciones"
+  subtitle: "Espárragos de doble extremo con rosca interna."
+  image: "assets/images/materials/varillas-y-esparragos-doble-extremo/varillas-y-esparragos-de-doble-extremo-con-rosca-interna.png"
+
+- id: discos-laminas-alto-rendimiento-acero-carbono-inoxidable
+  slug: "discos-laminas-alto-rendimiento-acero-carbono-inoxidable"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de láminas de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para aceros especializados."
+  image: "assets/images/materials/discos-laminas/discos-laminas-alto-rendimiento-acero-carbono-inoxidable.png"
+
+- id: discos-laminas-alto-rendimiento-metales-blandos
+  slug: "discos-laminas-alto-rendimiento-metales-blandos"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de alto rendimiento para metales blandos"
+  description: "Discos de láminas de alto rendimiento optimizados para el trabajo con metales blandos"
+  subtitle: "Alto rendimiento para metales blandos."
+  image: "assets/images/materials/discos-laminas/discos-laminas-alto-rendimiento-metales-blandos.png"
+
+- id: discos-laminas-alto-rendimiento-todos-metales
+  slug: "discos-laminas-alto-rendimiento-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de alto rendimiento para todos los metales"
+  description: "Discos de láminas de alto rendimiento versátiles para trabajar con todos los tipos de metales"
+  subtitle: "Alto rendimiento universal para metales."
+  image: "assets/images/materials/discos-laminas/discos-laminas-alto-rendimiento-todos-metales.png"
+
+- id: discos-laminas-corte-frio-acero-carbono-inoxidable
+  slug: "discos-laminas-corte-frio-acero-carbono-inoxidable"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de corte en frío para acero al carbono y acero inoxidable"
+  description: "Discos de láminas especializados en corte en frío para acero al carbono y acero inoxidable"
+  subtitle: "Corte en frío para aceros especializados."
+  image: "assets/images/materials/discos-laminas/discos-laminas-corte-frio-acero-carbono-inoxidable.png"
+
+- id: discos-laminas-corte-frio-todos-metales
+  slug: "discos-laminas-corte-frio-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de corte en frío para todos los metales"
+  description: "Discos de láminas de corte en frío versátiles para trabajar con todos los tipos de metales"
+  subtitle: "Corte en frío universal para metales."
+  image: "assets/images/materials/discos-laminas/discos-laminas-corte-frio-todos-metales.png"
+
+- id: discos-laminas-uso-general-acero-inoxidable-metales-blandos
+  slug: "discos-laminas-uso-general-acero-inoxidable-metales-blandos"
+  product_id: "discos-laminas"
+  name: "Discos de láminas de uso general para acero inoxidable y metales blandos"
+  description: "Discos de láminas de uso general diseñados para acero inoxidable y metales blandos"
+  subtitle: "Uso general para acero inoxidable y metales blandos."
+  image: "assets/images/materials/discos-laminas/discos-laminas-uso-general-acero-inoxidable-metales-blandos.png"
+
+- id: discos-laminas-acondicionamiento-superficies-todos-metales
+  slug: "discos-laminas-acondicionamiento-superficies-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas para acondicionamiento de superficies para todos los metales"
+  description: "Discos de láminas especializados en el acondicionamiento de superficies para todos los tipos de metales"
+  subtitle: "Acondicionamiento de superficies para todos los metales."
+  image: "assets/images/materials/discos-laminas/discos-laminas-acondicionamiento-superficies-todos-metales.png"
+
+- id: discos-laminas-mezclar-acabar-interleaf-todos-metales
+  slug: "discos-laminas-mezclar-acabar-interleaf-todos-metales"
+  product_id: "discos-laminas"
+  name: "Discos de láminas para mezclar y acabar Interleaf para todos los metales"
+  description: "Discos de láminas Interleaf especializados en mezclar y acabar para todos los tipos de metales"
+  subtitle: "Mezclar y acabar Interleaf para todos los metales."
+  image: "assets/images/materials/discos-laminas/discos-laminas-mezclar-acabar-interleaf-todos-metales.png"
+
+- id: discos-acondicionadores-superficies-corte-frio-todos-metales
+  slug: "discos-acondicionadores-superficies-corte-frio-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos acondicionadores de superficies de corte en frío para todos los metales"
+  description: "Discos acondicionadores de superficies especializados en corte en frío para todos los tipos de metales"
+  subtitle: "Corte en frío para todos los metales."
+  image: "assets/images/materials/discos-acondicionamiento-superficies-orificio-mandril/discos-acondicionadores-superficies-corte-frio-todos-metales.png"
+
+- id: discos-acondicionamiento-superficies-uso-general-todos-metales
+  slug: "discos-acondicionamiento-superficies-uso-general-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de acondicionamiento de superficies de uso general para todos los metales"
+  description: "Discos de acondicionamiento de superficies de uso general diseñados para todos los tipos de metales"
+  subtitle: "Uso general para todos los metales."
+  image: "assets/images/materials/discos-acondicionamiento-superficies-orificio-mandril/discos-acondicionamiento-superficies-uso-general-todos-metales.png"
+
+- id: discos-eliminacion-recubrimiento-corte-frio-todos-materiales
+  slug: "discos-eliminacion-recubrimiento-corte-frio-todos-materiales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de eliminación de recubrimiento de corte en frío para todos los materiales"
+  description: "Discos especializados en eliminación de recubrimiento de corte en frío para todos los tipos de materiales"
+  subtitle: "Eliminación de recubrimiento de corte en frío."
+  image: "assets/images/materials/discos-acondicionamiento-superficies-orificio-mandril/discos-eliminacion-recubrimiento-corte-frio-todos-materiales.png"
+
+- id: discos-eliminacion-recubrimientos-metales-calibre-fino
+  slug: "discos-eliminacion-recubrimientos-metales-calibre-fino"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de eliminación de recubrimientos para metales de calibre fino"
+  description: "Discos especializados en eliminación de recubrimientos para metales de calibre fino"
+  subtitle: "Eliminación de recubrimientos para metales finos."
+  image: "assets/images/materials/discos-acondicionamiento-superficies-orificio-mandril/discos-eliminacion-recubrimientos-metales-calibre-fino.png"
+
+- id: discos-eliminacion-revestimiento-todos-metales
+  slug: "discos-eliminacion-revestimiento-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de eliminación de revestimiento para todos los metales"
+  description: "Discos especializados en eliminación de revestimiento para todos los tipos de metales"
+  subtitle: "Eliminación de revestimiento para todos los metales."
+  image: "assets/images/materials/discos-acondicionamiento-superficies-orificio-mandril/discos-eliminacion-revestimiento-todos-metales.png"
+
+- id: discos-mezcla-acabado-todos-metales
+  slug: "discos-mezcla-acabado-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos de mezcla y acabado para todos los metales"
+  description: "Discos especializados en mezcla y acabado para todos los tipos de metales"
+  subtitle: "Mezcla y acabado para todos los metales."
+  image: "assets/images/materials/discos-acondicionamiento-superficies-orificio-mandril/discos-mezcla-acabado-todos-metales.png"
+
+- id: discos-transparentes-acondicionamiento-superficies-todos-metales
+  slug: "discos-transparentes-acondicionamiento-superficies-todos-metales"
+  product_id: "discos-acondicionamiento-superficies-orificio-mandril"
+  name: "Discos transparentes de acondicionamiento de superficies para todos los metales"
+  description: "Discos transparentes especializados en acondicionamiento de superficies para todos los tipos de metales"
+  subtitle: "Acondicionamiento transparente para todos los metales."
+  image: "assets/images/materials/discos-acondicionamiento-superficies-orificio-mandril/discos-transparentes-acondicionamiento-superficies-todos-metales.png"
+
+- id: discos-fibra-alto-rendimiento-acero-carbono-inoxidable
+  slug: "discos-fibra-alto-rendimiento-acero-carbono-inoxidable"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de fibra de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para aceros especializados."
+  image: "assets/images/materials/discos-fibra/discos-fibra-alto-rendimiento-acero-carbono-inoxidable.png"
+
+- id: discos-fibra-corte-frio-acero-carbono-metales-blandos
+  slug: "discos-fibra-corte-frio-acero-carbono-metales-blandos"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de corte en frío para acero al carbono y metales blandos"
+  description: "Discos de fibra especializados en corte en frío para acero al carbono y metales blandos"
+  subtitle: "Corte en frío para acero al carbono y metales blandos."
+  image: "assets/images/materials/discos-fibra/discos-fibra-corte-frio-acero-carbono-metales-blandos.png"
+
+- id: discos-fibra-corte-frio-acero-inoxidable-aleaciones-niquel
+  slug: "discos-fibra-corte-frio-acero-inoxidable-aleaciones-niquel"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de corte en frío para acero inoxidable y aleaciones de níquel"
+  description: "Discos de fibra especializados en corte en frío para acero inoxidable y aleaciones de níquel"
+  subtitle: "Corte en frío para acero inoxidable y aleaciones de níquel."
+  image: "assets/images/materials/discos-fibra/discos-fibra-corte-frio-acero-inoxidable-aleaciones-niquel.png"
+
+- id: discos-fibra-uso-general-todos-metales
+  slug: "discos-fibra-uso-general-todos-metales"
+  product_id: "discos-fibra"
+  name: "Discos de fibra de uso general para todos los metales"
+  description: "Discos de fibra de uso general diseñados para trabajar con todos los tipos de metales"
+  subtitle: "Uso general para todos los metales."
+  image: "assets/images/materials/discos-fibra/discos-fibra-uso-general-todos-metales.png"
+
+- id: discos-fibra-transparentes-alto-rendimiento-acero-carbono-inoxidable
+  slug: "discos-fibra-transparentes-alto-rendimiento-acero-carbono-inoxidable"
+  product_id: "discos-fibra"
+  name: "Discos de fibra transparentes de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de fibra transparentes de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento transparente para aceros especializados."
+  image: "assets/images/materials/discos-fibra/discos-fibra-transparentes-alto-rendimiento-acero-carbono-inoxidable.png"
+
+- id: discos-fibra-transparentes-corte-frio-acero-inoxidable-aleaciones-niquel
+  slug: "discos-fibra-transparentes-corte-frio-acero-inoxidable-aleaciones-niquel"
+  product_id: "discos-fibra"
+  name: "Discos de fibra transparentes de corte en frío para acero inoxidable y aleaciones de níquel"
+  description: "Discos de fibra transparentes especializados en corte en frío para acero inoxidable y aleaciones de níquel"
+  subtitle: "Corte en frío transparente para acero inoxidable y aleaciones de níquel."
+  image: "assets/images/materials/discos-fibra/discos-fibra-transparentes-corte-frio-acero-inoxidable-aleaciones-niquel.png"
+
+- id: discos-lijado-acabado-mamposteria-hormigon
+  slug: "discos-lijado-acabado-mamposteria-hormigon"
+  product_id: "discos-fibra"
+  name: "Discos de lijado y acabado para mampostería y hormigón"
+  description: "Discos especializados en lijado y acabado para mampostería y hormigón"
+  subtitle: "Lijado y acabado para mampostería y hormigón."
+  image: "assets/images/materials/discos-fibra/discos-lijado-acabado-mamposteria-hormigon.png"
+
+- id: hojas-lija-velcro-todas-superficies
+  slug: "hojas-lija-velcro-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija con velcro para todas las superficies"
+  description: "Hojas de lija con sistema de velcro diseñadas para trabajar con todas las superficies"
+  subtitle: "Sistema velcro para todas las superficies."
+  image: "assets/images/materials/hojas-papel-lija/hojas-lija-velcro-todas-superficies.png"
+
+- id: hojas-lija-corte-frio-todas-superficies
+  slug: "hojas-lija-corte-frio-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija de corte en frío para todas las superficies"
+  description: "Hojas de lija especializadas en corte en frío para todas las superficies"
+  subtitle: "Corte en frío para todas las superficies."
+  image: "assets/images/materials/hojas-papel-lija/hojas-lija-corte-frio-todas-superficies.png"
+
+- id: hojas-lija-uso-general-todas-superficies
+  slug: "hojas-lija-uso-general-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija de uso general para todas las superficies"
+  description: "Hojas de lija de uso general diseñadas para trabajar con todas las superficies"
+  subtitle: "Uso general para todas las superficies."
+  image: "assets/images/materials/hojas-papel-lija/hojas-lija-uso-general-todas-superficies.png"
+
+- id: hojas-lijado-manual-maderas-blandas
+  slug: "hojas-lijado-manual-maderas-blandas"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lijado manual para maderas blandas"
+  description: "Hojas especializadas en lijado manual para maderas blandas"
+  subtitle: "Lijado manual para maderas blandas."
+  image: "assets/images/materials/hojas-papel-lija/hojas-lijado-manual-maderas-blandas.png"
+
+- id: hojas-lijado-acabado-humedo-seco-todas-superficies
+  slug: "hojas-lijado-acabado-humedo-seco-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lijado y acabado húmedo-seco para todas las superficies"
+  description: "Hojas especializadas en lijado y acabado húmedo-seco para todas las superficies"
+  subtitle: "Lijado y acabado húmedo-seco para todas las superficies."
+  image: "assets/images/materials/hojas-papel-lija/hojas-lijado-acabado-humedo-seco-todas-superficies.png"
+
+- id: hojas-lija-flexibles-todos-materiales
+  slug: "hojas-lija-flexibles-todos-materiales"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija flexibles para todos los materiales"
+  description: "Hojas de lija flexibles diseñadas para trabajar con todos los materiales"
+  subtitle: "Flexibles para todos los materiales."
+  image: "assets/images/materials/hojas-papel-lija/hojas-lija-flexibles-todos-materiales.png"
+
+- id: hojas-lija-humedas-secas-todas-superficies
+  slug: "hojas-lija-humedas-secas-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de lija húmedas y secas para todas las superficies"
+  description: "Hojas de lija húmedas y secas diseñadas para trabajar con todas las superficies"
+  subtitle: "Húmedas y secas para todas las superficies."
+  image: "assets/images/materials/hojas-papel-lija/hojas-lija-humedas-secas-todas-superficies.png"
+
+- id: hojas-preparacion-acabado-pintura-humeda-seca-todas-superficies
+  slug: "hojas-preparacion-acabado-pintura-humeda-seca-todas-superficies"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de preparación y acabado de pintura húmeda-seca para todas las superficies"
+  description: "Hojas especializadas en preparación y acabado de pintura húmeda-seca para todas las superficies"
+  subtitle: "Preparación y acabado de pintura húmeda-seca para todas las superficies."
+  image: "assets/images/materials/hojas-papel-lija/hojas-preparacion-acabado-pintura-humeda-seca-todas-superficies.png"
+
+- id: hojas-pulido-todos-metales
+  slug: "hojas-pulido-todos-metales"
+  product_id: "hojas-papel-lija"
+  name: "Hojas de pulido para todos los metales"
+  description: "Hojas especializadas en pulido para todos los metales"
+  subtitle: "Pulido para todos los metales."
+  image: "assets/images/materials/hojas-papel-lija/hojas-pulido-todos-metales.png"
+
+- id: pantallas-lijado-humedo-seco-materiales-blandos
+  slug: "pantallas-lijado-humedo-seco-materiales-blandos"
+  product_id: "hojas-papel-lija"
+  name: "Pantallas de lijado húmedo-seco para materiales blandos"
+  description: "Pantallas especializadas en lijado húmedo-seco para materiales blandos"
+  subtitle: "Lijado húmedo-seco para materiales blandos."
+  image: "assets/images/materials/hojas-papel-lija/pantallas-lijado-humedo-seco-materiales-blandos.png"
+
+- id: pantallas-humedas-secas-lijadoras-paneles-yeso
+  slug: "pantallas-humedas-secas-lijadoras-paneles-yeso"
+  product_id: "hojas-papel-lija"
+  name: "Pantallas húmedas-secas para lijadoras de paneles de yeso"
+  description: "Pantallas húmedas-secas especializadas para lijadoras de paneles de yeso"
+  subtitle: "Húmedas-secas para lijadoras de paneles de yeso."
+  image: "assets/images/materials/hojas-papel-lija/pantallas-humedas-secas-lijadoras-paneles-yeso.png"
+
+- id: surtidos-hojas-papel-lija
+  slug: "surtidos-hojas-papel-lija"
+  product_id: "hojas-papel-lija"
+  name: "Surtidos de hojas de papel de lija"
+  description: "Surtidos completos de hojas de papel de lija para diferentes aplicaciones"
+  subtitle: "Surtidos completos para diferentes aplicaciones."
+  image: "assets/images/materials/hojas-papel-lija/surtidos-hojas-papel-lija.png"
+
+- id: discos-combinados-alto-rendimiento-carbono-acero-inoxidable
+  slug: "discos-combinados-alto-rendimiento-carbono-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento para carbono y acero inoxidable"
+  description: "Discos combinados de alto rendimiento diseñados específicamente para trabajar con carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para carbono y acero inoxidable."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-alto-rendimiento-carbono-acero-inoxidable.png"
+
+- id: discos-combinados-alto-rendimiento-tuberias
+  slug: "discos-combinados-alto-rendimiento-tuberias"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento para tuberías"
+  description: "Discos combinados de alto rendimiento especializados para trabajar con tuberías"
+  subtitle: "Alto rendimiento para tuberías."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-alto-rendimiento-tuberias.png"
+
+- id: discos-combinados-alto-rendimiento-libres-contaminantes-acero-inoxidable
+  slug: "discos-combinados-alto-rendimiento-libres-contaminantes-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento y libres de contaminantes para acero inoxidable"
+  description: "Discos combinados de alto rendimiento y libres de contaminantes diseñados específicamente para acero inoxidable"
+  subtitle: "Alto rendimiento y libres de contaminantes para acero inoxidable."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-alto-rendimiento-libres-contaminantes-acero-inoxidable.png"
+
+- id: discos-combinados-uso-general-acero-carbono-acero-inoxidable
+  slug: "discos-combinados-uso-general-acero-carbono-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de uso general para acero al carbono y acero inoxidable"
+  description: "Discos combinados de uso general diseñados para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Uso general para acero al carbono y acero inoxidable."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-uso-general-acero-carbono-acero-inoxidable.png"
+
+- id: discos-combinados-uso-general-metales-blandos
+  slug: "discos-combinados-uso-general-metales-blandos"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de uso general para metales blandos"
+  description: "Discos combinados de uso general diseñados para trabajar con metales blandos"
+  subtitle: "Uso general para metales blandos."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-uso-general-metales-blandos.png"
+
+- id: discos-combinados-uso-general-tuberias
+  slug: "discos-combinados-uso-general-tuberias"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de uso general para tuberías"
+  description: "Discos combinados de uso general diseñados para trabajar con tuberías"
+  subtitle: "Uso general para tuberías."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-uso-general-tuberias.png"
+
+- id: discos-combinados-alto-rendimiento-fundiciones
+  slug: "discos-combinados-alto-rendimiento-fundiciones"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de alto rendimiento para fundiciones"
+  description: "Discos combinados de alto rendimiento diseñados específicamente para trabajar con fundiciones"
+  subtitle: "Alto rendimiento para fundiciones."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-alto-rendimiento-fundiciones.png"
+
+- id: discos-combinados-corte-frio-acero-carbono-acero-inoxidable
+  slug: "discos-combinados-corte-frio-acero-carbono-acero-inoxidable"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de corte en frío para acero al carbono y acero inoxidable"
+  description: "Discos combinados especializados en corte en frío para acero al carbono y acero inoxidable"
+  subtitle: "Corte en frío para acero al carbono y acero inoxidable."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-corte-frio-acero-carbono-acero-inoxidable.png"
+
+- id: discos-combinados-corte-frio-tuberias
+  slug: "discos-combinados-corte-frio-tuberias"
+  product_id: "discos-combinados-de-corte-y-pulido"
+  name: "Discos combinados de corte en frío para tuberías"
+  description: "Discos combinados especializados en corte en frío para tuberías"
+  subtitle: "Corte en frío para tuberías."
+  image: "assets/images/materials/discos-combinados-de-corte-y-pulido/discos-combinados-corte-frio-tuberias.png"
+
+- id: discos-corte-acero-inoxidable-libres-contaminantes-corte-frio
+  slug: "discos-corte-acero-inoxidable-libres-contaminantes-corte-frio"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de acero inoxidable libres de contaminantes y de corte en frío"
+  description: "Discos de corte especializados para acero inoxidable, libres de contaminantes y diseñados para corte en frío"
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "assets/images/materials/discos-de-corte-y-pulido/discos-corte-acero-inoxidable-libres-contaminantes-corte-frio.png"
+
+- id: discos-corte-alto-rendimiento-acero-carbono-acero-inoxidable
+  slug: "discos-corte-alto-rendimiento-acero-carbono-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Discos de corte de alto rendimiento diseñados específicamente para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Alto rendimiento para aceros especializados."
+  image: "assets/images/materials/discos-de-corte-y-pulido/discos-corte-alto-rendimiento-acero-carbono-acero-inoxidable.png"
+
+- id: discos-corte-corte-frio-acero-carbono-acero-inoxidable
+  slug: "discos-corte-corte-frio-acero-carbono-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de corte en frío para acero al carbono y acero inoxidable"
+  description: "Discos de corte especializados en corte en frío para acero al carbono y acero inoxidable"
+  subtitle: "Corte en frío para aceros especializados."
+  image: "assets/images/materials/discos-de-corte-y-pulido/discos-corte-corte-frio-acero-carbono-acero-inoxidable.png"
+
+- id: discos-corte-uso-general-acero-carbono-acero-inoxidable
+  slug: "discos-corte-uso-general-acero-carbono-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de uso general para acero al carbono y acero inoxidable"
+  description: "Discos de corte de uso general diseñados para trabajar con acero al carbono y acero inoxidable"
+  subtitle: "Uso general para acero al carbono y acero inoxidable."
+  image: "assets/images/materials/discos-de-corte-y-pulido/discos-corte-uso-general-acero-carbono-acero-inoxidable.png"
+
+- id: discos-corte-uso-general-metales-blandos
+  slug: "discos-corte-uso-general-metales-blandos"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte de uso general para metales blandos"
+  description: "Discos de corte de uso general diseñados para trabajar con metales blandos"
+  subtitle: "Uso general para metales blandos."
+  image: "assets/images/materials/discos-de-corte-y-pulido/discos-corte-uso-general-metales-blandos.png"
+
+- id: discos-corte-libres-contaminantes-acero-inoxidable
+  slug: "discos-corte-libres-contaminantes-acero-inoxidable"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte libres de contaminantes para acero inoxidable"
+  description: "Discos de corte libres de contaminantes diseñados específicamente para acero inoxidable"
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "assets/images/materials/discos-de-corte-y-pulido/discos-corte-libres-contaminantes-acero-inoxidable.png"
+
+- id: discos-corte-hormigon-mamposteria
+  slug: "discos-corte-hormigon-mamposteria"
+  product_id: "discos-de-corte-y-pulido"
+  name: "Discos de corte para hormigón y mampostería"
+  description: "Discos de corte especializados para trabajar con hormigón y mampostería"
+  subtitle: "Especializados para hormigón y mampostería."
+  image: "assets/images/materials/discos-de-corte-y-pulido/discos-corte-hormigon-mamposteria.png"
+
+- id: piedras-abrasivas-alto-rendimiento-acero-carbono-acero-inoxidable
+  slug: "piedras-abrasivas-alto-rendimiento-acero-carbono-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de alto rendimiento para acero al carbono y acero inoxidable"
+  description: "Piedras abrasivas de alto rendimiento diseñadas para desbaste y acabado en acero al carbono y acero inoxidable."
+  subtitle: "Alto rendimiento para acero al carbono y acero inoxidable."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-alto-rendimiento-acero-carbono-acero-inoxidable.png"
+
+- id: piedras-abrasivas-alto-rendimiento-fundiciones
+  slug: "piedras-abrasivas-alto-rendimiento-fundiciones"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de alto rendimiento para fundiciones"
+  description: "Piedras abrasivas de alto rendimiento ideales para desbaste y acabado en materiales de fundición."
+  subtitle: "Alto rendimiento para fundiciones."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-alto-rendimiento-fundiciones.png"
+
+- id: piedras-abrasivas-alto-rendimiento-libres-contaminantes-acero-inoxidable
+  slug: "piedras-abrasivas-alto-rendimiento-libres-contaminantes-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de alto rendimiento y libres de contaminantes para acero inoxidable"
+  description: "Piedras abrasivas de alto rendimiento, libres de contaminantes, para un acabado impecable en acero inoxidable."
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-alto-rendimiento-libres-contaminantes-acero-inoxidable.png"
+
+- id: piedras-abrasivas-corte-frio-acero-carbono-acero-inoxidable
+  slug: "piedras-abrasivas-corte-frio-acero-carbono-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de corte en frío para acero al carbono y acero inoxidable"
+  description: "Piedras abrasivas de corte en frío para minimizar el calor en acero al carbono y acero inoxidable."
+  subtitle: "Corte en frío para acero al carbono y acero inoxidable."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-corte-frio-acero-carbono-acero-inoxidable.png"
+
+- id: piedras-abrasivas-corte-frio-fundiciones
+  slug: "piedras-abrasivas-corte-frio-fundiciones"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de corte en frío para fundiciones"
+  description: "Piedras abrasivas de corte en frío diseñadas para trabajar con materiales de fundición."
+  subtitle: "Corte en frío para fundiciones."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-corte-frio-fundiciones.png"
+
+- id: piedras-abrasivas-diamante-todos-materiales
+  slug: "piedras-abrasivas-diamante-todos-materiales"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de diamante para todos los materiales"
+  description: "Piedras abrasivas con diamante para un rendimiento superior en todo tipo de materiales."
+  subtitle: "Diamante para todos los materiales."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-diamante-todos-materiales.png"
+
+- id: piedras-abrasivas-uso-general-acero-carbono-acero-inoxidable
+  slug: "piedras-abrasivas-uso-general-acero-carbono-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de uso general para acero al carbono y acero inoxidable"
+  description: "Piedras abrasivas de uso general para desbaste y acabado en acero al carbono y acero inoxidable."
+  subtitle: "Uso general para acero al carbono y acero inoxidable."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-uso-general-acero-carbono-acero-inoxidable.png"
+
+- id: piedras-abrasivas-uso-general-metales-blandos
+  slug: "piedras-abrasivas-uso-general-metales-blandos"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas de uso general para metales blandos"
+  description: "Piedras abrasivas de uso general para desbaste y acabado en metales blandos."
+  subtitle: "Uso general para metales blandos."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-uso-general-metales-blandos.png"
+
+- id: piedras-abrasivas-libres-contaminantes-acero-inoxidable
+  slug: "piedras-abrasivas-libres-contaminantes-acero-inoxidable"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas libres de contaminantes para acero inoxidable"
+  description: "Piedras abrasivas libres de contaminantes para un acabado limpio en acero inoxidable."
+  subtitle: "Libres de contaminantes para acero inoxidable."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-libres-contaminantes-acero-inoxidable.png"
+
+- id: piedras-abrasivas-hormigon-mamposteria
+  slug: "piedras-abrasivas-hormigon-mamposteria"
+  product_id: "piedras-abrasivas"
+  name: "Piedras abrasivas para hormigón y mampostería"
+  description: "Piedras abrasivas especializadas para desbaste y corte en hormigón y mampostería."
+  subtitle: "Para hormigón y mampostería."
+  image: "assets/images/materials/piedras-abrasivas/piedras-abrasivas-hormigon-mamposteria.png"
+
+- id: cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de esquinas resistentes para acero al carbono"
+  description: "Cepillos de rueda de alambre diseñados para limpieza resistente en esquinas de acero al carbono."
+  subtitle: "Limpieza resistente en esquinas de acero al carbono."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-inoxidable
+  slug: "cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-inoxidable"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de esquinas resistentes para acero inoxidable"
+  description: "Cepillos de rueda de alambre diseñados para limpieza resistente en esquinas de acero inoxidable."
+  subtitle: "Limpieza resistente en esquinas de acero inoxidable."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-esquinas-resistentes-acero-inoxidable.png"
+
+- id: cepillos-rueda-alambre-limpieza-soldadura-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-soldadura-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de soldadura para acero al carbono"
+  description: "Cepillos de rueda de alambre para la limpieza de soldaduras en acero al carbono."
+  subtitle: "Limpieza de soldaduras en acero al carbono."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-soldadura-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-soldadura-acero-inoxidable
+  slug: "cepillos-rueda-alambre-limpieza-soldadura-acero-inoxidable"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza de soldadura para acero inoxidable"
+  description: "Cepillos de rueda de alambre para la limpieza de soldaduras en acero inoxidable."
+  subtitle: "Limpieza de soldaduras en acero inoxidable."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-soldadura-acero-inoxidable.png"
+
+- id: cepillos-rueda-alambre-limpieza-intensiva-antichispas-materiales-blandos
+  slug: "cepillos-rueda-alambre-limpieza-intensiva-antichispas-materiales-blandos"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza intensiva antichispas para materiales blandos"
+  description: "Cepillos de rueda de alambre para limpieza intensiva, antichispas, para materiales blandos."
+  subtitle: "Limpieza intensiva antichispas para materiales blandos."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-intensiva-antichispas-materiales-blandos.png"
+
+- id: cepillos-rueda-alambre-limpieza-intensiva-superficies-acero-carbono-contorneadas
+  slug: "cepillos-rueda-alambre-limpieza-intensiva-superficies-acero-carbono-contorneadas"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza intensiva para superficies de acero al carbono contorneadas"
+  description: "Cepillos de rueda de alambre para limpieza intensiva de superficies contorneadas de acero al carbono."
+  subtitle: "Limpieza intensiva para superficies contorneadas de acero al carbono."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-intensiva-superficies-acero-carbono-contorneadas.png"
+
+- id: cepillos-rueda-alambre-limpieza-intensiva-superficies-planas-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-intensiva-superficies-planas-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza intensiva para superficies planas de acero al carbono"
+  description: "Cepillos de rueda de alambre para limpieza intensiva de superficies planas de acero al carbono."
+  subtitle: "Limpieza intensiva para superficies planas de acero al carbono."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-intensiva-superficies-planas-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-ligera-acero-carbono
+  slug: "cepillos-rueda-alambre-limpieza-ligera-acero-carbono"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza ligera para acero al carbono"
+  description: "Cepillos de rueda de alambre para limpieza ligera en acero al carbono."
+  subtitle: "Limpieza ligera para acero al carbono."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-ligera-acero-carbono.png"
+
+- id: cepillos-rueda-alambre-limpieza-pesada-antichispas-metales-duros
+  slug: "cepillos-rueda-alambre-limpieza-pesada-antichispas-metales-duros"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza pesada antichispas para metales duros"
+  description: "Cepillos de rueda de alambre para limpieza pesada, antichispas, para metales duros."
+  subtitle: "Limpieza pesada antichispas para metales duros."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-pesada-antichispas-metales-duros.png"
+
+- id: cepillos-rueda-alambre-limpieza-profunda-superficies-contorneadas-acero-inoxidable
+  slug: "cepillos-rueda-alambre-limpieza-profunda-superficies-contorneadas-acero-inoxidable"
+  product_id: "cepillos-de-rueda-de-alambre"
+  name: "Cepillos de limpieza profunda para superficies contorneadas de acero inoxidable"
+  description: "Cepillos de rueda de alambre para limpieza profunda de superficies contorneadas de acero inoxidable."
+  subtitle: "Limpieza profunda para superficies contorneadas de acero inoxidable."
+  image: "assets/images/materials/cepillos-de-rueda-de-alambre/cepillos-rueda-alambre-limpieza-profunda-superficies-contorneadas-acero-inoxidable.png"
+
+- id: cepillos-taza-limpieza-intensiva-antichispas-materiales-blandos
+  slug: "cepillos-taza-limpieza-intensiva-antichispas-materiales-blandos"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza intensiva antichispas para materiales blandos"
+  description: "Cepillos de taza para limpieza intensiva, antichispas, para materiales blandos."
+  subtitle: "Limpieza intensiva antichispas para materiales blandos."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-intensiva-antichispas-materiales-blandos.png"
+
+- id: cepillos-taza-limpieza-intensiva-superficies-acero-carbono-contorneadas
+  slug: "cepillos-taza-limpieza-intensiva-superficies-acero-carbono-contorneadas"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza intensiva para superficies de acero al carbono contorneadas"
+  description: "Cepillos de taza para limpieza intensiva de superficies contorneadas de acero al carbono."
+  subtitle: "Limpieza intensiva para superficies contorneadas de acero al carbono."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-intensiva-superficies-acero-carbono-contorneadas.png"
+
+- id: cepillos-taza-limpieza-ligera-acero-carbono
+  slug: "cepillos-taza-limpieza-ligera-acero-carbono"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligera para acero al carbono"
+  description: "Cepillos de taza para limpieza ligera en acero al carbono."
+  subtitle: "Limpieza ligera para acero al carbono."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-ligera-acero-carbono.png"
+
+- id: cepillos-taza-limpieza-ligera-acero-inoxidable
+  slug: "cepillos-taza-limpieza-ligera-acero-inoxidable"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligera para acero inoxidable"
+  description: "Cepillos de taza para limpieza ligera en acero inoxidable."
+  subtitle: "Limpieza ligera para acero inoxidable."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-ligera-acero-inoxidable.png"
+
+- id: cepillos-taza-limpieza-ligeros-antichispas-materiales-blandos
+  slug: "cepillos-taza-limpieza-ligeros-antichispas-materiales-blandos"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligeros antichispas para materiales blandos"
+  description: "Cepillos de taza para limpieza ligera, antichispas, para materiales blandos."
+  subtitle: "Limpieza ligeros antichispas para materiales blandos."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-ligeros-antichispas-materiales-blandos.png"
+
+- id: cepillos-taza-limpieza-ligeros-antichispas-metales-duros
+  slug: "cepillos-taza-limpieza-ligeros-antichispas-metales-duros"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza ligeros antichispas para metales duros"
+  description: "Cepillos de taza para limpieza ligera, antichispas, para metales duros."
+  subtitle: "Limpieza ligeros antichispas para metales duros."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-ligeros-antichispas-metales-duros.png"
+
+- id: cepillos-taza-limpieza-pesada-antichispas-metales-duros
+  slug: "cepillos-taza-limpieza-pesada-antichispas-metales-duros"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza pesada antichispas para metales duros"
+  description: "Cepillos de taza para limpieza pesada, antichispas, para metales duros."
+  subtitle: "Limpieza pesada antichispas para metales duros."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-pesada-antichispas-metales-duros.png"
+
+- id: cepillos-taza-limpieza-profunda-cara-ancha-superficies-contorneadas-acero-carbono
+  slug: "cepillos-taza-limpieza-profunda-cara-ancha-superficies-contorneadas-acero-carbono"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza profunda de cara ancha para superficies contorneadas de acero al carbono"
+  description: "Cepillos de taza para limpieza profunda de cara ancha en superficies contorneadas de acero al carbono."
+  subtitle: "Limpieza profunda de cara ancha para superficies contorneadas de acero al carbono."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-profunda-cara-ancha-superficies-contorneadas-acero-carbono.png"
+
+- id: cepillos-taza-limpieza-profunda-superficies-contorneadas-acero-inoxidable
+  slug: "cepillos-taza-limpieza-profunda-superficies-contorneadas-acero-inoxidable"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos de limpieza profunda para superficies contorneadas de acero inoxidable"
+  description: "Cepillos de taza para limpieza profunda de superficies contorneadas de acero inoxidable."
+  subtitle: "Limpieza profunda para superficies contorneadas de acero inoxidable."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-limpieza-profunda-superficies-contorneadas-acero-inoxidable.png"
+
+- id: cepillos-taza-desbarbadores-todos-metales
+  slug: "cepillos-taza-desbarbadores-todos-metales"
+  product_id: "cepillos-de-taza"
+  name: "Cepillos desbarbadores para todos los metales"
+  description: "Cepillos de taza desbarbadores para todos los tipos de metales."
+  subtitle: "Desbarbadores para todos los metales."
+  image: "assets/images/materials/cepillos-de-taza/cepillos-taza-desbarbadores-todos-metales.png"
+
+- id: masillas-y-selladores-de-silicona-grado-alimenticio
+  slug: "masillas-y-selladores-de-silicona-grado-alimenticio"
+  product_id: "masillas-y-selladores-de-silicona"
+  name: "Masillas y selladores de silicona de grado alimenticio"
+  description: "Masillas y selladores de silicona aprobados para contacto con alimentos y bebidas."
+  subtitle: "Masillas y selladores de silicona de grado alimenticio para aplicaciones seguras en contacto con alimentos."
+  image: "assets/images/materials/masillas-y-selladores-de-silicona/masillas-y-selladores-de-silicona-grado-alimenticio.png"
+
+- id: masillas-y-selladores-de-silicona-multiusos
+  slug: "masillas-y-selladores-de-silicona-multiusos"
+  product_id: "masillas-y-selladores-de-silicona"
+  name: "Masillas y selladores de silicona multiusos"
+  description: "Masillas y selladores de silicona versátiles para múltiples aplicaciones generales."
+  subtitle: "Masillas y selladores de silicona multiusos para sellado general en construcción y mantenimiento."
+  image: "assets/images/materials/masillas-y-selladores-de-silicona/masillas-y-selladores-de-silicona-multiusos.png"
+
+- id: masillas-y-selladores-de-silicona-para-acristalamiento
+  slug: "masillas-y-selladores-de-silicona-para-acristalamiento"
+  product_id: "masillas-y-selladores-de-silicona"
+  name: "Masillas y selladores de silicona para acristalamiento"
+  description: "Masillas y selladores de silicona especializados para fijación y sellado de vidrios y paneles."
+  subtitle: "Masillas y selladores de silicona para acristalamiento con excelente adhesión a vidrio y metales."
+  image: "assets/images/materials/masillas-y-selladores-de-silicona/masillas-y-selladores-de-silicona-para-acristalamiento.png"
+
+- id: masillas-y-selladores-de-silicona-para-cocina-y-baño
+  slug: "masillas-y-selladores-de-silicona-para-cocina-y-baño"
+  product_id: "masillas-y-selladores-de-silicona"
+  name: "Masillas y selladores de silicona para cocina y baño"
+  description: "Masillas y selladores de silicona resistentes a la humedad para aplicaciones en cocina y baño."
+  subtitle: "Masillas y selladores de silicona resistentes a la humedad para sellado de fregaderos, duchas y superficies húmedas."
+  image: "assets/images/materials/masillas-y-selladores-de-silicona/masillas-y-selladores-de-silicona-para-cocina-y-baño.png"
+
+- id: masillas-y-selladores-de-silicona-para-sistemas-hvac-conductos-y-electricidad
+  slug: "masillas-y-selladores-de-silicona-para-sistemas-hvac-conductos-y-electricidad"
+  product_id: "masillas-y-selladores-de-silicona"
+  name: "Masillas y selladores de silicona para sistemas HVAC, conductos y electricidad"
+  description: "Masillas y selladores de silicona especializados para sistemas de climatización, conductos y aplicaciones eléctricas."
+  subtitle: "Masillas y selladores de silicona para sistemas HVAC y eléctricos con resistencia térmica y dieléctrica."
+  image: "assets/images/materials/masillas-y-selladores-de-silicona/masillas-y-selladores-de-silicona-para-sistemas-hvac-conductos-y-electricidad.png"
+
+- id: masillas-y-selladores-de-silicona-para-ventanas-puertas-revestimientos-y-molduras
+  slug: "masillas-y-selladores-de-silicona-para-ventanas-puertas-revestimientos-y-molduras"
+  product_id: "masillas-y-selladores-de-silicona"
+  name: "Masillas y selladores de silicona para ventanas, puertas, revestimientos y molduras"
+  description: "Masillas y selladores de silicona para sellado hermético en juntas de carpintería, marcos y molduras."
+  subtitle: "Masillas y selladores de silicona para carpintería y revestimientos con excelente sellado hermético."
+  image: "assets/images/materials/masillas-y-selladores-de-silicona/masillas-y-selladores-de-silicona-para-ventanas-puertas-revestimientos-y-molduras.png"
+
+- id: masillas-y-selladores-de-poliuretano-de-grado-marino
+  slug: "masillas-y-selladores-de-poliuretano-de-grado-marino"
+  product_id: "masillas-y-selladores-de-poliuretano"
+  name: "Masillas y selladores de poliuretano de grado marino"
+  description: "Selladores de poliuretano de grado marino para aplicaciones en embarcaciones y estructuras expuestas al agua salada."
+  subtitle: "Selladores de poliuretano de grado marino con resistencia extrema a la corrosión salina."
+  image: "assets/images/materials/masillas-y-selladores-de-poliuretano/selladores-de-poliuretano-de-grado-marino.png"
+
+- id: masillas-y-selladores-de-poliuretano-multiusos
+  slug: "masillas-y-selladores-de-poliuretano-multiusos"
+  product_id: "masillas-y-selladores-de-poliuretano"
+  name: "Masillas y selladores de poliuretano multiusos"
+  description: "Selladores de poliuretano versátiles para múltiples aplicaciones industriales y de construcción."
+  subtitle: "Selladores de poliuretano multiusos para aplicaciones generales con alta durabilidad."
+  image: "assets/images/materials/masillas-y-selladores-de-poliuretano/selladores-de-poliuretano-multiusos.png"
+
+- id: masillas-y-selladores-de-poliuretano-para-plomeria
+  slug: "masillas-y-selladores-de-poliuretano-para-plomeria"
+  product_id: "masillas-y-selladores-de-poliuretano"
+  name: "Masillas y selladores de poliuretano para plomería"
+  description: "Selladores de poliuretano especializados para aplicaciones en plomería industrial y sistemas de alta presión."
+  subtitle: "Selladores de poliuretano para plomería con resistencia superior a la presión y humedad."
+  image: "assets/images/materials/masillas-y-selladores-de-poliuretano/selladores-de-poliuretano-para-plomeria.png"
+
+- id: selladores-acusticos-de-latex-acrilico
+  slug: "selladores-acusticos-de-latex-acrilico"
+  product_id: "masillas-y-selladores-de-latex-acrilico"
+  name: "Selladores acústicos de látex acrílico"
+  description: "Selladores acústicos especializados para control de ruido y vibraciones en construcción residencial y comercial."
+  subtitle: "Selladores acústicos de látex acrílico para control de ruido y vibraciones."
+  image: "assets/images/materials/masillas-y-selladores-de-latex-acrilico/selladores-acusticos-de-latex-acrilico.png"
+
+- id: selladores-de-latex-acrilico-multiusos
+  slug: "selladores-de-latex-acrilico-multiusos"
+  product_id: "masillas-y-selladores-de-latex-acrilico"
+  name: "Selladores de látex acrílico multiusos"
+  description: "Selladores de látex acrílico versátiles para múltiples aplicaciones en construcción y mantenimiento."
+  subtitle: "Selladores de látex acrílico multiusos para aplicaciones generales con fácil aplicación."
+  image: "assets/images/materials/masillas-y-selladores-de-latex-acrilico/selladores-de-latex-acrilico-multiusos.png"
+
+- id: selladores-de-latex-acrilico-para-cocina-y-bano
+  slug: "selladores-de-latex-acrilico-para-cocina-y-bano"
+  product_id: "masillas-y-selladores-de-latex-acrilico"
+  name: "Selladores de látex acrílico para cocina y baño"
+  description: "Selladores de látex acrílico resistentes a la humedad para aplicaciones en cocina y baño."
+  subtitle: "Selladores de látex acrílico resistentes a la humedad para sellado de fregaderos, duchas y superficies húmedas."
+  image: "assets/images/materials/masillas-y-selladores-de-latex-acrilico/selladores-de-latex-acrilico-para-cocina-y-bano.png"
+
+- id: selladores-de-latex-acrilico-para-sistemas-hvac-conductos-y-electricidad
+  slug: "selladores-de-latex-acrilico-para-sistemas-hvac-conductos-y-electricidad"
+  product_id: "masillas-y-selladores-de-latex-acrilico"
+  name: "Selladores de látex acrílico para sistemas HVAC, conductos y electricidad"
+  description: "Selladores de látex acrílico especializados para sistemas de climatización, conductos y aplicaciones eléctricas."
+  subtitle: "Selladores de látex acrílico para sistemas HVAC y eléctricos con resistencia térmica y dieléctrica."
+  image: "assets/images/materials/masillas-y-selladores-de-latex-acrilico/selladores-de-latex-acrilico-para-sistemas-hvac-conductos-y-electricidad.png"
+
+- id: selladores-de-latex-acrilico-para-ventanas-puertas-revestimientos-y-molduras
+  slug: "selladores-de-latex-acrilico-para-ventanas-puertas-revestimientos-y-molduras"
+  product_id: "masillas-y-selladores-de-latex-acrilico"
+  name: "Selladores de látex acrílico para ventanas, puertas, revestimientos y molduras"
+  description: "Selladores de látex acrílico para sellado hermético en juntas de carpintería, marcos y molduras."
+  subtitle: "Selladores de látex acrílico para carpintería y revestimientos con excelente sellado hermético."
+  image: "assets/images/materials/masillas-y-selladores-de-latex-acrilico/selladores-de-latex-acrilico-para-ventanas-puertas-revestimientos-y-molduras.png"
+
+- id: selladores-hibridos-a-prueba-de-ganzúas
+  slug: "selladores-hibridos-a-prueba-de-ganzúas"
+  product_id: "masillas-y-selladores-hibridos"
+  name: "Selladores híbridos a prueba de ganzúas"
+  description: "Selladores híbridos especializados con resistencia extrema a la manipulación y herramientas de intrusión."
+  subtitle: "Selladores híbridos a prueba de ganzúas para aplicaciones de seguridad y protección."
+  image: "assets/images/materials/masillas-y-selladores-hibridos/selladores-híbridos-a-prueba-de-ganzúas.png"
+
+- id: selladores-hibridos-de-grado-marino
+  slug: "selladores-hibridos-de-grado-marino"
+  product_id: "masillas-y-selladores-hibridos"
+  name: "Selladores híbridos de grado marino"
+  description: "Selladores híbridos de grado marino para aplicaciones en embarcaciones y estructuras expuestas al agua salada."
+  subtitle: "Selladores híbridos de grado marino con resistencia extrema a la corrosión salina y condiciones marinas."
+  image: "assets/images/materials/masillas-y-selladores-hibridos/selladores-híbridos-de-grado-marino.png"
+
+- id: selladores-hibridos-multiusos
+  slug: "selladores-hibridos-multiusos"
+  product_id: "masillas-y-selladores-hibridos"
+  name: "Selladores híbridos multiusos"
+  description: "Selladores híbridos versátiles para múltiples aplicaciones industriales y de construcción."
+  subtitle: "Selladores híbridos multiusos para aplicaciones generales con tecnología avanzada."
+  image: "assets/images/materials/masillas-y-selladores-hibridos/selladores-híbridos-multiusos.png"
+
+- id: selladores-hibridos-para-cocina-y-baño
+  slug: "selladores-hibridos-para-cocina-y-baño"
+  product_id: "masillas-y-selladores-hibridos"
+  name: "Selladores híbridos para cocina y baño"
+  description: "Selladores híbridos resistentes a la humedad para aplicaciones en cocina y baño."
+  subtitle: "Selladores híbridos resistentes a la humedad para sellado de fregaderos, duchas y superficies húmedas."
+  image: "assets/images/materials/masillas-y-selladores-hibridos/selladores-híbridos-para-cocina-y-baño.png"
+
+- id: selladores-hibridos-para-hvac-conductos-y-electricidad
+  slug: "selladores-hibridos-para-hvac-conductos-y-electricidad"
+  product_id: "masillas-y-selladores-hibridos"
+  name: "Selladores híbridos para sistemas HVAC, conductos y electricidad"
+  description: "Selladores híbridos especializados para sistemas de climatización, conductos y aplicaciones eléctricas."
+  subtitle: "Selladores híbridos para sistemas HVAC y eléctricos con resistencia térmica y dieléctrica superior."
+  image: "assets/images/materials/masillas-y-selladores-hibridos/selladores-híbridos-para-hvac-conductos-y-electricidad.png"
+
+- id: selladores-hibridos-para-ventanas-puertas-revestimientos-y-molduras
+  slug: "selladores-hibridos-para-ventanas-puertas-revestimientos-y-molduras"
+  product_id: "masillas-y-selladores-hibridos"
+  name: "Selladores híbridos para ventanas, puertas, revestimientos y molduras"
+  description: "Selladores híbridos para sellado hermético en juntas de carpintería, marcos y molduras."
+  subtitle: "Selladores híbridos para carpintería y revestimientos con sellado hermético de alta tecnología."
+  image: "assets/images/materials/masillas-y-selladores-hibridos/selladores-híbridos-para-ventanas-puertas-revestimientos-y-molduras.png"
+
+- id: tiras-de-calafateo-hibridas
+  slug: "tiras-de-calafateo-hibridas"
+  product_id: "tiras-cordones-y-compuestos-de-calafateo-hibridos"
+  name: "Tiras de calafateo híbridas"
+  description: "Tiras de calafateo híbridas preformadas para sellado rápido y eficiente en juntas de construcción."
+  subtitle: "Tiras de calafateo híbridas preformadas para instalación rápida sin herramientas especiales."
+  image: "assets/images/materials/tiras-cordones-y-compuestos-de-calafateo-hibridos/tiras-de-calafateo-hibridas.png"
+
+- id: cordones-de-calafateo-hibridos
+  slug: "cordones-de-calafateo-hibridos"
+  product_id: "tiras-cordones-y-compuestos-de-calafateo-hibridos"
+  name: "Cordones de calafateo híbridos"
+  description: "Cordones de calafateo híbridos para sellado de juntas de dilatación y uniones estructurales."
+  subtitle: "Cordones de calafateo híbridos para sellado estructural con alta resistencia y durabilidad."
+  image: "assets/images/materials/tiras-cordones-y-compuestos-de-calafateo-hibridos/cordones-de-calafateo-hibridos.png"
+
+- id: compuestos-de-calafateo-hibridos
+  slug: "compuestos-de-calafateo-hibridos"
+  product_id: "tiras-cordones-y-compuestos-de-calafateo-hibridos"
+  name: "Compuestos de calafateo híbridos"
+  description: "Compuestos de calafateo híbridos para aplicaciones especializadas en construcción e industria."
+  subtitle: "Compuestos de calafateo híbridos para sellado profesional en aplicaciones exigentes."
+  image: "assets/images/materials/tiras-cordones-y-compuestos-de-calafateo-hibridos/compuestos-de-calafateo-hibridos.png"
+
+- id: trabadores-de-roscas-de-alta-resistencia-rojos
+  slug: "trabadores-de-roscas-de-alta-resistencia-rojos"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas de alta resistencia (rojos)"
+  description: "Threadlockers de alta resistencia para uniones metálicas permanentes que requieren máxima sujeción."
+  subtitle: "Threadlockers rojos de alta resistencia para uniones metálicas permanentes en aplicaciones críticas."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-de-alta-resistencia-rojos.png"
+
+- id: trabadores-de-roscas-de-alta-resistencia-sin-imprimacion-rojos
+  slug: "trabadores-de-roscas-de-alta-resistencia-sin-imprimacion-rojos"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas de alta resistencia sin imprimación (rojos)"
+  description: "Threadlockers de alta resistencia que no requieren imprimación previa para su aplicación."
+  subtitle: "Threadlockers rojos de alta resistencia sin necesidad de imprimación para aplicación directa."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-de-alta-resistencia-sin-imprimacion-rojos.png"
+
+- id: trabadores-de-roscas-de-alta-resistencia-y-alta-lubricidad-negros
+  slug: "trabadores-de-roscas-de-alta-resistencia-y-alta-lubricidad-negros"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas de alta resistencia y alta lubricidad (negros)"
+  description: "Threadlockers de alta resistencia con propiedades lubricantes para facilitar el montaje y desmontaje."
+  subtitle: "Threadlockers negros de alta resistencia con lubricación integrada para aplicaciones exigentes."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-de-alta-resistencia-y-alta-lubricidad-negros.png"
+
+- id: trabadores-de-roscas-de-baja-resistencia-morados
+  slug: "trabadores-de-roscas-de-baja-resistencia-morados"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas de baja resistencia (morados)"
+  description: "Threadlockers de baja resistencia para uniones que requieren desmontaje frecuente o ajuste."
+  subtitle: "Threadlockers morados de baja resistencia para uniones ajustables y desmontables."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-de-baja-resistencia-morados.png"
+
+- id: trabadores-de-roscas-de-resistencia-media-absorbentes-verdes
+  slug: "trabadores-de-roscas-de-resistencia-media-absorbentes-verdes"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas de resistencia media absorbentes (verdes)"
+  description: "Threadlockers de resistencia media con propiedades absorbentes para juntas con pequeñas holguras."
+  subtitle: "Threadlockers verdes de resistencia media con capacidad de llenado de holguras."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-de-resistencia-media-absorbentes-verdes.png"
+
+- id: trabadores-de-roscas-de-resistencia-media-azules
+  slug: "trabadores-de-roscas-de-resistencia-media-azules"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas de resistencia media (azules)"
+  description: "Threadlockers de resistencia media para uniones que requieren desmontaje ocasional con herramientas."
+  subtitle: "Threadlockers azules de resistencia media para uniones semipermanentes en aplicaciones generales."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-de-resistencia-media-azules.png"
+
+- id: trabadores-de-roscas-de-resistencia-media-sin-imprimacion-azul
+  slug: "trabadores-de-roscas-de-resistencia-media-sin-imprimacion-azul"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas de resistencia media sin imprimación (azul)"
+  description: "Threadlockers de resistencia media que no requieren imprimación previa para su aplicación."
+  subtitle: "Threadlockers azules de resistencia media sin necesidad de imprimación para aplicación directa."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-de-resistencia-media-sin-imprimacion-azul.png"
+
+- id: trabadores-de-roscas-extraibles-de-alta-resistencia-naranja
+  slug: "trabadores-de-roscas-extraibles-de-alta-resistencia-naranja"
+  product_id: "trabadores-de-roscas-para-metales"
+  name: "Trabadores de roscas extraíbles de alta resistencia (naranja)"
+  description: "Threadlockers de alta resistencia que permiten el desmontaje con herramientas especializadas."
+  subtitle: "Threadlockers naranjas de alta resistencia extraíbles para aplicaciones críticas ajustables."
+  image: "assets/images/materials/trabadores-de-roscas-para-metales/trabadores-de-roscas-extraibles-de-alta-resistencia-naranja.png"
+
+- id: trabadores-de-roscas-para-plasticos
+  slug: "trabadores-de-roscas-para-plasticos"
+  product_id: "trabadores-de-roscas-para-plasticos"
+  name: "Trabadores de roscas para plásticos"
+  description: "Adhesivos instantáneos y compuestos de retención especializados para materiales poliméricos y plásticos de ingeniería."
+  subtitle: "Adhesivos instantáneos y compuestos de retención para unión rápida de componentes plásticos."
+  image: "assets/images/materials/trabadores-de-roscas-para-plasticos/trabadores-de-roscas-para-plasticos.png"
+
+- id: cinta-de-transferencia-adhesiva-de-bobinado-inverso
+  slug: "cinta-de-transferencia-adhesiva-de-bobinado-inverso"
+  product_id: "cinta-adhesiva-de-transferencia"
+  name: "Cinta de transferencia adhesiva de bobinado inverso"
+  description: "Cinta adhesiva de transferencia con bobinado inverso para aplicaciones especializadas que requieren facilidad de aplicación."
+  subtitle: "Cinta de transferencia con bobinado inverso para aplicación profesional y eficiente."
+  image: "assets/images/materials/cinta-adhesiva-de-transferencia/cinta-de-transferencia-adhesiva-de-bobinado-inverso.png"
+
+- id: cinta-de-transferencia-adhesiva-de-uso-general
+  slug: "cinta-de-transferencia-adhesiva-de-uso-general"
+  product_id: "cinta-adhesiva-de-transferencia"
+  name: "Cinta de transferencia adhesiva de uso general"
+  description: "Cinta adhesiva de transferencia versátil para múltiples aplicaciones industriales y comerciales."
+  subtitle: "Cinta de transferencia versátil para aplicaciones generales con excelente rendimiento."
+  image: "assets/images/materials/cinta-adhesiva-de-transferencia/cinta-de-transferencia-adhesiva-de-uso-general.png"
+
+- id: cinta-de-transferencia-adhesiva-diferencial
+  slug: "cinta-de-transferencia-adhesiva-diferencial"
+  product_id: "cinta-adhesiva-de-transferencia"
+  name: "Cinta de transferencia adhesiva diferencial"
+  description: "Cinta adhesiva de transferencia con adhesión diferencial para aplicaciones que requieren control preciso de la fuerza adhesiva."
+  subtitle: "Cinta de transferencia con adhesión diferencial para control preciso en aplicaciones especializadas."
+  image: "assets/images/materials/cinta-adhesiva-de-transferencia/cinta-de-transferencia-adhesiva-diferencial.png"
+
+- id: cinta-de-pintor-multisuperficie
+  slug: "cinta-de-pintor-multisuperficie"
+  product_id: "cinta-de-pintor"
+  name: "Cinta de pintor multisuperficie"
+  description: "Cinta de pintor versátil para múltiples tipos de superficies con adhesión controlada y remoción limpia."
+  subtitle: "Cinta de pintor multisuperficie para aplicaciones generales de enmascarado y pintura."
+  image: "assets/images/materials/cinta-de-pintor/cinta-de-pintor-multisuperficie.png"
+
+- id: cinta-de-pintor-para-superficies-delicadas
+  slug: "cinta-de-pintor-para-superficies-delicadas"
+  product_id: "cinta-de-pintor"
+  name: "Cinta de pintor para superficies delicadas"
+  description: "Cinta de pintor especializada para superficies sensibles que requieren adhesión suave y remoción sin daños."
+  subtitle: "Cinta de pintor para superficies delicadas con adhesión controlada para protección sin daños."
+  image: "assets/images/materials/cinta-de-pintor/cinta-de-pintor-para-superficies-delicadas.png"
+
+- id: cinta-de-pintor-para-superficies-rugosas
+  slug: "cinta-de-pintor-para-superficies-rugosas"
+  product_id: "cinta-de-pintor"
+  name: "Cinta de pintor para superficies rugosas"
+  description: "Cinta de pintor de alta adhesión diseñada para superficies irregulares y rugosas que requieren sellado efectivo."
+  subtitle: "Cinta de pintor para superficies rugosas con adhesión extra fuerte para sellado efectivo."
+  image: "assets/images/materials/cinta-de-pintor/cinta-de-pintor-para-superficies-rugosas.png"
+
+- id: cinta-aislante-almohadillas-y-masilla-resistentes-a-la-humedad
+  slug: "cinta-aislante-almohadillas-y-masilla-resistentes-a-la-humedad"
+  product_id: "cinta-aislante"
+  name: "Cinta aislante, almohadillas y masilla resistentes a la humedad"
+  description: "Cinta aislante, almohadillas y masilla especializadas para aplicaciones en ambientes húmedos y mojados."
+  subtitle: "Cinta aislante, almohadillas y masilla resistentes a la humedad para aplicaciones en ambientes húmedos."
+  image: "assets/images/materials/cinta-aislante/cinta-aislante-almohadillas-y-masilla-resistentes-a-la-humedad.png"
+
+- id: cinta-aislante-anticorrosiva
+  slug: "cinta-aislante-anticorrosiva"
+  product_id: "cinta-aislante"
+  name: "Cinta aislante anticorrosiva"
+  description: "Cinta aislante con propiedades anticorrosivas para protección de conexiones eléctricas en ambientes corrosivos."
+  subtitle: "Cinta aislante anticorrosiva para protección de conexiones en ambientes corrosivos."
+  image: "assets/images/materials/cinta-aislante/cinta-aislante-anticorrosiva.png"
+
+- id: cinta-aislante-a-prueba-de-arco
+  slug: "cinta-aislante-a-prueba-de-arco"
+  product_id: "cinta-aislante"
+  name: "Cinta aislante a prueba de arco"
+  description: "Cinta aislante especializada con resistencia superior a arcos eléctricos para aplicaciones de alta tensión."
+  subtitle: "Cinta aislante a prueba de arco para aplicaciones de alta tensión y seguridad eléctrica."
+  image: "assets/images/materials/cinta-aislante/cinta-aislante-a-prueba-de-arco.png"
+
+- id: cinta-aislante-de-alta-temperatura
+  slug: "cinta-aislante-de-alta-temperatura"
+  product_id: "cinta-aislante"
+  name: "Cinta aislante de alta temperatura"
+  description: "Cinta aislante diseñada para resistir altas temperaturas en aplicaciones industriales y de alta potencia."
+  subtitle: "Cinta aislante de alta temperatura para aplicaciones industriales y de alta potencia."
+  image: "assets/images/materials/cinta-aislante/cinta-aislante-de-alta-temperatura.png"
+
+- id: cinta-aislante-de-alto-voltaje
+  slug: "cinta-aislante-de-alto-voltaje"
+  product_id: "cinta-aislante"
+  name: "Cinta aislante de alto voltaje"
+  description: "Cinta aislante especializada para aplicaciones de alto voltaje con resistencia dieléctrica superior."
+  subtitle: "Cinta aislante de alto voltaje para aplicaciones de alta tensión y seguridad eléctrica."
+  image: "assets/images/materials/cinta-aislante/cinta-aislante-de-alto-voltaje.png"
+
+- id: cinta-aislante-de-uso-general
+  slug: "cinta-aislante-de-uso-general"
+  product_id: "cinta-aislante"
+  name: "Cinta aislante de uso general"
+  description: "Cinta aislante versátil para aplicaciones generales de aislamiento eléctrico y protección de conexiones."
+  subtitle: "Cinta aislante de uso general para aislamiento eléctrico y protección de conexiones en aplicaciones estándar."
+  image: "assets/images/materials/cinta-aislante/cinta-aislante-de-uso-general.png"
+
+- id: cinta-aislante-resistente-a-la-abrasion
+  slug: "cinta-aislante-resistente-a-la-abrasion"
+  product_id: "cinta-aislante"
+  name: "Cinta aislante resistente a la abrasión"
+  description: "Cinta aislante con resistencia superior a la abrasión para aplicaciones en ambientes mecánicamente exigentes."
+  subtitle: "Cinta aislante resistente a la abrasión para ambientes mecánicamente exigentes y de alto desgaste."
+  image: "assets/images/materials/cinta-aislante/cinta-aislante-resistente-a-la-abrasion.png"
+
+- id: cinta-de-pelicula-de-doble-cara-para-uso-general
+  slug: "cinta-de-pelicula-de-doble-cara-para-uso-general"
+  product_id: "cinta-de-pelicula-de-doble-cara"
+  name: "Cinta de película de doble cara para uso general"
+  description: "Cinta de película de doble cara versátil para múltiples aplicaciones de montaje y unión en diferentes industrias."
+  subtitle: "Cinta de película de doble cara para uso general con excelente rendimiento en aplicaciones estándar."
+  image: "assets/images/materials/cinta-de-pelicula-de-doble-cara/cinta-de-pelicula-de-doble-cara-para-uso-general.png"
+
+- id: cinta-de-pelicula-reposicionable-de-doble-cara
+  slug: "cinta-de-pelicula-reposicionable-de-doble-cara"
+  product_id: "cinta-de-pelicula-de-doble-cara"
+  name: "Cinta de película reposicionable de doble cara"
+  description: "Cinta de película de doble cara reposicionable que permite ajustes y reposicionamiento durante la instalación."
+  subtitle: "Cinta de película de doble cara reposicionable para instalaciones que requieren ajustes y reposicionamiento."
+  image: "assets/images/materials/cinta-de-pelicula-de-doble-cara/cinta-de-pelicula-reposicionable-de-doble-cara.png"
+
+- id: cinta-adhesiva-de-eliminacion-limpia
+  slug: "cinta-adhesiva-de-eliminacion-limpia"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta adhesiva de eliminación limpia"
+  description: "Cinta adhesiva especializada que se puede eliminar sin dejar residuos ni dañar las superficies."
+  subtitle: "Cinta adhesiva de eliminación limpia para aplicaciones que requieren remoción sin residuos."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-adhesiva-de-eliminacion-limpia.png"
+
+- id: cinta-adhesiva-de-grado-nuclear
+  slug: "cinta-adhesiva-de-grado-nuclear"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta adhesiva de grado nuclear"
+  description: "Cinta adhesiva de alta resistencia diseñada para aplicaciones en entornos nucleares y de alta seguridad."
+  subtitle: "Cinta adhesiva de grado nuclear para aplicaciones en entornos de alta seguridad y control de calidad."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-adhesiva-de-grado-nuclear.png"
+
+- id: cinta-adhesiva-de-uso-general
+  slug: "cinta-adhesiva-de-uso-general"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta adhesiva de uso general"
+  description: "Cinta adhesiva versátil para múltiples aplicaciones de sellado y reparación en diferentes industrias."
+  subtitle: "Cinta adhesiva de uso general para aplicaciones estándar de sellado y reparación."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-adhesiva-de-uso-general.png"
+
+- id: cinta-adhesiva-ignifuga
+  slug: "cinta-adhesiva-ignifuga"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta adhesiva ignífuga"
+  description: "Cinta adhesiva con propiedades ignífugas para aplicaciones que requieren resistencia al fuego."
+  subtitle: "Cinta adhesiva ignífuga para aplicaciones de seguridad contra incendios."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-adhesiva-ignifuga.png"
+
+- id: cinta-adhesiva-impresa-por-ul
+  slug: "cinta-adhesiva-impresa-por-ul"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta adhesiva impresa por UL"
+  description: "Cinta adhesiva certificada por Underwriters Laboratories con especificaciones de seguridad aprobadas."
+  subtitle: "Cinta adhesiva certificada por UL para aplicaciones que requieren cumplimiento de estándares de seguridad."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-adhesiva-impresa-por-ul.png"
+
+- id: cinta-adhesiva-metalizada
+  slug: "cinta-adhesiva-metalizada"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta adhesiva metalizada"
+  description: "Cinta adhesiva con acabado metalizado para aplicaciones que requieren apariencia estética y funcionalidad."
+  subtitle: "Cinta adhesiva metalizada para aplicaciones que combinan funcionalidad y acabado estético."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-adhesiva-metalizada.png"
+
+- id: cinta-de-reparacion-autofusionable
+  slug: "cinta-de-reparacion-autofusionable"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta de reparación autofusionable"
+  description: "Cinta de reparación que se fusiona automáticamente para crear uniones permanentes y herméticas."
+  subtitle: "Cinta de reparación autofusionable para uniones permanentes y herméticas en aplicaciones críticas."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-de-reparacion-autofusionable.png"
+
+- id: cinta-de-reparacion-transparente
+  slug: "cinta-de-reparacion-transparente"
+  product_id: "cinta-de-sellado-y-reparacion"
+  name: "Cinta de reparación transparente"
+  description: "Cinta de reparación transparente que permite reparaciones discretas sin alterar la apariencia visual."
+  subtitle: "Cinta de reparación transparente para reparaciones discretas y estéticas."
+  image: "assets/images/materials/cinta-de-sellado-y-reparacion/cinta-de-reparacion-transparente.png"
+
+- id: angulo-de-empotramiento-de-hormigon-con-fibra-de-vidrio
+  slug: "angulo-de-empotramiento-de-hormigon-con-fibra-de-vidrio"
+  product_id: "angulos-de-fibra-de-vidrio"
+  name: "Ángulo de empotramiento de hormigón con fibra de vidrio"
+  description: "Ángulo estructural de fibra de vidrio diseñado específicamente para empotramiento en hormigón, ideal para refuerzos estructurales en construcciones civiles."
+  subtitle: "Ángulo de empotramiento de hormigón con fibra de vidrio para refuerzos estructurales en construcciones civiles."
+  image: "assets/images/materials/angulos-de-fibra-de-vidrio/angulo-de-empotramiento-de-hormigon-con-fibra-de-vidrio.png"
+
+- id: angulo-de-fibra-de-vidrio-estructural
+  slug: "angulo-de-fibra-de-vidrio-estructural"
+  product_id: "angulos-de-fibra-de-vidrio"
+  name: "Ángulo de fibra de vidrio estructural"
+  description: "Ángulo estructural de fibra de vidrio de alta resistencia para aplicaciones industriales que requieren soporte estructural y resistencia a la corrosión."
+  subtitle: "Ángulo estructural de fibra de vidrio de alta resistencia para aplicaciones industriales exigentes."
+  image: "assets/images/materials/angulos-de-fibra-de-vidrio/angulo-de-fibra-de-vidrio-estructural.png"
+
+- id: angulo-en-y-para-empotramiento-de-hormigon-con-fibra-de-vidrio
+  slug: "angulo-en-y-para-empotramiento-de-hormigon-con-fibra-de-vidrio"
+  product_id: "angulos-de-fibra-de-vidrio"
+  name: "Ángulo en Y para empotramiento de hormigón con fibra de vidrio"
+  description: "Ángulo en forma de Y de fibra de vidrio diseñado para empotramiento en hormigón, proporcionando refuerzo estructural en tres direcciones."
+  subtitle: "Ángulo en Y de fibra de vidrio para empotramiento en hormigón con refuerzo estructural multidireccional."
+  image: "assets/images/materials/angulos-de-fibra-de-vidrio/angulo-en-y-para-empotramiento-de-hormigon-con-fibra-de-vidrio.png"
+
+- id: canales-en-u-de-fibra-de-vidrio
+  slug: "canales-en-u-de-fibra-de-vidrio"
+  product_id: "canales-en-u-de-fibra-de-vidrio"
+  name: "Canales en U de fibra de vidrio"
+  description: "Canales en U de fibra de vidrio diseñados para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  subtitle: "Canales en U de fibra de vidrio para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  image: "assets/images/materials/canales-en-u-de-fibra-de-vidrio/canales-en-u-de-fibra-de-vidrio.png"
+
+- id: vigas-en-i-de-fibra-de-vidrio
+  slug: "vigas-en-i-de-fibra-de-vidrio"
+  product_id: "vigas-en-i-de-fibra-de-vidrio"
+  name: "Vigas en I de fibra de vidrio"
+  description: "Vigas en I de fibra de vidrio diseñadas para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  subtitle: "Vigas en I de fibra de vidrio para aplicaciones industriales que requieren alta resistencia a la corrosión y durabilidad."
+  image: "assets/images/materials/vigas-en-i-de-fibra-de-vidrio/vigas-en-i-de-fibra-de-vidrio.png"
+
+- id: rejilla-cubierta-resistente-a-la-corrosion-y-a-los-impactos
+  slug: "rejilla-cubierta-resistente-a-la-corrosion-y-a-los-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla cubierta resistente a la corrosión y a los impactos"
+  description: "Rejilla de fibra de vidrio con cubierta protectora diseñada para resistir la corrosión y los impactos en entornos industriales exigentes."
+  subtitle: "Rejilla cubierta resistente a la corrosión y a los impactos para entornos industriales exigentes."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-cubierta-resistente-a-la-corrosion-y-a-los-impactos.png"
+
+- id: rejilla-de-alta-capacidad-de-carga-resistente-a-acidos-e-impactos
+  slug: "rejilla-de-alta-capacidad-de-carga-resistente-a-acidos-e-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla de alta capacidad de carga resistente a ácidos e impactos"
+  description: "Rejilla de fibra de vidrio de alta capacidad de carga diseñada para resistir ácidos e impactos en aplicaciones industriales pesadas."
+  subtitle: "Rejilla de alta capacidad de carga resistente a ácidos e impactos para aplicaciones industriales pesadas."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-de-alta-capacidad-de-carga-resistente-a-acidos-e-impactos.png"
+
+- id: rejilla-de-alta-capacidad-de-carga-resistente-a-la-corrosion-y-a-los-impactos
+  slug: "rejilla-de-alta-capacidad-de-carga-resistente-a-la-corrosion-y-a-los-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla de alta capacidad de carga resistente a la corrosión y a los impactos"
+  description: "Rejilla de fibra de vidrio de alta capacidad de carga diseñada para resistir la corrosión y los impactos en entornos industriales corrosivos."
+  subtitle: "Rejilla de alta capacidad de carga resistente a la corrosión y a los impactos para entornos industriales corrosivos."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-de-alta-capacidad-de-carga-resistente-a-la-corrosion-y-a-los-impactos.png"
+
+- id: rejilla-estructural-industrial-resistente-al-acido
+  slug: "rejilla-estructural-industrial-resistente-al-acido"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla estructural industrial resistente al ácido"
+  description: "Rejilla estructural de fibra de vidrio diseñada para aplicaciones industriales que requieren resistencia al ácido y soporte estructural."
+  subtitle: "Rejilla estructural industrial resistente al ácido para aplicaciones industriales exigentes."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-estructural-industrial-resistente-al-acido.png"
+
+- id: rejilla-estructural-resistente-al-fuego
+  slug: "rejilla-estructural-resistente-al-fuego"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla estructural resistente al fuego"
+  description: "Rejilla estructural de fibra de vidrio con propiedades de resistencia al fuego para aplicaciones que requieren seguridad contra incendios."
+  subtitle: "Rejilla estructural resistente al fuego para aplicaciones que requieren seguridad contra incendios."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-estructural-resistente-al-fuego.png"
+
+- id: rejilla-peatonal-estructural-resistente-al-fuego
+  slug: "rejilla-peatonal-estructural-resistente-al-fuego"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla peatonal estructural resistente al fuego"
+  description: "Rejilla peatonal estructural de fibra de vidrio con resistencia al fuego para pasarelas y áreas de tránsito peatonal seguras."
+  subtitle: "Rejilla peatonal estructural resistente al fuego para pasarelas y áreas de tránsito peatonal seguras."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-peatonal-estructural-resistente-al-fuego.png"
+
+- id: rejilla-peatonal-exterior-resistente-a-la-corrosion-y-a-los-rayos-uv
+  slug: "rejilla-peatonal-exterior-resistente-a-la-corrosion-y-a-los-rayos-uv"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla peatonal exterior resistente a la corrosión y a los rayos UV"
+  description: "Rejilla peatonal exterior de fibra de vidrio diseñada para resistir la corrosión y la degradación por rayos UV en entornos exteriores."
+  subtitle: "Rejilla peatonal exterior resistente a la corrosión y a los rayos UV para entornos exteriores."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-peatonal-exterior-resistente-a-la-corrosion-y-a-los-rayos-uv.png"
+
+- id: rejilla-resistente-a-acidos-e-impactos
+  slug: "rejilla-resistente-a-acidos-e-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a ácidos e impactos"
+  description: "Rejilla de fibra de vidrio diseñada para resistir ácidos e impactos en aplicaciones industriales generales."
+  subtitle: "Rejilla resistente a ácidos e impactos para aplicaciones industriales generales."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-acidos-e-impactos.png"
+
+- id: rejilla-resistente-a-impactos-de-grado-alimenticio
+  slug: "rejilla-resistente-a-impactos-de-grado-alimenticio"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a impactos de grado alimenticio"
+  description: "Rejilla de fibra de vidrio de grado alimenticio diseñada para resistir impactos en entornos de procesamiento de alimentos."
+  subtitle: "Rejilla resistente a impactos de grado alimenticio para entornos de procesamiento de alimentos."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-impactos-de-grado-alimenticio.png"
+
+- id: rejilla-resistente-a-la-corrosion-para-trabajos-ligeros
+  slug: "rejilla-resistente-a-la-corrosion-para-trabajos-ligeros"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a la corrosión para trabajos ligeros"
+  description: "Rejilla de fibra de vidrio resistente a la corrosión diseñada para aplicaciones de trabajos ligeros en entornos corrosivos."
+  subtitle: "Rejilla resistente a la corrosión para trabajos ligeros en entornos corrosivos."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-la-corrosion-para-trabajos-ligeros.png"
+
+- id: rejilla-resistente-a-la-corrosion-y-a-los-impactos
+  slug: "rejilla-resistente-a-la-corrosion-y-a-los-impactos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Rejilla resistente a la corrosión y a los impactos"
+  description: "Rejilla de fibra de vidrio diseñada para resistir la corrosión y los impactos en aplicaciones industriales estándar."
+  subtitle: "Rejilla resistente a la corrosión y a los impactos para aplicaciones industriales estándar."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/rejilla-resistente-a-la-corrosion-y-a-los-impactos.png"
+
+- id: suelos-medicos-resistentes-a-la-corrosion-no-magneticos
+  slug: "suelos-medicos-resistentes-a-la-corrosion-no-magneticos"
+  product_id: "rejilla-de-fibra-de-vidrio"
+  name: "Suelos médicos resistentes a la corrosión no magnéticos"
+  description: "Suelos médicos de fibra de vidrio diseñados para entornos médicos con resistencia a la corrosión y propiedades no magnéticas."
+  subtitle: "Suelos médicos resistentes a la corrosión no magnéticos para entornos médicos especializados."
+  image: "assets/images/materials/rejilla-de-fibra-de-vidrio/suelos-medicos-resistentes-a-la-corrosion-no-magneticos.png"

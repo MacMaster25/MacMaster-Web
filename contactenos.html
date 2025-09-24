@@ -1,0 +1,203 @@
+---
+layout: default
+title: "Contáctenos"
+meta_title: "Contáctenos - Mac Master Importadores | Asesoría y Soporte Técnico"
+meta_description: "Contáctenos para asesoría personalizada, cotizaciones, soporte técnico o información sobre nuestros productos industriales. Estamos en Cali, Colombia."
+---
+
+<!-- heading -->
+<section id="heading">
+  <div class="container-fluid">
+    <div
+      class="title-description row d-flex flex-column align-items-start gap-4 col-lg-10 offset-lg-1"
+    >
+      <h1 class="p-0">
+        ¿Tienes alguna duda o necesitas asesoría personalizada?
+      </h1>
+      <p class="p-0">
+        En Mac Master Importadores estamos listos para ayudarte. Ya sea que
+        necesites información sobre nuestros productos, asistencia técnica o una
+        cotización, nuestro equipo estará encantado de atenderte. Escríbenos o
+        llámanos y te responderemos lo más pronto posible.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- contact info -->
+<section id="contact-info">
+  <div class="container-fluid">
+    <div class="content-contact row d-grid gap-2">
+      <div class="card d-flex flex-column align-items-start gap-4">
+        <h2>Visitanos</h2>
+        <div
+          class="card-description d-flex flex-column align-items-start gap-1"
+        >
+          <p>Av. 5c Nte. #46 - 01, Cali, Valle del Cauca, Colombia</p>
+          <p>Visítenos para consultas y asesoramiento personalizado.</p>
+        </div>
+      </div>
+      <div class="card d-flex flex-column align-items-start gap-4">
+        <h2>Llámanos</h2>
+        <div
+          class="card-description d-flex flex-column align-items-start gap-1"
+        >
+          <p>(57) 317 789 9482</p>
+          <p>Contáctenos directamente para asistencia inmediata.</p>
+        </div>
+      </div>
+      <div class="card d-flex flex-column align-items-start gap-4">
+        <h2>Contáctanos</h2>
+        <div
+          class="card-description d-flex flex-column align-items-start gap-1"
+        >
+          <p>
+            <a href="mailto:proyectos@macmaster.co">proyectos@macmaster.co</a>
+          </p>
+          <p>Comparta sus preguntas o ideas y le responderemos rápidamente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- form -->
+<section id="form">
+  <div class="container-fluid">
+    <div
+      class="content-form row d-flex flex-column flex-xl-row align-items-start gap-2"
+    >
+      <div class="maps col-12 col-xl-6">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.4407944329414!2d-76.52750052432418!3d3.4848443509959193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a9c1750dd6d3%3A0xaa4d4aa4b29e7fb3!2sMAC%20MASTER%20IMPORTADORES%20SAS!5e0!3m2!1sen!2sco!4v1748968896142!5m2!1sen!2sco"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <form
+        id="contactForm"
+        class="d-flex flex-column align-items-start gap-4 col-xl-6"
+      >
+        <div
+          class="title-description d-flex flex-column justify-content-center align-items-center gap-3"
+        >
+          <h2>Envíanos un mensaje</h2>
+          <p class="col-xl-8">
+            ¿Tienes alguna consulta específica? Completa el formulario y uno de
+            nuestros asesores se pondrá en contacto contigo lo antes posible.
+            Estamos aquí para brindarte soluciones claras y rápidas.
+          </p>
+        </div>
+
+        <div class="inputs d-flex flex-column align-items-start gap-3 col-12">
+          <div class="col-12">
+            <label for="nombre" class="form-label" style="display: none"
+              >Nombre Completo</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre Completo"
+              required
+            />
+          </div>
+
+          <div class="col-12">
+            <label for="email" class="form-label" style="display: none"
+              >Correo electrónico</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="correo@ejemplo.com"
+              required
+            />
+          </div>
+
+          <div class="col-12">
+            <label for="mensaje" class="form-label" style="display: none"
+              >Mensaje</label
+            >
+            <textarea
+              class="form-control"
+              id="mensaje"
+              name="mensaje"
+              rows="3"
+              placeholder="Escribir mensaje"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById("contactForm");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    try {
+      const response = await fetch("https://formspree.io/f/xgvlgoel", {
+        method: "POST",
+        body: data,
+        headers: { Accept: "application/json" },
+      });
+
+      if (response.ok) {
+        window.location.href =
+          "https://macmaster25.github.io/MacMaster-Web/gracias";
+      } else {
+        alert("Hubo un error al enviar el mensaje 😥. Intenta de nuevo.");
+      }
+    } catch (err) {
+      alert("Error de conexión. Verifica tu internet e intenta de nuevo.");
+    }
+  });
+</script>
+
+<!-- Structured Data for Local Business -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "{{ site.company_name }}",
+    "image": "{{ 'assets/images/macmaster-logo.png' | relative_url }}",
+    "description": "{{ site.description }}",
+    "url": "{{ page.url | relative_url }}",
+    "telephone": "{{ site.company_phone }}",
+    "email": "{{ site.company_email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.company_street }}",
+      "addressLocality": "{{ site.company_city }}",
+      "addressRegion": "{{ site.company_state }}",
+      "postalCode": "{{ site.company_zip }}",
+      "addressCountry": "{{ site.company_country }}"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "{{ site.company_latitude }}",
+      "longitude": "{{ site.company_longitude }}"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ],
+    "sameAs": ["{{ site.company_instagram }}", "{{ site.company_facebook }}"]
+  }
+</script>

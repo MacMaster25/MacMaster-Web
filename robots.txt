@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://macmaster.co/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_data/
+Disallow: /_sass/
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Allow important pages
+Allow: /categorias/
+Allow: /subcategory/
+Allow: /products/
+Allow: /quienes_somos/
+Allow: /contactenos/
+Allow: /search/ 
