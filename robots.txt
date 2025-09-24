@@ -20,4 +20,4 @@ Allow: /subcategory/
 Allow: /products/
 Allow: /quienes_somos/
 Allow: /contactenos/
-Allow: /search/ 
+Allow: /search/
