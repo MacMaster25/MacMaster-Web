@@ -145,27 +145,16 @@ body {
 
 #brand .container-brand .brand-grid .brand-img {
     padding: 2.25rem 0px;
-    align-self: stretch;
     border-bottom: 1px solid var(--color-border);
-    border-right: 1px solid var(--color-border);
-}
-
-#brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
-    border-right: 0;
-}
-
-#brand .container-brand .brand-grid .brand-img:nth-of-type(3) {
-    border-bottom: 0;
-}
-
-#brand .container-brand .brand-grid .brand-img:nth-of-type(4) {
-    border-right: 0;
-    border-bottom: 0;
 }
 
 #brand .container-brand .brand-grid .brand-img img {
-    width: 80%;
-    object-fit: scale-down;
+    width: 50%;
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(5) {
+    border-bottom: 0;
+    border-right: 0;
 }
 
 #brand .container-brand p {
@@ -410,12 +399,8 @@ body {
         min-height: 500px;
     }
 
-    #brand .container-brand .brand-stats .brand-heading {
-        min-height: 500px;
-    }
-
-    #brand .container-brand .brand-grid .brand-img img {
-        width: 50%;
+    #brand .container-brand .brand-grid .brand-img:last-child img {
+        width: 25%;
     }
 
     #about .container-about .grid-stats .card {
@@ -447,6 +432,10 @@ body {
 
     #brand .container-brand .brand-grid .brand-img img {
         width: 100%;
+    }
+
+    #brand .container-brand .brand-grid .brand-img:last-child img {
+        width: 75%;
     }
 
     #brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
@@ -491,12 +480,12 @@ body {
         min-height: 650px;
     }
 
-    #products .container-products .title-description h2 {
-        font-size: 2.25rem;
-    }
-
     #brand .container-brand .brand-grid .brand-img img {
         width: 75%;
+    }
+
+    #products .container-products .title-description h2 {
+        font-size: 2.25rem;
     }
 
     #about .container-about {
