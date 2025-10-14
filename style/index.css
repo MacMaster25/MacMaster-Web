@@ -139,6 +139,10 @@ body {
     line-height: 120%;
 }
 
+#brand .container-brand .testimonials .user {
+    border-top: 1px solid var(--color-border);
+}
+
 #brand .container-brand .testimonials .user h6,
 #brand .container-brand .testimonials .user p {
     font-family: "Instrument Sans";
