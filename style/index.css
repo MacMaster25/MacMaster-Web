@@ -132,11 +132,26 @@ body {
     line-height: 120%;
 }
 
-#brand .container-brand .brand-benefits h5 {
+#brand .container-brand .testimonials h5 {
     color: var(--color-text-main);
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 500;
     line-height: 120%;
+}
+
+#brand .container-brand .testimonials .user h6,
+#brand .container-brand .testimonials .user p {
+    font-family: "Instrument Sans";
+}
+
+#brand .container-brand .testimonials .user h6 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+#brand .container-brand .testimonials .user p {
+    font-size: 0.875rem;
 }
 
 #brand .container-brand .grid-stats small {
@@ -159,7 +174,6 @@ body {
 
 #brand .container-brand p {
     color: var(--color-text-main);
-    text-align: center;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: "Instrument Sans";
     font-size: 1.125rem;
