@@ -46,7 +46,6 @@ body {
 
 #products .content-produts .title-description h1 {
     color: var(--color-text-main);
-    text-align: center;
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
@@ -86,43 +85,6 @@ body {
     color: var(--color-secondary);
 }
 
-#products .content-produts .grid-products {
-    grid-template-columns: 1fr;
-}
-
-#products .content-produts .grid-products .card {
-    border-radius: 0;
-    background: none;
-    border: 1px solid var(--color-border);
-}
-
-#products .content-produts .grid-products .card:nth-of-type(2),
-#products .content-produts .grid-products .card:nth-of-type(3),
-#products .content-produts .grid-products .card:nth-of-type(4),
-#products .content-produts .grid-products .card:nth-of-type(5),
-#products .content-produts .grid-products .card:nth-of-type(6),
-#products .content-produts .grid-products .card:nth-of-type(7) {
-    border-top: 0;
-}
-
-#products .content-produts .grid-products .card a {
-    padding: 1.5rem 1rem;
-    text-decoration: none;
-}
-
-#products .content-produts .grid-products .card a img {
-    width: 25%;
-}
-
-#products .content-produts .grid-products .card h4 {
-    color: var(--color-text-main);
-    font-family: "Instrument Sans";
-    font-size: 1rem;
-    font-style: normal;
-    line-height: 120%;
-    margin-bottom: 0;
-}
-
 /*hero*/
 #heroimage {
     background: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.35), rgba(18, 18, 18, 1)), url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png?raw=true');
@@ -140,6 +102,45 @@ body {
     border: 1px solid var(--color-border-secondary);
 }
 
+/*product-features*/
+#product-features h2 {
+    font-size: 1.75rem;
+}
+
+#product-features p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
+}
+
+#product-features .card .card-body p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #006747;
+}
+
+/*how to use*/
+#how-to-use h2 {
+    font-size: 1.75rem;
+}
+
+/*product details*/
+#product-details h2 {
+    font-size: 1.75rem;
+}
+
+#product-details span:first-child {
+    font-size: 1.125rem;
+    line-height: 150%;
+}
+
+#product-details span:last-child {
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: end;
+}
 
 /*contact-us*/
 #contact-us span,
@@ -358,7 +359,15 @@ body {
         font-size: 1.5rem;
     }
 
-    #benefits h2 {
+    #product-features h2 {
+        font-size: 2.25rem;
+    }
+
+    #how-to-use h2 {
+        font-size: 2.25rem;
+    }
+
+    #product-details h2 {
         font-size: 2.25rem;
     }
 
