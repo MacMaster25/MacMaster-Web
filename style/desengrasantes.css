@@ -85,17 +85,36 @@ body {
     color: var(--color-secondary);
 }
 
-/*hero*/
+/* Hero general */
 #heroimage {
-    background: linear-gradient(to left, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.35), rgba(18, 18, 18, 1)), url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/04-categories/05.desengrasantes/01.industrial/hero-image-simple-green-indsutrial.webp?raw=true');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 900px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+/* Contenedor visual del hero */
+#heroimage .hero-figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Capa de gradiente */
+#heroimage .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left,
+            rgba(18, 18, 18, 0) 0%,
+            rgba(18, 18, 18, 0.35) 40%,
+            rgba(18, 18, 18, 1) 100%);
+}
+
+/* Ajuste del texto dentro */
+#heroimage .heading {
+    z-index: 2;
 }
 
 #heroimage .heading {
-    min-height: 900px;
+    max-height: 600px;
 }
 
 #heroimage span {
@@ -355,6 +374,14 @@ body {
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
+    #heroimage {
+        max-height: 900px;
+    }
+
+    #heroimage .heading {
+        max-height: 900px;
+    }
+
     #how-to-use .card img {
         height: 30vw;
     }

@@ -78,13 +78,30 @@
                 </div>
             </div>
     </section>
-    <!-- hero image -->
     <section id="heroimage" class="position-relative text-white">
-        <div class="heading container d-flex align-items-center py-5">
-            <div class="col-lg-6">
+        <figure class="hero-figure m-0">
+            <picture>
+                <!-- Imagen para escritorio -->
+                <source media="(min-width: 992px)"
+                    srcset="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/04-categories/05.desengrasantes/01.industrial/hero-image-simple-green-indsutrial.webp?raw=true"
+                    type="image/webp">
+                <!-- Imagen para tablet -->
+                <source media="(min-width: 576px)"
+                    srcset="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/04-categories/05.desengrasantes/01.industrial/hero-image-simple-green-indsutria-tablet.webp?raw=true"
+                    type="image/webp">
+                <!-- Imagen para mobile (por defecto) -->
+                <img src="https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/04-categories/05.desengrasantes/01.industrial/hero-image-simple-green-indsutrial-mobile.webp?raw=true"
+                    alt="Desengrasante industrial Simple Green Crystal, potente limpieza sin fragancia en ambientes industriales"
+                    class="w-100 h-100 object-fit-cover">
+            </picture>
+            <!-- Capa de oscurecimiento -->
+            <div class="overlay"></div>
+        </figure>
+        <div class="heading container d-flex align-items-center py-5 position-absolute top-0 start-0 w-100 h-100">
+            <div class="col-lg-8 offset-lg-1">
                 <span class="badge mb-3 px-2 py-2">PRODUCTO NUEVO</span>
                 <h1 class="fw-bold display-5 mb-4">
-                    Desengrasante Industrial Cristal:<br>
+                    Desengrasante Industrial Cristal:
                     Máxima Potencia, Cero Fragancia.
                 </h1>
                 <p class="lead mb-4 text-light">
@@ -94,7 +111,9 @@
                 </p>
                 <a class="btn btn-main col-12 col-md-auto"
                     href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20sus%20productos%20de%20tornillería%20y%20resinas.%20¿Podrían%20brindarme%20más%20información%3F"
-                    target="_blank" rel="noopener noreferrer">Contacta un asesor</a>
+                    target="_blank" rel="noopener noreferrer">
+                    Contacta un asesor
+                </a>
             </div>
         </div>
     </section>
