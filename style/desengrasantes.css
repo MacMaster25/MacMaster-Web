@@ -87,15 +87,15 @@ body {
 
 /*hero*/
 #heroimage {
-    background: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.35), rgba(18, 18, 18, 1)), url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/resina-industrial-vertido-alto-rendimiento-laminado-polimeros.png?raw=true');
+    background: linear-gradient(to left, rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.35), rgba(18, 18, 18, 1)), url('https://github.com/MacMaster25/MacMaster-Web/blob/static-main/Assets/04-categories/05.desengrasantes/01.industrial/hero-image-simple-green-indsutrial.webp?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 600px;
+    min-height: 900px;
 }
 
 #heroimage .heading {
-    min-height: 600px;
+    min-height: 900px;
 }
 
 #heroimage span {
@@ -113,6 +113,10 @@ body {
     line-height: 150%;
 }
 
+#product-features .card .card-body .badge {
+    background-color: #006747;
+}
+
 #product-features .card .card-body p {
     font-family: "Instrument Sans";
     font-size: 1.125rem;
@@ -123,6 +127,19 @@ body {
 /*how to use*/
 #how-to-use h2 {
     font-size: 1.75rem;
+}
+
+#how-to-use .card-img-overlay {
+    top: auto;
+    background: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 1));
+    border-radius: 0;
+    backdrop-filter: blur(1px);
+}
+
+#how-to-use .card-img-overlay p {
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    line-height: 150%;
 }
 
 /*product details*/
@@ -139,7 +156,18 @@ body {
     font-family: "Instrument Sans";
     font-size: 1rem;
     line-height: 150%;
-    text-align: end;
+}
+
+/*sizes*/
+#sizes .card {
+    max-height: 350px;
+    background-color: #DFE8DB;
+}
+
+#sizes .card-img-wrapper img {
+    max-height: 85%;
+    height: auto;
+    object-fit: contain;
 }
 
 /*contact-us*/
@@ -268,6 +296,15 @@ body {
         width: 50%;
     }
 
+    #how-to-use .card {
+        min-height: 360px;
+    }
+
+    #how-to-use .card img {
+        height: 45vw;
+        object-fit: cover;
+    }
+
     #footer .container-footer .footer-options img {
         width: 35%;
     }
@@ -307,23 +344,6 @@ body {
         padding: 8.25rem 0 2.25rem 0;
     }
 
-    #products .content-produts .grid-products {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    #products .content-produts .grid-products .card:nth-of-type(3) {
-        border-top: 1px solid var(--color-border);
-        border-left: 0;
-    }
-
-    #products .content-produts .grid-products .card:nth-of-type(6) {
-        border-top: 0;
-    }
-
-    #products .content-produts .grid-products .card:nth-of-type(7) {
-        border-left: 0;
-    }
-
     #footer .container-footer .footer-options img {
         width: 50%;
     }
@@ -335,6 +355,10 @@ body {
 
 /*large desktops, 1200px*/
 @media (min-width: 1200px) {
+    #how-to-use .card img {
+        height: 30vw;
+    }
+
     #contact-us .min-height-xl {
         min-height: 650px;
     }
