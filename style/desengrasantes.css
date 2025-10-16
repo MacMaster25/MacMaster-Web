@@ -189,6 +189,14 @@ body {
     object-fit: contain;
 }
 
+#sizes .brochure a {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
 /*contact-us*/
 #contact-us span,
 #contact-us .guarantee {
