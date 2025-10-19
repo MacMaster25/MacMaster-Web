@@ -406,3 +406,64 @@
       link: "categorias/"
     - name: "Resina y fibra de vidrio"
       link: "categorias/"
+
+- id: cristal-simple-green-industrial
+  slug: cristal-simple-green-industrial
+  category_id: "desengrasantes-biodegradables-nsf"
+  name: Cristal simple green industrial
+  description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
+  image: assets/images/subcategories/subcategory-cristal-simple-green-industrial.png
+  tab_name: "Cristal simple green"
+  applications_title: "Aplicaciones y desempeño de nuestros desengrasantes"
+  applications_description: "Nuestros desengrasantes industriales están formulados para ofrecer limpieza y desengrase de superficies en ambientes industriales y automotrices."
+  benefits:
+    - "Resistencia a temperaturas extremas y ambientes agresivos"
+    - "Excelente adherencia a una amplia variedad de materiales"
+    - "Formulación flexible que permite absorber vibraciones y movimientos estructurales"
+  applications:
+    - "Limpieza de piezas metálicas antes de pintar o soldar"
+    - "Eliminación de óxidos y recubrimientos en mantenimiento industrial"
+    - "Acabados decorativos o técnicos en metales y aleaciones"
+  breadcrumb:
+    - name: "Inicio"
+      link: "/"
+    - name: "Productos"
+      link: "categorias/"
+    - name: "Desengrasantes biodegradables NSF"
+      link: "categorias/"
+
+- id: simple-green-all-purpose
+  slug: simple-green-all-purpose
+  category_id: "desengrasantes-biodegradables-nsf"
+  name: Simple green all purpose
+  description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
+  image: assets/images/subcategories/subcategory-simple-green-all-purpose.png
+  tab_name: "Simple green"
+  applications_title: "Aplicaciones y desempeño de nuestros desengrasantes"
+  applications_description: "Nuestros desengrasantes industriales están formulados para ofrecer limpieza y desengrase de superficies en ambientes industriales y automotrices."
+  benefits:
+    - "Resistencia a temperaturas extremas y ambientes agresivos"
+    - "Excelente adherencia a una amplia variedad de materiales"
+    - "Formulación flexible que permite absorber vibraciones y movimientos estructurales"
+
+- id: simple-green-all-purpose-cleaner-lemon
+  slug: simple-green-all-purpose-cleaner-lemon
+  category_id: "desengrasantes-biodegradables-nsf"
+  name: Simple green all purpose cleaner lemon
+  description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
+  image: assets/images/subcategories/subcategory-simple-green-all-purpose-cleaner-lemon.png
+  tab_name: "Simple green"
+  applications_title: "Aplicaciones y desempeño de nuestros desengrasantes"
+  applications_description: "Nuestros desengrasantes industriales están formulados para ofrecer limpieza y desengrase de superficies en ambientes industriales y automotrices."
+  benefits:
+
+- id: simple-green-all-purpose-lavender
+  slug: simple-green-all-purpose-lavender
+  category_id: "desengrasantes-biodegradables-nsf"
+  name: Simple green all purpose lavender
+  description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
+  image: assets/images/subcategories/subcategory-simple-green-all-purpose-lavender.png
+  tab_name: "Simple green"
+  applications_title: "Aplicaciones y desempeño de nuestros desengrasantes"
+  applications_description: "Nuestros desengrasantes industriales están formulados para ofrecer limpieza y desengrase de superficies en ambientes industriales y automotrices."
+  benefits:

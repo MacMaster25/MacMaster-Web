@@ -37,3 +37,13 @@
   image: "assets/images/categories/resina-fibra.png"
   meta_title: "Resina y fibra de vidrio - Mac Master Importadores"
   meta_description: "Materiales resistentes y duraderos para reparaciones estructurales."
+
+- id: desengrasantes-biodegradables-nsf
+  slug: "desengrasantes-biodegradables-nsf"
+  name: "Desengrasantes biodegradables NSF"
+  description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
+  description_short: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies. Fabricados con materiales biodegradables y no cancerígenos para mayor seguridad y protección ambiental."
+  cta_link_short: "Ver desengrasantes"
+  image: "assets/images/categories/desengrasantes-biodegradables-no-cancerigenos.png"
+  meta_title: "Desengrasantes biodegradables NSF - Mac Master Importadores"
+  meta_description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
