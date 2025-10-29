@@ -87,7 +87,7 @@ body {
 
 /* Hero general */
 #heroimage {
-    max-height: 600px;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 #heroimage .heading {
-    max-height: 600px;
+    height: 100%;
 }
 
 #heroimage span {
