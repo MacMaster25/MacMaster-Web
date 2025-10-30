@@ -28,7 +28,7 @@ Sitio web corporativo de **MacMaster Importadores SAS**, empresa especializada e
 - **Liquid** - Motor de plantillas de Jekyll
 - **HTML5 & CSS3** - Estándares web modernos
 - **JavaScript ES6+** - Funcionalidad interactiva
-- **Netlify Forms** - Procesamiento de formularios
+- **Formspree** - Procesamiento de formularios
 
 ## 📁 Estructura del Proyecto
 
@@ -141,6 +141,8 @@ collections:
 2. **Adhesivos y Sellantes** - Soluciones de unión industrial
 3. **Resina y Fibra de Vidrio** - Materiales compuestos
 4. **Tornillería Industrial** - Elementos de fijación
+5. **Desengrasantes** - Productos de limpieza industrial
+6. **Lavadoras de Piezas** - Equipos industriales para limpieza profunda
 
 ### 🔧 Funcionalidades
 
@@ -153,7 +155,7 @@ collections:
 
 ### 📧 Formulario de Contacto
 
-El sitio incluye un formulario de contacto funcional configurado con **Netlify Forms**:
+El sitio incluye un formulario de contacto funcional configurado con **Formspree**:
 
 - ✅ **Procesamiento automático** de envíos
 - ✅ **Protección anti-spam** incluida
@@ -174,7 +176,7 @@ El sitio está optimizado para **GitHub Pages**:
 ### Compatibilidad
 
 - ✅ **GitHub Pages** - Despliegue automático
-- ✅ **Netlify** - Formularios y hosting
+- ✅ **Formspree** - Formularios
 - ✅ **Vercel** - Hosting alternativo
 - ✅ **Cualquier hosting estático** - JAMstack compatible
 
