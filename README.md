@@ -101,6 +101,7 @@ collections:
 - **`product`** - Layout especializado para productos
 - **`subcategory`** - Layout para subcategorías
 - **`subcategory-resina-fibra`** - Layout especializado para resina y fibra
+- **`subcategory-simple-green`** - Layout especializado para desengrasantes y lavadoras de piezas
 
 ## 🚀 Instalación y Desarrollo Local
 
@@ -170,7 +171,7 @@ El sitio está optimizado para **GitHub Pages**:
 
 1. **Push al repositorio** principal
 2. **GitHub Pages** se activa automáticamente
-3. **Netlify Forms** se detecta y configura
+3. **Formspree** configurado en página web
 4. **Sitio disponible** en `https://macmaster25.github.io/MacMaster-Web/`
 
 ### Compatibilidad
