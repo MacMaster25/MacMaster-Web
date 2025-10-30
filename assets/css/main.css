@@ -251,11 +251,30 @@ body {
   line-height: 120%;
 }
 
-#brand .container-brand .brand-benefits h5 {
-  color: var(--color-text-main);
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 120%;
+#brand .container-brand .testimonials h5 {
+    color: var(--color-text-main);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+#brand .container-brand .testimonials .user {
+    border-top: 1px solid var(--color-border);
+}
+
+#brand .container-brand .testimonials .user h6,
+#brand .container-brand .testimonials .user p {
+    font-family: "Instrument Sans";
+}
+
+#brand .container-brand .testimonials .user h6 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+#brand .container-brand .testimonials .user p {
+    font-size: 0.875rem;
 }
 
 #brand .container-brand .grid-stats small {
@@ -263,33 +282,21 @@ body {
 }
 
 #brand .container-brand .brand-grid .brand-img {
-  padding: 2.25rem 0px;
-  align-self: stretch;
-  border-bottom: 1px solid var(--color-border);
-  border-right: 1px solid var(--color-border);
-}
-
-#brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
-  border-right: 0;
-}
-
-#brand .container-brand .brand-grid .brand-img:nth-of-type(3) {
-  border-bottom: 0;
-}
-
-#brand .container-brand .brand-grid .brand-img:nth-of-type(4) {
-  border-right: 0;
-  border-bottom: 0;
+    padding: 2.25rem 0px;
+    border-bottom: 1px solid var(--color-border);
 }
 
 #brand .container-brand .brand-grid .brand-img img {
-  width: 80%;
-  object-fit: scale-down;
+    width: 50%;
+}
+
+#brand .container-brand .brand-grid .brand-img:nth-of-type(5) {
+    border-bottom: 0;
+    border-right: 0;
 }
 
 #brand .container-brand p {
   color: var(--color-text-main);
-  text-align: center;
   font-feature-settings: "liga" off, "clig" off;
   font-family: "Instrument Sans";
   font-size: 1.125rem;
@@ -1368,6 +1375,124 @@ body {
 }
 
 /* ========================================
+    SIMPLE GREEN
+   ======================================== */
+
+/* Hero general */
+#heroimage-simple-green {
+    /* max-height: 600px; */
+    overflow: hidden;
+}
+
+/* Contenedor visual del hero */
+#heroimage-simple-green .hero-figure {
+  position: absolute;
+  /* Para que cubra todo el fondo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* ¡CLAVE! Se ajusta al 100% de la altura generada por el contenido de texto. */
+  z-index: 1;
+}
+
+/* Capa de gradiente */
+#heroimage-simple-green .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top,
+          rgba(18, 18, 18, 0.7) 0%,
+          rgba(18, 18, 18, 0.7) 50%,
+          rgba(18, 18, 18, 0.7) 100%);
+}
+
+/* Ajuste del texto dentro */
+#heroimage-simple-green .heading {
+  z-index: 2;
+}
+
+#heroimage-simple-green span {
+    border: 1px solid var(--color-border-secondary);
+}
+
+/*product-features*/
+#product-features h2 {
+    font-size: 1.75rem;
+}
+
+#product-features p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
+}
+
+#product-features .card .card-body .badge {
+    background-color: #006747;
+}
+
+#product-features .card .card-body p {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #006747;
+}
+
+/*how to use*/
+#how-to-use h2 {
+    font-size: 1.75rem;
+}
+
+#how-to-use .card-img-overlay {
+    top: auto;
+    background: linear-gradient(to bottom, rgba(18, 18, 18, 0), rgba(18, 18, 18, 1));
+    border-radius: 0;
+    backdrop-filter: blur(1px);
+}
+
+#how-to-use .card-img-overlay p {
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+/*product details*/
+#product-details h2 {
+    font-size: 1.75rem;
+}
+
+#product-details span:first-child {
+    font-size: 1.125rem;
+    line-height: 150%;
+}
+
+#product-details span:last-child {
+    font-family: "Instrument Sans";
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+/*sizes*/
+#sizes .card {
+    max-height: 350px;
+    background-color: #DFE8DB;
+}
+
+#sizes .card-img-wrapper img {
+    max-height: 85%;
+    height: auto;
+    object-fit: contain;
+}
+
+#sizes .brochure a {
+    font-family: "Instrument Sans";
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+
+/* ========================================
     RESPONSIVE MEDIA QUERIES
     ======================================== */
 
@@ -1566,6 +1691,10 @@ body {
     min-height: 500px;
   }
 
+  #brand .container-brand .brand-grid .brand-img:last-child img {
+    width: 25%;
+  }
+
   #brand .container-brand .brand-stats .brand-heading {
     min-height: 500px;
   }
@@ -1659,9 +1788,28 @@ body {
     border-right: 1px solid var(--color-border);
   }
 
+  /* Capa de gradiente simple green hero image */
+  #heroimage-simple-green .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to left,
+              rgba(18, 18, 18, 0) 0%,
+              rgba(18, 18, 18, 0.35) 40%,
+              rgba(18, 18, 18, 1) 100%);
+  }
+
   /* Thank you Page */
   #thankyou {
     padding: 6.5rem 0.5rem 0 0.5rem;
+  }
+
+  #how-to-use .card {
+      min-height: 360px;
+  }
+
+  #how-to-use .card img {
+      height: 45vw;
+      object-fit: cover;
   }
 }
 
@@ -1702,6 +1850,10 @@ body {
 
   #brand .container-brand .brand-grid .brand-img img {
     width: 100%;
+  }
+
+  #brand .container-brand .brand-grid .brand-img:last-child img {
+    width: 75%;
   }
 
   #brand .container-brand .brand-grid .brand-img:nth-of-type(2) {
@@ -1960,6 +2112,18 @@ body {
     height: auto;
     align-self: stretch;
   }
+  /* Simple Green */
+  #heroimage-simple-green {
+      /* max-height: 900px; */
+  }
+
+  #heroimage-simple-green .heading {
+      /* max-height: 900px; */
+  }
+
+  #how-to-use .card img {
+      height: 30vw;
+  }
 }
 
 /* Larger desktops, 1400px */
@@ -2111,4 +2275,17 @@ body {
 
 #aplications .card-body h5 {
   font-size: 1.5rem;
+}
+
+/* Simple Green */
+#product-features h2 {
+    font-size: 2.25rem;
+}
+
+#how-to-use h2 {
+    font-size: 2.25rem;
+}
+
+#product-details h2 {
+    font-size: 2.25rem;
 }

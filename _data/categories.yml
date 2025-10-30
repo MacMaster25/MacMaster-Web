@@ -37,3 +37,23 @@
   image: "assets/images/categories/resina-fibra.png"
   meta_title: "Resina y fibra de vidrio - Mac Master Importadores"
   meta_description: "Materiales resistentes y duraderos para reparaciones estructurales."
+
+- id: desengrasantes-biodegradables-nsf
+  slug: "desengrasantes-biodegradables-nsf"
+  name: "Desengrasantes biodegradables NSF"
+  description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
+  description_short: "Desengrasantes de alto rendimiento para limpieza industrial segura y efectiva. Biodegradables y no tóxicos, eliminando grasas, aceites y residuos difíciles."
+  cta_link_short: "Ver desengrasantes"
+  image: "assets/images/categories/desengrasantes-simple-green.webp"
+  meta_title: "Desengrasantes biodegradables NSF - Mac Master Importadores"
+  meta_description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies."
+
+- id: lavadoras-de-piezas
+  slug: "lavadoras-de-piezas"
+  name: "Lavadoras de piezas"
+  description: "Lavadoras de piezas para limpieza y desengrase de superficies."
+  description_short: "Equipos industriales para limpieza profunda de componentes mecánicos y herramientas. Diseñadas para optimizar procesos de desengrase, reducir tiempos de limpieza y mejorar la productividad en talleres e industrias."
+  cta_link_short: "Ver lavadoras de piezas"
+  image: "assets/images/categories/lavadora-piezas-simple-green.webp"
+  meta_title: "Lavadoras de piezas - Mac Master Importadores"
+  meta_description: "Lavadoras de piezas para limpieza y desengrase de superficies."

@@ -8,6 +8,7 @@ meta_description: "Resina y fibra de vidrio de alta calidad para aplicaciones in
 {% assign subcategory = nil %} {% for subcat in site.data.subcategories %} {% if
 subcat.slug == page.slug %} {% assign subcategory = subcat %} {% break %} {%
 endif %} {% endfor %}
+
 <!-- Products Section -->
 <section id="products">
   <div class="container-fluid">
@@ -289,6 +290,18 @@ endif %} {% endfor %}
         {% elsif category.id == "resina-y-fibra-de-vidrio" %}
         <img
           src="{{ 'assets/images/index/resina-y-fibra-aplicaciones-tecnicas.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
+        {% elsif category.id == "desengrasantes-biodegradables-nsf" %}
+        <img
+          src="{{ 'assets/images/index/simple-green.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
+        {% elsif category.id == "lavadoras-de-piezas" %}
+        <img
+          src="{{ 'assets/images/index/lavadora-piezas-simple-green.webp' | relative_url }}"
           class="img-fluid w-100 h-100 object-fit-cover opacity-75"
           alt="{{ category.name }}"
         />
