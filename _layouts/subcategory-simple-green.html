@@ -1,0 +1,351 @@
+---
+layout: default
+title: "Desengrasantes biodegradables NSF"
+meta_title: "Desengrasantes biodegradables NSF - Mac Master Importadores | Soluciones de limpieza seguras"
+meta_description: "Desengrasantes biodegradables no cancerígenos para limpieza y desengrase de superficies en entornos industriales y alimenticios."
+---
+
+{% assign subcategory = nil %}
+{% for subcat in site.data.subcategories %}
+  {% if subcat.slug == page.slug %}
+    {% assign subcategory = subcat %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if subcategory %}
+
+<!-- PRODUCTS HEADER -->
+<section id="products">
+  <div class="container-fluid">
+    <div class="content-produts row d-flex flex-column align-items-start col-lg-10 offset-lg-1">
+      
+      <!-- Título y breadcrumb -->
+      <div class="title-description d-flex flex-column align-items-start justify-content-center gap-3 p-0">
+        {% if subcategory %}
+          <h1>{{ subcategory.name }}</h1>
+          {% include breadcrumb.html items=subcategory.breadcrumb %}
+        {% else %}
+          <h1>Subcategoría no encontrada</h1>
+        {% endif %}
+      </div>
+
+      <!-- Descripción -->
+      {% if subcategory.description %}
+        <p class="p-0">{{ subcategory.description }}</p>
+      {% endif %}
+
+      <!-- Tabs -->
+      {% assign category_subcategories = site.data.subcategories | where:
+      "category_id", subcategory.category_id %} {% if
+      category_subcategories.size > 1 %}
+      <div class="tabs d-flex flex-wrap gap-2 px-0">
+        {% for subcat in category_subcategories %} {% assign is_active = "" %}
+        {% if page.slug == subcat.slug %} {% assign is_active = "active" %} {%
+        endif %} {% assign tab_class = "text-decoration-none px-3 py-2
+        text-white border rounded" %} {% if is_active == "active" %} {% assign
+        tab_class = "rounded text-decoration-none px-3 py-2 rounded active" %}
+        {% endif %} {% if forloop.first %} {% assign tab_class = tab_class |
+        append: " rounded-start" %} {% endif %} {% if forloop.last %} {% assign
+        tab_class = tab_class | append: " rounded-end" %} {% endif %}
+        <a
+          href="{{ 'subcategory/' | append: subcat.slug | relative_url }}"
+          class="{{ tab_class }}"
+          >{{ subcat.tab_name }}</a
+        >
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- HERO IMAGE -->
+<section id="heroimage-simple-green" class="position-relative text-white">
+  <figure class="hero-figure m-0">
+    <picture>
+        <!-- Imagen para escritorio (≥992px) -->
+        {% if subcategory.hero_background %}
+        <source media="(min-width: 992px)"
+                srcset="{{ subcategory.hero_background | relative_url }}"
+                type="image/webp">
+        {% endif %}
+        
+        <!-- Imagen para tablet (≥576px) -->
+        {% if subcategory.hero_tablet %}
+        <source media="(min-width: 576px)"
+                srcset="{{ subcategory.hero_tablet | relative_url }}"
+                type="image/webp">
+        {% endif %}
+        
+        <!-- Imagen para mobile (por defecto) -->
+        <img src="{% if subcategory.hero_mobile %}{{ subcategory.hero_mobile | relative_url }}{% else %}{{ subcategory.hero_background | relative_url }}{% endif %}"
+             alt="{{ subcategory.name }} - MacMaster"
+             class="w-100 h-100 object-fit-cover">
+    </picture>
+    <!-- Capa de oscurecimiento -->
+    <div class="overlay"></div>
+  </figure>
+  <!-- Contenido del hero -->
+  <div class="heading container-fluid d-flex align-items-center py-5 position-relative w-100">
+    <div class="col-lg-8 offset-lg-1">
+      <span class="badge mb-3 px-2 py-2">PRODUCTO DESTACADO</span>
+      <h1 class="fw-bold display-5 mb-4">{{ subcategory.applications_title }}</h1>
+      {% if subcategory.applications_description %}
+        <p class="lead mb-4 text-light">{{ subcategory.applications_description }}</p>
+      {% endif %}
+      <a class="btn btn-main col-12 col-md-auto mb-5"
+         href="https://wa.me/573177899482?text=Hola%2C%20estoy%20interesado%20en%20{{ subcategory.name | url_encode }}."
+         target="_blank" 
+         rel="noopener noreferrer">
+        Contacta un asesor
+      </a>
+      {% if subcategory.certification_logo or subcategory.logo_description %}
+      <div class="nsf-footer d-flex flex-column align-items-start mt-5">
+        {% if subcategory.certification_logo %}
+        <img src="{{ subcategory.certification_logo | relative_url }}" 
+            alt="Sello de Certificación NSF" 
+            class="nsf-logo mb-3" 
+            style="width: 15%">
+        {% endif %}
+        {% if subcategory.logo_description %}
+        <p class="mb-0 small text-light col-lg-8">
+          {{ subcategory.logo_description }}
+        </p>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT FEATURES -->
+{% if subcategory.features or subcategory.benefits %}
+<section id="product-features" class="container-fluid text-white py-4 py-xl-5">
+  <div class="row mb-5">
+    <div class="col-12 col-xl-10 offset-xl-1">
+      <h2 class="mb-5 fw-bold">Características del Producto</h2>
+      {% if subcategory.features.description %}
+        <p class="mb-0 col-xl-6">{{ subcategory.features.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if subcategory.benefits %}
+  <div class="row col-lg col-xl-10 offset-xl-1">
+    {% for benefit in subcategory.benefits %}
+    <div class="col-12 col-md-6 col-lg-3 mb-2 {% cycle 'pe-md-1 ps-xl-0', 'ps-md-1 pe-lg-1', 'pe-md-1 ps-lg-1', 'ps-md-1 pe-xl-0' %}">
+      <div class="card h-100 p-4 border rounded-4 text-center">
+        <div class="card-body p-0">
+          <div class="badge mb-3 p-3 rounded-3">{{ forloop.index }}</div>
+          <p class="card-text">{{ benefit }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+<!-- HOW TO USE -->
+{% if subcategory.how_to_use %}
+<section id="how-to-use" class="col-xl-10 offset-xl-1 py-4 py-xl-5 text-white">
+  <div class="container-fluid">
+    <h2 class="mb-5 fw-bold">Modo de Empleo</h2>
+
+    <!-- Grid -->
+    <div class="row g-4">
+      <!-- Primeras tres cards -->
+      {% for item in subcategory.how_to_use limit:3 %}
+      <div class="col-12 col-md-6 col-xl-4">
+        <div class="card text-bg-dark rounded-4 overflow-hidden h-100 border-0 shadow-sm">
+          {% if item.image %}
+            <img src="{{ item.image | relative_url }}" class="card-img" alt="{{ item.alt | default: item.step }}">
+          {% endif %}
+          <div class="card-img-overlay d-flex flex-column justify-content-end bg-transparent">
+            <h5 class="card-title fw-semibold mb-1">{{ forloop.index }}. {{ item.step }}</h5>
+            <p class="card-text small mb-0">{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      <!-- Últimas dos cards (centradas) -->
+      <div class="col-12 col-md-6 col-xl-6">
+        {% assign item = subcategory.how_to_use[3] %}
+        <div class="card text-bg-dark rounded-4 overflow-hidden h-100 border-0 shadow-sm">
+          {% if item.image %}
+            <img src="{{ item.image | relative_url }}" class="card-img" alt="{{ item.alt | default: item.step }}">
+          {% endif %}
+          <div class="card-img-overlay d-flex flex-column justify-content-end bg-transparent">
+            <h5 class="card-title fw-semibold mb-1">4. {{ item.step }}</h5>
+            <p class="card-text small mb-0">{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-6">
+        {% assign item = subcategory.how_to_use[4] %}
+        <div class="card text-bg-dark rounded-4 overflow-hidden h-100 border-0 shadow-sm">
+          {% if item.image %}
+            <img src="{{ item.image | relative_url }}" class="card-img" alt="{{ item.alt | default: item.step }}">
+          {% endif %}
+          <div class="card-img-overlay d-flex flex-column justify-content-end bg-transparent">
+            <h5 class="card-title fw-semibold mb-1">5. {{ item.step }}</h5>
+            <p class="card-text small mb-0">{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nota técnica -->
+    {% if subcategory.technical_note_text %}
+    <div class="alert mt-5 small text-dark rounded-3 border-0 fw-medium d-flex align-items-center gap-2"
+        style="background-color: #ffc107; color: #000;">
+      <img src="{{ '/assets/images/exclamation-triangle-fill.svg' | relative_url }}" 
+          alt="Advertencia" width="20" height="20" class="me-2">
+      <span>
+        <strong>{{ subcategory.technical_note_title }}</strong>
+        {{ subcategory.technical_note_text }}
+        {% if subcategory.technical_note_link_url %}
+          Consulte la 
+          <a href="{{ subcategory.technical_note_link_url }}" target="_blank" rel="noopener noreferrer" class="fw-semibold text-dark text-decoration-underline">
+            {{ subcategory.technical_note_link_text }}
+          </a>.
+        {% endif %}
+      </span>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+<!-- TECHNICAL DATA -->
+{% if subcategory.technical_data %}
+<section id="product-details" class="py-4 py-xl-5 text-white">
+  <div class="container-fluid col-xl-10 offset-xl-1">
+    <h2 class="fw-bold mb-5">Detalle del producto</h2>
+    <div class="row g-4">
+      <!-- Columna izquierda -->
+      <div class="col-12 col-md-6">
+        {% assign half = subcategory.technical_data.size | divided_by: 2 %}
+        {% for item in subcategory.technical_data limit:half %}
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between border-bottom py-3">
+          <span class="fw-semibold">{{ item.label }}</span>
+          <span class="text-start text-lg-end">{{ item.value }}</span>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Columna derecha -->
+      <div class="col-12 col-md-6">
+        {% for item in subcategory.technical_data offset:half %}
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between border-bottom py-3">
+          <span class="fw-semibold">{{ item.label }}</span>
+          <span class="text-start text-lg-end">{{ item.value }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- PRODUCT SIZES -->
+{% if subcategory.sizes %}
+<section id="sizes" class="py-4 pt-xl-5 pb-xl-2 text-white">
+  <div class="container-fluid">
+    
+    <h2 class="col-xl-8 offset-xl-1 fw-bold mb-5">Tamaños y presentaciones</h2>
+
+    <!-- Grid de tamaños -->
+    <div class="row g-2">
+      {% for size in subcategory.sizes %}
+      <div class="col-12 col-md-4">
+        <div class="card border-0 rounded-4 {% if forloop.index > 1 %}h-100 {% endif %} text-center overflow-hidden">
+          <div class="card-img-wrapper d-flex justify-content-center align-items-center"
+               {% if forloop.index > 2 %}
+                 style="min-height: 292px;"
+               {% else %}
+                 style="height: 292px;"
+               {% endif %}>
+            {% if size.image %}
+              <img src="{{ size.image | relative_url }}" 
+                   class="size-{{ forloop.index }} p-3" 
+                   alt="{{ size.alt | default: size.label }}">
+            {% endif %}
+          </div>
+          <div class="card-body bg-white">
+            <h5 class="card-title mb-0">{{ size.label }}</h5>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Brochure -->
+    {% if subcategory.brochure_section %}
+    <div class="brochure d-flex flex-column align-items-start gap-3 pt-4 py-xl-5 col-lg-8 offset-lg-1">
+      <div class="title-description d-flex flex-column justify-content-center align-items-start gap-3">
+        {% if subcategory.brochure_section.title %}
+          <h2>{{ subcategory.brochure_section.title }}</h2>
+        {% endif %}
+      </div>
+      <ul class="mb-0">
+        {% if subcategory.brochure_section.cta_text and subcategory.brochure_section.cta_url %}
+          <li>
+            <a href="{{ subcategory.brochure_section.cta_url }}" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="text-decoration-underline text-light">
+              {{ subcategory.brochure_section.cta_text }}
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div>
+</section>
+{% endif %}
+
+
+<!-- BENEFITS -->
+{% include benefits.html %}
+
+<section id="industrial-category" class="container-fluid py-5 px-lg-0 col-lg-10 offset-lg-1">
+  <h2 class="text-white fw-bold mb-4">Conoce más soluciones industriales</h2>
+  <div class="d-flex flex-column flex-md-row flex-wrap flex-lg-nowrap gap-2 gap-md-3 justify-content-center">
+    {% for category in site.data.categories %}
+      {% unless category.id == subcategory.category_id %}
+        {% assign first_subcategory = site.data.subcategories | where: "category_id", category.id | first %}
+        <div class="rounded-4 overflow-hidden position-relative" style="flex: 1 1 300px">
+          <a href="{{ 'subcategory/' | append: first_subcategory.slug | relative_url }}">
+            {% if category.id == "tornilleria-industrial" %}
+              <img src="{{ 'assets/images/index/tornilleria-industrial-fijaciones-macmaster.webp' | relative_url }}" class="img-fluid w-100 h-100 object-fit-cover opacity-75" alt="{{ category.name }}">
+            {% elsif category.id == "abrasivos" %}
+              <img src="{{ 'assets/images/index/abrasivos-macmaster-corte-chispas.webp' | relative_url }}" class="img-fluid w-100 h-100 object-fit-cover opacity-75" alt="{{ category.name }}">
+            {% elsif category.id == "adhesivos-y-sellantes" %}
+              <img src="{{ 'assets/images/index/adhesivo-industrial-motor.webp' | relative_url }}" class="img-fluid w-100 h-100 object-fit-cover opacity-75" alt="{{ category.name }}">
+            {% elsif category.id == "resina-y-fibra-de-vidrio" %}
+              <img src="{{ 'assets/images/index/resina-y-fibra-aplicaciones-tecnicas.webp' | relative_url }}" class="img-fluid w-100 h-100 object-fit-cover opacity-75" alt="{{ category.name }}">
+            {% elsif category.id == "desengrasantes-biodegradables-nsf" %}
+              <img src="{{ 'assets/images/index/simple-green.webp' | relative_url }}" class="img-fluid w-100 h-100 object-fit-cover opacity-75" alt="{{ category.name }}">
+            {% elsif category.id == "lavadoras-de-piezas" %}
+              <img src="{{ 'assets/images/index/lavadora-piezas-simple-green.webp' | relative_url }}" class="img-fluid w-100 h-100 object-fit-cover opacity-75" alt="{{ category.name }}">
+            {% endif %}
+            <div class="position-absolute bottom-0 start-0 p-3 text-white fw-bold">
+              {{ category.name }}
+            </div>
+          </a>
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- GALLERY -->
+{% include gallery.html %}

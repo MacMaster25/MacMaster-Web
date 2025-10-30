@@ -154,6 +154,18 @@ endif %} {% endfor %}
           class="img-fluid w-100 h-100 object-fit-cover opacity-75"
           alt="{{ category.name }}"
         />
+        {% elsif category.id == "desengrasantes-biodegradables-nsf" %}
+        <img
+          src="{{ 'assets/images/index/simple-green.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
+        {% elsif category.id == "lavadoras-de-piezas" %}
+        <img
+          src="{{ 'assets/images/index/lavadora-piezas-simple-green.webp' | relative_url }}"
+          class="img-fluid w-100 h-100 object-fit-cover opacity-75"
+          alt="{{ category.name }}"
+        />
         {% endif %}
         <div class="position-absolute bottom-0 start-0 p-3 text-white fw-bold">
           {{ category.name }}
