@@ -14,7 +14,7 @@ Sitio web corporativo de **MacMaster Importadores SAS**, empresa especializada e
 - **Sitio estático** generado con Jekyll
 - **Diseño responsive** optimizado para todos los dispositivos
 - **SEO optimizado** con meta tags y structured data
-- **Formulario de contacto funcional** con Netlify Forms
+- **Formulario de contacto funcional** con Formspree
 - **Navegación intuitiva** con breadcrumbs dinámicos
 - **Catálogo de productos** organizado por categorías
 - **Imágenes optimizadas** para web
