@@ -14,7 +14,7 @@ Sitio web corporativo de **MacMaster Importadores SAS**, empresa especializada e
 - **Sitio estático** generado con Jekyll
 - **Diseño responsive** optimizado para todos los dispositivos
 - **SEO optimizado** con meta tags y structured data
-- **Formulario de contacto funcional** con Netlify Forms
+- **Formulario de contacto funcional** con Formspree
 - **Navegación intuitiva** con breadcrumbs dinámicos
 - **Catálogo de productos** organizado por categorías
 - **Imágenes optimizadas** para web
@@ -28,7 +28,7 @@ Sitio web corporativo de **MacMaster Importadores SAS**, empresa especializada e
 - **Liquid** - Motor de plantillas de Jekyll
 - **HTML5 & CSS3** - Estándares web modernos
 - **JavaScript ES6+** - Funcionalidad interactiva
-- **Netlify Forms** - Procesamiento de formularios
+- **Formspree** - Procesamiento de formularios
 
 ## 📁 Estructura del Proyecto
 
@@ -101,6 +101,7 @@ collections:
 - **`product`** - Layout especializado para productos
 - **`subcategory`** - Layout para subcategorías
 - **`subcategory-resina-fibra`** - Layout especializado para resina y fibra
+- **`subcategory-simple-green`** - Layout especializado para desengrasantes y lavadoras de piezas
 
 ## 🚀 Instalación y Desarrollo Local
 
@@ -141,6 +142,8 @@ collections:
 2. **Adhesivos y Sellantes** - Soluciones de unión industrial
 3. **Resina y Fibra de Vidrio** - Materiales compuestos
 4. **Tornillería Industrial** - Elementos de fijación
+5. **Desengrasantes** - Productos de limpieza industrial
+6. **Lavadoras de Piezas** - Equipos industriales para limpieza profunda
 
 ### 🔧 Funcionalidades
 
@@ -153,7 +156,7 @@ collections:
 
 ### 📧 Formulario de Contacto
 
-El sitio incluye un formulario de contacto funcional configurado con **Netlify Forms**:
+El sitio incluye un formulario de contacto funcional configurado con **Formspree**:
 
 - ✅ **Procesamiento automático** de envíos
 - ✅ **Protección anti-spam** incluida
@@ -168,13 +171,13 @@ El sitio está optimizado para **GitHub Pages**:
 
 1. **Push al repositorio** principal
 2. **GitHub Pages** se activa automáticamente
-3. **Netlify Forms** se detecta y configura
+3. **Formspree** configurado en página web
 4. **Sitio disponible** en `https://macmaster25.github.io/MacMaster-Web/`
 
 ### Compatibilidad
 
 - ✅ **GitHub Pages** - Despliegue automático
-- ✅ **Netlify** - Formularios y hosting
+- ✅ **Formspree** - Formularios
 - ✅ **Vercel** - Hosting alternativo
 - ✅ **Cualquier hosting estático** - JAMstack compatible
 
@@ -255,5 +258,5 @@ Para contribuir al proyecto:
 
 **Desarrollado con ❤️ para MacMaster Importadores SAS**
 
-*Última actualización: Agosto 2025*
+*Última actualización: Octubre 2025*
 
