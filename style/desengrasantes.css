@@ -93,9 +93,15 @@ body {
 
 /* Contenedor visual del hero */
 #heroimage .hero-figure {
-    position: relative;
+    /* El elemento que contiene la imagen y el overlay */
+    position: absolute;
+    /* Para que cubra todo el fondo */
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    /* ¡CLAVE! Se ajusta al 100% de la altura generada por el contenido de texto. */
+    z-index: 1;
 }
 
 /* Capa de gradiente */
@@ -110,11 +116,8 @@ body {
 
 /* Ajuste del texto dentro */
 #heroimage .heading {
+    position: relative;
     z-index: 2;
-}
-
-#heroimage .heading {
-    height: 100%;
 }
 
 #heroimage span {
